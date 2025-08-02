@@ -1,7 +1,5 @@
 "use client"
 
-import { useState, useEffect } from "react";
-
 // all the properties of a button (its variant, where it goes, its text)
 interface Props {
   variant: string;
@@ -12,15 +10,6 @@ interface Props {
 }
 
 export default function Button(props: Props) {
-  const [copied, setCopied] = useState(false);
-
-  useEffect(() => {
-    if (copied) {
-      const timer = setTimeout(() => setCopied(false), 2000);
-      return () => clearTimeout(timer);
-    }
-  }, [copied]);
-
   if (props.variant == "blue-button") {
     return (
       <a href={props.link} target={props.target} className={`bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors rounded-full text-white font-medium py-3 px-4 ${props.textSize ?? "text-sm"}`}>
