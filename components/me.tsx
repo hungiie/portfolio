@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Me() {
     return (
         <div className="relative group md:-mt-15 md:-mr-20">
-            <div className="transition-all duration-800 rounded-xl overflow-hidden w-[120px] h-[120px] md:w-[160px] md:h-[160px] group-hover:scale-[1.07]">
+            <div className="transition-all duration-800 rounded-3xl shadow-2xl overflow-hidden w-[120px] h-[120px] md:w-[150px] md:h-[150px] group-hover:scale-[1.07] rotate-3 group-hover:rotate-6">
                 <Image src="/abt.jpeg" alt="hungie tran" className="object-cover rounded-3xl" fill />
             </div>
             <p className="
@@ -18,11 +18,11 @@ export default function Me() {
             text-3xl
             -top-5 
             -left-6
-            md:text-5xl 
+            md:text-[2.5rem] 
             md:-top-8 
-            md:-left-9 
+            md:-left-7 
             group-hover:-top-11 
-            group-hover:-left-6
+            group-hover:-left-3
             ">
                 &lt;/&gt;
             </p>
@@ -36,13 +36,13 @@ export default function Me() {
             tracking-tight 
             z-10 
             text-4xl
-            md:text-6xl 
-            top-2
+            top-3
             -right-6
-            md:top-2
-            md:-right-11 
+            md:text-5xl
+            md:top-5
+            md:-right-8 
             group-hover:top-8 
-            group-hover:-right-10
+            group-hover:-right-8
             ">
                 &#123; &#125;
             </p>
@@ -56,12 +56,12 @@ export default function Me() {
             tracking-tight 
             text-8xl
             -bottom-15
-            right-3
+            right-6
             md:text-[8rem] 
             md:-bottom-20
-            md:right-6 
+            md:right-8 
             group-hover:-bottom-22 
-            group-hover:right-9
+            group-hover:right-13
             ">
                 *
             </p>
