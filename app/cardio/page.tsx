@@ -22,6 +22,8 @@ export default function Cardio () {
                 </>}
                 linkText1="Jump to solution" 
                 linkText2="See prototype" 
+                url1="#solution"
+                url2="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-159&node-type=frame&viewport=1007%2C-233%2C0.14&t=bj4QvDbaNDyAlbzU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=139%3A1790"
                 />
 
                 <Overview 
@@ -60,7 +62,7 @@ export default function Cardio () {
                         <p className="text-md text-[var(--colour-bodytext)]">Many people struggle to stay motivated throughout their cardio sessions, and often cutting their workouts short. However, with the right music, runners can feel more energized and motivated - making it easier to push through.</p>
                         <p className="text-md text-[var(--colour-bodytext)]">This need had sparked the trend of cardio playlists.</p>
                         <p className="text-md text-[var(--colour-cardio)] mt-7 mb-7">Fitness influencers makes cardio playlists, where songs are organized to match different speed ranges (phases) of a typical cardio session.</p>
-                        <Button variant="blue-hyperlink" text="Learn more about the effects music has on running." textSize="text-md" link="#" target="_blank"/>
+                        <Button variant="blue-hyperlink" text="Learn more about the effects music has on running." textSize="text-md" link="https://www.henryford.com/blog/2025/05/how-music-can-impact-your-workout" target="_blank"/>
                     </div>
                     <div className="grid grid-cols-3 gap-x-3">
                         <ExpandableVideo src="/cardio/trend vid 1.mp4" className="w-full" />
@@ -126,7 +128,7 @@ export default function Cardio () {
                     </div>
                 </div>
 
-                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io&lsquo;s solutions</p>
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8" id="solution">card.io&lsquo;s solutions</p>
                 <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 px-0 md:px-35 3xl:px-90">
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-8">Solution 1 & 2</p>
