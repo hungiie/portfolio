@@ -17,7 +17,10 @@ export default function Influenso () {
                     navigating brand partnerships and cross-platform analytics.
                 </>}
                 linkText1="Jump to solution" 
-                linkText2="See prototype" />
+                linkText2="See prototype"
+                url1=""
+                url2=""
+                />
                 <p className="mt-20 mb-30 text-lg text-[var(--colour-bodytext-3)]">Coming soon.</p>
                 <Footer />
             </div>
