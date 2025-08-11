@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/next";
 const interSans = Inter({
   subsets: ["latin"],
   variable: "--font-inter-sans",
-  weight: ["400", "500", "600", "700"],
+  weight: ["600", "700"],
 });
 
 const geistSans = Geist({
