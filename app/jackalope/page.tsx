@@ -98,7 +98,7 @@ export default function Jackalope () {
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-jackalope)] font-semibold mb-7">Solution 2</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-7">Events discovery.</p>
-                        <p className="text-md text-[var(--colour-bodytext)] mb-2">Discover events & communities, view events' details, contact organizers, and RSVP or save events of interest.</p>
+                        <p className="text-md text-[var(--colour-bodytext)] mb-2">Discover events & communities, view events&lsquo; details, contact organizers, and RSVP or save events of interest.</p>
                     </div>
                     <div className="flex justify-center">
                         <ExpandableVideo src="/jackalope/overview 2.mp4" className="w-1/2 md:w-4/5" />
@@ -140,14 +140,14 @@ export default function Jackalope () {
                     </div>
                     <div className="relative w-full md:w-3/5">
                         <ExpandableImage src="/jackalope/sketch 4.png" alt="jackalope sketch" className="w-full h-full" />
-                        <p className="text-sm text-[var(--colour-darkgrey)] mt-2 text-center">Initially, the idea was that users could select a word or phrase they didn't understand, and the AI would explain it in the appropriate context.</p>
+                        <p className="text-sm text-[var(--colour-darkgrey)] mt-2 text-center">Initially, the idea was that users could select a word or phrase they didn&lsquo;t understand, and the AI would explain it in the appropriate context.</p>
                     </div>
                 </div>
                 <p className="text-md text-[var(--colour-bodytext)] font-semibold mt-8">However, this approach had the following issues:</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-5 mt-8">
                     <div className="bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-jackalope)] font-semibold mb-4">Limited proactivity</p>
-                        <p className="text-xl text-[var(--colour-bodytext)] font-semibold mb-4">The AI's support was passive, requiring users to activate it manually.</p>
+                        <p className="text-xl text-[var(--colour-bodytext)] font-semibold mb-4">The AI&lsquo;s support was passive, requiring users to activate it manually.</p>
                         <p className="text-md text-[var(--colour-bodytext)]">* This reduced its ability to assist users effectively.</p>
                     </div>
                     <div className="bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">
@@ -202,7 +202,7 @@ export default function Jackalope () {
                     </div>
                     <div>
                         <div className="px-13 py-10 rounded-2xl bg-[var(--colour-grey)]">
-                            <p className="text-3xl font-semibold tracking-tight text-[var(--colour-bodytext)] mb-2">Option 2's <span className="text-[var(--colour-jackalope)]">user flow diagram</span> is more accessible and purposeful...</p>
+                            <p className="text-3xl font-semibold tracking-tight text-[var(--colour-bodytext)] mb-2">Option 2&lsquo;s <span className="text-[var(--colour-jackalope)]">user flow diagram</span> is more accessible and purposeful...</p>
                         </div>
                     </div>
                 </div>

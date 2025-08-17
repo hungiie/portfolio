@@ -4,7 +4,6 @@ import ProjectThumbnail from "@/components/project-thumbnail";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import OtherProjectThumbnail from "@/components/other-project-thumbnail";
-// import { motion } from "framer-motion";
 
 export default function Home() {
   return (
