@@ -6,6 +6,7 @@ import Overview from "@/components/overview";
 import Button from "@/components/button";
 import ExpandableImage from "@/components/expandable-image";
 import ExpandableVideo from "@/components/expandable-video";
+import PlayProject from "@/components/play-project";
 
 export default function Cardio () {
     return(
@@ -30,19 +31,16 @@ export default function Cardio () {
                 subject1="Project type:" value1="UX design" 
                 subject2="Duration:" value2="1.5 month" 
                 subject3="Tool used:" value3="Figma" 
-                description1="card.io is a Spotify feature that caters towards the fitness community and aims to improve the cardio running experience with personalized music selection and playlists."
+                description1="card.io is a Spotify feature that caters towards the fitness community and aims to improve the cardio running experience with personalized music selection and playlists."
                 description2="I worked on this project individually as my own exploration of the UI design field in my undergraduate degree."
                 />
                 
                 <div>
                     <div className="mt-30 flex items-baseline">
                         <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">First look</p>
-                        <Button variant="blue-hyperlink" link="#" text="See prototype" textSize="text-md" target="_blank"></Button>
+                        <Button variant="blue-hyperlink" link="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-159&node-type=frame&viewport=1007%2C-233%2C0.14&t=bj4QvDbaNDyAlbzU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=139%3A1790" text="See prototype" textSize="text-md" target="_blank"></Button>
                     </div>
                     <div className="flex flex-col items-center justify-center bg-[var(--colour-grey)] px-3 md:px-10 py-3 md:py-7 rounded-2xl">
-                        {/* <div className="text-center mt-1 mb-2">
-                            <p className="text-sm text-[var(--colour-darkgrey)]">Click on each video to expand.</p>
-                        </div> */}
                         <div className="grid grid-cols-4 mt-0 md:mt-3 mb-0 md:mb-3 gap-x-1 md:gap-x-4 w-full md:w-3/5">
                             <ExpandableVideo src="/cardio/sol 3.mp4" className="w-full" />
                             <ExpandableVideo src="/cardio/sol 1.mp4" className="w-full" />
@@ -75,12 +73,12 @@ export default function Cardio () {
                     <div className="bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Trend observation 1</p>
                         <p className="text-xl text-[var(--colour-bodytext)] font-semibold mb-4">Template for a “typical” cardio session?</p>
-                        <p className="text-md text-[var(--colour-bodytext)]">Influencers follow a conventional template of a cardio session with 3 phases: Warm-up, Endurance and Cool-down.</p>
+                        <p className="text-md text-[var(--colour-bodytext)]">Influencers follow a conventional template of a cardio session with 3 phases: Warm-up, Endurance and Cool-down.</p>
                     </div>
                     <div className="bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Trend observation 2</p>
                         <p className="text-xl text-[var(--colour-bodytext)] font-semibold mb-4">Requests for artist or album specific playlists.</p>
-                        <p className="text-md text-[var(--colour-bodytext)]">Viewers usually ask influencers to make cardio playlists specific for their favourite artist or album.</p>
+                        <p className="text-md text-[var(--colour-bodytext)]">Viewers usually ask influencers to make cardio playlists specific for their favourite artist or album.</p>
                     </div>
                     <div className="bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Trend observation 3</p>
@@ -112,7 +110,7 @@ export default function Cardio () {
                     </div>
                     <div className="px-13 py-10 rounded-2xl bg-[var(--colour-grey)] h-fit">
                         <p className="text-sm text-[var(--colour-bodytext)] font-semibold mb-4">Driving insight</p>
-                        <p className="text-3xl font-semibold tracking-tight text-[var(--colour-bodytext)] mb-2">Influencer-made playlist is considered a good starting point, but <span className="text-[var(--colour-cardio)]">personal customization</span> is what makes a “good” cardio playlist.</p>
+                        <p className="text-3xl font-semibold tracking-tight text-[var(--colour-bodytext)] mb-2">Influencer-made playlist is considered a good starting point, but <span className="text-[var(--colour-cardio)]">personal customization</span> is what makes a “good” cardio playlist.</p>
                     </div>
                 </div>
 
@@ -145,7 +143,7 @@ export default function Cardio () {
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 3</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers questionnaire that collects users&lsquo; physical attributes data to create a more personalized playlist.</p>
-                        <p className="text-md text-[var(--colour-bodytext)]">With this feature, Michelle wouldn’t encounter the problem about being short anymore.</p>
+                        <p className="text-md text-[var(--colour-bodytext)]">With this feature, Michelle wouldn&lsquo;t encounter the problem about being short anymore.</p>
 
                         {/* <div className="inline-block mt-10">
                             <Button variant="blue-button" link="#" text="Learn more" textSize="text-sm" target="_blank" />
@@ -158,7 +156,7 @@ export default function Cardio () {
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 4</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Makes testing easier - Real-time report during running.</p>
-                        <p className="text-md text-[var(--colour-bodytext)]">Report includes session’s progress, current BPM, current treadmill settings (speed, incline). Michelle can test her playlist with informative interface that provides sufficient information for her to make her decisions.</p>
+                        <p className="text-md text-[var(--colour-bodytext)]">Report includes session&lsquo;s progress, current BPM, current treadmill settings (speed, incline). Michelle can test her playlist with informative interface that provides sufficient information for her to make her decisions.</p>
                     </div>
                     <div className="flex justify-center">
                         <ExpandableVideo src="/cardio/sol 4.mp4" className="w-1/2 md:w-4/5" />
@@ -335,13 +333,13 @@ export default function Cardio () {
                     <p className="text-md text-[var(--colour-bodytext)]">Design for accessibility.</p>
                 </div>
 
-
-
-
-
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Other projects</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
+                    <PlayProject target="_self" link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="B2B UX" imageSrc="/knox-square.png" />
+                    <PlayProject target="_self"link="/jackalope" name="Jackalope" description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag1="UX design & research" tag2="B2C UX" imageSrc="/jackalope.png" />
+                </div>
 
                 <div className="mb-50"></div>
-
                 <Footer />
             </div>
         </div>

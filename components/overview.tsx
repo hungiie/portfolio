@@ -17,7 +17,7 @@ export default function Overview(props: Props) {
                 <p className="text-[var(--colour-bodytext)] mb-3 text-md">{props.description1}</p>
                 <p className="text-[var(--colour-bodytext)] text-md">{props.description2}</p>
             </div>
-            <div className="grid grid-cols-2 w-4/5 md:w-1/5">
+            <div className="grid grid-cols-2 w-4/5 md:w-1/4">
                 <p className="text-[var(--colour-bodytext)] text-md">{props.subject1}</p>
                 <p className="text-[var(--colour-bodytext-3)] text-md">{props.value1}</p>
                 <p className="text-[var(--colour-bodytext)] text-md">{props.subject2}</p>

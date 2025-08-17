@@ -9,11 +9,12 @@ interface Props {
   tag1: string;
   tag2: string;
   imageSrc: string;
+  target: string;
 }
 
 export default function PlayProject(props: Props) {
     return(
-        <a href={props.link} target="_blank" className="group mb-4 rounded-2xl border-[#efefef] border-2 overflow-hidden hover:border-[var(--main-blue)] grid grid-cols-1 md:grid-cols-[1fr_2fr] cursor-pointer">
+        <a href={props.link} target={props.target} className="group mb-4 rounded-2xl border-[#efefef] border-2 overflow-hidden hover:border-[var(--main-blue)] grid grid-cols-1 md:grid-cols-[1fr_2fr] cursor-pointer">
             <div className="w-full h-40 md:h-full relative overflow-hidden">
                 <Image src={props.imageSrc} alt={props.name} fill className="object-cover transform scale-101 origin-center" />
             </div>
