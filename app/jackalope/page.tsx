@@ -19,7 +19,7 @@ export default function Jackalope () {
                 description={
                     <>
                     <span className="text-[var(--colour-jackalope)]">Finding communities</span>{" "}
-                    as a newcomer shouldn&lsquo;t be this hard.
+                    as a newcomer shouldn't be this hard.
                 </>}
                 linkText1="Jump to solution" 
                 linkText2="See prototype"
