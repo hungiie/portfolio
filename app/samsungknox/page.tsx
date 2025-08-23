@@ -13,9 +13,9 @@ export default function SamsungKnox () {
                 colourCode="var(--colour-samsung)" 
                 description={
                     <>
-                    Helping{" "}
-                    <span className="text-[var(--colour-samsung)]">IT admins</span>{" "}
-                    manage enterprise-level Samsung mobile devices with ease.
+                    Streamlining enterprise-level Samsung device management for {" "}
+                    <span className="text-[var(--colour-samsung)]">IT administrators</span>
+                    .
                 </>}
                 linkText1="Jump to solution" 
                 linkText2="" 
