@@ -15,7 +15,7 @@ export default function JackalopeResearch() {
   return (
     <div>
       <ToggleButton 
-        text={isActive ? "Hide Jackalope's research" : "View Jackalope's research"} 
+        text={isActive ? "Hide user testing section" : "See how I conducted the user testing for this prototype"} 
         textSize="text-md" 
         onClick={toggleResearch} 
       />
