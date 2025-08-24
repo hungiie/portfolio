@@ -16,7 +16,7 @@ export default function JackalopeResearchContent(props: Props) {
                 </div>
 
                 <div className="">
-                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Through the user testing, we aim to observe:</p>
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Through the user testing, I aim to observe:</p>
                     <p className="text-md text-[var(--colour-bodytext)] w-full mb-2">1) How easily can users achieve their goals of discovering and engaging with events and communities?</p>
                     <p className="text-md text-[var(--colour-bodytext)] w-full mb-2">2) How effectively do users utilize the app&lsquo;s AI features, and how well do these features enhance their experience?</p>
                 </div>

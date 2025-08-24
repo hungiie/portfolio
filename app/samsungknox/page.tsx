@@ -17,7 +17,7 @@ export default function SamsungKnox () {
                     <span className="text-[var(--colour-samsung)]">IT administrators</span>
                     .
                 </>}
-                linkText1="Jump to solution" 
+                linkText1="" 
                 linkText2="" 
                 url1=""
                 url2=""
