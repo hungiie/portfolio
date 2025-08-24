@@ -18,6 +18,8 @@ export default function Influenso () {
                 </>}
                 linkText1="Jump to solution" 
                 linkText2="See prototype"
+                target1=""
+                target2=""
                 url1=""
                 url2=""
                 />
