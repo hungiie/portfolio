@@ -88,8 +88,8 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Research findings (summarized)</p>
-                <p className="text-md text-[var(--colour-bodytext)] w-full md:w-1/2 mb-8">I conducted <span className="text-[var(--colour-cardio)]">5 interviews</span> with 5 users that identify themselves as fitness enthusiasts, and have participated in the trend on TikTok with their favourite fitness influencers. After the interviews, I categorized my data into <span className="text-[var(--colour-cardio)]">3 themes</span>, and <span className="text-[var(--colour-cardio)]">1 driving insight</span>.</p>
-                <Button variant="blue-hyperlink" link="#" text="Read complete research data here." textSize="text-md" target="_blank"/>
+                <p className="text-md text-[var(--colour-bodytext)] w-full md:w-1/2 mb-12">I conducted <span className="text-[var(--colour-cardio)]">5 interviews</span> with 5 users that identify themselves as fitness enthusiasts, and have participated in the trend on TikTok with their favourite fitness influencers. After the interviews, I categorized my data into <span className="text-[var(--colour-cardio)]">3 themes</span>, and <span className="text-[var(--colour-cardio)]">1 driving insight</span>.</p>
+                {/* <Button variant="blue-hyperlink" link="#" text="Read complete research data here." textSize="text-md" target="_blank"/> */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 mt-8">
                     <div>
                         <div className="mb-5 bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">

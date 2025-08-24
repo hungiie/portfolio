@@ -10,7 +10,7 @@ export default function Home() {
     <div className="px-9 md:px-22 grid grid-cols-1 md:grid-cols-[1fr_1.3fr]">
       <div className="md:h-screen">
         <div className="mt-35 md:fixed md:-mt-10 md:flex md:flex-col md:justify-center md:h-screen">
-          <p className="text-5xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&apos;m Hung.</p>
+          <p className="text-5xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight md:tracking-[-0.15rem] mb-9">Hi, I&apos;m Hung.</p>
           <p className="text-sm text-[var(--colour-bodytext)]">Pushing pixels by day, pulling requests by night.</p>
 
           <p className="text-sm text-[var(--colour-bodytext)] mt-2">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
