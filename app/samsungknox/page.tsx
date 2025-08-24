@@ -17,9 +17,9 @@ export default function SamsungKnox () {
                     <span className="text-[var(--colour-samsung)]">IT administrators</span>
                     .
                 </>}
-                linkText1="" 
+                linkText1="What is Samsung Knox?" 
                 linkText2="" 
-                url1=""
+                url1="https://www.samsungknox.com/en/about-knox"
                 url2=""
                 />
                 <p className="mt-20 mb-30 text-lg text-[var(--colour-bodytext-3)]">Coming soon.</p>
