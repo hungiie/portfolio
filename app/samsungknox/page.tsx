@@ -17,9 +17,9 @@ export default function SamsungKnox () {
                     <span className="text-[var(--colour-samsung)]">IT administrators</span>
                     .
                 </>}
-                linkText1="What is Samsung Knox?" 
+                linkText1="What is Unified Endpoint Management (UEM)?" 
                 linkText2="" 
-                url1="https://www.samsungknox.com/en/about-knox"
+                url1="https://www.samsungknox.com/en/solutions/uem"
                 url2=""
                 target1="_blank"
                 target2=""
