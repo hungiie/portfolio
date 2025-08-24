@@ -23,6 +23,8 @@ export default function Jackalope () {
                 </>}
                 linkText1="Jump to solution" 
                 linkText2="See prototype"
+                target1="_self"
+                target2="_blank"
                 url1="#solution"
                 url2="https://cloud.protopie.io/p/19d7fc1126c632fad10ec7f2?ui=true&scaleToFit=true&enableHotspotHints=true&cursorType=touch&mockup=true&bgColor=%23F5F5F5&bgImage=undefined&playSpeed=1" 
                 />
