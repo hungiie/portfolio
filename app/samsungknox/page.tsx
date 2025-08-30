@@ -24,7 +24,7 @@ export default function SamsungKnox () {
                 target1="_blank"
                 target2=""
                 />
-                <p className="mt-20 mb-30 text-lg text-[var(--colour-bodytext-3)]">Coming soon.</p>
+                <p className="mt-20 mb-30 text-md text-[var(--colour-bodytext-3)]">Coming soon.</p>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Other projects</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
