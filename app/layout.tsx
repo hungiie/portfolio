@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hung - UX",
+  title: "Hung Tran",
   openGraph: {
     images: ["https://hungtran.vercel.app/preview.png"],
   },
