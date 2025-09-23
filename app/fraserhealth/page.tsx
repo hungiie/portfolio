@@ -39,7 +39,7 @@ export default function FraserHealth () {
                 </div>
 
                 <div className="mt-40 flex items-baseline">
-                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Fraser Health's 2024 corporate brochure</p>
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Fraser Health&apos;s 2024 corporate brochure</p>
                     <Button variant="blue-hyperlink" link="https://drive.google.com/file/d/12_Hnzfqztvrm2rH_ZSei2mOYYY4uHZmB/view" text="View PDF" textSize="text-md" target="_blank"></Button>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
@@ -59,7 +59,7 @@ export default function FraserHealth () {
                 </div>
 
                 <div className="mt-40 flex items-baseline">
-                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Fraser Health's substance use awareness inforgraphics</p>
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Fraser Health&apos;s substance use awareness inforgraphics</p>
                     <Button variant="blue-hyperlink" link="https://drive.google.com/file/d/1yOtR_Y54gbaL0NUUvxe7Bb6w_h22E6L1/view" text="View PDF" textSize="text-md" target="_blank"></Button>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
