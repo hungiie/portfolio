@@ -8,11 +8,12 @@ interface Props {
   description: string;
   tag: string;
   imageSrc: string;
+  target: string;
 }
 
 export default function OtherProjectThumbnail(props: Props) {
     return(
-        <a href={props.link} target="_blank" className="group mb-8 block rounded-2xl border-[#efefef] border-2 overflow-hidden">
+        <a href={props.link} target={props.target} className="group mb-8 block rounded-2xl border-[#efefef] border-2 overflow-hidden">
             <div className="w-full h-40 md:h-60 relative overflow-hidden">
                 <Image src={props.imageSrc} alt={props.name} fill className="object-cover transform scale-101 origin-center" />
             </div>

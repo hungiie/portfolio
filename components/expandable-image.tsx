@@ -31,7 +31,7 @@ export default function ExpandableImage({ src, alt, className }: Props) {
   return (
     <>
       <div
-        className={`relative cursor-pointer overflow-hidden border-3 border-[#e7e7e7] hover:border-[var(--main-blue)] rounded-2xl ${className}`}
+        className={`relative cursor-pointer overflow-hidden border-2 border-[#e7e7e7] hover:border-[var(--main-blue)] rounded-2xl ${className}`}
         onClick={() => setIsOpen(true)}
       >
         <img
