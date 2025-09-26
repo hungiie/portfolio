@@ -29,10 +29,10 @@ export default function Home() {
 
         <p className="text-2xl mt-30 mb-10 text-[var(--colour-bodytext)]">Some other projects</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7">
+          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&apos;s visual design internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" imageSrc="/fh.png" />
           <OtherProjectThumbnail target="_blank" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app built with Firebase authentication & database." description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag="UX engineer" imageSrc="/memorymate.png" />
           <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=313%3A2973&node-id=313-3004&viewport=479%2C387%2C0.03&t=NHb88K4xz1HL2JVg-1&scaling=scale-down&content-scaling=fixed" name="Uber Eats&lsquo; speculative feature: Nutrition Report." description="Assists and informs users about their food&lsquo;s nutrition details, makes sure their dietary needs are met." tag="UX design" imageSrc="/ubereats.png" />
           <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=375%3A2980&node-id=375-2981&viewport=743%2C390%2C0.24&t=AVR9d3tvwFyFaaeT-1&scaling=scale-down&content-scaling=fixed" name="Enhancing Spotify&lsquo;s onboarding experience for new users." description="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?" tag="HCI study" imageSrc="/spotify.png" />
-          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&lsquo;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" imageSrc="/fh.png" />
         </div>
       </div>
       

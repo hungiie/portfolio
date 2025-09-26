@@ -27,8 +27,16 @@ export default function FraserHealth () {
                 target1="_blank"
                 target2="_blank"
                 />
+
+                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
+                    <div>
+                        <p className="mt-20 text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Designing in the healthcare industry has taught me lots of things.</p>
+                        <p className="text-md text-[var(--colour-bodytext-1)]">From the importance of accessibility and clarity in information design, to how thoughtful visuals can ease patient&apos;s anxiety, support decision-making, and bridge the communication gaps between professionals, healthcare workers, and the general public.</p>
+                        <p className="mt-5 text-md text-[var(--colour-bodytext-1)]">Here are some of the published work that I made, during my time as a 2nd-year student, and a visual design intern at Fraser Heaalth&apos;s Communications department.</p>
+                    </div>
+                </div>
                 
-                <div className="mt-40 flex items-baseline">
+                <div className="mt-30 flex items-baseline">
                     <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Videographics</p>
                     <Button variant="blue-hyperlink" link="https://youtu.be/ZBhZYYxJFnw?si=aBnQWQWvucBJxqx_" text="View on YouTube" textSize="text-md" target="_blank"></Button>
                 </div>
@@ -38,7 +46,7 @@ export default function FraserHealth () {
                     </div>
                 </div>
 
-                <div className="mt-40 flex items-baseline">
+                <div className="mt-30 flex items-baseline">
                     <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">Fraser Health&apos;s 2024 corporate brochure</p>
                     <Button variant="blue-hyperlink" link="https://drive.google.com/file/d/12_Hnzfqztvrm2rH_ZSei2mOYYY4uHZmB/view" text="View PDF" textSize="text-md" target="_blank"></Button>
                 </div>

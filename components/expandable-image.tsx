@@ -56,7 +56,7 @@ export default function ExpandableImage({ src, alt, className }: Props) {
               className="relative overflow-hidden shadow-2xl rounded-2xl bg-black"
               style={{
                 height: '100%',
-                maxWidth: '60vw',
+                maxWidth: '90vw',
                 maxHeight: '90vh',
                 aspectRatio: `${naturalSize.width} / ${naturalSize.height}`,
               }}
