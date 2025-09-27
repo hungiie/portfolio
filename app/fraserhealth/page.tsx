@@ -16,9 +16,9 @@ export default function FraserHealth () {
                 colourCode="var(--colour-fraserhealth)" 
                 description={
                     <>
-                    My work as a {" "}
-                    <span className="text-[var(--colour-fraserhealth)]">visual designer intern </span>
-                    at Fraser Health Authority.
+                    Designing at {" "}
+                    <span className="text-[var(--colour-fraserhealth)]">Fraser Health</span>
+                    .
                 </>}
                 linkText1="fraserhealth.ca" 
                 linkText2="" 
