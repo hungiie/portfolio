@@ -49,7 +49,7 @@ export default function Jackalope () {
                         <div className="grid grid-cols-4 mt-0 md:mt-3 mb-0 md:mb-3 gap-x-1 md:gap-x-4 w-full md:w-3/5">
                             <ExpandableImage src="/jackalope/prev 1.png" className="w-full" alt="jackalope"/>
                             <ExpandableImage src="/jackalope/prev 2.png" className="w-full" alt="jackalope"/>
-                            <ExpandableImage src="/jackalope/prev 3.png" className="w-full" alt="jackalope"/>
+                            <ExpandableImage src="/jackalope/prev 6.png" className="w-full" alt="jackalope"/>
                             <ExpandableImage src="/jackalope/prev 4.png" className="w-full" alt="jackalope"/>
                         </div>
                     </div>
