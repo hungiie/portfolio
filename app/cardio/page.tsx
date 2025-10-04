@@ -44,15 +44,15 @@ export default function Cardio () {
                     </div>
                     <div className="flex flex-col items-center justify-center bg-[var(--colour-grey)] px-3 md:px-10 py-3 md:py-7 rounded-2xl">
                         <div className="grid grid-cols-4 mt-0 md:mt-3 mb-0 md:mb-3 gap-x-1 md:gap-x-4 w-full md:w-3/5">
-                            <ExpandableVideo src="/cardio/sol 3.mp4" className="w-full" />
-                            <ExpandableVideo src="/cardio/sol 1.mp4" className="w-full" />
-                            <ExpandableVideo src="/cardio/sol 4.mp4" className="w-full" />
-                            <ExpandableVideo src="/cardio/sol 5.mp4" className="w-full" />
+                            <ExpandableImage src="/cardio/prev 0.png" className="w-full" alt="card.io"/>
+                            <ExpandableImage src="/cardio/prev 1.png" className="w-full" alt="card.io"/>
+                            <ExpandableImage src="/cardio/prev 2.png" className="w-full" alt="card.io"/>
+                            <ExpandableImage src="/cardio/prev 3.png" className="w-full" alt="card.io"/>
                         </div>
                     </div>
                     <div className="text-center mt-7">
                         <p className="text-sm text-[var(--colour-bodytext)]">2 main flows with 4 main screens, 12 screens in total.</p>
-                        <p className="text-sm text-[var(--colour-darkgrey)] mt-2">Click on each video to expand.</p>
+                        {/* <p className="text-sm text-[var(--colour-darkgrey)] mt-2">Click on each video to expand.</p> */}
                     </div>
                 </div>
 
@@ -129,7 +129,7 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8" id="solution">card.io&lsquo;s solutions</p>
-                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 px-0 md:px-35 3xl:px-90">
+                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 gap-x-2 px-0">
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-8">Solution 1 & 2</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users&lsquo; music preferences.</p>
@@ -139,7 +139,8 @@ export default function Cardio () {
                         <p className="text-md text-[var(--colour-bodytext)]">If Michelle wants to replace a Sabrina Carpenter song that she doesn&lsquo;t like, she will have plenty of different song suggestions as replacements.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/cardio/sol 1.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/cardio/prev 3.png" className="w-full mr-2" alt="card.io"/>
+                        <ExpandableVideo src="/cardio/sol 1.mp4" className="w-full" />
                     </div>
 
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
@@ -152,7 +153,8 @@ export default function Cardio () {
                         </div> */}
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/cardio/sol 3.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/cardio/prev 4.png" className="w-full mr-2" alt="card.io"/>
+                        <ExpandableVideo src="/cardio/sol 3.mp4" className="w-full" />
                     </div>
 
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
@@ -161,7 +163,8 @@ export default function Cardio () {
                         <p className="text-md text-[var(--colour-bodytext)]">Report includes session&lsquo;s progress, current BPM, current treadmill settings (speed, incline). Michelle can test her playlist with informative interface that provides sufficient information for her to make her decisions.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/cardio/sol 4.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/cardio/prev 2.png" className="w-full mr-2" alt="card.io"/>
+                        <ExpandableVideo src="/cardio/sol 4.mp4" className="w-full" />
                     </div>
 
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
@@ -170,7 +173,8 @@ export default function Cardio () {
                         <p className="text-md text-[var(--colour-bodytext)]">With “Manual Mode”, Michelle can freely add any songs she likes to the cardio playlist while still having all the features above for support.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/cardio/sol 5.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/cardio/prev 1.png" className="w-full mr-2" alt="card.io"/>
+                        <ExpandableVideo src="/cardio/sol 5.mp4" className="w-full" />
                     </div>
 
                 </div>

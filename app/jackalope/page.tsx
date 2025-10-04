@@ -47,15 +47,15 @@ export default function Jackalope () {
                     </div>
                     <div className="flex flex-col items-center justify-center bg-[var(--colour-grey)] px-3 md:px-10 py-3 md:py-7 rounded-2xl">
                         <div className="grid grid-cols-4 mt-0 md:mt-3 mb-0 md:mb-3 gap-x-1 md:gap-x-4 w-full md:w-3/5">
-                            <ExpandableVideo src="/jackalope/overview 1.mp4" className="w-full" />
-                            <ExpandableVideo src="/jackalope/overview 2.mp4" className="w-full" />
-                            <ExpandableVideo src="/jackalope/sol 5.mp4" className="w-full" />
-                            <ExpandableVideo src="/jackalope/sol 6.mp4" className="w-full" />
+                            <ExpandableImage src="/jackalope/prev 1.png" className="w-full" alt="jackalope"/>
+                            <ExpandableImage src="/jackalope/prev 2.png" className="w-full" alt="jackalope"/>
+                            <ExpandableImage src="/jackalope/prev 3.png" className="w-full" alt="jackalope"/>
+                            <ExpandableImage src="/jackalope/prev 4.png" className="w-full" alt="jackalope"/>
                         </div>
                     </div>
-                    <div className="text-center mt-4">
+                    {/* <div className="text-center mt-4">
                         <p className="text-sm text-[var(--colour-darkgrey)]">Click on each video to expand.</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">The problem at hand</p>
@@ -86,7 +86,7 @@ export default function Jackalope () {
                 </div>
                 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8" id="solution">Jackalope&lsquo;s solutions</p>
-                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 px-0 md:px-35 3xl:px-90">
+                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 gap-x-2 px-0">
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-jackalope)] font-semibold mb-7">Solution 1</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-7">Interests-based matching.</p>
@@ -94,7 +94,8 @@ export default function Jackalope () {
                         <p className="text-md text-[var(--colour-bodytext)]">These interests are shown publicly on a user’s profile page. This would allow users to see and connect with others if they have similar interests.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/jackalope/sol 6.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/jackalope/prev 1.png" className="w-full mr-2" alt="jackalope"/>
+                        <ExpandableVideo src="/jackalope/sol 6.mp4" className="w-full" />
                     </div>
             
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
@@ -103,7 +104,8 @@ export default function Jackalope () {
                         <p className="text-md text-[var(--colour-bodytext)] mb-2">Discover events & communities, view events&lsquo; details, contact organizers, and RSVP or save events of interest.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/jackalope/overview 2.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/jackalope/prev 2.png" className="w-full mr-2" alt="jackalope"/>
+                        <ExpandableVideo src="/jackalope/overview 2.mp4" className="w-full" />
                     </div>
 
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
@@ -113,7 +115,8 @@ export default function Jackalope () {
                         <p className="text-md text-[var(--colour-bodytext)]">Users can dislike a tip to contact organizers, ask the community, or provide feedback to improve future assistance.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/jackalope/sol 5.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/jackalope/prev 6.png" className="w-full mr-2" alt="jackalope"/>
+                        <ExpandableVideo src="/jackalope/sol 5.mp4" className="w-full" />
                     </div>
 
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
@@ -122,7 +125,8 @@ export default function Jackalope () {
                         <p className="text-md text-[var(--colour-bodytext)] mb-2">In-app messaging for direct communication between users and communities, or event organizers.</p>
                     </div>
                     <div className="flex justify-center">
-                        <ExpandableVideo src="/jackalope/overview 1.mp4" className="w-1/2 md:w-4/5" />
+                        <ExpandableImage src="/jackalope/prev 4.png" className="w-full mr-2" alt="jackalope"/>
+                        <ExpandableVideo src="/jackalope/overview 1.mp4" className="w-full" />
                     </div>
                 </div>
 
