@@ -1,6 +1,7 @@
 "use client"
 
 import Button from "./button";
+import Image from "next/image";
 
 interface Props {
     name: string;
@@ -36,6 +37,9 @@ export default function ProjectHero(props: Props) {
                 </div>
                 <Button variant="blue-hyperlink" link={props.url2} text={props.linkText2} target={props.target2} textSize="text-md"/>
             </div>
+            {/* <div className="relative w-full h-120 mt-15 shadow-lg rounded-2xl overflow-hidden">
+                <Image src="/knox-lg.png" alt="Samsung Knox Manage" fill className="object-cover"/>
+            </div> */}
         </div>
     )
 }
