@@ -1,5 +1,7 @@
 "use client"
 
+// import ExpandableImage from "@/components/expandable-image";
+import Image from "next/image";
 import Footer from "@/components/footer";
 import PlayProject from "@/components/play-project";
 import ProjectHero from "@/components/projecthero";
@@ -24,6 +26,12 @@ export default function SamsungKnox () {
                 target1="_blank"
                 target2=""
                 />
+
+                {/* <div className="bg-[var(--colour-grey)] px-3 md:px-10 py-3 md:py-7 rounded-2xl mt-17">
+                    <div className="flex justify-center items-center mt-0 md:mt-3 mb-0 md:mb-3 w-full md:w-3/5 mx-auto">
+                        <Image src="/knox-preview.png" className="w-full" width={1781} height={1121} alt="Knox Manage"/>
+                    </div>
+                </div> */}
                 <p className="mt-20 mb-30 text-md text-[var(--colour-bodytext-3)]">Coming soon.</p>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Other projects</p>
