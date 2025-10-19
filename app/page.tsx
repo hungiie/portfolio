@@ -35,7 +35,7 @@ export default function Home() {
         </div> */}
 
         <div className="mt-15">
-          <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-sm"/>
+          <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
         </div>
       </div>
       
