@@ -69,7 +69,7 @@ export default function Play(){
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9 mt-8">
-                <div>
+                <div className="grid grid-cols-1 gap-y-4">
                     <PlayProject target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag1="UX design & research" tag2="" imageSrc="/jackalope.png" />
                     <PlayProject target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=313%3A2973&node-id=313-3004&viewport=479%2C387%2C0.03&t=NHb88K4xz1HL2JVg-1&scaling=scale-down&content-scaling=fixed" name="Uber Eats&lsquo; speculative feature: Nutrition Report." description="Assists and informs users about their food&lsquo;s nutrition details, makes sure their dietary needs are met." tag1="UX design" tag2="" imageSrc="/ubereats.png" />
                     <PlayProject target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=375%3A2980&node-id=375-2981&viewport=743%2C390%2C0.24&t=AVR9d3tvwFyFaaeT-1&scaling=scale-down&content-scaling=fixed" name="Enhancing Spotify&lsquo;s onboarding experience for new users." description="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?" tag1="HCI study" tag2="" imageSrc="/spotify.png" />
@@ -83,7 +83,7 @@ export default function Play(){
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9 mt-8">
-                <div>
+                <div className="grid grid-cols-1 gap-y-4">
                     <PlayProject target="_blank" link="https://github.com/hungiie/pawfectmatch" name="Pawfect Match (2025)" description="Website connecting animal shelters with potential adopters. With pet&lsquo;s data stored in SQL database, dynamic filtering & searching is supported, for a better adopting experience." tag1="SQL database" tag2="PHP for back end" imageSrc="/play/pawfect match.png" />
                     <PlayProject target="_blank" link="https://github.com/hungiie/memorymate" name="Memory Mate (2024)" description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag1="React Native" tag2="Firebase for back end" imageSrc="/play/memory mate.png" />
                     <PlayProject target="_blank" link="https://github.com/hungiie/adayasabarista" name="A day as a barista (2023)" description="Designed and developed a restaurant game with Java, incorporating wide range of interactions such as tapping, dragging, with dynamic responses to user&lsquo;s input." tag1="Java" tag2="Object-oriented programming" imageSrc="/play/barista.png" />
@@ -91,12 +91,18 @@ export default function Play(){
                 </div>
             </div>
 
+            {/* <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">Graphic design</p>
+            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9 mt-8">
+                <div className="grid grid-cols-1 gap-y-4">
+                    <PlayProject target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship (2023)" description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag1="Visual design" tag2="" imageSrc="/fh.png" />
+                    <PlayProject target="_self" link="/fraserhealth" name="Douglas College Royals (2022)" description="Designing various social media & physical promotional materials for Douglas College's Athletics department." tag1="Visual design" tag2="" imageSrc="/royals.png" />
+                </div>
+            </div> */}
 
             <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div className="relative w-full h-[200px] md:h-[500px] rounded-xl overflow-hidden">
                     <Image src="/play/acrylic.jpg" alt="acrylic painting" className="object-cover" fill />
-                    {/* <PlayImage srcPreview="/play/acrylic.PNG" src="/play/acrylic.PNG" alt="acrylic painting" className="object-cover"/> */}
                 </div>
                 <div className="flex items-end">
                     <p className="text-xl text-[var(--colour-bodytext)] w-full md:w-4/5">2021</p>
