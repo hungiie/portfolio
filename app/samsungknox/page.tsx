@@ -2,7 +2,7 @@
 
 import Button from "@/components/button";
 // import ExpandableImage from "@/components/expandable-image";
-import Image from "next/image";
+// import Image from "next/image";
 import Footer from "@/components/footer";
 import PlayProject from "@/components/play-project";
 import ProjectHero from "@/components/projecthero";
