@@ -24,7 +24,7 @@ export default function SamsungKnox () {
                 linkText2="" 
                 url1="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage"
                 url2=""
-                target1=""
+                target1="_blank"
                 target2=""
                 />
             
