@@ -19,23 +19,23 @@ export default function About(){
                     {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing <span className="text-[var(--colour-yellow)]">pixels</span> by day, pulling <span className="text-[var(--main-blue)]">requests</span> by night.</p> */}
                     {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing pixels by day, pulling requests by night.</p> */}
                     <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight md:tracking-[-0.15rem] leading-[120%] md:leading-[110%] mb-9">I&apos;m a product designer with occasional GitHub contributions.</p>
-                    <p className="text-sm text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
+                    <p className="text-md text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-md"/></span>.</p>
                 </div>
-                <div className="flex items-center justify-center h-full order-1 mb-30 md:order-2">
+                <div className="flex items-center justify-center h-full order-1 mb-30 mt-0 md:mt-5 md:order-2">
                     <Me />
                 </div>
             </div>
 
-            <div className="mt-12 w-full md:w-2/5">
-                <p className="text-sm text-[var(--colour-bodytext)]">I&lsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-3">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.</p>
-                <p className="text-sm text-[var(--colour-bodytext)]">As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
+            <div className="mt-16 w-full md:w-1/2">
+                <p className="text-md text-[var(--colour-bodytext)]">I&lsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
+                <p className="text-md text-[var(--colour-bodytext)] mt-3">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.</p>
+                <p className="text-md text-[var(--colour-bodytext)]">As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
             </div>
 
-            <div className="mt-6">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:tranndhungg@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] -mt-3">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] -mt-3">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="Resume" textSize="text-sm"/></span></p>
+            <div className="mt-16">
+                <p className="text-md text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:tranndhungg@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)] mt-0.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)] mt-0.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="Resume" textSize="text-md"/></span></p>
             </div>
 
             <div className="mt-20 w-full">
