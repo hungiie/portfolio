@@ -44,8 +44,8 @@ export default function SamsungKnox () {
 
 
 
-                <div className="md:flex md:items-baseline">
-                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8 mr-10">Other projects</p>
+                <div className="md:flex md:items-baseline mb-8">
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-3 md:mb-0 mr-10">Other projects</p>
                     <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." textSize="text-md" target="_self"></Button>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

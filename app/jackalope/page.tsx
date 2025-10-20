@@ -269,10 +269,10 @@ export default function Jackalope () {
                     </div>
                 </div>
 
-                <div className="md:flex md:items-baseline">
-                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8 mr-10">Other projects</p>
+                <div className="md:flex md:items-baseline mb-8">
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-3 md:mb-0 mr-10">Other projects</p>
                     <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." textSize="text-md" target="_self"></Button>
-                </div>                
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <PlayProject target="_self" link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="B2B UX" imageSrc="/knox-square.png" />
                     {/* <PlayProject target="_self" link="/organizations" name="Samsung Knox Manage: Organizations" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="B2B UX" imageSrc="/organization-sq.png" /> */}
