@@ -13,7 +13,7 @@ export default function Play(){
         <div className="mt-35 px-9 md:mt-40 md:px-22">
             <div className="grid grid-cols-1">
                 <div className="order-2 md:order-1">
-                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight md:tracking-[-0.15rem] lleading-[120%] md:leading-[110%] mb-9">I like to <span className="text-[var(--main-blue)]">play</span>.<br></br>Here&apos;s the damage.</p>
+                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight md:tracking-[-0.15rem] lleading-[120%] md:leading-[110%] mb-9">I like to <span className="text-[var(--main-blue)]">&lt;:D&gt;play&lt;/:D&gt;</span>.<br></br>Here&apos;s the damage.</p>
                 </div>
             </div>
 
