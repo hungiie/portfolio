@@ -30,7 +30,7 @@ export default function SamsungKnox () {
             
                 <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr]">
                     <div>
-                        <p className="mt-20 mb-8 text-md text-[var(--colour-bodytext)]">I completed an 8-month internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-md"/></span> as a UX designer in 2025.</p>
+                        <p className="mt-20 mb-8 text-md text-[var(--colour-bodytext)]">In 2025, I completed my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span> as a UX designer.</p>
                         <p className="mb-4 text-md text-[var(--colour-bodytext)]">My work primarily involves designing features for <span className="inline-block"><Button link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-md"/></span> - one of Samsung’s B2B SaaS solutions. It is designed to help companies deploy, secure, and manage their mobile devices and data remotely.</p>
                         <p className="mb-8 text-md text-[var(--colour-bodytext)]">I worked closely with senior UX designers who guided my design process, PMs who helped align my work with business objectives, and developers who ensured technical feasibility. Throughout various design and dev sprints, constant and clear communication is required from all parties to deliver the best outcome.</p>
 

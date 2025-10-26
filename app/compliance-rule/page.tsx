@@ -15,7 +15,7 @@ export default function Compliance () {
                 description={
                     <>
                     Review the {" "}
-                    <span className="text-[var(--colour-samsung)]">compliance status </span>
+                    <span className="text-[var(--main-blue)]">compliance status </span>
                     from an entire fleet of Samsung devices at a glance.
                 </>}
                 linkText1="What is Knox Manage?" 
@@ -28,7 +28,7 @@ export default function Compliance () {
 
                 <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr]">
                     <div>
-                        <p className="mt-20 mb-8 text-md text-[var(--colour-bodytext)]">I completed an 8-month internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-md"/></span> as a UX designer in 2025.</p>
+                        <p className="mt-20 mb-8 text-md text-[var(--colour-bodytext)]">As 2026 began, I wrapped up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span> as a UX designer.</p>
                         <p className="mb-4 text-md text-[var(--colour-bodytext)]">My work primarily involves designing features for <span className="inline-block"><Button link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-md"/></span> - one of Samsung’s B2B SaaS solutions. It is designed to help companies deploy, secure, and manage their mobile devices and data remotely.</p>
                         <p className="mb-8 text-md text-[var(--colour-bodytext)]">I worked closely with senior UX designers who guided my design process, PMs who helped align my work with business objectives, and developers who ensured technical feasibility. Throughout various design and dev sprints, constant and clear communication is required from all parties to deliver the best outcome.</p>
 

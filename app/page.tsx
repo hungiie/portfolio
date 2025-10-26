@@ -11,7 +11,7 @@ export default function Home() {
         <div className="mt-35 md:fixed md:-mt-10 md:flex md:flex-col md:justify-center md:h-screen">
           <p className="text-5xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight md:tracking-[-0.15rem] mb-9">Hi, I&apos;m Hung.</p>
           <p className="text-md text-[var(--colour-bodytext)]">Pushing pixels by day, pulling requests by night.</p>
-          <p className="text-md text-[var(--colour-bodytext)] mt-1">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-md"/></span>.</p>
+          <p className="text-md text-[var(--colour-bodytext)] mt-1">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span>.</p>
         </div>
         <div className="hidden md:block mt-10 -mb-25 md:mb-0 md:mt-0 md:fixed bottom-0">
           <Footer />
@@ -23,6 +23,7 @@ export default function Home() {
         <ProjectThumbnail link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Manage is a cloud-based Enterprise Mobility Management (EMM) solution for businesses to deploy, secure, and manage mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/knox.png" colourCode="var(--colour-samsung)" />
         {/* <ProjectThumbnail link="/compliance-rule" name="Samsung Knox Manage: Compliance rules" description="Samsung Knox Manage is a cloud-based Enterprise Mobility Management (EMM) solution for businesses to deploy, secure, and manage mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/compliance.png" colourCode="var(--colour-samsung)" /> */}
         {/* <ProjectThumbnail link="/organizations" name="Samsung Knox Manage: Organizations" description="Samsung Knox Manage is a cloud-based Enterprise Mobility Management (EMM) solution for businesses to deploy, secure, and manage mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/organization.png" colourCode="var(--colour-samsung)" /> */}
+        {/* <ProjectThumbnail link="/demo" name="Samsung Knox: Demo kit" description="Samsung Knox Manage is a cloud-based Enterprise Mobility Management (EMM) solution for businesses to deploy, secure, and manage mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/demo.png" colourCode="var(--colour-samsung)" /> */}
 
         {/* <ProjectThumbnail link="/rp" name="Samsung Knox Reseller Portal" description="A web-based platform for authorized Samsung resellers to streamline device deployment for their enterprise customers by uploading device information in bulk." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/knox-rp.png" colourCode="var(--colour-samsung)" /> */}
         <ProjectThumbnail link="/cardio" name="card.io" description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag1="UX design" tag2="1.5 month" tag3="B2C UX" imageSrc="/cardio.png" colourCode="var(--colour-cardio)" />

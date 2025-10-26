@@ -19,7 +19,7 @@ export default function About(){
                     {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing <span className="text-[var(--colour-yellow)]">pixels</span> by day, pulling <span className="text-[var(--main-blue)]">requests</span> by night.</p> */}
                     {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing pixels by day, pulling requests by night.</p> */}
                     <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight md:tracking-[-0.15rem] leading-[120%] md:leading-[110%] mb-9">I&apos;m a <span className="text-[var(--main-blue)]">product designer</span> with occasional GitHub contributions.</p>
-                    <p className="text-md text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-md"/></span>.</p>
+                    <p className="text-md text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span>.</p>
                 </div>
                 <div className="flex items-center justify-center h-full order-1 mb-30 mt-0 md:mt-5 md:order-2">
                     <Me />
