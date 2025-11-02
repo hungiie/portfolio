@@ -16,8 +16,8 @@ interface Props {
 export default function ProjectThumbnail(props: Props) {
     return(
         <a href={props.link} className="group mb-8 block rounded-2xl border-[#e7e7e7] border-2 overflow-hidden">
-            <div className="w-full h-40 md:h-66 2xl:h-80 relative overflow-hidden">
-                <Image src={props.imageSrc} alt={props.name} fill className="object-cover" />
+            <div className="w-full relative overflow-hidden">
+                <Image src={props.imageSrc} alt={props.name} width={2469} height={861} className="object-cover" />
             </div>
             <div className="px-5 md:px-7 pb-8 w-full">
                 <div className="w-full flex items-center mt-6 mb-5">

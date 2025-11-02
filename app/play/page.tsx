@@ -71,6 +71,7 @@ export default function Play(){
             </div>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9 mt-8">
                 <div className="grid grid-cols-1 gap-y-4">
+                    <PlayProject target="_self" link="/cardio" name="card.io creates a workout playlist that matches your pace." description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag1="UX design" tag2="B2C UX" imageSrc="/cardio-sm.png" />
                     <PlayProject target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag1="UX design & research" tag2="" imageSrc="/jackalope.png" />
                     <PlayProject target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=313%3A2973&node-id=313-3004&viewport=479%2C387%2C0.03&t=NHb88K4xz1HL2JVg-1&scaling=scale-down&content-scaling=fixed" name="Uber Eats&lsquo; speculative feature: Nutrition Report." description="Assists and informs users about their food&lsquo;s nutrition details, makes sure their dietary needs are met." tag1="UX design" tag2="" imageSrc="/ubereats.png" />
                     <PlayProject target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=375%3A2980&node-id=375-2981&viewport=743%2C390%2C0.24&t=AVR9d3tvwFyFaaeT-1&scaling=scale-down&content-scaling=fixed" name="Enhancing Spotify&lsquo;s onboarding experience for new users." description="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?" tag1="HCI study" tag2="" imageSrc="/spotify.png" />
@@ -102,7 +103,7 @@ export default function Play(){
 
             <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
-                <div className="relative w-full h-[200px] md:h-[500px] rounded-xl overflow-hidden">
+                <div className="relative w-full h-[200px] md:h-[500px] 2xl:h-[700px] rounded-xl overflow-hidden">
                     <Image src="/play/acrylic.jpg" alt="acrylic painting" className="object-cover" fill />
                 </div>
                 <div className="flex items-end">

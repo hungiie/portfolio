@@ -20,15 +20,6 @@ export default function ProjectHero(props: Props) {
             {/* <p className="px-6 py-3 text-md md:text-md text-white rounded-full inline-block" style={{ backgroundColor: props.colourCode }}>
                 {props.name}
             </p> */}
-            {/* <div className="flex items-center">
-                <Button variant="grey-hyperlink" link="/" text="Home" target="_self" textSize="text-md"/>
-                <p className="text-md font-medium text-[var(--colour-bodytext-3)]">
-                    &nbsp;&nbsp; / &nbsp;&nbsp;
-                </p>
-                <p className="text-md font-medium" style={{ color: props.colourCode }}>
-                    {props.name}
-                </p>
-            </div> */}
             <p className="text-[var(--colour-bodytext)] text-4xl md:text-7xl font-semibold mt-10 mb-17 tracking-tight md:tracking-[-0.15rem] leading-[120%] md:leading-[110%] w-full md:w-5/6">{props.description}</p>
             <div className="flex items-center">
                 <div className="mr-10 md:mr-20">
