@@ -10,6 +10,7 @@ interface Props {
   tag2: string;
   tag3: string;
   imageSrc: string;
+  image2Src: string;
   colourCode: string;
 }
 
@@ -17,11 +18,11 @@ export default function ProjectThumbnail(props: Props) {
     return(
         <a href={props.link} className="group mb-8 block rounded-2xl border-[#e7e7e7] border-2 overflow-hidden">
             <div className="w-full relative overflow-hidden">
-                <Image src={props.imageSrc} alt={props.name} width={2469} height={861} className="object-cover" />
+                <Image src={props.imageSrc} alt={props.name} width={2469} height={861} className="object-cover opacity-100 group-hover:opacity-0" />
+                <Image src={props.image2Src} alt={props.name} width={2469} height={861} className="absolute inset-0 object-cover opacity-0 group-hover:opacity-100" />
             </div>
             <div className="px-5 md:px-7 pb-8 w-full">
                 <div className="w-full flex items-center mt-6 mb-5">
-                    {/* <span className="w-2 h-2 rounded-full inline-block mr-3" style={{ backgroundColor: props.colourCode }}></span> */}
                     <p className={`text-md text-[var(--colour-bodytext)] group-hover:underline group-hover:text-[var(--main-blue)]`}>
                         {props.name}
                     </p>
