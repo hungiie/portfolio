@@ -19,7 +19,7 @@ export default function ProjectThumbnail(props: Props) {
         <a href={props.link} className="group mb-8 block rounded-2xl border-[#e7e7e7] border-2 overflow-hidden">
             <div className="w-full relative overflow-hidden">
                 <Image src={props.imageSrc} alt={props.name} width={2469} height={861} className="object-cover" />
-                <Image src={props.image2Src} alt={props.name} width={2469} height={861} className="absolute inset-0 object-cover mt-45 2xl:mt-65 group-hover:mt-0 duration-600 ease-in-out" />
+                <Image src={props.image2Src} alt={props.name} width={2469} height={861} className="absolute inset-0 object-cover scale-150 mt-100 group-hover:mt-0 group-hover:scale-100 duration-600 ease-in-out" />
             </div>
             <div className="px-5 md:px-7 pb-8 w-full">
                 <div className="w-full flex items-center mt-6 mb-5">
