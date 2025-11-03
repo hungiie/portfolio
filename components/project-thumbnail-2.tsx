@@ -17,7 +17,7 @@ interface Props {
 export default function ProjectThumbnail2(props: Props) {
     return(
         <a href={props.link} className="group mb-8 block rounded-2xl border-[#e7e7e7] border-2 overflow-hidden">
-            <div className="w-full relative overflow-hidden">
+            <div className="w-full relative overflow-hidden" style={{ backgroundColor: props.colourCode }}>
                 <Image src={props.imageSrc} alt={props.name} width={2469} height={861} className="object-cover" />
                 {/* <Image src={props.image2Src} alt={props.name} width={2469} height={861} className="absolute inset-0 object-cover mt-45 group-hover:mt-0 duration-200" /> */}
             </div>
