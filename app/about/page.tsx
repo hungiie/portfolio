@@ -33,7 +33,7 @@ export default function About(){
             </div>
 
             <div className="mt-16">
-                <p className="text-md text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:tranndhungg@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span></p>
                 <p className="text-md text-[var(--colour-bodytext)] mt-0.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-md"/></span></p>
                 <p className="text-md text-[var(--colour-bodytext)] mt-0.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-md"/></span></p>
             </div>

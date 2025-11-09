@@ -36,7 +36,7 @@ export default function Nav() {
         justify-between
         ">
           <div className="hidden md:block">
-            <CopyEmailButton link="/" text="tranndhungg@gmail.com" textSize="text-sm"></CopyEmailButton>
+            <CopyEmailButton link="/" text="dht4@sfu.ca" textSize="text-sm"></CopyEmailButton>
           </div>
           <div className="w-full flex items-center justify-between md:w-auto md:justify-normal">
             <div className="flex">

@@ -4,6 +4,7 @@ import ProjectThumbnail from "@/components/project-thumbnail";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import ProjectThumbnail2 from "@/components/project-thumbnail-2";
+import OtherProjectThumbnail from "@/components/other-project-thumbnail";
 
 export default function Home() {
   return (
@@ -30,17 +31,24 @@ export default function Home() {
         {/* <ProjectThumbnail link="/jackalope" name="Jackalope" description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag1="UX design & research" tag2="3 months" tag3="B2C UX" imageSrc="/jackalope.png" colourCode="var(--colour-jackalope)" /> */}
         {/* <ProjectThumbnail link="/influenso" name="Influenso" description="A solution guiding new influencers navigate brand partnerships & communications, and make use of cross-platform analytics." tag1="UX design" tag2="2 months" tag3="B2B2C UX" imageSrc="/influenso.png" colourCode="var(--colour-influenso)" /> */}
 
-        {/* <p className="text-2xl mt-30 mb-10 text-[var(--colour-bodytext)]">Some other projects</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7">
-          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" imageSrc="/fh.png" />
-          <OtherProjectThumbnail target="_blank" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app built with Firebase authentication & database." description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag="UX engineer" imageSrc="/memorymate.png" />
-          <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=313%3A2973&node-id=313-3004&viewport=479%2C387%2C0.03&t=NHb88K4xz1HL2JVg-1&scaling=scale-down&content-scaling=fixed" name="Uber Eats&lsquo; speculative feature: Nutrition Report." description="Assists and informs users about their food&lsquo;s nutrition details, makes sure their dietary needs are met." tag="UX design" imageSrc="/ubereats.png" />
-          <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=375%3A2980&node-id=375-2981&viewport=743%2C390%2C0.24&t=AVR9d3tvwFyFaaeT-1&scaling=scale-down&content-scaling=fixed" name="Enhancing Spotify&lsquo;s onboarding experience for new users." description="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?" tag="HCI study" imageSrc="/spotify.png" />
-        </div> */}
 
-        <div className="mt-15">
-          <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
+          <div className="md:flex md:items-baseline mt-30 mb-10">
+            <p className="text-2xl text-[var(--colour-bodytext)] mr-10">Other (non-NDA) projects</p>
+            <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5">
+          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" imageSrc="/fh.png" />
+          <OtherProjectThumbnail target="_self" link="/cardio" name="card.io creates a workout playlist that matches your pace." description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag="UX design" imageSrc="/cardio-sm.png" />
+          <OtherProjectThumbnail target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag="UX design & research" imageSrc="/jackalope.png" />
+
+          {/* <OtherProjectThumbnail target="_blank" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app built with Firebase authentication & database." description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag="UX engineer" imageSrc="/memorymate.png" /> */}
+          {/* <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=313%3A2973&node-id=313-3004&viewport=479%2C387%2C0.03&t=NHb88K4xz1HL2JVg-1&scaling=scale-down&content-scaling=fixed" name="Uber Eats&lsquo; speculative feature: Nutrition Report." description="Assists and informs users about their food&lsquo;s nutrition details, makes sure their dietary needs are met." tag="UX design" imageSrc="/ubereats.png" /> */}
+          {/* <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=375%3A2980&node-id=375-2981&viewport=743%2C390%2C0.24&t=AVR9d3tvwFyFaaeT-1&scaling=scale-down&content-scaling=fixed" name="Enhancing Spotify&lsquo;s onboarding experience for new users." description="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?" tag="HCI study" imageSrc="/spotify.png" /> */}
+        </div>
+
+        {/* <div className="mt-5">
+          <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
+        </div> */}
       </div>
       
       <div className="block md:hidden">

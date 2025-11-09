@@ -12,7 +12,7 @@ export default function Footer() {
                 <a href="https://github.com/hungiie" className="mr-3" target="_blank">
                     <Image src="/github.png" alt="github logo" width={20} height={20} />
                 </a>
-                <a href="mailto:tranndhungg@gmail.com" className="mr-3" target="_blank">
+                <a href="mailto:dht4@sfu.ca" className="mr-3" target="_blank">
                     <Image src="/mail.png" alt="mail logo" width={20} height={20} />
                 </a>
             </div>
