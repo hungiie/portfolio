@@ -7,6 +7,7 @@ interface Props {
   name: string;
   description: string;
   tag: string;
+  tag2: string;
   imageSrc: string;
   target: string;
 }
@@ -24,7 +25,8 @@ export default function OtherProjectThumbnail(props: Props) {
                     </p>
                 </div>
                 <p className="mb-3 text-sm text-[var(--colour-bodytext-2)]">{props.description}</p>
-                <p className="mt-2 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag}</p>
+                <p className="mt-2 inline-block text-xs text-[var(--colour-bodytext-3)] mr-6">{props.tag}</p>
+                <p className="mt-2 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag2}</p>
             </div>
         </a>
     )

@@ -33,13 +33,13 @@ export default function Home() {
 
 
           <div className="md:flex md:items-baseline mt-30 mb-10">
-            <p className="text-2xl text-[var(--colour-bodytext)] mr-10">Other (non-NDA) projects</p>
+            <p className="text-2xl text-[var(--colour-bodytext)] mr-10">Other projects</p>
             <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5">
-          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" imageSrc="/fh.png" />
-          <OtherProjectThumbnail target="_self" link="/cardio" name="card.io creates a workout playlist that matches your pace." description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag="UX design" imageSrc="/cardio-sm.png" />
-          <OtherProjectThumbnail target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag="UX design & research" imageSrc="/jackalope.png" />
+          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" tag2="Non-NDA" imageSrc="/fh.png" />
+          <OtherProjectThumbnail target="_self" link="/cardio" name="card.io creates a workout playlist that matches your pace." description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag="UX design" tag2="Non-NDA" imageSrc="/cardio-sm.png" />
+          <OtherProjectThumbnail target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag="UX design & research" tag2="Non-NDA" imageSrc="/jackalope.png" />
 
           {/* <OtherProjectThumbnail target="_blank" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app built with Firebase authentication & database." description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag="UX engineer" imageSrc="/memorymate.png" /> */}
           {/* <OtherProjectThumbnail target="_blank" link="https://www.figma.com/proto/xYL2PzUpTvgKlnxTzp7a5O/Portfolio-2025?page-id=313%3A2973&node-id=313-3004&viewport=479%2C387%2C0.03&t=NHb88K4xz1HL2JVg-1&scaling=scale-down&content-scaling=fixed" name="Uber Eats&lsquo; speculative feature: Nutrition Report." description="Assists and informs users about their food&lsquo;s nutrition details, makes sure their dietary needs are met." tag="UX design" imageSrc="/ubereats.png" /> */}
