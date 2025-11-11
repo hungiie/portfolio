@@ -4,7 +4,7 @@ import ProjectThumbnail from "@/components/project-thumbnail";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import ProjectThumbnail2 from "@/components/project-thumbnail-2";
-import OtherProjectThumbnail from "@/components/other-project-thumbnail";
+// import OtherProjectThumbnail from "@/components/other-project-thumbnail";
 
 export default function Home() {
   return (
