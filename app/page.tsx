@@ -42,9 +42,9 @@ export default function Home() {
           <OtherProjectThumbnail target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag="UX design & research" tag2="Non-NDA" imageSrc="/jackalope.png" />
         </div> */}
 
-        {/* <div className="mt-5">
+        <div className="mt-5">
           <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
-        </div> */}
+        </div>
       </div>
       
       <div className="block md:hidden">
