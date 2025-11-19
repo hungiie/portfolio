@@ -10,7 +10,7 @@ export default function Rules () {
         <div>
             <div className="px-9 md:px-22 w-full">
                 <ProjectHero 
-                name="Knox Manage: Compliance rules" 
+                name="Knox Manage: Rules" 
                 colourCode="var(--colour-samsung)" 
                 description={
                     <>
