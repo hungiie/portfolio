@@ -16,9 +16,9 @@ export default function Organizations () {
                 colourCode="var(--colour-samsung)" 
                 description={
                     <>
-                    EMM feature that allows IT admins to {" "}
-                    <span className="text-[var(--main-blue)]">categorize devices </span>
-                    based on organizational structure.
+                    EMM feature that categorizes devices based on{" "}
+                    <span className="text-[var(--main-blue)]"> organizational structure</span>
+                    , enabling hierarchical management.
                 </>}
                 linkText1="What is Knox Manage?" 
                 linkText2="What is an EMM solution?" 

@@ -5,6 +5,7 @@ import Button from "@/components/button";
 import Footer from "@/components/footer";
 import ProjectThumbnail2 from "@/components/project-thumbnail-2";
 // import OtherProjectThumbnail from "@/components/other-project-thumbnail";
+// import PlayProject from "@/components/play-project";
 
 export default function Home() {
   return (
@@ -36,14 +37,14 @@ export default function Home() {
             <p className="text-2xl text-[var(--colour-bodytext)] mr-10">Other projects</p>
             <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5">
-          <OtherProjectThumbnail target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" tag2="Non-NDA" imageSrc="/fh.png" />
-          <OtherProjectThumbnail target="_self" link="/cardio" name="card.io creates a workout playlist that matches your pace." description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag="UX design" tag2="Non-NDA" imageSrc="/cardio-sm.png" />
-          <OtherProjectThumbnail target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag="UX design & research" tag2="Non-NDA" imageSrc="/jackalope.png" />
+        <div className="grid grid-cols-1 gap-y-5">
+          <PlayProject target="_self" link="/cardio" name="card.io creates a workout playlist that matches your pace." description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag1="UX design" tag2="Non-NDA" imageSrc="/cardio-sm.png" />
+          <PlayProject target="_self" link="/jackalope" name="Jackalope AI is a guide for international students." description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag1="UX design & research" tag2="Non-NDA" imageSrc="/jackalope.png" />
+          <PlayProject target="_self" link="/fraserhealth" name="Fraser Health&apos;s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag1="Visual design" tag2="Non-NDA" imageSrc="/fh.png" />
         </div> */}
 
         <div className="mt-15">
-          <Button variant="blue-hyperlink" link="/play" text="View more projects in Play page." target="_self" textSize="text-md"/>
+          <Button variant="blue-hyperlink" link="/play" text="View more of my work in Play page." target="_self" textSize="text-md"/>
         </div>
       </div>
       

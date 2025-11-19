@@ -16,7 +16,7 @@ export default function Rules () {
                     <>
                     EMM feature that lets IT admins create {" "}
                     <span className="text-[var(--main-blue)]">conditional rules </span>
-                    to automate management tasks and monitor activities.
+                    to automate management tasks & set up alert system.
                 </>}
                 linkText1="What is Knox Manage?" 
                 linkText2="What is an EMM solution?" 
