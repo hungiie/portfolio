@@ -23,22 +23,7 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full px-10 md:w-1/3 md:px-0 mt-25">
-        <div className="flex w-full relative justify-end mb-5">
-          <SlideRightDelay>
-            <ThemeToggleButton
-              theme={theme === "light" ? "dark" : "light"}
-              onClick={() => {
-                const next = theme === "dark" ? "light" : "dark";
-                setTheme(next);
-              }}
-              variant="circle"
-              start="center"
-              className="p-2"
-              showLabel={false}
-            />
-          </SlideRightDelay>
-        </div>
+      <div className="w-full px-10 md:w-1/3 md:px-0 mt-30">
         <div
           className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}
@@ -58,11 +43,22 @@ export default function Home() {
             </div>
             <p className="text-sm text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
-            <div className="">
+            <div className="mb-9">
               <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
               <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
               <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
+            <ThemeToggleButton
+              theme={theme === "light" ? "dark" : "light"}
+              onClick={() => {
+                const next = theme === "dark" ? "light" : "dark";
+                setTheme(next);
+              }}
+              variant="polygon"
+              start="center"
+              className=""
+              showLabel={true}
+            />
           </div>
         </SlideUpDelay>
 
