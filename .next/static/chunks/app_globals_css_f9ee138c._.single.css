@@ -49,7 +49,6 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --color-emerald-700: oklch(50.8% .118 165.612);
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
@@ -287,14 +286,6 @@
     margin-top: calc(var(--spacing) * 5);
   }
 
-  .mt-6 {
-    margin-top: calc(var(--spacing) * 6);
-  }
-
-  .mt-9 {
-    margin-top: calc(var(--spacing) * 9);
-  }
-
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
@@ -343,24 +334,8 @@
     margin-bottom: calc(var(--spacing) * 30);
   }
 
-  .mb-40 {
-    margin-bottom: calc(var(--spacing) * 40);
-  }
-
-  .mb-50 {
-    margin-bottom: calc(var(--spacing) * 50);
-  }
-
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
-  }
-
-  .ml-3 {
-    margin-left: calc(var(--spacing) * 3);
-  }
-
-  .ml-4 {
-    margin-left: calc(var(--spacing) * 4);
   }
 
   .block {
@@ -440,10 +415,6 @@
 
   .items-center {
     align-items: center;
-  }
-
-  .justify-baseline {
-    justify-content: baseline;
   }
 
   .justify-between {
@@ -713,16 +684,8 @@
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
-  .data-\[state\=checked\]\:bg-\[var\(--main-blue\)\][data-state="checked"] {
-    background-color: var(--main-blue);
-  }
-
   .data-\[state\=checked\]\:bg-\[var\(--main-darkerblue\)\][data-state="checked"] {
     background-color: var(--main-darkerblue);
-  }
-
-  .data-\[state\=checked\]\:bg-emerald-700[data-state="checked"] {
-    background-color: var(--color-emerald-700);
   }
 
   .data-\[state\=unchecked\]\:translate-x-0[data-state="unchecked"] {
