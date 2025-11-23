@@ -28,7 +28,7 @@ export default function SlideUp({ children, delay = 0 }: { children: ReactNode, 
       ref={ref}
       style={{ transitionDelay: `${delay}ms` }}
       className={`transition-all duration-700 ease-out
-        ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
+        ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
       `}
     >
       {children}

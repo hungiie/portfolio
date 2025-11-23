@@ -2,7 +2,7 @@
 
 import { ReactNode, useRef, useEffect, useState } from "react";
 
-export default function SlideUpDelay({ children, delay = 1100 }: { children: ReactNode, delay?: number }) {
+export default function SlideRightDelay({ children, delay = 1100 }: { children: ReactNode, delay?: number }) {
   const ref = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
@@ -28,7 +28,7 @@ export default function SlideUpDelay({ children, delay = 1100 }: { children: Rea
       ref={ref}
       style={{ transitionDelay: `${delay}ms` }}
       className={`transition-all duration-700 ease-out
-        ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
+        ${visible ? "opacity-100 -translate-x-0" : "opacity-0 -translate-x-6"}
       `}
     >
       {children}

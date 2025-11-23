@@ -9,6 +9,7 @@ import SlideUp from "@/components/slide-up";
 import Me from "@/components/me";
 import SlideUpDelay from "@/components/slide-up-delay";
 import { useEffect, useState } from "react";
+import SlideRightDelay from "@/components/slide-right-delay";
 // import { Switch } from "@/components/ui/switch";
 
 
@@ -24,15 +25,22 @@ export default function Home() {
     <div className="flex items-center justify-center">
       <div className="w-full px-10 md:w-1/3 md:px-0 mt-35">
         <div
-          className={`w-full mb-7 flex transition-all duration-700 ease-in-out
+          className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}
         >
           <Me />
+          <div className="absolute right-0">
+            <SlideRightDelay>
+              <Button variant="blue-hyperlink" text="About me ->" link="about" target="_self" textSize="text-sm"/>
+            </SlideRightDelay>
+          </div>
         </div>
 
         <SlideUpDelay>
           <div className="mb-30">
-            <Heading text="Hi, my name is Hung." />
+            <div className="flex justify-between">
+              <Heading text="Hi, my name is Hung." />
+            </div>
             <p className="text-sm text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
             <div className="">
