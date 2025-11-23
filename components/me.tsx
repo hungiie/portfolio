@@ -11,7 +11,7 @@ export default function Me() {
       animate={{ scale: 1, y: 0, opacity: 1 }}
       transition={{
         duration: 0.9,
-        ease: [0.2, 1, 0.4, 1], // smooth spring-like ease
+        ease: [0.2, 1, 0.4, 1],
       }}
       className="flex-shrink-0"
     >

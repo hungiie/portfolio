@@ -2,7 +2,7 @@ import Button from "./button";
 
 export default function Footer() {
     return (
-        <div className="mt-30 pb-28 flex flex-col items-center">
+        <div className="mt-40 pb-28 flex flex-col items-center">
             <div className="text-center">
                 <p className="mb-1 text-xs text-[rgba(0,0,0,0.3)]">Designed and coded by me using Tailwind CSS and Next.js</p>
                 <p className="mb-7 text-xs text-[rgba(0,0,0,0.3)]">© 2025 Hung</p>
