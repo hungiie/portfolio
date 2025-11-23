@@ -9,12 +9,12 @@ import SlideUp from "@/components/slide-up";
 import Me from "@/components/me";
 import SlideUpDelay from "@/components/slide-up-delay";
 import { useEffect, useState } from "react";
-import { Switch } from "@/components/ui/switch";
+// import { Switch } from "@/components/ui/switch";
 
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
-  const [enabled, setEnabled] = useState(false);
+  // const [enabled, setEnabled] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setAnimate(true), 900);

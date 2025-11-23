@@ -481,7 +481,7 @@ var _s = __turbopack_context__.k.signature();
 function Home() {
     _s();
     const [animate, setAnimate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [enabled, setEnabled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    // const [enabled, setEnabled] = useState(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Home.useEffect": ()=>{
             setTimeout({
@@ -739,7 +739,7 @@ function Home() {
         columnNumber: 5
     }, this);
 }
-_s(Home, "rEfVQApYLlUAMdGYxTVZd4T+STA=");
+_s(Home, "z07FJ1oDfa7+qdGd0fWFFN4Jr94=");
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");
