@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div className="mb-30">
             <Heading text="Hi, my name is Hung." />
-            <p className="text-sm text-[var(--colour-bodytext)] mb-6">I'm a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             <p className="text-sm text-[var(--colour-bodytext)] mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
             <div className="">
               <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
