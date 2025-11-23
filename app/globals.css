@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfbfb;
+  /* --foreground: #171717; */
+  --main-blue: #0B8EFF;
+  --main-darkerblue: #0078E0;
+  --colour-yellow: #ffb43b;
+  --colour-bodytext: #323232;
+  --colour-bodytext-2: #505050;
+  --colour-bodytext-3: #7d7d7d;
+  --colour-samsung: #14329f;
+  --colour-influenso: #D15400;
+  --colour-cardio: #009C1F;
+  --colour-jackalope: #207aca;
+  --colour-fraserhealth: #005293;
+  --colour-grey: #f3f3f3;
+  --colour-darkgrey: #939393;
+}
+
+body {
+  background: var(--background);
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
