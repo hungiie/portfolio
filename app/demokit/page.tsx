@@ -21,7 +21,7 @@ export default function Demo() {
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)]">Karl Lam (Senior UX Designer)</p>
 
                 <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 md:px-7 py-7 md:py-7 rounded-2xl">
-                    <p className="text-sm text-[var(--colour-bodytext)]">Due to NDA restrictions, I’m unable to share project details publicly, but I’d be happy to elaborate on my experience and design contributions during an interview.</p>
+                    <p className="text-sm text-[var(--colour-bodytext)]">Due to NDA restrictions, I&lsquo;m unable to share project details publicly, but I&lsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                     <p className="text-sm text-[var(--colour-bodytext)] mt-2">Feel free to send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                 </div>
             </div>
