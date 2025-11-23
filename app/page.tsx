@@ -9,14 +9,16 @@ import SlideUp from "@/components/slide-up";
 import Me from "@/components/me";
 import SlideUpDelay from "@/components/slide-up-delay";
 import { useEffect, useState } from "react";
+import { Switch } from "@/components/ui/switch";
 
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
+  const [enabled, setEnabled] = useState(false);
+
   useEffect(() => {
     setTimeout(() => setAnimate(true), 900);
   }, []);
-
 
   return (
     <div className="flex items-center justify-center">
@@ -40,8 +42,13 @@ export default function Home() {
             </div>
           </div>
         </SlideUpDelay>
+
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUp>
+            {/* <div className="flex items-center mb-25">
+              <Switch checked={enabled} onCheckedChange={setEnabled} />
+              <p className="text-sm text-[var(--colour-bodytext)] ml-1">View in dark mode</p>
+            </div> */}
             <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Creating conditional rules to automate management tasks, monitor device activities and set up alert system." imageSrc="/rules.png" />
           </SlideUp>
           <SlideUp>
