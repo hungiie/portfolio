@@ -15,7 +15,7 @@ export default function ProjectThumbnail(props: Props) {
             <p className="font-semibold text-sm text-[var(--colour-body-text)] mb-6">
                 {props.name}
             </p>
-            <p className="text-sm text-[var(--colour-body-text-2)] mb-6">
+            <p className="text-sm text-[var(--colour-body-text-2)] mb-6 leading-loose">
                 {props.desc}
             </p>
             <a href={props.link} className="group overflow-hidden block">
