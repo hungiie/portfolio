@@ -12,7 +12,7 @@ export default function Home() {
     <div className="flex items-center justify-center">
       <div className="w-full px-10 md:w-1/3 md:px-0 mt-35">
         <SlideUp>
-          <div className="w-1/7 rounded-xl aspect-square relative overflow-hidden mb-8">
+          <div className="w-1/3 md:w-1/7 rounded-xl aspect-square relative overflow-hidden mb-8">
             <Image src="/me.png" fill className="object-cover" alt="Hung tran" />
           </div>
           <div className="mb-30">
