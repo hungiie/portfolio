@@ -4,8 +4,8 @@ export default function Footer() {
     return (
         <div className="mt-40 pb-28 flex flex-col items-center">
             <div className="text-center">
-                <p className="mb-1 text-sm text-[rgba(0,0,0,0.3)]">Designed and coded by me using Tailwind CSS and Next.js</p>
-                <p className="mb-7 text-sm text-[rgba(0,0,0,0.3)]">© 2025 Hung</p>
+                <p className="mb-1 text-sm text-[var(--colour-bodytext-3)]">Designed and coded by me using Tailwind CSS and Next.js</p>
+                <p className="mb-7 text-sm text-[var(--colour-bodytext-3)]">© 2025 Hung</p>
             </div>
             <div className="flex w-full md:w-4/5 justify-between">
                 <Button variant="blue-hyperlink" text="LinkedIn" link="https://www.linkedin.com/in/hung-tran-profile" target="_blank" textSize="text-sm"></Button>

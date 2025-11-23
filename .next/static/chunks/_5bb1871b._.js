@@ -83,7 +83,7 @@ function Footer() {
                 className: "text-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mb-1 text-sm text-[rgba(0,0,0,0.3)]",
+                        className: "mb-1 text-sm text-[var(--colour-bodytext-3)]",
                         children: "Designed and coded by me using Tailwind CSS and Next.js"
                     }, void 0, false, {
                         fileName: "[project]/components/footer.tsx",
@@ -91,7 +91,7 @@ function Footer() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mb-7 text-sm text-[rgba(0,0,0,0.3)]",
+                        className: "mb-7 text-sm text-[var(--colour-bodytext-3)]",
                         children: "© 2025 Hung"
                     }, void 0, false, {
                         fileName: "[project]/components/footer.tsx",
@@ -173,7 +173,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Heading(props) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-        className: "font-semibold text-sm text-[var(--colour-body-text)] mb-6",
+        className: "font-semibold text-sm text-[var(--colour-pure)] mb-6",
         children: props.text
     }, void 0, false, {
         fileName: "[project]/components/heading.tsx",
@@ -239,7 +239,7 @@ function Organizations() {
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-sm text-[var(--colour-body-text-2)] leading-loose mb-6",
+                    className: "text-sm text-[var(--colour-bodytext)] leading-loose mb-6",
                     children: "Categorizing devices based on organizational structure, enabling hierarchical device management."
                 }, void 0, false, {
                     fileName: "[project]/app/organizations/page.tsx",

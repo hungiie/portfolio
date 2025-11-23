@@ -10,12 +10,12 @@ import Me from "@/components/me";
 import SlideUpDelay from "@/components/slide-up-delay";
 import { useEffect, useState } from "react";
 import SlideRightDelay from "@/components/slide-right-delay";
-// import { Switch } from "@/components/ui/switch";
-
+import { useTheme } from "next-themes";
+import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
-  // const [enabled, setEnabled] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     setTimeout(() => setAnimate(true), 900);
@@ -23,7 +23,22 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full px-10 md:w-1/3 md:px-0 mt-35">
+      <div className="w-full px-10 md:w-1/3 md:px-0 mt-25">
+        <div className="flex w-full relative justify-end mb-5">
+          <SlideRightDelay>
+            <ThemeToggleButton
+              theme={theme === "light" ? "dark" : "light"}
+              onClick={() => {
+                const next = theme === "dark" ? "light" : "dark";
+                setTheme(next);
+              }}
+              variant="circle"
+              start="center"
+              className="p-2"
+              showLabel={false}
+            />
+          </SlideRightDelay>
+        </div>
         <div
           className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}
@@ -53,10 +68,6 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUp>
-            {/* <div className="flex items-center mb-25">
-              <Switch checked={enabled} onCheckedChange={setEnabled} />
-              <p className="text-sm text-[var(--colour-bodytext)] ml-1">View in dark mode</p>
-            </div> */}
             <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Creating conditional rules to automate management tasks, monitor device activities and set up alert system." imageSrc="/rules.png" />
           </SlideUp>
           <SlideUp>
