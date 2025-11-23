@@ -1,20 +1,34 @@
 "use client"
 
-import Image from "next/image";
+// import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import ProjectThumbnail from "@/components/project-thumbnail";
 import SlideUp from "@/components/slide-up";
+import Me from "@/components/me";
+import SlideUpDelay from "@/components/slide-up-delay";
+import { useEffect, useState } from "react";
+
 
 export default function Home() {
+  const [animate, setAnimate] = useState(false);
+  useEffect(() => {
+    setTimeout(() => setAnimate(true), 900);
+  }, []);
+
+
   return (
     <div className="flex items-center justify-center">
       <div className="w-full px-10 md:w-1/3 md:px-0 mt-35">
-        <SlideUp>
-          <div className="w-1/3 md:w-1/7 rounded-xl aspect-square relative overflow-hidden mb-8">
-            <Image src="/me.png" fill className="object-cover" alt="Hung tran" />
-          </div>
+        <div
+          className={`w-full mb-7 flex transition-all duration-700 ease-in-out
+          ${animate ? "justify-start" : "justify-center"}`}
+        >
+          <Me />
+        </div>
+
+        <SlideUpDelay>
           <div className="mb-30">
             <Heading text="Hi, my name is Hung." />
             <p className="text-sm text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
@@ -25,18 +39,18 @@ export default function Home() {
               <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
           </div>
-        </SlideUp>
-          <div className="grid grid-cols-1 gap-y-40">
-            <SlideUp>
-              <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Creating conditional rules to automate management tasks, monitor device activities and set up alert system." imageSrc="/rules.png" />
-            </SlideUp>
-            <SlideUp>
-              <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Categorizing devices based on organizational structure, enabling hierarchical device management." imageSrc="/org.png" />
-            </SlideUp>
-            <SlideUp>
-              <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Interactive demo for Samsung Knox services, highlighting its key features and unique selling points for enterprise clients." imageSrc="/demo.png" />
-            </SlideUp>
-          </div>
+        </SlideUpDelay>
+        <div className="grid grid-cols-1 gap-y-40">
+          <SlideUp>
+            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Creating conditional rules to automate management tasks, monitor device activities and set up alert system." imageSrc="/rules.png" />
+          </SlideUp>
+          <SlideUp>
+            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Categorizing devices based on organizational structure, enabling hierarchical device management." imageSrc="/org.png" />
+          </SlideUp>
+          <SlideUp>
+            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Interactive demo for Samsung Knox services, highlighting its key features and unique selling points for enterprise clients." imageSrc="/demo.png" />
+          </SlideUp>
+        </div>
 
         <div className="">
           <Footer/>
