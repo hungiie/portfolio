@@ -57,7 +57,7 @@ export default function Home() {
               variant="blur"
               start="center"
               className="hover:cursor-pointer"
-              showLabel={true}
+              showLabel={false}
             />
           </div>
         </SlideUpDelay>
@@ -81,7 +81,7 @@ export default function Home() {
 
       <Particles
         className="fixed inset-0 -z-20"
-        quantity={100}
+        quantity={0}
         ease={90}
         staticity={50}
         color="#ffffff"
