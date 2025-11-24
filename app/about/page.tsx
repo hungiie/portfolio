@@ -4,7 +4,6 @@ import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
-import { Particles } from "@/components/ui/shadcn-io/particles";
 
 export default function About() {
   return (
