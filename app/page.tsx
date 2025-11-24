@@ -31,7 +31,7 @@ export default function Home() {
           <Me />
           <div className="absolute right-0">
             <SlideRightDelay>
-              <Button variant="blue-hyperlink" text="About me ->" link="about" target="_self" textSize="text-sm"/>
+              <Button variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
             </SlideRightDelay>
           </div>
         </div>
