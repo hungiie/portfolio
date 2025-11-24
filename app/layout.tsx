@@ -30,14 +30,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
+      >
         <Analytics />
         <ThemeProvider
           attribute="class"

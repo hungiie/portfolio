@@ -25,6 +25,30 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
+            <Heading text="When I'm not doing UX..."/>
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
+                <div className="rounded-xl relative aspect-square overflow-hidden">
+                    <Image src="/mad.jpg" className="object-cover" fill alt="hung tran"/>
+                </div>
+                <div className="rounded-xl relative aspect-square overflow-hidden">
+                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran"/>
+                </div>
+                <div className="rounded-xl relative aspect-square overflow-hidden">
+                    <Image src="/coop.jpg" className="object-cover" fill alt="hung tran"/>
+                </div>
+                <div className="rounded-xl relative aspect-square overflow-hidden">
+                    <Image src="/vsa.jpeg" className="object-cover" fill alt="hung tran"/>
+                </div>
+                <div className="rounded-xl relative aspect-square overflow-hidden">
+                    <Image src="/vsaflag.jpeg" className="object-cover" fill alt="hung tran"/>
+                </div>
+                <div className="rounded-xl relative aspect-square overflow-hidden">
+                    <Image src="/spinning.jpeg" className="object-cover" fill alt="hung tran"/>
+                </div>
+            </div>
+            <p className="mt-4 text-sm text-[var(--colour-bodytext)] leading-loose">... You can find me joining local communities, at concerts, or at a school event!</p>
+            <div className="mb-25"></div>
+
             <Heading text="My most prized possession (and I'm not even joking)"/>
             <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <div className="mb-25"></div>
@@ -56,31 +80,6 @@ export default function About() {
                     <Image src="/preview illustration 6.png" className="object-cover" fill alt="hung tran"/>
                 </div>
             </div>
-            <div className="mb-25"></div>
-
-
-            <Heading text="When I'm not doing UX..."/>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/mad.jpg" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/coop.jpg" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/vsa.jpeg" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/vsaflag.jpeg" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/spinning.jpeg" className="object-cover" fill alt="hung tran"/>
-                </div>
-            </div>
-            <p className="mt-4 text-sm text-[var(--colour-bodytext)] leading-loose">... You can find me joining local communities, at concerts, or at a school event!</p>
 
             <Footer/>
         </div>
