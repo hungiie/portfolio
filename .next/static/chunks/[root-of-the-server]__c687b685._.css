@@ -791,8 +791,16 @@
     border-width: 1px;
   }
 
+  .bg-\[var\(--background\)\] {
+    background-color: var(--background);
+  }
+
   .bg-\[var\(--colour-grey\)\] {
     background-color: var(--colour-grey);
+  }
+
+  .bg-\[var\(--colour-pure\)\] {
+    background-color: var(--colour-pure);
   }
 
   .bg-\[var\(--main-blue\)\] {

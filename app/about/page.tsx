@@ -45,14 +45,6 @@ export default function About() {
             
             <Footer/>
         </div>
-        <Particles
-            className="fixed inset-0 -z-2"
-            quantity={90}
-            ease={80}
-            staticity={50}
-            color="#ffffff"
-            size={0.9}
-        />
     </div>
   );
 }
