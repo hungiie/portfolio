@@ -19,6 +19,12 @@ type StartPosition =
   | 'bottom-left'
   | 'bottom-right';
 
+const today = new Date().toLocaleDateString("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+});
+
 export interface ThemeToggleButtonProps {
   theme?: 'light' | 'dark';
   showLabel?: boolean;
@@ -214,9 +220,12 @@ export const ThemeToggleButton = ({
       )}
       {showLabel && (
         <span className="text-sm">
-          {theme === 'light' ? 'Day time?' : 'Night time?'}
+          {theme === 'light'
+            ? `Daytime`
+            : `${today}'s night sky`}
         </span>
       )}
     </Button>
   );
+
 };
