@@ -36,7 +36,7 @@ export default function About() {
             <div className="mb-25"></div>
 
             <Heading text="Or, a digital one"/>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2 mt-9">
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
                 <div className="rounded-xl relative aspect-square overflow-hidden">
                     <Image src="/preview illustration 1.png" className="object-cover" fill alt="hung tran"/>
                 </div>
@@ -60,7 +60,7 @@ export default function About() {
 
 
             <Heading text="When I'm not doing UX..."/>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2 mt-9">
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
                 <div className="rounded-xl relative aspect-square overflow-hidden">
                     <Image src="/mad.jpg" className="object-cover" fill alt="hung tran"/>
                 </div>
