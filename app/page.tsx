@@ -56,7 +56,7 @@ export default function Home() {
               }}
               variant="polygon"
               start="center"
-              className=""
+              className="hover:cursor-pointer"
               showLabel={false}
             />
           </div>

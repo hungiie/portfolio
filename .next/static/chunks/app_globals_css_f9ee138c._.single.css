@@ -816,6 +816,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:cursor-pointer:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-\[var\(--main-darkerblue\)\]:hover {
       background-color: var(--main-darkerblue);
     }
