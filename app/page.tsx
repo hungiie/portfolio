@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
+import { Particles } from "@/components/ui/shadcn-io/particles";
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
@@ -57,7 +58,7 @@ export default function Home() {
               variant="polygon"
               start="center"
               className="hover:cursor-pointer"
-              showLabel={false}
+              showLabel={true}
             />
           </div>
         </SlideUpDelay>
@@ -78,6 +79,15 @@ export default function Home() {
           <Footer/>
         </div>
       </div>
+
+      <Particles
+        className="fixed inset-0 -z-2"
+        quantity={120}
+        ease={80}
+        staticity={50}
+        color="#ffffff"
+        size={0.9}
+      />
     </div>
   );
 }

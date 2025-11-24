@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
+import { Particles } from "@/components/ui/shadcn-io/particles";
 
 export default function About() {
   return (
@@ -44,6 +45,14 @@ export default function About() {
             
             <Footer/>
         </div>
+        <Particles
+            className="fixed inset-0 -z-2"
+            quantity={90}
+            ease={80}
+            staticity={50}
+            color="#ffffff"
+            size={0.9}
+        />
     </div>
   );
 }

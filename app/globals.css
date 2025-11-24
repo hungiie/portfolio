@@ -8,10 +8,11 @@
   --main-darkerblue: #0078E0;
   --colour-bodytext: #323232;
   --colour-bodytext-2: #505050;
-  --colour-bodytext-3: #7d7d7d;
+  --colour-bodytext-3: #646464;
   --colour-grey: #f3f3f3;
   --colour-darkgrey: #939393;
   --colour-pure: #000000;
+  --particle: #000000;
 
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -94,10 +95,11 @@ body {
   --main-darkerblue: #0078E0;
   --colour-bodytext: #f9f9f9;
   --colour-bodytext-2: #e7e7e7;
-  --colour-bodytext-3: #bcbcbc;
+  --colour-bodytext-3: #d2d2d2;
   --colour-grey: #181818;
   --colour-darkgrey: #2f2f2f;
   --colour-pure: #ffffff;
+  --particle: #d2d2d2;
 
 
   --background: oklch(0.145 0 0);
