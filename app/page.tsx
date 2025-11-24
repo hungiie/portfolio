@@ -85,7 +85,7 @@ export default function Home() {
         quantity={120}
         ease={90}
         staticity={50}
-        color="#ffffff"
+        color="#AFAFAF"
         size={0.8}
       />
     </div>
