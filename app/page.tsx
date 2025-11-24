@@ -1,6 +1,5 @@
 "use client"
 
-// import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
@@ -58,7 +57,7 @@ export default function Home() {
               variant="blur"
               start="center"
               className="hover:cursor-pointer"
-              showLabel={true}
+              showLabel={false}
             />
           </div>
         </SlideUpDelay>
@@ -82,10 +81,10 @@ export default function Home() {
 
       <Particles
         className="fixed inset-0 -z-20"
-        quantity={120}
+        quantity={0}
         ease={90}
         staticity={50}
-        color="#AFAFAF"
+        color="#ffffff"
         size={0.8}
       />
     </div>
