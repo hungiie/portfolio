@@ -27,8 +27,8 @@ export default function SlideRightDelay({ children, delay = 1100 }: { children: 
     <div
       ref={ref}
       style={{ transitionDelay: `${delay}ms` }}
-      className={`transition-all duration-700 ease-out
-        ${visible ? "opacity-100 -translate-x-0" : "opacity-0 -translate-x-6"}
+      className={`transition-all duration-500 ease-out
+        ${visible ? "opacity-100 -translate-x-0 blur-0" : "opacity-0 -translate-x-4 blur-sm"}
       `}
     >
       {children}

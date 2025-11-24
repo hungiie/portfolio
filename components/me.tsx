@@ -7,8 +7,8 @@ export default function Me() {
   return (
     <motion.div
       layout
-      initial={{ scale: 0.85, y: 10, opacity: 0 }}
-      animate={{ scale: 1, y: 0, opacity: 1 }}
+      initial={{ scale: 0.85, y: 10, opacity: 0, filter: "blur(6px)" }}
+      animate={{ scale: 1, y: 0, opacity: 1, filter: "blur(0px)" }}
       transition={{
         duration: 0.9,
         ease: [0.2, 1, 0.4, 1],

@@ -57,7 +57,7 @@ export default function Home() {
               variant="polygon"
               start="center"
               className=""
-              showLabel={true}
+              showLabel={false}
             />
           </div>
         </SlideUpDelay>
