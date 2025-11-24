@@ -9,7 +9,8 @@ type AnimationVariant =
   | 'circle'
   | 'circle-blur'
   | 'gif'
-  | 'polygon';
+  | 'polygon'
+  | 'blur';
 
 type StartPosition =
   | 'center'
@@ -78,6 +79,24 @@ export const ThemeToggleButton = ({
 
     const cx = start === 'center' ? '50' : start.includes('left') ? '0' : '100';
     const cy = start === 'center' ? '50' : start.includes('top') ? '0' : '100';
+
+    if (variant === 'blur') {
+      css = `
+        @supports (view-transition-name: root) {
+          ::view-transition-old(root) {
+            animation: none;
+          }
+          ::view-transition-new(root) {
+            opacity: 1;
+            animation: blur-fade-in 0.6s ease-out forwards;
+          }
+          @keyframes blur-fade-in {
+            from { opacity: 0.3; } 
+            to {opacity: 1; }
+          }
+        }
+      `;
+    }
 
     if (variant === 'circle') {
       css = `

@@ -55,7 +55,7 @@ export default function Home() {
                 const next = theme === "dark" ? "light" : "dark";
                 setTheme(next);
               }}
-              variant="polygon"
+              variant="blur"
               start="center"
               className="hover:cursor-pointer"
               showLabel={true}
@@ -81,7 +81,7 @@ export default function Home() {
       </div>
 
       <Particles
-        className="fixed inset-0 -z-2"
+        className="fixed inset-0 -z-20"
         quantity={120}
         ease={90}
         staticity={50}
