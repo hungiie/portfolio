@@ -45,7 +45,7 @@ export default function Home() {
             <div className="flex justify-between">
               <Heading text="Hi, my name is Hung." />
             </div>
-            <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
+            <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] leading-loose mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
             {/* <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] mb-6">previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p> */}
             <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
             <div className="mb-9 bg-[var(--background)]">
