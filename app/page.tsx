@@ -12,6 +12,7 @@ import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import { Particles } from "@/components/ui/shadcn-io/particles";
+// import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
@@ -31,7 +32,10 @@ export default function Home() {
           <Me />
           <div className="absolute right-0">
             <SlideRightDelay>
-              <Button variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
+              <div className="grid grid-cols-1 gap-y-3 justify-items-end">
+                <Button variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
+                {/* <Button variant="blue-hyperlink" text="Testimonials ->" link="about" target="_self" textSize="text-sm"/> */}
+              </div>
             </SlideRightDelay>
           </div>
         </div>
@@ -41,10 +45,11 @@ export default function Home() {
             <div className="flex justify-between">
               <Heading text="Hi, my name is Hung." />
             </div>
-            <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+            <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] mb-6">I&lsquo;m a UX desginer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
+            {/* <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] mb-6">previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p> */}
             <p className="text-sm bg-[var(--background)] text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
             <div className="mb-9 bg-[var(--background)]">
-              <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+              <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
               <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
               <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
@@ -73,6 +78,27 @@ export default function Home() {
             <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Interactive demo for Samsung Knox services, highlighting its key features and unique selling points for enterprise clients." imageSrc="/demo.png" />
           </SlideUp>
         </div>
+
+        {/* <div className="mb-40"></div>
+        <div className="grid grid-cols-1 gap-y-4">
+          <SlideUp>
+            <Heading text="Testimonials" />
+          </SlideUp>
+          <SlideUp>
+            <Testimonial name="Tian Jia" job="Lead Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
+          </SlideUp>
+          <SlideUp>
+            <Testimonial name="Andrea Lin" job="Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
+          </SlideUp>
+          <SlideUp>
+            <Testimonial name="Jessica Yuki Huang" job="Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
+          </SlideUp>
+          <SlideUp>
+            <Testimonial name="Thomas Nelles" job="Senior Communication Consultant" company="Fraser Health" text="From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. His calm demeanor and ability to clearly communicate his working progress are just some of his strengths." linkedin="#"/>
+          </SlideUp>
+        </div> */}
+
+
 
         <div className="">
           <Footer/>

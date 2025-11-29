@@ -22,7 +22,7 @@ export default function Demo() {
 
                 <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 md:px-7 py-7 md:py-7 rounded-2xl">
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&lsquo;m unable to share project details publicly, but I&lsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose mt-5">Feel free to send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
+                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose mt-5">Feel free to send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                 </div>
             </div>
             <Footer/>

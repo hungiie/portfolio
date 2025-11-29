@@ -19,7 +19,7 @@ export default function About() {
             <p className="mb-5 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p>
             
             <div className="bg-[var(--background)]">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:dht4@sfu.ca" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
                 <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
                 <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
@@ -59,7 +59,7 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
-            <Heading text="Or, a digital one"/>
+            {/* <Heading text="Or, a digital one"/>
             <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
                 <div className="rounded-xl relative aspect-square overflow-hidden">
                     <Image src="/preview illustration 1.png" className="object-cover" fill alt="hung tran"/>
@@ -79,7 +79,7 @@ export default function About() {
                 <div className="rounded-xl relative aspect-square overflow-hidden">
                     <Image src="/preview illustration 6.png" className="object-cover" fill alt="hung tran"/>
                 </div>
-            </div>
+            </div> */}
 
             <Footer/>
         </div>
