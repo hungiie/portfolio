@@ -1,6 +1,6 @@
 "use client"
 
-import Image from "next/image";
+// import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";

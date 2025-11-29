@@ -12,7 +12,7 @@ import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import { Particles } from "@/components/ui/shadcn-io/particles";
-import Testimonial from "@/components/testimonial";
+// import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
