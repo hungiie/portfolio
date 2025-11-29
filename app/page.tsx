@@ -12,7 +12,7 @@ import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import { Particles } from "@/components/ui/shadcn-io/particles";
-// import Testimonial from "@/components/testimonial";
+import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   const [animate, setAnimate] = useState(false);
@@ -81,24 +81,12 @@ export default function Home() {
 
         {/* <div className="mb-40"></div>
         <div className="grid grid-cols-1 gap-y-4">
-          <SlideUp>
-            <Heading text="Testimonials" />
-          </SlideUp>
-          <SlideUp>
-            <Testimonial name="Tian Jia" job="Lead Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
-          </SlideUp>
-          <SlideUp>
-            <Testimonial name="Andrea Lin" job="Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
-          </SlideUp>
-          <SlideUp>
-            <Testimonial name="Jessica Yuki Huang" job="Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
-          </SlideUp>
-          <SlideUp>
-            <Testimonial name="Thomas Nelles" job="Senior Communication Consultant" company="Fraser Health" text="From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. His calm demeanor and ability to clearly communicate his working progress are just some of his strengths." linkedin="#"/>
-          </SlideUp>
+          <Heading text="Testimonials" />
+          <Testimonial name="Thomas Nelles" job="Senior Communication Consultant" company="Fraser Health" text="From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. His calm demeanor and ability to clearly communicate his working progress are just some of his strengths." linkedin="#"/>
+          <Testimonial name="Tian Jia" job="Lead Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
+          <Testimonial name="Andrea Lin" job="Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
+          <Testimonial name="Jessica Yuki Huang" job="Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
         </div> */}
-
-
 
         <div className="">
           <Footer/>
