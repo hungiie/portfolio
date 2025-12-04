@@ -95,7 +95,7 @@ export default function Home() {
 
       {/* <Particles
         className="fixed inset-0 -z-20"
-        quantity={0}
+        quantity={80}
         ease={90}
         staticity={50}
         color="#ffffff"

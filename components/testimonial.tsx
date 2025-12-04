@@ -16,8 +16,9 @@ export default function Testimonial(props: Props) {
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.text}</p>
             <p className="text-sm font-semibold text-[var(--colour-bodytext)] leading-loose mt-7">{props.name}</p>
             <div className="flex justify-between items-center">
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.job}, {props.company}</p>
-                <Button link={props.linkedin} target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.job}</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.company}</p>
+                {/* <Button link={props.linkedin} target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/> */}
             </div>
         </div>
     );
