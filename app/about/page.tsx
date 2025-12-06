@@ -1,6 +1,6 @@
 "use client"
 
-// import Image from "next/image";
+import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
@@ -25,32 +25,31 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
-            {/* <Heading text="When I'm not doing UX..."/>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
+            <Heading text="My most prized possession"/>
+            <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div className="mb-25"></div>
+
+            <Heading text="Me in the wild"/>
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-4 gap-y-4">
                 <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/mad.jpg" className="object-cover" fill alt="hung tran"/>
+                    <Image src="/mad.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
                 </div>
                 <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran"/>
+                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
                 </div>
                 <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/coop.jpg" className="object-cover" fill alt="hung tran"/>
+                    <Image src="/coop.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
                 </div>
                 <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/vsa.jpeg" className="object-cover" fill alt="hung tran"/>
+                    <Image src="/vsa.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
                 </div>
                 <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/vsaflag.jpeg" className="object-cover" fill alt="hung tran"/>
+                    <Image src="/vsaflag.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
                 </div>
                 <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/spinning.jpeg" className="object-cover" fill alt="hung tran"/>
+                    <Image src="/spinning.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
                 </div>
             </div>
-            <p className="mt-4 text-sm text-[var(--colour-bodytext)] leading-loose">... You can find me joining local communities, at concerts, or at a school event!</p>
-            <div className="mb-25"></div> */}
-
-            <Heading text="My most prized possession (and I'm not even joking)"/>
-            <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <div className="mb-25"></div>
 
             {/* <Heading text="Sometimes (once every 10 years), I will pick up a brush"/>
@@ -58,28 +57,6 @@ export default function About() {
                 <Image src="/painting.jpg" alt="hung tran" fill className="object-cover scale-105"/>
             </div>
             <div className="mb-25"></div> */}
-
-            {/* <Heading text="Or, a digital one"/>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-2 gap-y-2">
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/preview illustration 1.png" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/preview illustration 2.png" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/preview illustration 3.png" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/preview illustration 4.png" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/preview illustration 5.png" className="object-cover" fill alt="hung tran"/>
-                </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/preview illustration 6.png" className="object-cover" fill alt="hung tran"/>
-                </div>
-            </div> */}
 
             <Footer/>
         </div>
