@@ -48,7 +48,7 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
-            <Heading text="My choices of background music for moments that feels like a movie"/>
+            <Heading text="My life soundtracks"/>
             <iframe data-testid="embed-iframe" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            <div className="mb-25"></div>
 
             {/* <Heading text="Sometimes (once every 10 years), I will pick up a brush"/>
