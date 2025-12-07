@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-35">
-            <div className="mb-18">
+            <div className="mb-14">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
 
