@@ -15,8 +15,8 @@ export default function Me() {
       }}
       className="flex-shrink-0"
     >
-      <div className="w-[75px] h-[75px]">
-        <div className="relative aspect-square rounded-xl overflow-hidden bg-black">
+      <div className="w-[65px] h-[65px]">
+        <div className="relative aspect-square rounded-full overflow-hidden bg-black">
           <Image
             src="/me.png"
             fill
