@@ -13,6 +13,12 @@ export default function About() {
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
 
+            <div className="w-full flex items-center justify-center">
+                <div className="w-full h-auto relative mb-18 overflow-hidden">
+                    <Image src="/about.JPG" width={2040} height={1179} alt="hung tran" className="object-cover"/>
+                </div>
+            </div>
+
             <Heading text="Hi, my name is Hung."/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4">I&lsquo;m a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&lsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
@@ -65,8 +71,7 @@ export default function About() {
             <Heading text="Everything happens for a reason"/>
             <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&lsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
             <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&lsquo;re still here reading my yapping session, maybe that&lsquo;s one of them, so please don&lsquo;t hesitate to <Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&lsquo;s chat :)</p>
-
-
+            
 
 
 
