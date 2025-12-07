@@ -28,19 +28,19 @@ export default function About() {
             <Heading text="My attempts to romanticize life"/>
             <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
                 <div className=" relative aspect-square overflow-hidden">
-                    <Image src="/idk.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative aspect-square overflow-hidden">
                     <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className=" relative aspect-square overflow-hidden">
-                    <Image src="/waterfront.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative aspect-square overflow-hidden">
                     <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative aspect-square overflow-hidden">
-                    <Image src="/coffee.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative aspect-square overflow-hidden">
                     <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
