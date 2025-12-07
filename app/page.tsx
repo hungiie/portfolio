@@ -32,7 +32,7 @@ export default function Home() {
           <Me />
           <div className="absolute right-0">
             <SlideRightDelay>
-              <div className="grid grid-cols-1 gap-y-3 justify-items-end">
+              <div className="grid grid-cols-1 gap-y-3 justify-items-end pr-1">
                 <Button variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
                 {/* <Button variant="blue-hyperlink" text="Testimonials ->" link="about" target="_self" textSize="text-sm"/> */}
               </div>
