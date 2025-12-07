@@ -25,31 +25,31 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
-            <Heading text="My most prized possession"/>
-            <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <div className="mb-25"></div>
-
-            <Heading text="Me in the wild"/>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-x-4 gap-y-4">
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/mad.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
+            <Heading text="My attempts to romanticize life"/>
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
+                <div className=" relative aspect-square overflow-hidden">
+                    <Image src="/idk.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/coop.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
+                <div className=" relative aspect-square overflow-hidden">
+                    <Image src="/waterfront.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/vsa.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/vsaflag.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/coffee.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
-                <div className="rounded-xl relative aspect-square overflow-hidden">
-                    <Image src="/spinning.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(80%)' }}/>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
             </div>
+            <div className="mb-25"></div>
+
+            <Heading text="My life soundtracks"/>
+            <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <div className="mb-25"></div>
 
             {/* <Heading text="Sometimes (once every 10 years), I will pick up a brush"/>
