@@ -16,7 +16,13 @@ export default function Rules() {
             <Heading text="Samsung Knox Manage: Rules"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an EMM feature that creates conditional rules to automate management tasks, monitor device activities, and set up alert system.</p>
             <ImageZoom>
-                <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-10" alt="Samsung Knox"/> 
+                <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/rules-2.png" width={2622} height={3363} className="w-full h-auto mb-10" alt="Samsung Knox"/> 
             </ImageZoom>
             <div>
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
