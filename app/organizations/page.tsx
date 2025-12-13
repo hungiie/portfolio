@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
+import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 
 export default function Organizations() {
   return (
@@ -14,9 +15,15 @@ export default function Organizations() {
             </div>
             <Heading text="Samsung Knox Manage: Organizations"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Categorizing devices based on organizational structure, enabling hierarchical device management.</p>
-            <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
-            <Image src="/doc1-hide.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
-            <Image src="/doc2-hide.png" width={5605} height={5605} className="w-full h-auto mb-10" alt="Samsung Knox"/> 
+            <ImageZoom>
+                <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/doc1-hide.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/doc2-hide.png" width={5605} height={5605} className="w-full h-auto mb-10" alt="Samsung Knox"/>
+            </ImageZoom>
             <div>
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">My work primarily involves designing features for <span className="inline-block"><Button link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - one of Samsung&lsquo;s B2B SaaS solutions. It is designed to help companies deploy, secure, and manage their mobile devices and data remotely.</p>

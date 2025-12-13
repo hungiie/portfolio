@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
+import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 
 export default function Demo() {
   return (
@@ -14,7 +15,9 @@ export default function Demo() {
             </div>
             <Heading text="Samsung Knox: Demo Kit"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Interactive demo for Samsung Knox services, highlighting its key features and unique selling points for enterprise clients.</p>
-            <Image src="/demo.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-10" alt="Samsung Knox"/> 
+            <ImageZoom>
+                <Image src="/demo.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-10" alt="Samsung Knox"/> 
+            </ImageZoom>
             <div>
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
                 <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>

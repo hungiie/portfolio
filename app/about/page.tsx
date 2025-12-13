@@ -14,7 +14,7 @@ export default function About() {
             </div>
 
             <div className="w-full flex items-center justify-center">
-                <div className="w-full h-auto relative mb-18 overflow-hidden">
+                <div className="w-full h-auto relative mb-14 overflow-hidden">
                     <Image src="/mememe.jpg" width={2316} height={1276} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }} />
                 </div>
             </div>
