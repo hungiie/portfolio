@@ -14,7 +14,7 @@ export default function Demo() {
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
             <Heading text="Samsung Knox: Demo Kit"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Interactive demo for Samsung Knox services, highlighting its key features and unique selling points for enterprise clients.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
             <ImageZoom>
                 <Image src="/demo.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-10" alt="Samsung Knox"/> 
             </ImageZoom>

@@ -14,7 +14,7 @@ export default function Rules() {
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
             <Heading text="Samsung Knox Manage: Rules"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Creating conditional rules to automate management tasks, monitor device activities and set up alert system.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an EMM feature that creates conditional rules to automate management tasks, monitor device activities, and set up alert system.</p>
             <ImageZoom>
                 <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-10" alt="Samsung Knox"/> 
             </ImageZoom>

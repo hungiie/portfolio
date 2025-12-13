@@ -14,7 +14,7 @@ export default function Organizations() {
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
             <Heading text="Samsung Knox Manage: Organizations"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Categorizing devices based on organizational structure, enabling hierarchical device management.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
             <ImageZoom>
                 <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
             </ImageZoom>

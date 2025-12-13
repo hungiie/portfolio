@@ -69,13 +69,13 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUp>
-            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Creating conditional rules to automate management tasks, monitor device activities and set up alert system." imageSrc="/rules.png" />
+            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that creates conditional rules to automate management tasks, monitor device activities, and set up alert system." imageSrc="/rules.png" />
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Categorizing devices based on organizational structure, enabling hierarchical device management." imageSrc="/org.png" />
+            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" />
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Interactive demo for Samsung Knox services, highlighting its key features and unique selling points for enterprise clients." imageSrc="/demo.png" />
+            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" />
           </SlideUp>
         </div>
 
