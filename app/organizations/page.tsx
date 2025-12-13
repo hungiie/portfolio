@@ -22,7 +22,10 @@ export default function Organizations() {
                 <Image src="/doc1-hide.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
-                <Image src="/doc2-hide.png" width={5605} height={5605} className="w-full h-auto mb-10" alt="Samsung Knox"/>
+                <Image src="/doc2-hide.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/>
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/wip.png" width={3600} height={1901} className="w-full h-auto mb-10" alt="Samsung Knox"/>
             </ImageZoom>
             <div>
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
