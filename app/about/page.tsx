@@ -54,6 +54,17 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
+            <Heading text="It&lsquo;s all about work life balance"/>
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-2">
+                <div className="relative overflow-hidden">
+                    <Image src="/work2.jpg" width={2048} height={1288} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+                <div className="relative overflow-hidden">
+                    <Image src="/work1.jpg" width={3722} height={2791} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+            </div>
+            <div className="mb-25"></div>
+
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-10 overflow-hidden">
                     <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
