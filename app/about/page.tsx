@@ -33,13 +33,13 @@ export default function About() {
 
             <Heading text="My attempts to romanticize life"/>
             <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
-                <div className=" relative aspect-square overflow-hidden">
+                <div className="relative aspect-square overflow-hidden">
                     <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative aspect-square overflow-hidden">
                     <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
-                <div className=" relative aspect-square overflow-hidden">
+                <div className="relative aspect-square overflow-hidden">
                     <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative aspect-square overflow-hidden">
@@ -71,9 +71,9 @@ export default function About() {
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Fraser Health, 2023-2024</p>
             </div> */}
             <div className="grid grid-cols-1 md:grid-cols-1 gap-2">
-                <div className="relative overflow-hidden">
+                {/* <div className="relative overflow-hidden">
                     <Image src="/fraser2.png" width={828} height={607} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
-                </div>
+                </div> */}
                 <div className="relative overflow-hidden">
                     <Image src="/fraser1.jpg" width={2796} height={2097} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div>
