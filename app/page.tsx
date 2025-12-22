@@ -85,10 +85,10 @@ export default function Home() {
         {/* <div className="mb-40"></div>
         <div className="grid grid-cols-1 gap-y-4">
           <Heading text="Testimonials" />
-          <Testimonial name="Thomas Nelles" job="Senior Communication Consultant" company="Fraser Health" text="From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. His calm demeanor and ability to clearly communicate his working progress are just some of his strengths." linkedin="#"/>
-          <Testimonial name="Tian Jia" job="Lead Senior UX designer" company="Samsung" text="Hung is dumb." linkedin="#"/>
+          <Testimonial name="Tian Jia" job="Senior UX designer" company="Samsung" text="Hung has excelled in his role as a UX design student, demonstrating a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. Overall, his dedication and versatility make him a valuable asset to any design team." linkedin="#"/>
           <Testimonial name="Andrea Lin" job="Senior UX designer" company="Samsung" text="Hung is ugly." linkedin="#"/>
           <Testimonial name="Jessica Yuki Huang" job="Senior UX designer" company="Samsung" text="Hung is stupid." linkedin="#"/>
+          <Testimonial name="Thomas Nelles" job="Senior Communication Consultant" company="Fraser Health" text="From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. His calm demeanor and ability to clearly communicate his working progress are just some of his strengths." linkedin="#"/>
         </div> */}
 
         <div className="">
