@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
+import PhotoTag from "@/components/photo-tag";
 
 export default function About() {
   return (
@@ -55,16 +56,31 @@ export default function About() {
             <div className="mb-25"></div>
 
             <Heading text="It&rsquo;s all about the work life balance"/>
-            {/* <div className="flex justify-between mb-6">
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Samsung, 2025</p>
-            </div> */}
             <div className="grid grid-cols-1 md:grid-cols-1 gap-2 mb-2">
-                <div className="relative overflow-hidden">
-                    <Image src="/work2.jpg" width={2048} height={1288} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative overflow-hidden">
-                    <Image src="/work1.jpg" width={3722} height={2791} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
-                </div>
+                {/* <Image src="/work2.jpg" width={2048} height={1288} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/> */}
+                <PhotoTag
+                    photoSrc="/work2.jpg"
+                    photoWidth={2048}
+                    photoHeight={1288}
+                    className="object-cover"
+                    tagSrc="/tag.png"
+                    tagPosition={{
+                        top: '39%',
+                        left: '16%',
+                    }}
+                />
+                {/* <Image src="/work1.jpg" width={3722} height={2791} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/> */}
+                <PhotoTag
+                    photoSrc="/work1.jpg"
+                    photoWidth={3722}
+                    photoHeight={2791}
+                    className="object-cover"
+                    tagSrc="/tag.png"
+                    tagPosition={{
+                        top: '13%',
+                        left: '29%',
+                    }}
+                />
             </div>
 
             {/* <div className="flex justify-between mb-6">
