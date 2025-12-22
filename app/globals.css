@@ -8,7 +8,7 @@
   --colour-bodytext-2: #505050;
   --colour-bodytext-3: #646464;
   --colour-grey: #f3f3f3;
-  --colour-darkgrey: #939393;
+  --colour-bodytext-4: #b4b4b4;
   --colour-pure: #000000;
   --particle: #000000;
 
@@ -95,7 +95,7 @@ body {
   --colour-bodytext-2: #e7e7e7;
   --colour-bodytext-3: #d2d2d2;
   --colour-grey: #181818;
-  --colour-darkgrey: #2f2f2f;
+  --colour-bodytext-4: #787878;
   --colour-pure: #ffffff;
   --particle: #d2d2d2;
 

@@ -20,8 +20,8 @@ export default function About() {
             </div>
 
             <Heading text="Hi, my name is Hung."/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&lsquo;m a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
-            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&lsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
+            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
             <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p>
             
             <div className="">
@@ -54,7 +54,7 @@ export default function About() {
             </div>
             <div className="mb-25"></div>
 
-            <Heading text="It&lsquo;s all about work life balance"/>
+            <Heading text="It&rsquo;s all about the work life balance"/>
             {/* <div className="flex justify-between mb-6">
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Samsung, 2025</p>
             </div> */}
@@ -102,8 +102,8 @@ export default function About() {
             <div className="mb-15"></div>
 
             <Heading text="Everything happens for a reason"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&lsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&lsquo;re still here reading my yapping session, maybe that&lsquo;s one of them, so please don&lsquo;t hesitate to <Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&lsquo;s chat :)</p>
+            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
+            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
             
 
 
