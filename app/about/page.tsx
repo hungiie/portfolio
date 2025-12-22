@@ -55,13 +55,22 @@ export default function About() {
             <div className="mb-25"></div>
 
             <Heading text="It&lsquo;s all about work life balance"/>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-2">
+            {/* <div className="flex justify-between mb-6">
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Samsung, 2025</p>
+            </div> */}
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-2 mb-2">
                 <div className="relative overflow-hidden">
                     <Image src="/work2.jpg" width={2048} height={1288} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div>
                 <div className="relative overflow-hidden">
                     <Image src="/work1.jpg" width={3722} height={2791} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div>
+            </div>
+
+            {/* <div className="flex justify-between mb-6">
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Fraser Health, 2023-2024</p>
+            </div> */}
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-2">
                 <div className="relative overflow-hidden">
                     <Image src="/fraser2.png" width={828} height={607} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div>
@@ -69,6 +78,7 @@ export default function About() {
                     <Image src="/fraser1.jpg" width={2796} height={2097} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div>
             </div>
+
             <div className="mb-25"></div>
 
             <div className="w-full flex items-center justify-center">
