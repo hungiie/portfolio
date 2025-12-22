@@ -74,9 +74,9 @@ export default function About() {
                 {/* <div className="relative overflow-hidden">
                     <Image src="/fraser2.png" width={828} height={607} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div> */}
-                <div className="relative overflow-hidden">
+                {/* <div className="relative overflow-hidden">
                     <Image src="/fraser1.jpg" width={2796} height={2097} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
-                </div>
+                </div> */}
             </div>
 
             <div className="mb-25"></div>
