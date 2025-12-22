@@ -8,21 +8,21 @@ import Heading from "@/components/heading";
 export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <div className="w-full px-10 md:w-1/3 md:px-0 mt-35">
-            <div className="mb-14">
+        <div className="w-full px-10 md:w-1/3 md:px-0 mt-28">
+            <div className="mb-10">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
 
             <div className="w-full flex items-center justify-center">
-                <div className="w-full h-auto relative mb-14 overflow-hidden">
+                <div className="w-full h-auto relative mb-10 overflow-hidden">
                     <Image src="/mememe.jpg" width={2316} height={1276} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }} />
                 </div>
             </div>
 
             <Heading text="Hi, my name is Hung."/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4">I&lsquo;m a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&lsquo;m a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span>, previously at <Button link="https://www.fraserhealth.ca/" target="_blank" variant="blue-hyperlink" text="Fraser Health" textSize="text-sm"/></p>
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&lsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p>
+            <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p>
             
             <div className="">
                 <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>

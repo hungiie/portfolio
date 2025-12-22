@@ -37,19 +37,19 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
-      >
-        <Analytics />
-        <ThemeProvider
+      <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
-          {children}
-        </ThemeProvider>
-      </body>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
+        >
+          <Analytics />
+            {children}
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
