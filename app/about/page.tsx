@@ -95,8 +95,8 @@ export default function About() {
 
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    {/* <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/> */}
-                    <PhotoTag
+                    <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
+                    {/* <PhotoTag
                         photoSrc="/small.jpg"
                         photoWidth={2040}
                         photoHeight={1179}
@@ -105,7 +105,7 @@ export default function About() {
                         tagWidth={607}
                         tagHeight={180}
                         tagPosition={{ x: 700, y: 800 }}
-                    />
+                    /> */}
                 </div>
             </div>
 
