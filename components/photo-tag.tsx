@@ -62,8 +62,8 @@ export default function PhotoTag({
             opacity: isHovered ? 1 : 0,
             transition: 'opacity 150ms',
             animation: isHovered
-              ? 'moveUpOvershoot 400ms forwards'
-              : 'moveDown 200ms forwards',
+              ? 'moveUpOvershoot 450ms forwards'
+              : 'moveDown 300ms forwards',
           }}
         />
       </svg>

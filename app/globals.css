@@ -151,7 +151,7 @@ html {
     transform: translateY(20px);
   }
   60% {
-    transform: translateY(-10px); /* overshoot a little above */
+    transform: translateY(-5px); /* overshoot a little above */
   }
   100% {
     transform: translateY(0); /* settle at final position */
@@ -169,11 +169,11 @@ html {
 
 .move-up {
   opacity: 1;
-  animation: move-up-overshoot 400ms forwards;
+  animation: move-up-overshoot 400ms ease;
 }
 
 .move-down {
   opacity: 0;
-  animation: move-down 200ms forwards;
+  animation: move-down 350ms ease;
 }
 
