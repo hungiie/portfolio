@@ -4,17 +4,15 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 type TagPosition = {
-  top?: string;
-  left?: string;
-  right?: string;
-  bottom?: string;
+  x: number; // percentage (0-100)
+  y: number; // percentage (0-100)
 };
 
 type PhotoTagProps = {
   photoSrc: string;
   photoWidth: number;
   photoHeight: number;
-  className: string;
+  className?: string;
   tagSrc: string;
   tagPosition: TagPosition;
   alt?: string;
@@ -24,7 +22,7 @@ export default function PhotoTag({
   photoSrc,
   photoWidth,
   photoHeight,
-  className,
+  className = '',
   tagSrc,
   tagPosition,
   alt = 'Photo with tag',
@@ -33,40 +31,43 @@ export default function PhotoTag({
 
   return (
     <div
-      className="relative inline-block"
+      className={`relative w-full inline-block ${className}`}
+      style={{ aspectRatio: `${photoWidth} / ${photoHeight}` }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Main photo */}
+      {/* Background Image */}
       <Image
         src={photoSrc}
         alt={alt}
-        width={photoWidth}
-        height={photoHeight}
-        className={className}
+        fill
+        className="object-contain"
         style={{ filter: 'contrast(90%)' }}
       />
 
-      {/* Tag image */}
-      <div
-        className={`
-          absolute
-          transition-all
-          duration-200
-          ease-out
-          origin-bottom
-          pointer-events-none
-          ${isHovered ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}
-        `}
-        style={tagPosition}
+      {/* SVG Overlay for Tag */}
+      <svg
+        viewBox={`0 0 ${photoWidth} ${photoHeight}`}
+        className="absolute inset-0 w-full h-full pointer-events-none"
+        preserveAspectRatio="xMidYMid meet"
       >
-        <Image
-          src={tagSrc}
-          alt="Tag"
-          width={41}
-          height={32}
+        <image
+          href={tagSrc}
+          x={tagPosition.x}
+          y={tagPosition.y}
+          width="307"
+          height="240"
+          style={{
+            transformOrigin: 'bottom center',
+            opacity: isHovered ? 1 : 0,
+            transition: 'opacity 200ms',
+            animation: isHovered
+              ? 'moveUpOvershoot 400ms forwards'
+              : 'moveDown 300ms forwards',
+          }}
         />
-      </div>
+      </svg>
+
     </div>
   );
 }

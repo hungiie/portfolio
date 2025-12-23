@@ -56,30 +56,22 @@ export default function About() {
             <div className="mb-25"></div>
 
             <Heading text="It&rsquo;s all about the work life balance"/>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-2 mb-2">
-                {/* <Image src="/work2.jpg" width={2048} height={1288} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/> */}
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-2">
                 <PhotoTag
-                    photoSrc="/work2.jpg"
-                    photoWidth={2048}
-                    photoHeight={1288}
-                    className="object-cover"
-                    tagSrc="/tag.png"
-                    tagPosition={{
-                        top: '39%',
-                        left: '16%',
-                    }}
-                />
-                {/* <Image src="/work1.jpg" width={3722} height={2791} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/> */}
-                <PhotoTag
-                    photoSrc="/work1.jpg"
-                    photoWidth={3722}
+                    photoSrc="/work2.png"
+                    photoWidth={3721}
                     photoHeight={2791}
                     className="object-cover"
                     tagSrc="/tag.png"
-                    tagPosition={{
-                        top: '13%',
-                        left: '29%',
-                    }}
+                    tagPosition={{ x: 600, y: 1090 }}
+                />
+                <PhotoTag
+                    photoSrc="/work1.png"
+                    photoWidth={3721}
+                    photoHeight={2791}
+                    className="object-cover"
+                    tagSrc="/tag.png"
+                    tagPosition={{ x: 1090, y: 380 }}
                 />
             </div>
 
