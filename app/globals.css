@@ -151,7 +151,7 @@ html {
     transform: translateY(20px);
   }
   60% {
-    transform: translateY(-5px); /* overshoot a little above */
+    transform: translateY(-10px); /* overshoot a little above */
   }
   100% {
     transform: translateY(0); /* settle at final position */
