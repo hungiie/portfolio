@@ -14,6 +14,8 @@ type PhotoTagProps = {
   photoHeight: number;
   className?: string;
   tagSrc: string;
+  tagWidth: number;
+  tagHeight: number;
   tagPosition: TagPosition;
   alt?: string;
 };
@@ -25,6 +27,8 @@ export default function PhotoTag({
   className = '',
   tagSrc,
   tagPosition,
+  tagHeight,
+  tagWidth,
   alt = 'Photo with tag',
 }: PhotoTagProps) {
   const [isHovered, setIsHovered] = useState(false);
@@ -55,8 +59,8 @@ export default function PhotoTag({
           href={tagSrc}
           x={tagPosition.x}
           y={tagPosition.y}
-          width="307"
-          height="240"
+          width={tagWidth}
+          height={tagHeight}
           style={{
             transformOrigin: 'bottom center',
             opacity: isHovered ? 1 : 0,

@@ -63,6 +63,8 @@ export default function About() {
                     photoHeight={2791}
                     className="object-cover"
                     tagSrc="/tag.png"
+                    tagWidth={307}
+                    tagHeight={240}
                     tagPosition={{ x: 600, y: 1090 }}
                 />
                 <PhotoTag
@@ -71,6 +73,8 @@ export default function About() {
                     photoHeight={2791}
                     className="object-cover"
                     tagSrc="/tag.png"
+                    tagWidth={307}
+                    tagHeight={240}
                     tagPosition={{ x: 1090, y: 380 }}
                 />
             </div>
@@ -91,7 +95,17 @@ export default function About() {
 
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
+                    {/* <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/> */}
+                    <PhotoTag
+                        photoSrc="/small.jpg"
+                        photoWidth={2040}
+                        photoHeight={1179}
+                        className="object-cover"
+                        tagSrc="/tag-2.png"
+                        tagWidth={607}
+                        tagHeight={180}
+                        tagPosition={{ x: 700, y: 800 }}
+                    />
                 </div>
             </div>
 
