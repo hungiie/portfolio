@@ -5,10 +5,12 @@ import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import PhotoTag from "@/components/photo-tag";
+// import TopBlur from "@/components/top-blur";
 
 export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
+        {/* <TopBlur zIndex={20} height={30} maxBlur={10} /> */}
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-28">
             <div className="mb-10">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
