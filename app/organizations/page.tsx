@@ -17,8 +17,12 @@ export default function Organizations() {
             </div>
 
             <Heading text="Samsung Knox Manage: Organizations"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-15">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
-
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
+            <ImageZoom>
+                <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <div className="mb-20"></div>
+            
             <Heading text="Selected deliverables"/>
 
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">1. UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
@@ -39,9 +43,6 @@ export default function Organizations() {
             <Heading text="Design story"/>
             {/* <ImageZoom>
                 <Image src="/wip.png" width={3600} height={1901} className="w-full h-auto mb-7" alt="Samsung Knox"/>
-            </ImageZoom> */}
-            {/* <ImageZoom>
-                <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mb-7" alt="Samsung Knox"/> 
             </ImageZoom> */}
             <div>
                 <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>

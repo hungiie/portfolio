@@ -71,7 +71,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUp>
-            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that creates conditional rules to automate management tasks, monitor device activities, and set up alert system." imageSrc="/rules.png" />
+            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" />
           </SlideUp>
           <SlideUp>
             <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" />

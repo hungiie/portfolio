@@ -6,22 +6,23 @@ import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import SlideUpNoThres from "@/components/slide-up-nothres";
-import SlideUp from "@/components/slide-up";
 
 export default function Rules() {
   return (
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-20">
             <SlideUpNoThres>
-            <div className="mb-15">
+            <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
+            <div className="mb-15"></div>
 
             <Heading text="Samsung Knox Manage: Rules"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-15">Designed an EMM feature that helps IT admins automate management tasks, triggered when specific device conditions are met (time, locations, device status & activities, etc.)</p>
-            {/* <ImageZoom>
-                <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
-            </ImageZoom> */}
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)</p>
+            <ImageZoom>
+                <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <div className="mb-20"></div>
 
             <Heading text="Selected deliverables"/>
 
@@ -32,7 +33,9 @@ export default function Rules() {
             <ImageZoom>
                 <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Certain details omitted due to NDA.</p>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+
+            <div className="mb-10"></div>
 
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
             <ImageZoom>
@@ -41,8 +44,9 @@ export default function Rules() {
             <ImageZoom>
                 <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
-            
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+            <div className="mb-25"></div>
+
             <Heading text="Design story"/>
             <div>
                 <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
