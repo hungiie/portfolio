@@ -21,6 +21,7 @@ export default function Organizations() {
             <ImageZoom>
                 <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
+            
             <div className="mb-20"></div>
             
             <Heading text="Selected deliverables"/>
@@ -32,14 +33,18 @@ export default function Organizations() {
             <ImageZoom>
                 <Image src="/doc2-blur.png" width={5605} height={5605} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Certain details omitted due to NDA.</p>
-            
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+
+            <div className="mb-10"></div>
+
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
             <ImageZoom>
                 <Image src="/org-2.png" width={5517} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
             
+            <div className="mb-15"></div>
+
             <Heading text="Design story"/>
             {/* <ImageZoom>
                 <Image src="/wip.png" width={3600} height={1901} className="w-full h-auto mb-7" alt="Samsung Knox"/>
@@ -57,6 +62,16 @@ export default function Organizations() {
                     <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                 </div>
             </div>
+
+            <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10">
+                <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                <div className="flex flex-col items-end">
+                    <Button variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
+                    <div className="mb-3"></div>
+                    <Button variant="blue-hyperlink" text="Samsung Knox: Demo Kit ->" link="demokit" textSize="text-sm" target="_self"/>
+                </div>
+            </div>
+
             </SlideUpNoThres>
             <Footer/>
         </div>

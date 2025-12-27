@@ -22,6 +22,7 @@ export default function Rules() {
             <ImageZoom>
                 <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
+            
             <div className="mb-20"></div>
 
             <Heading text="Selected deliverables"/>
@@ -45,7 +46,8 @@ export default function Rules() {
                 <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
-            <div className="mb-25"></div>
+            
+            <div className="mb-15"></div>
 
             <Heading text="Design story"/>
             <div>
@@ -59,6 +61,16 @@ export default function Rules() {
                     <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                 </div>
             </div>
+
+            <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10">
+                <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                <div className="flex flex-col items-end">
+                    <Button variant="blue-hyperlink" text="Samsung Knox Manage: Organizations ->" link="organizations" textSize="text-sm" target="_self"/>
+                    <div className="mb-3"></div>
+                    <Button variant="blue-hyperlink" text="Samsung Knox: Demo Kit ->" link="demokit" textSize="text-sm" target="_self"/>
+                </div>
+            </div>
+
             <Footer/>
             </SlideUpNoThres>
         </div>

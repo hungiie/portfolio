@@ -18,8 +18,10 @@ export default function Demo() {
             <Heading text="Samsung Knox: Demo Kit"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
             <ImageZoom>
-                <Image src="/demo.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-15" alt="Samsung Knox"/> 
+                <Image src="/demo.png" width={1532} height={1147} className="w-full h-auto mt-10" alt="Samsung Knox"/> 
             </ImageZoom>
+
+            <div className="mb-15"></div>
 
             <Heading text="Design story"/>
             <div>
@@ -32,6 +34,16 @@ export default function Demo() {
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose mt-5">Feel free to send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                 </div>
             </div>
+
+            <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10">
+                <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                <div className="flex flex-col items-end">
+                    <Button variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
+                    <div className="mb-3"></div>
+                    <Button variant="blue-hyperlink" text="Samsung Knox Manage: Organizations ->" link="organizations" textSize="text-sm" target="_self"/>
+                </div>
+            </div>
+
             <Footer/>
             </SlideUpNoThres>
         </div>
