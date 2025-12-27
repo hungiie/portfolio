@@ -20,17 +20,20 @@ export default function Organizations() {
             <Heading text="Samsung Knox Manage: Organizations"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
             <ImageZoom>
-                <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2" alt="Samsung Knox"/> 
+                <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                <Image src="/org-darkmode.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             
             <div className="mb-20"></div>
             
             <Heading text="Selected deliverable 1"/>
             <ImageZoom>
-                <Image src="/doc1-blur.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                <Image src="/doc1-blur.png" width={5605} height={5605} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                <Image src="/doc1-blur-darkmode.png" width={5605} height={5605} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
-                <Image src="/doc2-blur.png" width={5605} height={5605} className="w-full h-auto mb-4" alt="Samsung Knox"/>
+                <Image src="/doc2-blur.png" width={5605} height={5605} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
+                <Image src="/doc2-blur-darkmode.png" width={5605} height={5605} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
@@ -39,7 +42,8 @@ export default function Organizations() {
 
             <Heading text="Selected deliverable 2"/>
             <ImageZoom>
-                <Image src="/org-2.png" width={5517} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/>
+                <Image src="/org-2.png" width={5517} height={3363} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
+                <Image src="/org-2-darkmode.png" width={5517} height={3363} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/>
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>

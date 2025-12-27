@@ -53,7 +53,8 @@ export default function Home() {
               {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><Button link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
             </div>
 
-            <p className="text-sm text-[var(--colour-bodytext-4)] mb-9">(scroll down)</p>
+            <p className="text-sm text-[var(--colour-bodytext-4)]">(scroll down)</p>
+            <div className="mb-9"></div>
 
             <ThemeToggleButton
               theme={theme === "light" ? "dark" : "light"}
@@ -71,13 +72,13 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUp>
-            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" />
+            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules.png"/>
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" />
+            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png"/>
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" />
+            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo.png"/>
           </SlideUp>
           {/* <SlideUp>
             <ProjectThumbnail link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardioyo.png" />

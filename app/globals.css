@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@custom-variant dark (&:where(.dark, .dark *));
+
 
 :root {
   --main-blue: #0B8EFF;
@@ -89,18 +91,18 @@ body {
 }
 
 .dark {
-  --main-blue: #0B8EFF;
+  --main-blue: #1b94ff;
   --main-darkerblue: #0078E0;
-  --colour-bodytext: #f9f9f9;
+  --colour-bodytext: #ebebeb;
   --colour-bodytext-2: #e7e7e7;
   --colour-bodytext-3: #d2d2d2;
-  --colour-grey: #181818;
-  --colour-bodytext-4: #787878;
+  --colour-grey: #252525;
+  --colour-bodytext-4: #858585;
   --colour-pure: #ffffff;
   --particle: #d2d2d2;
 
 
-  --background: oklch(0.145 0 0);
+  --background: oklch(19.125% 0.00002 271.152);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);

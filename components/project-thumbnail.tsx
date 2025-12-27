@@ -6,6 +6,7 @@ interface Props {
     name: string;
     desc: string;
     imageSrc: string;
+    imageSrcDark: string;
     link: string;
 }
 
@@ -19,7 +20,8 @@ export default function ProjectThumbnail(props: Props) {
                 {props.desc}
             </p>
             <a href={props.link} className="group overflow-hidden block">
-                <Image src={props.imageSrc} alt={props.name} width={1532} height={1147} className="object-cover" />
+                <Image src={props.imageSrc} alt={props.name} width={1532} height={1147} className="object-cover block dark:hidden" />
+                <Image src={props.imageSrcDark} alt={props.name} width={1532} height={1147} className="object-cover hidden dark:block" />
             </a>
         </div>
     );
