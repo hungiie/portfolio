@@ -47,6 +47,8 @@ export default function Organizations() {
             <Heading text="Selected deliverable 2"/>
             <ImageZoom>
                 <Image src="/org-2.png" width={3376.15} height={2058} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
+            </ImageZoom>
+            <ImageZoom>
                 <Image src="/org-2-darkmode.png" width={3376.15} height={2058} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/>
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
