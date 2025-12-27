@@ -19,7 +19,7 @@ export default function Organizations() {
                 <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
             </ImageZoom> */}
 
-            <Heading text="Deliverables"/>
+            <Heading text="Selected deliverables"/>
             <ImageZoom>
                 <Image src="/doc1-blur.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>

@@ -19,7 +19,7 @@ export default function Rules() {
                 <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-10 mb-2" alt="Samsung Knox"/> 
             </ImageZoom> */}
 
-            <Heading text="Deliverables"/>
+            <Heading text="Selected deliverables"/>
             <ImageZoom>
                 <Image src="/rules-0.png" width={2622} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
