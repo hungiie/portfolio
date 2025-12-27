@@ -10,9 +10,11 @@ export default function Cardio() {
   return (
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-20">
-            <div className="mb-12">
+            <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
+            <div className="mb-10"></div>
+
             <Heading text="card.io"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control.</p>
             <ImageZoom>
@@ -24,6 +26,7 @@ export default function Cardio() {
             <ImageZoom>
                 <Image src="/cardiopreview2.png" width={3775} height={2532} className="w-full h-auto mb-10" alt="cardio"/> 
             </ImageZoom>
+            
             <div className="flex flex-col md:flex-row md:justify-between">
                 <div className="mb-3 md:mb-0">
                     <Button link="https://www.figma.com/proto/9XcoE1V7RXomBeYPjR6Q3i/card.io-2024?page-id=0%3A1&node-id=1-770&viewport=263%2C253%2C0.1&t=04CL8AOOFW3mPu7n-1&scaling=contain&content-scaling=fixed" target="_blank" variant="blue-hyperlink" text="View my presentation" textSize="text-sm"/>

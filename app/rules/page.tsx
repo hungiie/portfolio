@@ -32,7 +32,7 @@ export default function Rules() {
             <ImageZoom>
                 <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a specific rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
 
             <div className="mb-20"></div>

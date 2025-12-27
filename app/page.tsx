@@ -93,7 +93,7 @@ export default function Home() {
             </div>
         </SlideUp> */}
 
-        <div className="">
+        <div className="mt-30">
           <Footer/>
         </div>
       </div>
