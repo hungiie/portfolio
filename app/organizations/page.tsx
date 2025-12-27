@@ -29,10 +29,14 @@ export default function Organizations() {
             <Heading text="Selected deliverable 1"/>
             <ImageZoom>
                 <Image src="/doc1-blur.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
                 <Image src="/doc1-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/doc2-blur.png" width={3197.52} height={3197.52} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
+            </ImageZoom>
+            <ImageZoom>
                 <Image src="/doc2-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
