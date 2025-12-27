@@ -5,14 +5,18 @@ import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
+import SlideUpNoThres from "@/components/slide-up-nothres";
+import SlideUp from "@/components/slide-up";
 
 export default function Rules() {
   return (
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-20">
+            <SlideUpNoThres>
             <div className="mb-15">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
+
             <Heading text="Samsung Knox Manage: Rules"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-15">Designed an EMM feature that helps IT admins automate management tasks, triggered when specific device conditions are met (time, locations, device status & activities, etc.)</p>
             {/* <ImageZoom>
@@ -29,7 +33,7 @@ export default function Rules() {
                 <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
-            
+
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
             <ImageZoom>
                 <Image src="/rules-2.png" width={2622} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
@@ -52,6 +56,7 @@ export default function Rules() {
                 </div>
             </div>
             <Footer/>
+            </SlideUpNoThres>
         </div>
     </div>
   );

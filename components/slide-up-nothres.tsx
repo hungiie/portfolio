@@ -2,7 +2,7 @@
 
 import { ReactNode, useRef, useEffect, useState } from "react";
 
-export default function SlideUp({
+export default function SlideUpNoThres({
   children,
   delay = 0,
 }: {
@@ -19,7 +19,7 @@ export default function SlideUp({
           setVisible(true);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0 }
     );
 
     if (ref.current) observer.observe(ref.current);

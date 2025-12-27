@@ -5,11 +5,13 @@ import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
+import SlideUpNoThres from "@/components/slide-up-nothres";
 
 export default function Demo() {
   return (
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-20">
+            <SlideUpNoThres>
             <div className="mb-15">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
@@ -31,6 +33,7 @@ export default function Demo() {
                 </div>
             </div>
             <Footer/>
+            </SlideUpNoThres>
         </div>
     </div>
   );
