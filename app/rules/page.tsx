@@ -15,7 +15,7 @@ export default function Rules() {
             <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
-            <div className="mb-15"></div>
+            <div className="mb-10"></div>
 
             <Heading text="Samsung Knox Manage: Rules"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)</p>
@@ -25,36 +25,36 @@ export default function Rules() {
             
             <div className="mb-20"></div>
 
-            <Heading text="Selected deliverables"/>
-
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">1. Interface for viewing a specific rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
+            <Heading text="Selected deliverable 1"/>
             <ImageZoom>
                 <Image src="/rules-0.png" width={2622} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a specific rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
 
-            <div className="mb-10"></div>
+            <div className="mb-20"></div>
 
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
+            <Heading text="Selected deliverable 2"/>
             <ImageZoom>
                 <Image src="/rules-2.png" width={2622} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
             
-            <div className="mb-15"></div>
+            <div className="mb-20"></div>
 
-            <Heading text="Design story"/>
+            <Heading text="About the work"/>
             <div>
                 <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
                 <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">My work primarily involves designing features for <span className="inline-block"><Button link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - one of Samsung&rsquo;s B2B SaaS solutions, designed to help companies deploy, secure, and manage their mobile devices remotely.</p>
                 <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
-                <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer) and Hosoo Lee (Product Manager)</p>
+                <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
 
                 <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 md:px-7 py-7 md:py-7 rounded-2xl">
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>

@@ -12,9 +12,10 @@ export default function Organizations() {
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-1/3 md:px-0 mt-20">
             <SlideUpNoThres>
-            <div className="mb-15">
+            <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
+            <div className="mb-10"></div>
 
             <Heading text="Samsung Knox Manage: Organizations"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
@@ -24,28 +25,28 @@ export default function Organizations() {
             
             <div className="mb-20"></div>
             
-            <Heading text="Selected deliverables"/>
-
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">1. UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
+            <Heading text="Selected deliverable 1"/>
             <ImageZoom>
                 <Image src="/doc1-blur.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/doc2-blur.png" width={5605} height={5605} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
 
-            <div className="mb-10"></div>
+            <div className="mb-20"></div>
 
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
+            <Heading text="Selected deliverable 2"/>
             <ImageZoom>
                 <Image src="/org-2.png" width={5517} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
             
-            <div className="mb-15"></div>
+            <div className="mb-20"></div>
 
-            <Heading text="Design story"/>
+            <Heading text="About the work"/>
             {/* <ImageZoom>
                 <Image src="/wip.png" width={3600} height={1901} className="w-full h-auto mb-7" alt="Samsung Knox"/>
             </ImageZoom> */}
