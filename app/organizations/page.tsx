@@ -37,7 +37,7 @@ export default function Organizations() {
                 <Image src="/doc2-blur.png" width={3197.52} height={3197.52} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
             </ImageZoom>
             <ImageZoom>
-                <Image src="/doc2-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                <Image src="/doc2-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
