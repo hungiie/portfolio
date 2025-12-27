@@ -20,21 +20,23 @@ export default function Rules() {
             </ImageZoom> */}
 
             <Heading text="Selected deliverables"/>
+
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">1. Interface for viewing a specific rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
             <ImageZoom>
                 <Image src="/rules-0.png" width={2622} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">1. Interface for viewing a specific rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
+            
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
             <ImageZoom>
                 <Image src="/rules-2.png" width={2622} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">2. Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
             
             <Heading text="Design story"/>

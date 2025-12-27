@@ -20,19 +20,20 @@ export default function Organizations() {
             </ImageZoom> */}
 
             <Heading text="Selected deliverables"/>
+
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">1. UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
             <ImageZoom>
                 <Image src="/doc1-blur.png" width={5605} height={5605} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             <ImageZoom>
                 <Image src="/doc2-blur.png" width={5605} height={5605} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">1. UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
             
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
             <ImageZoom>
                 <Image src="/org-2.png" width={5517} height={3363} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">2. Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
             
             <Heading text="Design story"/>
