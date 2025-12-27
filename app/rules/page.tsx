@@ -32,7 +32,7 @@ export default function Rules() {
             <ImageZoom>
                 <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4" alt="Samsung Knox"/> 
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Certain details omitted due to NDA.</p>
 
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
             <ImageZoom>

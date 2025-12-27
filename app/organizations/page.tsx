@@ -28,7 +28,7 @@ export default function Organizations() {
             <ImageZoom>
                 <Image src="/doc2-blur.png" width={5605} height={5605} className="w-full h-auto mb-4" alt="Samsung Knox"/>
             </ImageZoom>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-15">Certain details omitted due to NDA.</p>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Certain details omitted due to NDA.</p>
             
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4"><span className="font-semibold">2. Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
             <ImageZoom>
