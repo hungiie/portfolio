@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
         {/* <TopBlur zIndex={20} height={30} maxBlur={10} /> */}
-        <div className="w-full px-10 md:w-1/2 lg:w-1/3 lg:px-0 mt-28">
+        <div className="w-full px-10 md:w-2/3 lg:w-1/3 lg:px-0 mt-28">
             <div className="mb-10">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>

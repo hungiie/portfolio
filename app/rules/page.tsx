@@ -10,7 +10,7 @@ import SlideUpNoThres from "@/components/slide-up-nothres";
 export default function Rules() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <div className="w-full px-10 md:w-1/2 lg:w-1/3 lg:px-0 mt-20">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 lg:px-0 mt-20">
             <SlideUpNoThres>
             <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>

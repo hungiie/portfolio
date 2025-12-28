@@ -9,7 +9,7 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 export default function Cardio() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <div className="w-full px-10 lg:w-1/3 lg:px-0 mt-20">
+        <div className="w-full px-10 md:w-2/3 lg:w-1/3 lg:px-0 mt-20">
             <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
