@@ -76,7 +76,7 @@ export default function Organizations() {
                 </div>
             </div>
 
-            <div className="mt-25 w-full grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-y-10">
+            <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
                 <div className="flex flex-col items-end">
                     <Button variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
