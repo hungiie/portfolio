@@ -10,7 +10,7 @@ import SlideUpNoThres from "@/components/slide-up-nothres";
 export default function Demo() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <div className="w-full px-10 lg:w-1/3 lg:px-0 mt-20">
+        <div className="w-full px-10 md:w-1/2 lg:w-1/3 lg:px-0 mt-20">
             <SlideUpNoThres>
             <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
@@ -32,7 +32,7 @@ export default function Demo() {
                 <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                 <p className="mb-8 text-sm text-[var(--colour-bodytext)]">Karl Lam (Senior UX Designer)</p>
 
-                <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 lg:px-7 py-7 lg:py-7 rounded-2xl">
+                <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl">
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose mt-5">Feel free to send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                 </div>

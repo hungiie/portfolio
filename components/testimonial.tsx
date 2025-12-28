@@ -12,7 +12,7 @@ interface Props {
 
 export default function Testimonial(props: Props) {
     return (
-        <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 lg:px-7 py-7 lg:py-7 rounded-2xl">
+        <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl">
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">"{props.text}"</p>
             <p className="text-sm font-semibold text-[var(--colour-bodytext)] leading-loose mt-7">{props.name}</p>
             <div className="grid grid-cols-1 lg:grid-cols-[7fr_1fr] items-center">

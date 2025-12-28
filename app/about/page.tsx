@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
         {/* <TopBlur zIndex={20} height={30} maxBlur={10} /> */}
-        <div className="w-full px-10 lg:w-1/3 lg:px-0 mt-28">
+        <div className="w-full px-10 md:w-1/2 lg:w-1/3 lg:px-0 mt-28">
             <div className="mb-10">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
@@ -36,7 +36,7 @@ export default function About() {
             <div className="mb-25"></div>
 
             <Heading text="My attempts to romanticize life"/>
-            <div className="grid grid-cols-2 lg:grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 gap-2">
                 <div className="relative aspect-square overflow-hidden">
                     <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                 </div>
@@ -59,7 +59,7 @@ export default function About() {
             <div className="mb-25"></div>
 
             <Heading text="It&rsquo;s all about the work life balance"/>
-            <div className="grid grid-cols-1 lg:grid-cols-1 gap-2">
+            <div className="grid grid-cols-1 gap-2">
                 <PhotoTag
                     photoSrc="/work2.png"
                     photoWidth={3721}
@@ -85,7 +85,7 @@ export default function About() {
             {/* <div className="flex justify-between mb-6">
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Fraser Health, 2023-2024</p>
             </div> */}
-            <div className="grid grid-cols-1 lg:grid-cols-1 gap-2">
+            <div className="grid grid-cols-1 gap-2">
                 {/* <div className="relative overflow-hidden">
                     <Image src="/fraser2.png" width={828} height={607} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
                 </div> */}
