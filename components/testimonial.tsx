@@ -12,14 +12,14 @@ interface Props {
 
 export default function Testimonial(props: Props) {
     return (
-        <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 md:px-7 py-7 md:py-7 rounded-2xl">
+        <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 lg:px-7 py-7 lg:py-7 rounded-2xl">
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">"{props.text}"</p>
             <p className="text-sm font-semibold text-[var(--colour-bodytext)] leading-loose mt-7">{props.name}</p>
-            <div className="grid grid-cols-1 md:grid-cols-[7fr_1fr] items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-[7fr_1fr] items-center">
                 <div>
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.job} at <span><Button link={props.companylink} target="_blank" variant="blue-hyperlink" text={props.company} textSize="text-sm"/></span> </p>
                 </div>
-                <div className="flex md:justify-end items-center">
+                <div className="flex lg:justify-end items-center">
                     {/* <Button link={props.companylink} target="_blank" variant="blue-hyperlink" text={props.company} textSize="text-sm"/> */}
                 </div>
             </div>

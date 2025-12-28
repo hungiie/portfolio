@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full px-10 md:w-1/3 md:px-0 mt-28">
+      <div className="w-full px-10 lg:w-1/3 lg:px-0 mt-28">
         <div
           className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}

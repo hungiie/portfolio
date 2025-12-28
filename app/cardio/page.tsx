@@ -9,7 +9,7 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 export default function Cardio() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <div className="w-full px-10 md:w-1/3 md:px-0 mt-20">
+        <div className="w-full px-10 lg:w-1/3 lg:px-0 mt-20">
             <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
@@ -27,8 +27,8 @@ export default function Cardio() {
                 <Image src="/cardiopreview2.png" width={3775} height={2532} className="w-full h-auto mb-10" alt="cardio"/> 
             </ImageZoom>
             
-            <div className="flex flex-col md:flex-row md:justify-between">
-                <div className="mb-3 md:mb-0">
+            <div className="flex flex-col lg:flex-row lg:justify-between">
+                <div className="mb-3 lg:mb-0">
                     <Button link="https://www.figma.com/proto/9XcoE1V7RXomBeYPjR6Q3i/card.io-2024?page-id=0%3A1&node-id=1-770&viewport=263%2C253%2C0.1&t=04CL8AOOFW3mPu7n-1&scaling=contain&content-scaling=fixed" target="_blank" variant="blue-hyperlink" text="View my presentation" textSize="text-sm"/>
                 </div>
                 <Button link="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-159&node-type=frame&viewport=1007%2C-233%2C0.14&t=bj4QvDbaNDyAlbzU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=139%3A1790" target="_blank" variant="blue-hyperlink" text="Experience the prototype" textSize="text-sm"/>
