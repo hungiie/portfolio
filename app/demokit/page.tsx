@@ -15,22 +15,24 @@ export default function Demo() {
             <div>
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
-
             <div className="mb-10"></div>
 
             <Heading text="Samsung Knox: Demo Kit"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
+            <div className="mb-7"></div>
             <ImageZoom>
-                <Image src="/demo.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                <Image src="/demo.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
             </ImageZoom>
 
             <div className="mb-20"></div>
 
             <Heading text="About the work"/>
             <div>
-                <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
+                <div className="mb-6"></div>
                 <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
-                <p className="mb-8 text-sm text-[var(--colour-bodytext)]">Karl Lam (Senior UX Designer)</p>
+                <p className="text-sm text-[var(--colour-bodytext)]">Karl Lam (Senior UX Designer)</p>
+                <div className="mb-8"></div>
 
                 <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl">
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
