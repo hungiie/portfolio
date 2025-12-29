@@ -81,7 +81,7 @@ export default function Home() {
             <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo.png"/>
           </SlideUp>
           {/* <SlideUp>
-            <ProjectThumbnail link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardioyo.png" />
+            <ProjectThumbnail link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardioyo.png" imageSrcDark="/cardioyo.png"/>
           </SlideUp> */}
         </div>
 
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
         </SlideUp> */}
 
-        <div className="mt-30">
+        <div className="mt-50">
           <Footer/>
         </div>
       </div>

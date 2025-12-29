@@ -21,10 +21,23 @@ export default function Demo() {
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
             <div className="mb-7"></div>
             <ImageZoom>
-                <Image src="/demo.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
+                <Image src="/demo.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
-
-            <div className="mb-20"></div>
+            <ImageZoom>
+                <Image src="/demo-1.png" width={2622} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/demo-1-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/demo-2.png" width={2622} height={1823} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <ImageZoom>
+                <Image src="/demo-2-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
+            </ImageZoom>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+            
+            <div className="mb-14"></div>
 
             <Heading text="About the work"/>
             <div>
