@@ -46,6 +46,7 @@ export default function Organizations() {
                 </ImageZoom>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">UX documentation for new Organization Table component</span>: Including all specs, variants, interaction guidelines, and behaviours for edge cases.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Details may vary due to ongoing updates after my departure.</p>
 
                 <div className="mb-20"></div>
 
@@ -58,6 +59,7 @@ export default function Organizations() {
                 </ImageZoom>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Individual cell component</span>: Master component with 3 nested components, used by other designers when designing for this feature.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Details may vary due to ongoing updates after my departure.</p>
                 
                 <div className="mb-20"></div>
 
