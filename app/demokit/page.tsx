@@ -21,7 +21,7 @@ export default function Demo() {
             <Heading text="Samsung Knox: Demo Kit"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
             <ImageZoom>
-                <Image src="/demo.png" width={1532} height={1147} className="w-full h-auto mt-10" alt="Samsung Knox"/> 
+                <Image src="/demo.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
 
             <div className="mb-20"></div>

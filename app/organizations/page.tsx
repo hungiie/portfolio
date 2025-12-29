@@ -19,12 +19,15 @@ export default function Organizations() {
 
             <Heading text="Samsung Knox Manage: Organizations"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
+            <div className="mb-5"></div>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">EMM = Enterprise Mobility Management.   <Button variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/blog/emm-mdm-uem-for-enterprises" textSize="text-sm" target="blank"/></p>
+            <div className="mb-7"></div>
             <ImageZoom>
-                <Image src="/org.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                <Image src="/org.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
-            <ImageZoom>
-                <Image src="/org-darkmode.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2 hidden dark:block" alt="Samsung Knox"/> 
-            </ImageZoom>
+            {/* <ImageZoom>
+                <Image src="/org-darkmode.png" width={1532} height={1147} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+            </ImageZoom> */}
             
             <div className="mb-20"></div>
             
@@ -63,7 +66,7 @@ export default function Organizations() {
                 <Image src="/wip.png" width={3600} height={1901} className="w-full h-auto mb-7" alt="Samsung Knox"/>
             </ImageZoom> */}
             <div>
-                <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
+                <p className="mt-6 mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
                 <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">My work primarily involves designing features for <span className="inline-block"><Button link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - one of Samsung&rsquo;s B2B SaaS solutions, designed to help companies deploy, secure, and manage their mobile devices remotely.</p>
                 <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                 <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">Andrea Lin (Senior UX Designer) and Hyejeong Kim (Product Manager)</p>

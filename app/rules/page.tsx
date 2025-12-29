@@ -19,8 +19,11 @@ export default function Rules() {
 
             <Heading text="Samsung Knox Manage: Rules"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)</p>
+            <div className="mb-5"></div>
+            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">EMM = Enterprise Mobility Management.   <Button variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/blog/emm-mdm-uem-for-enterprises" textSize="text-sm" target="blank"/></p>
+            <div className="mb-7"></div>
             <ImageZoom>
-                <Image src="/rules.png" width={1532} height={1147} className="w-full h-auto mt-9 mb-2" alt="Samsung Knox"/> 
+                <Image src="/rules.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
             </ImageZoom>
             
             <div className="mb-20"></div>
