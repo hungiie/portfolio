@@ -23,11 +23,11 @@ export default function Organizations() {
             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">EMM = Enterprise Mobility Management.   <Button variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/blog/emm-mdm-uem-for-enterprises" textSize="text-sm" target="blank"/></p>
             <div className="mb-7"></div>
             <ImageZoom>
-                <Image src="/org.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                <Image src="/org.png" width={2985} height={2236} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
             </ImageZoom>
-            {/* <ImageZoom>
-                <Image src="/org-darkmode.png" width={1532} height={1147} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
-            </ImageZoom> */}
+            <ImageZoom>
+                <Image src="/org-darkmode.png" width={2985} height={2236} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+            </ImageZoom>
             
             <div className="mb-20"></div>
             
