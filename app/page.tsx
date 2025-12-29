@@ -61,7 +61,7 @@ export default function Home() {
               const next = theme === "dark" ? "light" : "dark";
               setTheme(next);
             }}
-            variant="blur"
+            variant="polygon"
             start="center"
             className="hover:cursor-pointer"
             showLabel={false}
@@ -72,7 +72,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUp>
-            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules.png"/>
+            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers tasks when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png"/>
           </SlideUp>
           <SlideUp>
             <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png"/>
