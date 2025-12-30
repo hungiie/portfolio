@@ -62,7 +62,7 @@ export default function Home() {
               const next = theme === "dark" ? "light" : "dark";
               setTheme(next);
             }}
-            variant="polygon"
+            variant="blur"
             start="center"
             className="hover:cursor-pointer"
             showLabel={false}
