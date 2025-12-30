@@ -13,7 +13,7 @@ interface Props {
 export default function ProjectThumbnail(props: Props) {
     return (
         <div className="overflow-hidden bg-[var(--background)]">
-            <p className="font-semibold text-sm text-[var(--colour-pure)] mb-6">
+            <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4">
                 {props.name}
             </p>
             <p className="text-sm text-[var(--colour-bodytext)] mb-6 leading-loose">
