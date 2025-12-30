@@ -10,7 +10,8 @@ type AnimationVariant =
   | 'circle-blur'
   | 'gif'
   | 'polygon'
-  | 'blur';
+  | 'blur'
+  |  'none';
 
 type StartPosition =
   | 'center'
@@ -102,6 +103,11 @@ export const ThemeToggleButton = ({
           }
         }
       `;
+    }
+
+    if (variant === 'none') {
+      onClick?.();
+      return;
     }
 
     if (variant === 'circle') {
