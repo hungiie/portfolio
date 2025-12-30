@@ -1,6 +1,6 @@
 "use client"
 
-import Button from "./button";
+// import Button from "./button";
 
 interface Props {
     name: string;
@@ -17,7 +17,7 @@ export default function Testimonial(props: Props) {
             <p className="text-sm font-semibold text-[var(--colour-bodytext)] leading-loose mt-7">{props.name}</p>
             <div className="grid grid-cols-1 lg:grid-cols-[7fr_1fr] items-center">
                 <div>
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.job} at <span><Button link={props.companylink} target="_blank" variant="blue-hyperlink" text={props.company} textSize="text-sm"/></span> </p>
+                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.job} at {props.company}.</p>
                 </div>
                 <div className="flex lg:justify-end items-center">
                     {/* <Button link={props.companylink} target="_blank" variant="blue-hyperlink" text={props.company} textSize="text-sm"/> */}
