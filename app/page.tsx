@@ -79,7 +79,7 @@ export default function Home() {
             <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png"/>
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo.png"/>
+            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png"/>
           </SlideUp>
           {/* <SlideUp>
             <ProjectThumbnail link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardioyo.png" imageSrcDark="/cardioyo.png"/>
