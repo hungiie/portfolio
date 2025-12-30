@@ -45,7 +45,7 @@ export default function Rules() {
                     <Image src="/rules-1-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
-                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Details may vary due to ongoing updates after my departure.</p>
 
                 <div className="mb-20"></div>
@@ -64,7 +64,7 @@ export default function Rules() {
                     <Image src="/rules-3-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
-                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details omitted due to NDA.</p>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Details may vary due to ongoing updates after my departure.</p>
                 
                 <div className="mb-20"></div>
