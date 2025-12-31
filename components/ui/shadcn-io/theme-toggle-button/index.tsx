@@ -106,8 +106,8 @@ export const ThemeToggleButton = ({
     }
 
     if (variant === 'none') {
-      onClick?.();
-      return;
+      // onClick?.();
+      // return;
     }
 
     if (variant === 'circle') {
