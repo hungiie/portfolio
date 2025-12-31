@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
         {/* <TopBlur zIndex={20} height={30} maxBlur={10} /> */}
-        <div className="w-full px-10 md:w-2/3 lg:w-1/3 lg:px-0 mt-28">
+        <div className="w-full px-10 md:w-2/3 lg:w-1/3 lg:px-0 2xl:w-1/4 mt-28">
             <div className="mb-10">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
@@ -26,9 +26,13 @@ export default function About() {
             <Heading text="Hi, my name is Hung."/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I used to design at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Naming layers is 1 of my passions.</p> */}
-            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
-            <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p>
-            
+            {/* <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p> */}
+            {/* <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p> */}
+            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about morning coffee - about how I want it to taste, and how a small daily ritual quietly shapes the rest of my day.</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Digital habits form the same way. The apps we open each morning </p>
+
+            <div className="mb-8"></div>
+
             <div className="">
                 <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
                 <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
