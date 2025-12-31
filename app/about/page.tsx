@@ -18,7 +18,7 @@ export default function About() {
 
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    <Image src="/mememe-darkmode.png" width={2316} height={1276} alt="hung tran" className="object-cover block dark:hidden" style={{ filter: 'contrast(89%)' }}/>
+                    <Image src="/mememe-darkmode.png" width={2316} height={1276} alt="hung tran" className="object-cover block dark:hidden" style={{ filter: 'contrast(89%) brightness(120%)' }}/>
                     <Image src="/mememe-darkmode.png" width={2316} height={1276} alt="hung tran" className="object-cover hidden dark:block" style={{ filter: 'contrast(95%)' }}/>
                 </div>
             </div>
@@ -26,10 +26,10 @@ export default function About() {
             <Heading text="Hi, my name is Hung."/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I used to design at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Naming layers is 1 of my passions.</p> */}
-            {/* <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p> */}
-            {/* <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p> */}
-            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about morning coffee - about how I want it to taste, and how a small daily ritual quietly shapes the rest of my day.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Digital habits form the same way. The apps we open each morning </p>
+            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
+            <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p>
+            {/* <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about morning coffee - about how I want it to taste, and how a small daily ritual quietly shapes the rest of my day.</p> */}
+            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Digital habits form the same way. The apps we open each morning </p> */}
 
             <div className="mb-8"></div>
 
