@@ -46,7 +46,7 @@ export default function Rules() {
                 </ImageZoom>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
-                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Details may vary due to ongoing updates after my departure.</p>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>
 
                 <div className="mb-20"></div>
 
@@ -65,7 +65,7 @@ export default function Rules() {
                 </ImageZoom>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
-                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Details may vary due to ongoing updates after my departure.</p>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>
                 
                 <div className="mb-20"></div>
 
