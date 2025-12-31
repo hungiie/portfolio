@@ -16,12 +16,13 @@ export default function Me() {
       className="flex-shrink-0"
     >
       <div className="w-[65px] h-[65px]">
-        <div className="relative aspect-square rounded-full overflow-hidden bg-black">
+        <div className="relative aspect-square rounded-full overflow-hidden bg-black border-none">
           <Image
             src="/me.png"
             fill
             alt="Hung Tran"
             className="object-cover"
+            style={{ filter: 'contrast(95%) brightness(110%)' }}
           />
         </div>
       </div>
