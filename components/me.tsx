@@ -22,7 +22,7 @@ export default function Me() {
             fill
             alt="Hung Tran"
             className="object-cover"
-            style={{ filter: 'contrast(95%) brightness(110%)' }}
+            style={{ filter: 'contrast(100%) brightness(100%)' }}
           />
         </div>
       </div>
