@@ -46,7 +46,7 @@ export default function Home() {
           <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I used to design at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
           {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p> */}
           <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I make interfaces that quietly disappear.</p>
-          <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">Each click is mindless, friction is minimal, users stay focused on their tasks as the interface dissolves into the background of attention.</p>
+          <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">Each click is mindless, friction is minimal, and users stay focused on their tasks as the interface dissolves into the background of attention.</p>
           
           <div className="mb-9">
             <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
