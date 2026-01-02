@@ -34,26 +34,6 @@ export const metadata: Metadata = {
   },
 };
 
-// export default function RootLayout({ children }: { children: React.ReactNode }) {
-//   return (
-//     <html lang="en">
-//       <ThemeProvider
-//           attribute="class"
-//           defaultTheme="light"
-//           enableSystem={false}
-//           disableTransitionOnChange
-//         >
-//         <body
-//           className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
-//         >
-//           <Analytics />
-//             {children}
-//         </body>
-//       </ThemeProvider>
-//     </html>
-//   );
-// }
-
 export default function RootLayout({
   children,
 }: {

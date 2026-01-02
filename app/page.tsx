@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 lg:px-0 2xl:w-1/4 mt-28">
+      <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
         <div
           className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I used to design at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
           {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p> */}
-          <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">I design experiences that quietly disappear - where interactions feel natural, friction is minimal, allowing users to fully immersed in their goals as the interface fades away.</p>
+          <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">I design interactions that quietly disappear. Where each click feels natural, friction is minimal, allowing users to stay focused on their tasks as the interface dissolves into the background of attention.</p>
           
           <div className="mb-9">
             <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
