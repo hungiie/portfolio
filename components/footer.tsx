@@ -3,8 +3,9 @@ import Button from "./button";
 export default function Footer() {
     return (
         <div className="mt-40 pb-28 flex flex-col items-center">
-            <div className="text-center w-full md:w-5/6">
-                <p className="mb-1 text-sm text-[var(--colour-bodytext-3)] leading-loose">This site was designed and coded by me with Figma, Tailwind CSS, Next.js, and a dream.</p>
+            <div className="text-center w-full">
+                <p className="mb-1 text-sm text-[var(--colour-bodytext-3)] leading-loose">This site was designed and <Button variant="blue-hyperlink" text="coded by me" link="https://github.com/hungiie" target="_blank" textSize="text-sm"></Button>. (Tailwind CSS + Next.js)</p>
+                <p className="text-sm text-[var(--colour-bodytext-3)]">I had iced coffee and a dream.</p>
                 {/* <p className="text-sm text-[var(--colour-bodytext-3)]">© 2025 Hung</p> */}
             </div>
             <div className="mb-7"></div>
