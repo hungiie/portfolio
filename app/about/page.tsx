@@ -25,9 +25,6 @@ export default function About() {
 
             <Heading text="Hi, my name is Hung."/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
-            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Naming layers is 1 of my passions.</p> */}
-            {/* <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p> */}
-            {/* <p className="mb-8 text-sm text-[var(--colour-bodytext)] leading-loose">In the future, I aspire to be an adaptive designer and researcher, staying attuned to our ever-evolving digital habits and expectations.</p> */}
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Habits often emerge as friction fades: a stop at the coffee shop on the way to work, a swipe that feels natural, a tap that requires no thought. Over time, these interactions stop being decisions, and start becoming part of the subconscious mind.</p>
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I design for that feeling - experiences so intuitive they fade into the background, allowing users to focus not on the interface, but on living.</p>
@@ -37,8 +34,8 @@ export default function About() {
 
             <div className="">
                 <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-1.5">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
             <div className="mb-25"></div>
 
@@ -105,8 +102,8 @@ export default function About() {
 
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    {/* <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/> */}
-                    <PhotoTag
+                    <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
+                    {/* <PhotoTag
                         photoSrc="/small.jpg"
                         photoWidth={3689}
                         photoHeight={2116}
@@ -115,7 +112,7 @@ export default function About() {
                         tagWidth={307}
                         tagHeight={240}
                         tagPosition={{ x: 1650, y: 170 }}
-                    />
+                    /> */}
                 </div>
             </div>
 
