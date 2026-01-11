@@ -11,7 +11,6 @@ import { useEffect, useState } from "react";
 import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
-// import { Particles } from "@/components/ui/shadcn-io/particles";
 // import Testimonial from "@/components/testimonial";
 
 export default function Home() {
@@ -99,15 +98,6 @@ export default function Home() {
           <Footer/>
         </div>
       </div>
-
-      {/* <Particles
-        className="fixed inset-0 -z-20"
-        quantity={80}
-        ease={90}
-        staticity={50}
-        color="#ffffff"
-        size={0.8}
-      /> */}
     </div>
   );
 }
