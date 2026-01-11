@@ -55,7 +55,7 @@ export default function Home() {
             {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><Button link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
           </div>
 
-          <p className="text-sm text-[var(--colour-bodytext-4)]">(scroll down)</p>
+          <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
           <div className="mb-9"></div>
 
           <ThemeToggleButton
