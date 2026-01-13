@@ -39,11 +39,12 @@ export default function Organizations() {
                     <Image src="/doc1-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/doc2-blur.png" width={3197.52} height={3197.52} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
+                    <Image src="/doc2-blur.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/>
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/doc2-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/doc2-blur-darkmode.png" width={3197.52} height={3197.52} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
+                <div className="mb-4"></div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">UX documentation for Organization Table component</span>: Detailing specs, variants, interaction guidelines, and edge-case behaviours.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>
@@ -52,11 +53,12 @@ export default function Organizations() {
 
                 <Heading text="Selected deliverable 2"/>
                 <ImageZoom>
-                    <Image src="/org-2.png" width={3376.15} height={2058} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/>
+                    <Image src="/org-2.png" width={3376.15} height={2058} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/>
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/org-2-darkmode.png" width={3376.15} height={2058} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/>
+                    <Image src="/org-2-darkmode.png" width={3376.15} height={2058} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/>
                 </ImageZoom>
+                <div className="mb-4"></div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Individual cell component</span>: Used by other designers, designed to support all edge cases.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>

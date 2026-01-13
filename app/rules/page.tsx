@@ -39,11 +39,12 @@ export default function Rules() {
                     <Image src="/rules-0-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-1-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-1-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
+                <div className="mb-4"></div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>
@@ -58,11 +59,18 @@ export default function Rules() {
                     <Image src="/rules-2-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-4 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-3-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-4 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-3-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
+                {/* <ImageZoom>
+                    <Image src="/rules-flow.png" width={4476} height={1941} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                </ImageZoom>
+                <ImageZoom>
+                    <Image src="/rules-flow-darkmode.png" width={4476} height={1941} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                </ImageZoom> */}
+                <div className="mb-4"></div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>
