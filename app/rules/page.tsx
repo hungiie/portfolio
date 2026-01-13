@@ -65,10 +65,10 @@ export default function Rules() {
                     <Image src="/rules-3-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 {/* <ImageZoom>
-                    <Image src="/rules-flow.png" width={4476} height={1941} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-flow-darkmode.png" width={4476} height={1941} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-4-darkmode.png" width={2622} height={2622} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom> */}
                 <div className="mb-4"></div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for creating a new rule</span>: Helping user configure time & location conditions.</p>
