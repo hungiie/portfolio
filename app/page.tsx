@@ -75,18 +75,23 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUpScroll>
-            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers actions when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png"/>
+            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers actions when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/>
           </SlideUpScroll>
           <SlideUp>
-            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png"/>
+            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png"/>
+            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/>
           </SlideUp>
-          {/* <SlideUp>
-            <ProjectThumbnail link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardioyo.png" imageSrcDark="/cardioyo.png"/>
-          </SlideUp> */}
         </div>
+
+        <div className="mb-30"></div>
+
+        <div className="w-full flex items-center justify-center">
+            <Button variant="blue-hyperlink" text="See my academic projects in a new window ->" link="academics" target="_blank" textSize="text-sm"/>
+        </div>
+
+        <div className="-mb-10"></div>
 
         {/* <div className="mb-40" id="testimonials"></div>
         <div className="grid grid-cols-1 gap-y-4">
@@ -95,9 +100,7 @@ export default function Home() {
           <Testimonial name="Thomas Nelles" job="Senior Communication Consultant" company="Fraser Health" text="From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. His calm demeanor and ability to clearly communicate his working progress are just some of his strengths." companylink="#"/>
         </div> */}
 
-        <div className="mt-50">
-          <Footer/>
-        </div>
+        <Footer/>
       </div>
     </div>
   );
