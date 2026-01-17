@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
+import SlideUpScroll from "@/components/slide-up-scroll";
 // import Testimonial from "@/components/testimonial";
 
 export default function Home() {
@@ -73,9 +74,9 @@ export default function Home() {
         <div className="mb-30 md:mb-50 lg:mb-30"></div>
 
         <div className="grid grid-cols-1 gap-y-40">
-          <SlideUp>
+          <SlideUpScroll>
             <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers actions when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png"/>
-          </SlideUp>
+          </SlideUpScroll>
           <SlideUp>
             <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png"/>
           </SlideUp>
