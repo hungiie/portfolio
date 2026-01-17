@@ -18,7 +18,7 @@ export default function About() {
 
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover block dark:hidden" style={{ filter: 'contrast(89%) brightness(100%)' }}/>
+                    <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover block dark:hidden" style={{ filter: 'contrast(85%) brightness(100%)' }}/>
                     <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover hidden dark:block" style={{ filter: 'contrast(95%)' }}/>
                 </div>
             </div>
