@@ -25,13 +25,13 @@ export default function Academics() {
                     <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
                 </div>
 
-                <div className="mb-10"></div>
+                <div className="mb-18"></div>
 
                 <Heading text="What I did during my undergraduate."/>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Was it worth it? Yes.</p>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Would I do it again? <s>No</s> Depends.</p>
 
-                <div className="mb-20"></div>
+                <div className="mb-18"></div>
 
                 <div className="grid grid-cols-1 gap-y-40">
                     <ProjectThumbnail link="https://www.figma.com/proto/dZnu88TbS026t0KrGb9kzf/Spotify-multi-select-behaviour?page-id=0%3A1&node-id=1-2&viewport=138%2C146%2C0.41&t=m8N8cWUOcJMEwyGJ-1&scaling=contain&content-scaling=fixed" name="Spotify multi-select behaviour" desc="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?" imageSrc="/spotify.png" imageSrcDark="/spotify.png" target="_blank"/>
