@@ -33,16 +33,16 @@ export default function Rules() {
 
                 <Heading text="Selected deliverable 1"/>
                 <ImageZoom>
-                    <Image src="/rules-0.png" width={2622} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-0.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-0-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-0-darkmode.png" width={3099} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-1.png" width={2622} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-1.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-1-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-1-darkmode.png" width={3099} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <div className="mb-4"></div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-2"><span className="font-semibold">Interface for viewing a rule&rsquo;s details</span>: Displaying crucial information an IT admin needs to know.</p>
@@ -53,16 +53,16 @@ export default function Rules() {
 
                 <Heading text="Selected deliverable 2"/>
                 <ImageZoom>
-                    <Image src="/rules-2.png" width={2622} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-2.png" width={3099} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-2-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-2-darkmode.png" width={3099} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-3.png" width={2622} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                    <Image src="/rules-3.png" width={3099} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                 </ImageZoom>
                 <ImageZoom>
-                    <Image src="/rules-3-darkmode.png" width={2622} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                    <Image src="/rules-3-darkmode.png" width={3099} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                 </ImageZoom>
                 {/* <ImageZoom>
                     <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
