@@ -46,11 +46,14 @@ export default function Academics() {
                 </SlideUp>
             </div>
 
-            <div className="mb-40"></div>
+            <div className="mb-30"></div>
 
             <div className="w-full flex items-center justify-center">
                 <Button variant="blue-hyperlink" text="<- Back to home" link="/" target="_self" textSize="text-sm"/>
             </div>
+
+            <div className="-mb-10"></div>
+
             <Footer/>
         </div>
     </div>
