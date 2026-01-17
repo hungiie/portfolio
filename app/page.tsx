@@ -88,7 +88,7 @@ export default function Home() {
         <div className="mb-30"></div>
 
         <div className="w-full flex items-center justify-center">
-            <Button variant="blue-hyperlink" text="See my academic projects in a new window ->" link="academics" target="_blank" textSize="text-sm"/>
+            <Button variant="blue-hyperlink" text="See my academic projects in a new page ->" link="academics" target="_self" textSize="text-sm"/>
         </div>
 
         <div className="-mb-10"></div>
