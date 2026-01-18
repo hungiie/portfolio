@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import Button from "@/components/button";
+import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import PhotoTag from "@/components/photo-tag";
@@ -13,7 +13,7 @@ export default function About() {
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
         <SlideUpNoThres>
             <div className="mb-10">
-                <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
 
             <div className="w-full flex items-center justify-center">
@@ -24,8 +24,8 @@ export default function About() {
             </div>
 
             <Heading text="Hi, my name is Hung."/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
-            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><Button link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Habits often emerge as friction fades: a stop at the coffee shop on the way to work, a swipe that feels natural, a tap that requires no thought. Over time, these interactions stop being decisions, and start becoming part of the subconscious mind.</p>
             <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I design for that feeling - experiences so intuitive they fade into the background, allowing users to focus not on the interface, but on living.</p>
@@ -34,9 +34,9 @@ export default function About() {
             <div className="mb-8"></div>
 
             <div className="">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
             <div className="mb-25"></div>
 
@@ -120,7 +120,7 @@ export default function About() {
             <Heading text="My story"/>
             <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I was a curious kid, a mind full of bold ideas, trapped inside the body of a shy, reserved boy.</p>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<Button variant="blue-hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="blue-hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
             <div className="mb-15"></div>
             
             <Heading text="Read rooms rather than dominate them"/>
@@ -133,12 +133,12 @@ export default function About() {
 
             <Heading text="Everything happens for a reason"/>
             <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
+            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
             
             <div className="mb-25"></div>
 
             <div className="w-full flex">
-                <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
             </div>
 
             <div className="-mb-14"></div>

@@ -20,7 +20,7 @@ export default function Testimonial(props: Props) {
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.job} at {props.company}.</p>
                 </div>
                 <div className="flex lg:justify-end items-center">
-                    {/* <Button link={props.companylink} target="_blank" variant="blue-hyperlink" text={props.company} textSize="text-sm"/> */}
+                    {/* <MyButton link={props.companylink} target="_blank" variant="blue-hyperlink" text={props.company} textSize="text-sm"/> */}
                 </div>
             </div>
             {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">{props.company}</p> */}

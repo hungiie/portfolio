@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import Button from "@/components/button";
+import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
@@ -13,7 +13,7 @@ export default function Cardio() {
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
             <SlideUpNoThres>
                 <div>
-                    <Button variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                    <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
                 </div>
                 <div className="mb-10"></div>
 
@@ -33,9 +33,9 @@ export default function Cardio() {
                 <div className="mb-10"></div>
                 <div className="flex flex-col lg:flex-row lg:justify-between">
                     <div className="mb-3 lg:mb-0">
-                        <Button link="https://www.figma.com/proto/9XcoE1V7RXomBeYPjR6Q3i/card.io-2024?page-id=0%3A1&node-id=1-770&viewport=263%2C253%2C0.1&t=04CL8AOOFW3mPu7n-1&scaling=contain&content-scaling=fixed" target="_blank" variant="blue-hyperlink" text="View my presentation" textSize="text-sm"/>
+                        <MyButton link="https://www.figma.com/proto/9XcoE1V7RXomBeYPjR6Q3i/card.io-2024?page-id=0%3A1&node-id=1-770&viewport=263%2C253%2C0.1&t=04CL8AOOFW3mPu7n-1&scaling=contain&content-scaling=fixed" target="_blank" variant="blue-hyperlink" text="View my presentation" textSize="text-sm"/>
                     </div>
-                    <Button link="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-159&node-type=frame&viewport=1007%2C-233%2C0.14&t=bj4QvDbaNDyAlbzU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=139%3A1790" target="_blank" variant="blue-hyperlink" text="Experience the prototype" textSize="text-sm"/>
+                    <MyButton link="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-159&node-type=frame&viewport=1007%2C-233%2C0.14&t=bj4QvDbaNDyAlbzU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=139%3A1790" target="_blank" variant="blue-hyperlink" text="Experience the prototype" textSize="text-sm"/>
                 </div>
                 <Footer/>
             </SlideUpNoThres>

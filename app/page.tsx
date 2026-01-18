@@ -1,6 +1,6 @@
 "use client"
 
-import Button from "@/components/button";
+import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import ProjectThumbnail from "@/components/project-thumbnail";
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="absolute right-0">
             <SlideRightDelay>
               <div className="grid grid-cols-1 gap-y-3 justify-items-end pr-1">
-                <Button variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
+                <MyButton variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
               </div>
             </SlideRightDelay>
           </div>
@@ -43,16 +43,16 @@ export default function Home() {
           <div className="flex justify-between">
             <Heading text="Hi, my name is Hung." />
           </div>
-          <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+          <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
           {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.  As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p> */}
           <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I make interfaces that quietly disappear.</p>
           <p className="mb-6 text-sm text-[var(--colour-bodytext)] leading-loose">Each click comes effortlessly, so users can stay focused on their tasks while the interface dissolves into the background of attention.</p>
           
           <div className="mb-9">
-            <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
-            {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><Button link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
+            <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+            {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
           </div>
 
           <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="mb-30"></div>
 
         <div className="w-full flex items-center justify-center">
-            <Button variant="blue-hyperlink" text="See my academic projects in a new page ->" link="academics" target="_self" textSize="text-sm"/>
+            <MyButton variant="blue-hyperlink" text="See my academic projects in a new page ->" link="academics" target="_self" textSize="text-sm"/>
         </div>
 
         <div className="-mb-10"></div>
