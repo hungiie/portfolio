@@ -32,7 +32,7 @@ export default function ProjectThumbnail(props: Props) {
     if (props.isLink == "no") {
         return (
             <div className="overflow-hidden bg-[var(--background)]">
-                <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4">
+                <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4 leading-loose">
                     {props.name}
                 </p>
                 <p className="text-sm text-[var(--colour-bodytext)] mb-6 leading-loose">

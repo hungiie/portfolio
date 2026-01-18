@@ -17,13 +17,13 @@ export default function ProjectVideo(props: Props) {
     if (props.isLink == "yes") {
         return (
             <div className="overflow-hidden bg-[var(--background)]">
-                <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4">
+                <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4 leading-loose">
                     {props.name}
                 </p>
                 <p className="text-sm text-[var(--colour-bodytext)] mb-6 leading-loose">
                     {props.desc}
                 </p>
-                <a href={props.link} className="group overflow-hidden block w-full h-[430px] flex items-center justify-center" target={props.target} style={{ backgroundColor: props.bgColor }}>
+                <a href={props.link} className="group overflow-hidden w-full h-[430px] flex items-center justify-center" target={props.target} style={{ backgroundColor: props.bgColor }}>
                     <video src={props.vidSrc} className={props.className} autoPlay muted loop />
                 </a>
             </div>
@@ -32,13 +32,13 @@ export default function ProjectVideo(props: Props) {
     else if (props.isLink == "no") {
         return (
             <div className="overflow-hidden bg-[var(--background)]">
-                <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4">
+                <p className="font-semibold text-sm text-[var(--colour-pure)] mb-4 leading-loose">
                     {props.name}
                 </p>
                 <p className="text-sm text-[var(--colour-bodytext)] mb-6 leading-loose">
                     {props.desc}
                 </p>
-                <div className="group overflow-hidden block w-full h-[430px] flex items-center justify-center" style={{ backgroundColor: props.bgColor }}>
+                <div className="group overflow-hidden w-full h-[430px] flex items-center justify-center" style={{ backgroundColor: props.bgColor }}>
                     <video src={props.vidSrc} className={props.className} autoPlay muted loop />
                 </div>
             </div>
