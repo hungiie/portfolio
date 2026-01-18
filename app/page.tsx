@@ -92,7 +92,7 @@ export default function Home() {
           <div className="mb-6"></div>
           {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at SFU&rsquo;s <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
           {/* <div className="mb-2"></div> */}
-          <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p>
+          <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, question, and experiment when given space to explore.</p>
           <div className="mb-6"></div>
           <MyButton variant="blue-hyperlink" text="View my academic projects ->" link="academics" target="_self" textSize="text-sm"/>
         </div>
