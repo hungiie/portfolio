@@ -42,7 +42,7 @@ export default function Academics() {
                     <ProjectThumbnail isLink="no" link="https://www.figma.com/proto/dZnu88TbS026t0KrGb9kzf/Spotify-multi-select-behaviour?page-id=0%3A1&node-id=1-2&viewport=138%2C146%2C0.41&t=m8N8cWUOcJMEwyGJ-1&scaling=contain&content-scaling=fixed" name="Spotify's multi-select pattern" desc="How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users?" imageSrc="/spotify.png" imageSrcDark="/spotify.png" target="_blank"/>
                 </SlideUp>
                 <SlideUp>
-                    <ProjectThumbnail isLink="yes" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app connecting to APIs and device features" desc="Memory Mate is a note-taking app for senior citizens, integrating native features and APIs such as Apple Maps, Text-to-speech, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate.png" target="_blank"/>
+                    <ProjectThumbnail isLink="no" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app connecting to APIs and device features" desc="Memory Mate is a note-taking app for senior citizens, integrating APIs such as Apple Maps, Text-to-speech, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate.png" target="_blank"/>
                 </SlideUp>
                 <SlideUp>
                     <ProjectThumbnail isLink="no" link="cardio" name="Create personalized running playlists with card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardiohi.png" imageSrcDark="/cardiohi.png" target="_self"/>
@@ -54,7 +54,7 @@ export default function Academics() {
                     <ProjectThumbnail isLink="no" link="" name="Jackalope - AI assist app for international students" desc="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." imageSrc="/jackalope.png" imageSrcDark="/jackalope.png" target="_self"/>
                 </SlideUp>
                 <SlideUp>
-                    <ProjectThumbnail isLink="yes" link="https://www.figma.com/proto/undmsCtZPr5lx5XD6y12Pr/Uber-Eats--Nutrition-Report?page-id=0%3A1&node-id=1-32&viewport=316%2C40%2C0.03&t=XLdaLQhs7zoxcBIp-1&scaling=scale-down&content-scaling=fixed" name="Tracking nutrition for frequent Uber Eats users" desc="Uber Eats feature that assists and informs regular users about their food&rsquo;s nutrition details, makes sure specified dietary needs are met." imageSrc="/ubereats.png" imageSrcDark="/ubereats.png" target="_blank"/>
+                    <ProjectThumbnail isLink="no" link="https://www.figma.com/proto/undmsCtZPr5lx5XD6y12Pr/Uber-Eats--Nutrition-Report?page-id=0%3A1&node-id=1-32&viewport=316%2C40%2C0.03&t=XLdaLQhs7zoxcBIp-1&scaling=scale-down&content-scaling=fixed" name="Tracking nutrition for frequent Uber Eats users" desc="Uber Eats feature that assists and informs regular users about their food&rsquo;s nutrition details, makes sure specified dietary needs are met." imageSrc="/ubereats.png" imageSrcDark="/ubereats.png" target="_blank"/>
                 </SlideUp>
             </div>
 
