@@ -75,13 +75,13 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-40">
           <SlideUpScroll>
-            <ProjectThumbnail link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers actions when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/>
+            <ProjectThumbnail isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers actions when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/>
           </SlideUpScroll>
           <SlideUp>
-            <ProjectThumbnail link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
+            <ProjectThumbnail isLink="yes" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/>
+            <ProjectThumbnail isLink="yes" link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/>
           </SlideUp>
         </div>
 
