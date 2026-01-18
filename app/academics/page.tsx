@@ -45,7 +45,7 @@ export default function Academics() {
                     <ProjectThumbnail isLink="yes" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="React Native app connecting to APIs and device features" desc="Memory Mate is a note-taking app for senior citizens, integrating native features and APIs such as Apple Maps, Text-to-speech, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate.png" target="_blank"/>
                 </SlideUp>
                 <SlideUp>
-                    <ProjectThumbnail isLink="no" link="cardio" name="Create personalized running playlists with card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardiohi.png" imageSrcDark="/cardio.png" target="_self"/>
+                    <ProjectThumbnail isLink="no" link="cardio" name="Create personalized running playlists with card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardiohi.png" imageSrcDark="/cardiohi.png" target="_self"/>
                 </SlideUp>
                 <SlideUp>
                     <ProjectThumbnail isLink="no" link="" name="Jambo Grill - Winning Best Usability Award at FLUI 2025 Hackathon at Emily Carr University of Art & Design" desc="Redesigned the website for a Persian & African family-owned restaurant." imageSrc="/jambogrill.png" imageSrcDark="/jambogrill.png" target="_self"/>
