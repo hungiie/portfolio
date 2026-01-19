@@ -28,7 +28,7 @@ export default function Academics() {
 
                     <div className="mb-18"></div>
 
-                    <Heading text="My undergrad design & dev journey."/>
+                    <Heading text="My undergrad design & dev journey"/>
                     {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p> */}
                     <div className="mb-6"></div>
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Was it worth it? Yes.</p>
