@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import ProjectVideo from "@/components/project-video";
+import MyNav from "@/components/nav";
 
 export default function Academics() {
   const [animate, setAnimate] = useState(false);
@@ -19,6 +20,7 @@ export default function Academics() {
 
   return (
     <div>
+        <MyNav variant="Academics"/>
         <SlideUpNoThres>
             <div className="flex items-center justify-center">
                 <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-2/5 2xl:w-1/4 mt-20">
