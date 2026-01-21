@@ -1,7 +1,6 @@
 "use client"
 
 import MyButton from "@/components/my-button";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 interface Props {
@@ -26,13 +25,13 @@ export default function MyNav(props: Props) {
 
   // Common classes for nav
   const baseNavClasses =
-    "w-full bg-transparent fixed z-20 h-22 flex justify-center top-0 transition-all duration-500";
+    "w-full bg-transparent fixed z-20 mt-10 flex justify-center top-0 transition-all duration-500";
 
   return (
     <nav className={`${baseNavClasses} ${showNav ? "opacity-100" : "opacity-0"}`}>
       
       {props.variant === "To home" && (
-        <div className="hidden lg:flex lg:w-2/3 2xl:w-2/4 items-center justify-start">
+        <div className="hidden lg:flex lg:w-2/3 2xl:w-2/4 items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
             text="<- Back to home"
@@ -56,7 +55,7 @@ export default function MyNav(props: Props) {
       )}
 
       {props.variant === "To about" && (
-        <div className="hidden lg:flex lg:w-2/3 2xl:w-2/4 items-center justify-between">
+        <div className="hidden lg:flex lg:w-2/3 2xl:w-2/4 items-center justify-end">
           <div></div>
           <MyButton
             variant="blue-hyperlink"
