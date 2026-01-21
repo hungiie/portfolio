@@ -57,11 +57,11 @@ export default function Academics() {
 
                     <div className="mb-30"></div>
 
-                    <div className="w-full flex items-center justify-center">
+                    {/* <div className="w-full flex items-center justify-center">
                         <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" target="_self" textSize="text-sm"/>
                     </div>
+                    <div className="-mb-10"></div> */}
 
-                    <div className="-mb-10"></div>
                     <Footer/>
                 </div>
             </div>

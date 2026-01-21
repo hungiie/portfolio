@@ -60,13 +60,14 @@ export default function Demo() {
                 </div>
             </div>
 
-            <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10">
-                <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
-                <div className="flex flex-col items-end">
+            {/* <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10"> */}
+            <div className="mt-25 w-full flex flex-col items-end">
+                {/* <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/> */}
+                {/* <div className="flex flex-col items-end"> */}
                     <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
                     <div className="mb-3"></div>
                     <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Organizations ->" link="organizations" textSize="text-sm" target="_self"/>
-                </div>
+                {/* </div> */}
             </div>
 
             <Footer/>

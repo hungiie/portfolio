@@ -7,11 +7,13 @@ import Heading from "@/components/heading";
 import PhotoTag from "@/components/photo-tag";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav from "@/components/nav";
+import MyNav2 from "@/components/nav2";
 
 export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
         <MyNav variant="To home"/>
+        {/* <MyNav2 variant="To home"/> */}
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
             <SlideUpNoThres>
                 <div className="mb-9">
@@ -21,7 +23,7 @@ export default function About() {
                 <div className="w-full flex">
                     <div className="w-full h-auto relative mb-10 overflow-hidden">
                     {/* <div className="relative w-[65px] h-[65px] mb-9 rounded-full overflow-hidden border-none"> */}
-                        <Image src="/maybe.jpg" width={2048} height={1152} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(89%)' }}/>
+                        <Image src="/maybe.jpg" width={1472} height={828} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(89%)' }}/>
                         {/* <Image src="/me.png" fill alt="Hung Tran" className="object-cover" style={{ filter: 'contrast(100%) brightness(100%)' }}/> */}
                     </div>
                 </div>
@@ -126,13 +128,13 @@ export default function About() {
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
                 
-                <div className="mb-25"></div>
+                <div className="mb-40"></div>
 
-                <div className="w-full flex">
+                {/* <div className="w-full flex">
                     <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
-                </div>
+                </div> */}
 
-                <div className="-mb-14"></div>
+                {/* <div className="-mb-14"></div> */}
 
                 {/* <Heading text="My life soundtracks"/>
                 <iframe data-testid="embed-iframe" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            <div className="mb-25"></div> */}
