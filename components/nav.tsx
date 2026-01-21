@@ -26,7 +26,7 @@ export default function MyNav(props: Props) {
 
   // Common classes for nav
   const baseNavClasses =
-    "w-full bg-[rgba(248,248,248,0.8)] backdrop-blur-lg border-1 border-[rgba(204,204,204,0.4)] fixed z-20 h-14 flex justify-center top-0 transition-transform duration-500";
+    "w-full bg-[var(--nav-bg)] backdrop-blur-lg border-b-[1px] border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-transform duration-500";
 
   return (
     <nav
@@ -58,7 +58,7 @@ export default function MyNav(props: Props) {
 
       {props.variant === "To about" && (
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-between">
-          <div className="relative w-[35px] h-[35px] rounded-full overflow-hidden border-none">
+          <div className="relative w-[30px] h-[30px] rounded-full overflow-hidden border-none">
             <Image
               src="/me.png"
               fill

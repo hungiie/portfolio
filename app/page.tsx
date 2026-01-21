@@ -79,17 +79,17 @@ export default function Home() {
           <SlideUpScroll>
             <ProjectThumbnail isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed an EMM feature that triggers actions when specific conditions are met (time, locations, device status & activities, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/>
           </SlideUpScroll>
-          <SlideUp>
+          {/* <SlideUp> */}
             <ProjectThumbnail isLink="yes" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
-          </SlideUp>
-          <SlideUp>
+          {/* </SlideUp> */}
+          {/* <SlideUp> */}
             <ProjectThumbnail isLink="yes" link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/>
-          </SlideUp>
+          {/* </SlideUp> */}
         </div>
 
         <div className="mb-30"></div>
 
-        <SlideUp>
+        {/* <SlideUp> */}
           <div className="w-full">
             <p className="text-sm font-semibold text-[var(--colour-bodytext)]">My undergrad design & dev journey</p>
             <div className="mb-6"></div>
@@ -99,7 +99,7 @@ export default function Home() {
             <div className="mb-6"></div>
             <MyButton variant="blue-hyperlink" text="View my academic projects ->" link="academics" target="_self" textSize="text-sm"/>
           </div>
-        </SlideUp>
+        {/* </SlideUp> */}
 
         <div className="-mb-10"></div>
 
