@@ -13,7 +13,7 @@ export default function MyNav(props: Props) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 150) {
+      if (window.scrollY > 350) {
         setShowNav(true);
       } else {
         setShowNav(false);
@@ -26,13 +26,13 @@ export default function MyNav(props: Props) {
 
   // Common classes for nav
   const baseNavClasses =
-    "w-full bg-[var(--nav-bg)] backdrop-blur-lg border-b-[0.75px] border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
+    "w-full bg-[var(--background)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
     // "w-full bg-transparent fixed z-20 h-22 flex justify-center top-0 transition-all duration-500";
 
   return (
     <nav
-      // className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}
-      className={`${baseNavClasses} ${showNav ? "opacity-100" : "opacity-0"}`}
+      className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}
+      // className={`${baseNavClasses} ${showNav ? "opacity-100" : "opacity-0"}`}
     >
       {props.variant === "To home" && (
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-start">
