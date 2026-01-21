@@ -21,7 +21,7 @@ export default function About() {
                 <div className="w-full flex">
                     <div className="w-full h-auto relative mb-10 overflow-hidden">
                     {/* <div className="relative w-[65px] h-[65px] mb-9 rounded-full overflow-hidden border-none"> */}
-                        <Image src="/maybe.jpg" width={2048} height={1152} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(95%)' }}/>
+                        <Image src="/maybe.jpg" width={2048} height={1152} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(89%)' }}/>
                         {/* <Image src="/me.png" fill alt="Hung Tran" className="object-cover" style={{ filter: 'contrast(100%) brightness(100%)' }}/> */}
                     </div>
                 </div>
