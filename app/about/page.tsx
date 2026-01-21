@@ -11,149 +11,140 @@ export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
-        <SlideUpNoThres>
-            <div className="mb-10">
-                <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
-            </div>
-
-            <div className="w-full flex items-center justify-center">
-                <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover block dark:hidden" style={{ filter: 'contrast(85%) brightness(100%)' }}/>
-                    <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover hidden dark:block" style={{ filter: 'contrast(95%)' }}/>
+            <SlideUpNoThres>
+                <div className="mb-9">
+                    <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
                 </div>
-            </div>
 
-            <Heading text="Hi, my name is Hung."/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
-            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
-            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
-            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Habits often emerge as friction fades: a stop at the coffee shop on the way to work, a swipe that feels natural, a tap that requires no thought. Over time, these interactions stop being decisions, and start becoming part of the subconscious mind.</p>
-            <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I design for that feeling - experiences so intuitive they fade into the background, allowing users to focus not on the interface, but on living.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Like noticing how good the coffee was.</p>
-
-            <div className="mb-8"></div>
-
-            <div className="">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
-            </div>
-            <div className="mb-25"></div>
-
-            <Heading text="My attempts to romanticize life"/>
-            <div className="grid grid-cols-2 gap-2">
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                <div className="w-full flex">
+                    {/* <div className="w-full h-auto relative mb-10 overflow-hidden"> */}
+                    <div className="relative w-[65px] h-[65px] mb-9 rounded-full overflow-hidden border-none">
+                        {/* <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover block dark:hidden" style={{ filter: 'contrast(85%) brightness(100%)' }}/> */}
+                        {/* <Image src="/about-darkmode.png" width={2289} height={1276} alt="hung tran" className="object-cover hidden dark:block" style={{ filter: 'contrast(95%)' }}/> */}
+                        {/* <Image src="/lala.jpg" width={6000} height={3376} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(95%)' }}/> */}
+                        <Image src="/me.png" fill alt="Hung Tran" className="object-cover" style={{ filter: 'contrast(100%) brightness(100%)' }}/>
+                    </div>
                 </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-            </div>
-            <div className="mb-25"></div>
 
-            <Heading text="It&rsquo;s all about the work life balance"/>
-            <div className="grid grid-cols-1 gap-2">
-                <PhotoTag
-                    photoSrc="/work2.png"
-                    photoWidth={3721}
-                    photoHeight={2791}
-                    className="object-cover"
-                    tagSrc="/tagtag.png"
-                    tagWidth={307}
-                    tagHeight={240}
-                    tagPosition={{ x: 600, y: 1090 }}
-                />
-                <PhotoTag
-                    photoSrc="/work1.png"
-                    photoWidth={3721}
-                    photoHeight={2791}
-                    className="object-cover"
-                    tagSrc="/tagtag.png"
-                    tagWidth={307}
-                    tagHeight={240}
-                    tagPosition={{ x: 1090, y: 380 }}
-                />
-            </div>
+                <Heading text="Hi, my name is Hung."/>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+                {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
+                <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
+                <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Habits often emerge as friction fades: a stop at the coffee shop on the way to work, a swipe that feels natural, a tap that requires no thought. Over time, these interactions stop being decisions, and start becoming part of the subconscious mind.</p>
+                <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I design for that feeling - experiences so intuitive they fade into the background, allowing users to focus not on the interface, but on living.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Like noticing how good the coffee was.</p>
 
-            {/* <div className="flex justify-between mb-6">
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Fraser Health, 2023-2024</p>
-            </div> */}
-            <div className="grid grid-cols-1 gap-2">
-                {/* <div className="relative overflow-hidden">
-                    <Image src="/fraser2.png" width={828} height={607} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
-                </div> */}
-                {/* <div className="relative overflow-hidden">
-                    <Image src="/fraser1.jpg" width={2796} height={2097} alt="hung tran" className="object-cover" style={{ filter: 'contrast(90%)' }}/>
-                </div> */}
-            </div>
+                <div className="mb-8"></div>
 
-            <div className="mb-25"></div>
+                <div className="">
+                    <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+                </div>
+                <div className="mb-25"></div>
 
-            <div className="w-full flex items-center justify-center">
-                <div className="w-full h-auto relative mb-10 overflow-hidden">
-                    <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
-                    {/* <PhotoTag
-                        photoSrc="/small.jpg"
-                        photoWidth={3689}
-                        photoHeight={2116}
+                <Heading text="My attempts to romanticize life"/>
+                <div className="grid grid-cols-2 gap-2">
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                </div>
+                <div className="mb-25"></div>
+
+                <Heading text="It&rsquo;s all about the work life balance"/>
+                <div className="grid grid-cols-1 gap-2">
+                    <PhotoTag
+                        photoSrc="/work2.png"
+                        photoWidth={3721}
+                        photoHeight={2791}
                         className="object-cover"
                         tagSrc="/tagtag.png"
                         tagWidth={307}
                         tagHeight={240}
-                        tagPosition={{ x: 1650, y: 170 }}
-                    /> */}
+                        tagPosition={{ x: 600, y: 1090 }}
+                    />
+                    <PhotoTag
+                        photoSrc="/work1.png"
+                        photoWidth={3721}
+                        photoHeight={2791}
+                        className="object-cover"
+                        tagSrc="/tagtag.png"
+                        tagWidth={307}
+                        tagHeight={240}
+                        tagPosition={{ x: 1090, y: 380 }}
+                    />
                 </div>
-            </div>
 
-            <Heading text="My story"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I was a curious kid, a mind full of bold ideas, trapped inside the body of a shy, reserved boy.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="blue-hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
-            <div className="mb-15"></div>
-            
-            <Heading text="Read rooms rather than dominate them"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Growing up as one of those quiet kids meant learning to read rooms rather than dominate them.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">And I believe that way of seeing never really disappear!</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">In UX design, understanding users often goes beyond what is said out loud. Insight can be found in hesitation before a click, in abandoned flows, or in moments where something feels off but goes unspoken.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">For many quiet kids, listening closely, sitting with uncertainty, and noticing subtle signals become familiar habits over time. In UX, those habits naturally translate into a way of designing that prioritizes care, empathy, and intention.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose"></p>
-            <div className="mb-15"></div>
+                <div className="mb-25"></div>
 
-            <Heading text="Everything happens for a reason"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
-            
-            <div className="mb-25"></div>
+                <div className="w-full flex items-center justify-center">
+                    <div className="w-full h-auto relative mb-10 overflow-hidden">
+                        <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
+                        {/* <PhotoTag
+                            photoSrc="/small.jpg"
+                            photoWidth={3689}
+                            photoHeight={2116}
+                            className="object-cover"
+                            tagSrc="/tagtag.png"
+                            tagWidth={307}
+                            tagHeight={240}
+                            tagPosition={{ x: 1650, y: 170 }}
+                        /> */}
+                    </div>
+                </div>
 
-            <div className="w-full flex">
-                <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
-            </div>
+                <Heading text="My story"/>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I was a curious kid, a mind full of bold ideas, trapped inside the body of a shy, reserved boy.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="blue-hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
+                <div className="mb-15"></div>
+                
+                <Heading text="Read rooms rather than dominate them"/>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Growing up as one of those quiet kids meant learning to read rooms rather than dominate them.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">And I believe that way of seeing never really disappear!</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">In UX design, understanding users often goes beyond what is said out loud. Insight can be found in hesitation before a click, in abandoned flows, or in moments where something feels off but goes unspoken.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">For many quiet kids, listening closely, sitting with uncertainty, and noticing subtle signals become familiar habits over time. In UX, those habits naturally translate into a way of designing that prioritizes care, empathy, and intention.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose"></p>
+                <div className="mb-15"></div>
 
-            <div className="-mb-14"></div>
+                <Heading text="Everything happens for a reason"/>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
+                
+                <div className="mb-25"></div>
 
-            {/* <Heading text="My life soundtracks"/>
-            <iframe data-testid="embed-iframe" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            <div className="mb-25"></div> */}
+                <div className="w-full flex">
+                    <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                </div>
 
-            {/* <Heading text="Sometimes (once every 10 years), I will pick up a brush"/>
-            <div className="relative aspect-[1209/751] overflow-hidden">
-                <Image src="/painting.jpg" alt="hung tran" fill className="object-cover scale-105"/>
-            </div>
-            <div className="mb-25"></div> */}
+                <div className="-mb-14"></div>
 
-            <Footer/>
-        </SlideUpNoThres>
+                {/* <Heading text="My life soundtracks"/>
+                <iframe data-testid="embed-iframe" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            <div className="mb-25"></div> */}
+
+                {/* <Heading text="Sometimes (once every 10 years), I will pick up a brush"/>
+                <div className="relative aspect-[1209/751] overflow-hidden">
+                    <Image src="/painting.jpg" alt="hung tran" fill className="object-cover scale-105"/>
+                </div>
+                <div className="mb-25"></div> */}
+
+                <Footer/>
+            </SlideUpNoThres>
         </div>
     </div>
   );
