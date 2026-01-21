@@ -70,7 +70,7 @@ export default function MyNav(props: Props) {
           <MyButton
             variant="blue-hyperlink"
             text="More about me ->"
-            link="/"
+            link="about"
             textSize="text-sm"
             target="_self"
           />
