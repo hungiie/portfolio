@@ -90,7 +90,7 @@ export default function Organizations() {
                 <div className="mt-25 w-full flex items-center justify-end">
                     {/* <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/> */}
                     {/* <div className="flex flex-col items-end"> */}
-                        <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Next project: </p>
+                        <p className="text-sm text-[var(--colour-bodytext)] leading-loose">View next project: </p>
                         <div className="ml-2"></div>
                         <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
                         {/* <div className="mb-3"></div> */}
