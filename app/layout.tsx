@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hung T.",
+  title: "Hung",
   openGraph: {
     images: [""],
   },
