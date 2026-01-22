@@ -87,14 +87,17 @@ export default function Organizations() {
                 </div>
 
                 {/* <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10"> */}
-                <div className="mt-25 w-full flex flex-col items-end">
+                <div className="mt-25 w-full flex items-center justify-end">
                     {/* <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/> */}
                     {/* <div className="flex flex-col items-end"> */}
+                        <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Next project: </p>
+                        <div className="ml-2"></div>
                         <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
-                        <div className="mb-3"></div>
+                        {/* <div className="mb-3"></div> */}
                         {/* <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Demo Kit ->" link="demokit" textSize="text-sm" target="_self"/> */}
                     {/* </div> */}
                 </div>
+                <div className="-mb-15"></div>
                 
                 <Footer/>
             </SlideUpNoThres>
