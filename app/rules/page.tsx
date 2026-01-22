@@ -101,7 +101,7 @@ export default function Rules() {
                     {/* <div className="flex flex-col items-end"> */}
                         <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Organizations ->" link="organizations" textSize="text-sm" target="_self"/>
                         <div className="mb-3"></div>
-                        <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Demo Kit ->" link="demokit" textSize="text-sm" target="_self"/>
+                        {/* <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Demo Kit ->" link="demokit" textSize="text-sm" target="_self"/> */}
                     {/* </div> */}
                 </div>
 
