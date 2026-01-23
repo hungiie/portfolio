@@ -20,7 +20,7 @@ export default function Organizations() {
                 <div className="mb-10"></div>
 
                 <Heading text="Samsung Knox Manage: Organizations"/>
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an EMM feature that categorizes devices based on organizational structure, enables hierarchical device management.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed a device management feature (EMM) that organizes devices into nested groups and enables hierarchical device management.</p>
                 <div className="mb-5"></div>
                 <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">EMM = Enterprise Mobility Management.   <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/blog/emm-mdm-uem-for-enterprises" textSize="text-sm" target="blank"/></p>
                 <div className="mb-7"></div>
