@@ -57,9 +57,6 @@ export default function Home() {
             {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
           </div>
 
-          <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
-          <div className="mb-9"></div>
-
           <ThemeToggleButton
             theme={theme === "light" ? "dark" : "light"}
             onClick={() => {
@@ -71,6 +68,12 @@ export default function Home() {
             className="hover:cursor-pointer"
             showLabel={false}
           />
+
+          <div className="mb-9"></div>
+          {/* <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p> */}
+          <p className="text-lg text-[var(--colour-bodytext-4)]">	&darr;</p>
+          <div className="mb-9"></div>
+
         </SlideUpDelay>
 
         <div className="mb-30 md:mb-50 lg:mb-30"></div>
