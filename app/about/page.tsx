@@ -14,7 +14,7 @@ export default function About() {
     <div className="flex items-center justify-center flex-col">
         <MyNav variant="To home"/>
         {/* <MyNav2 variant="To home"/> */}
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-24">
             <SlideUpNoThres>
                 <div className="mb-9">
                     <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
