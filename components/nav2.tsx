@@ -52,7 +52,7 @@ export default function MyNav2(props: Props) {
       )}
 
       {props.variant === "Projects to home" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 flex items-center justify-between">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[75%] flex items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
             text="Return to home"
