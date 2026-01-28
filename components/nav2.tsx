@@ -13,7 +13,7 @@ export default function MyNav2(props: Props) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 250) {
+      if (window.scrollY > 350) {
         setShowNav(true);
       } else {
         setShowNav(false);
@@ -26,7 +26,7 @@ export default function MyNav2(props: Props) {
 
   // Common classes for nav
   const baseNavClasses =
-    "w-full bg-[var(--nav-bg)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
+    "w-full bg-[var(--background)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
 
   return (
     <nav

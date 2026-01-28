@@ -11,7 +11,7 @@ interface Props {
 export default function MyButton(props: Props) {
   if (props.variant == "blue-button") {
     return (
-      <a href={props.link} target={props.target} className={`bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors rounded-full text-white font-medium py-2.5 px-4 ${props.textSize ?? "text-sm"}`}>
+      <a href={props.link} target={props.target} className={`bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors rounded-full text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
         {props.text}
       </a>
     );
