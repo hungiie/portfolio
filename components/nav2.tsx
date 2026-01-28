@@ -13,7 +13,7 @@ export default function MyNav2(props: Props) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 350) {
+      if (window.scrollY > 250) {
         setShowNav(true);
       } else {
         setShowNav(false);
@@ -26,17 +26,17 @@ export default function MyNav2(props: Props) {
 
   // Common classes for nav
   const baseNavClasses =
-    "w-full bg-[var(--background)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
+    "w-full bg-[var(--nav-bg)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
 
   return (
     <nav
       className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}
     >
-      {props.variant === "To home" && (
+      {props.variant === "Abt to home" && (
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-start">
           <MyButton
             variant="blue-hyperlink"
-            text="<- Back to home"
+            text="<- Return to home"
             link="/"
             textSize="text-sm"
             target="_self"
@@ -44,33 +44,12 @@ export default function MyNav2(props: Props) {
         </div>
       )}
 
-      {props.variant === "Academics" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-2/5 2xl:w-1/4 flex items-center justify-start">
+      {props.variant === "Projects to home" && (
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 flex items-center justify-start">
           <MyButton
             variant="blue-hyperlink"
-            text="<- Back to home"
+            text="<- Return to home"
             link="/"
-            textSize="text-sm"
-            target="_self"
-          />
-        </div>
-      )}
-
-      {props.variant === "To about" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-between">
-          <div className="relative w-[30px] h-[30px] rounded-full overflow-hidden border-none">
-            <Image
-              src="/me.png"
-              fill
-              alt="Hung Tran"
-              className="object-cover"
-              style={{ filter: "contrast(100%) brightness(100%)" }}
-            />
-          </div>
-          <MyButton
-            variant="blue-hyperlink"
-            text="More about me ->"
-            link="about"
             textSize="text-sm"
             target="_self"
           />

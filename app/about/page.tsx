@@ -12,24 +12,21 @@ import MyNav2 from "@/components/nav2";
 export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <MyNav variant="To home"/>
-        {/* <MyNav2 variant="To home"/> */}
+        <MyNav2 variant="Abt to home"/>
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-24">
             <SlideUpNoThres>
                 <div className="mb-9">
-                    <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
+                    <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
                 </div>
 
                 <div className="w-full flex">
                     <div className="w-full h-auto relative mb-9 overflow-hidden">
-                    {/* <div className="relative w-[65px] h-[65px] mb-9 rounded-full overflow-hidden border-none"> */}
                         <Image src="/haha.jpg" width={1472} height={828} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(87%) brightness(95%) saturate(115%)' }}/>
-                        {/* <Image src="/me.png" fill alt="Hung Tran" className="object-cover" style={{ filter: 'contrast(100%) brightness(100%)' }}/> */}
                     </div>
                 </div>
 
                 <Heading text="Hi, my name is Hung."/>
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
                 {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
                 <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
                 <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Habits often emerge as friction fades: a stop at the coffee shop on the way to work, a swipe that feels natural, a tap that requires no thought. Over time, these interactions stop being decisions, and start becoming part of the subconscious mind.</p>
@@ -45,7 +42,7 @@ export default function About() {
                 </div>
                 <div className="mb-25"></div>
 
-                <Heading text="My attempts to romanticize life"/>
+                {/* <Heading text="My attempts to romanticize life"/>
                 <div className="grid grid-cols-2 gap-2">
                     <div className="relative aspect-square overflow-hidden">
                         <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
@@ -66,7 +63,7 @@ export default function About() {
                         <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                     </div>
                 </div>
-                <div className="mb-25"></div>
+                <div className="mb-25"></div> */}
 
                 <Heading text="It&rsquo;s all about the work life balance"/>
                 <div className="grid grid-cols-1 gap-2">
@@ -97,16 +94,6 @@ export default function About() {
                 <div className="w-full flex items-center justify-center">
                     <div className="w-full h-auto relative mb-10 overflow-hidden">
                         <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
-                        {/* <PhotoTag
-                            photoSrc="/small.jpg"
-                            photoWidth={3689}
-                            photoHeight={2116}
-                            className="object-cover"
-                            tagSrc="/tagtag.png"
-                            tagWidth={307}
-                            tagHeight={240}
-                            tagPosition={{ x: 1650, y: 170 }}
-                        /> */}
                     </div>
                 </div>
 
@@ -128,13 +115,13 @@ export default function About() {
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
                 
-                <div className="mb-40"></div>
+                <div className="mb-20"></div>
 
-                {/* <div className="w-full flex">
-                    <MyButton variant="blue-hyperlink" text="<- Back to home" link="/" textSize="text-sm" target="_self"/>
-                </div> */}
+                <div className="w-full flex">
+                    <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+                </div>
 
-                {/* <div className="-mb-14"></div> */}
+                <div className="-mb-14"></div>
 
                 {/* <Heading text="My life soundtracks"/>
                 <iframe data-testid="embed-iframe" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            <div className="mb-25"></div> */}
@@ -151,3 +138,75 @@ export default function About() {
     </div>
   );
 }
+
+
+// "use client"
+
+// import Image from "next/image";
+// import MyButton from "@/components/my-button";
+// import Footer from "@/components/footer";
+// import Heading from "@/components/heading";
+// import PhotoTag from "@/components/photo-tag";
+// import SlideUpNoThres from "@/components/slide-up-nothres";
+// import MyNav from "@/components/nav";
+// import MyNav2 from "@/components/nav2";
+
+// export default function About() {
+//   return (
+//     <div className="flex items-center justify-center flex-col">
+//         {/* <MyNav variant="To home"/> */}
+//         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 mt-15">
+//             <SlideUpNoThres>
+//                 <div className="grid grid-cols-2 gap-x-15">
+//                     <div className="w-full sticky top-17 self-start">
+//                         <div className="mb-15">
+//                             <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+//                         </div>
+//                         <Heading text="Hi, my name is Hung."/>
+//                         <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+//                         {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
+//                         <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Loving him is like driving a new Maserati down a dead end street. Faster than the wind, passionate as sin, ending so suddenly</p>
+//                         <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Loving him is like trying to change your mind. Once you're already flying through the free fall.</p>
+//                         <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I design for that feeling - experiences so intuitive they fade into the background, allowing users to focus not on the interface, but on living.</p>
+//                         <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Like the colors in autumn, so bright, just before they lose it all.</p>
+//                         <div className="mb-8"></div>
+//                         <div className="">
+//                             <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+//                             <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+//                             <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full h-auto relative mb-9 overflow-hidden mt-25">
+//                         <Image src="/haha.jpg" width={1472} height={828} alt="hung tran" className="object-cover block" style={{ filter: 'contrast(87%) brightness(95%) saturate(115%)' }}/>
+//                         <div className="mb-2"></div>
+//                         <div className="grid grid-cols-1 gap-2">
+//                             <PhotoTag
+//                                 photoSrc="/work2.png"
+//                                 photoWidth={3721}
+//                                 photoHeight={2791}
+//                                 className="object-cover"
+//                                 tagSrc="/tagtag.png"
+//                                 tagWidth={307}
+//                                 tagHeight={240}
+//                                 tagPosition={{ x: 600, y: 1090 }}
+//                             />
+//                             <PhotoTag
+//                                 photoSrc="/work1.png"
+//                                 photoWidth={3721}
+//                                 photoHeight={2791}
+//                                 className="object-cover"
+//                                 tagSrc="/tagtag.png"
+//                                 tagWidth={307}
+//                                 tagHeight={240}
+//                                 tagPosition={{ x: 1090, y: 380 }}
+//                             />
+//                         </div>
+
+//                     </div>
+//                 </div>
+//                 <Footer/>
+//             </SlideUpNoThres>
+//         </div>
+//     </div>
+//   );
+// }
