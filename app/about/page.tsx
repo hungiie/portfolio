@@ -16,7 +16,7 @@ export default function About() {
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-24">
             <SlideUpNoThres>
                 <div className="mb-9">
-                    <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+                    <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                 </div>
 
                 <div className="w-full flex">
@@ -118,7 +118,7 @@ export default function About() {
                 <div className="mb-20"></div>
 
                 <div className="w-full flex">
-                    <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+                    <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                 </div>
 
                 <div className="-mb-14"></div>
@@ -160,7 +160,7 @@ export default function About() {
 //                 <div className="grid grid-cols-2 gap-x-15">
 //                     <div className="w-full sticky top-17 self-start">
 //                         <div className="mb-15">
-//                             <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+//                             <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
 //                         </div>
 //                         <Heading text="Hi, my name is Hung."/>
 //                         <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>

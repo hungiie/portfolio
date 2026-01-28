@@ -25,7 +25,7 @@
 //             <div className="flex items-center justify-center">
 //                 <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-2/5 2xl:w-1/4 mt-20">
 //                     <div>
-//                         <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+//                         <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
 //                     </div>
 
 //                     <div className="mb-18"></div>
@@ -60,7 +60,7 @@
 //                     <div className="mb-30"></div>
 
 //                     <div className="w-full flex items-center justify-center">
-//                         <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" target="_self" textSize="text-sm"/>
+//                         <MyButton variant="blue-hyperlink" text="Return to home" link="/" target="_self" textSize="text-sm"/>
 //                     </div>
 //                     <div className="-mb-10"></div>
 
@@ -101,7 +101,7 @@ export default function Academics() {
             <div className="flex items-center justify-center">
                 <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 mt-20">
                     <div className="w-full flex justify-between items-center">
-                        <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+                        <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                         <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/>
                     </div>
 
@@ -137,7 +137,7 @@ export default function Academics() {
                     <div className="mb-30"></div>
 
                     <div className="w-full flex items-center">
-                        <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" target="_self" textSize="text-sm"/>
+                        <MyButton variant="blue-hyperlink" text="Return to home" link="/" target="_self" textSize="text-sm"/>
                     </div>
                     <div className="-mb-10"></div>
 

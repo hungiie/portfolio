@@ -15,7 +15,7 @@ export default function Demo() {
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-20">
             <SlideUpNoThres>
             <div>
-                <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/>
+                <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
             </div>
             <div className="mb-10"></div>
 
@@ -62,7 +62,7 @@ export default function Demo() {
 
             {/* <div className="mt-25 w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-y-10"> */}
             <div className="mt-25 w-full flex flex-col items-end">
-                {/* <MyButton variant="blue-hyperlink" text="<- Return to home" link="/" textSize="text-sm" target="_self"/> */}
+                {/* <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/> */}
                 {/* <div className="flex flex-col items-end"> */}
                     <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Rules ->" link="rules" textSize="text-sm" target="_self"/>
                     <div className="mb-3"></div>

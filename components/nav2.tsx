@@ -36,7 +36,7 @@ export default function MyNav2(props: Props) {
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
-            text="<- Return to home"
+            text="Return to home"
             link="/"
             textSize="text-sm"
             target="_self"
@@ -55,7 +55,7 @@ export default function MyNav2(props: Props) {
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 flex items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
-            text="<- Return to home"
+            text="Return to home"
             link="/"
             textSize="text-sm"
             target="_self"
