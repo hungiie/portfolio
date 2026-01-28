@@ -33,7 +33,7 @@ export default function MyNav2(props: Props) {
       className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}
     >
       {props.variant === "Abt to home" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-start">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
             text="<- Return to home"
@@ -41,17 +41,31 @@ export default function MyNav2(props: Props) {
             textSize="text-sm"
             target="_self"
           />
+          <MyButton
+            variant="blue-button"
+            text="Resume"
+            link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view"
+            textSize="text-sm"
+            target="_blank"
+          />
         </div>
       )}
 
       {props.variant === "Projects to home" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 flex items-center justify-start">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-1/4 flex items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
             text="<- Return to home"
             link="/"
             textSize="text-sm"
             target="_self"
+          />
+          <MyButton
+            variant="blue-button"
+            text="Resume"
+            link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view"
+            textSize="text-sm"
+            target="_blank"
           />
         </div>
       )}
