@@ -9,7 +9,13 @@ interface Props {
 }
 
 export default function MyButton(props: Props) {
-  if (props.variant == "blue-button") {
+  if (props.variant == "blue-button-full-width") {
+    return (
+      <a href={props.link} target={props.target} className={`inline-block w-full text-center bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors rounded-full text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
+        {props.text}
+      </a>
+    );
+  } else if (props.variant == "blue-button") {
     return (
       <a href={props.link} target={props.target} className={`bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors rounded-full text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
         {props.text}

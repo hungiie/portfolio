@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import MyButton from "./my-button";
 
 interface Props {
     name: string;
@@ -26,10 +27,16 @@ export default function ProjectThumbnail(props: Props) {
                         {props.desc}
                     </p>
                 </div>
-                <a href={props.link} className="group overflow-hidden block mt-auto" target={props.target}>
+                <div className="group overflow-hidden block mt-auto">
                     <Image src={props.imageSrc} alt={props.name} width={1920} height={1080} className="object-cover block dark:hidden" />
                     <Image src={props.imageSrcDark} alt={props.name} width={1920} height={1080} className="object-cover hidden dark:block" />
-                </a>
+                </div>
+                <div className="mb-9"></div>
+                <div className="w-full flex">
+                    <div className="w-full">
+                        <MyButton link={props.link} text={`View ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button-full-width"/>
+                    </div>
+                </div>
             </div>
         );
     }

@@ -164,12 +164,13 @@ export default function Rules() {
                 <div className="mb-10"></div>
 
                 <div>
-                    <ImageZoom>
+                    {/* <ImageZoom>
                         <Image src="/rules-00.png" width={2985} height={2236} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                     </ImageZoom>
                     <ImageZoom>
                         <Image src="/rules-darkmode.png" width={2985} height={2236} className="w-full h-auto hidden dark:block" alt="Samsung Knox"/> 
-                    </ImageZoom>
+                    </ImageZoom> */}
+                    <video src="/Rule vid.mov" className="w-full" autoPlay muted loop />
                 </div>
 
                 <div className="w-full mt-20">

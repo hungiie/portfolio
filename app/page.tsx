@@ -13,6 +13,7 @@ import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import SlideUpScroll from "@/components/slide-up-scroll";
 import MyNav from "@/components/nav";
+import ProjectVideo from "@/components/project-video";
 // import Testimonial from "@/components/testimonial";
 
 export default function Home() {
@@ -83,7 +84,8 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-35">
           <SlideUpScroll>
-            <ProjectThumbnail isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/>
+            {/* <ProjectThumbnail isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/> */}
+            <ProjectVideo isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" vidSrc="/Rule vid.mov" target="_self" className="w-full h-full object-cover"/>
           </SlideUpScroll>
           <SlideUp>
             <ProjectThumbnail isLink="yes" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a device management feature that organizes devices into nested groups and enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
@@ -103,7 +105,12 @@ export default function Home() {
             {/* <div className="mb-2"></div> */}
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p>
             <div className="mb-6"></div>
-            <MyButton variant="blue-hyperlink" text="View my academic projects" link="academics" target="_self" textSize="text-sm"/>
+            <div className="w-full flex">
+              <div className="w-full">
+                  <MyButton link="academics" text="View my academic projects" textSize="text-sm" target="_self" variant="blue-button-full-width"/>
+              </div>
+            </div>
+            {/* <MyButton variant="blue-hyperlink" text="View my academic projects" link="academics" target="_self" textSize="text-sm"/> */}
           </div>
         </SlideUp>
 
