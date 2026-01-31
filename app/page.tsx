@@ -35,8 +35,10 @@ export default function Home() {
           <Me />
           <div className="absolute right-0">
             <SlideRightDelay>
-              <div className="grid grid-cols-1 gap-y-3 justify-items-end pr-1">
-                <MyButton variant="blue-button" text="About me" link="about" target="_self" textSize="text-sm"/>
+              <div className="flex justify-end">
+                {/* <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/> */}
+                <div className="ml-4"></div>
+                <MyButton variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
               </div>
             </SlideRightDelay>
           </div>
