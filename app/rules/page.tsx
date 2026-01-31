@@ -273,6 +273,7 @@ export default function Rules() {
                             <MyButton variant="blue-hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
                         </div> */}
                         <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
+                        <div className="mb-3"></div>
                         <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                     </div>
                 </div>
