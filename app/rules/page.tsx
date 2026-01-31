@@ -258,7 +258,7 @@ export default function Rules() {
                 <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                     <div></div>
                     <div className="w-full flex flex-col md:flex-row justify-between">
-                        <div className="flex flex-col md:flex-row">
+                        {/* <div className="flex flex-col md:flex-row">
                             <p className="text-sm text-[var(--colour-bodytext)]">View next project: </p>
                             <div className="ml-2 mb-2"></div>
                             <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
@@ -267,7 +267,9 @@ export default function Rules() {
                             <p className="text-sm text-[var(--colour-bodytext)] hidden md:block">Or </p>
                             <div className="ml-1"></div>
                             <MyButton variant="blue-hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
-                        </div>
+                        </div> */}
+                        <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
+                        <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                     </div>
                 </div>
 
