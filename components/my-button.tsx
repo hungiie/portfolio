@@ -23,13 +23,13 @@ export default function MyButton(props: Props) {
     );
   } else if (props.variant == "blue-button-outline") {
     return (
-      <a href={props.link} target={props.target} className={`border-[var(--main-blue)] border-1 hover:bg-[var(--main-blue)] transition-colors rounded-full text-[var(--main-blue)] hover:text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
+      <a href={props.link} target={props.target} className={`shadow-[inset_0_0_0_1px_var(--main-blue)] hover:bg-[var(--main-blue)] transition-colors rounded-full text-[var(--main-blue)] hover:text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
         {props.text}
       </a>
     );
   } else if (props.variant == "blue-button-outline-full-width") {
     return (
-      <a href={props.link} target={props.target} className={`inline-block w-full text-center border-[var(--main-blue)] border-1 hover:bg-[var(--main-blue)] transition-colors rounded-full text-[var(--main-blue)] hover:text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
+      <a href={props.link} target={props.target} className={`inline-block w-full text-center shadow-[inset_0_0_0_1px_var(--main-blue)] hover:bg-[var(--main-blue)] transition-colors rounded-full text-[var(--main-blue)] hover:text-white font-medium py-[10px] px-4 ${props.textSize ?? "text-xs"}`}>
         {props.text}
       </a>
     );

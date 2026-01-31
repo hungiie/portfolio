@@ -115,13 +115,13 @@ export default function About() {
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
                 
-                <div className="mb-20"></div>
+                <div className="mb-25"></div>
 
-                <div className="w-full flex">
-                    <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                <div className="w-full flex items-center justify-center">
+                    <MyButton variant="blue-button-outline" text="Return to home" link="/" target="_self" textSize="text-sm"/>
                 </div>
 
-                <div className="-mb-14"></div>
+                <div className="-mb-10"></div>
 
                 {/* <Heading text="My life soundtracks"/>
                 <iframe data-testid="embed-iframe" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/4l2acge11NRVSaAczjswg7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            <div className="mb-25"></div> */}

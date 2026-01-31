@@ -144,7 +144,11 @@ export default function Rules() {
                 <div className="w-full mt-20">
                     <div className="w-full flex justify-between items-center">
                         <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/>
+                        <div className="flex">
+                            <MyButton variant="blue-button-outline" text="About me" link="about" textSize="text-sm" target="_self"/>
+                            <div className="ml-3"></div>
+                            <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/>
+                        </div>
                     </div>
                     <div className="mb-20"></div>
 
