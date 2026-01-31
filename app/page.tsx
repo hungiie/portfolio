@@ -38,7 +38,7 @@ export default function Home() {
               <div className="flex justify-end">
                 {/* <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/> */}
                 <div className="ml-4"></div>
-                <MyButton variant="blue-hyperlink" text="More about me ->" link="about" target="_self" textSize="text-sm"/>
+                <MyButton variant="blue-button-outline" text="More about me" link="about" target="_self" textSize="text-sm"/>
               </div>
             </SlideRightDelay>
           </div>
@@ -106,10 +106,10 @@ export default function Home() {
             {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at SFU&rsquo;s <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
             {/* <div className="mb-2"></div> */}
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p>
-            <div className="mb-6"></div>
+            <div className="mb-9"></div>
             <div className="w-full flex">
               <div className="w-full">
-                  <MyButton link="academics" text="View my academic projects" textSize="text-sm" target="_self" variant="blue-button-full-width"/>
+                  <MyButton link="academics" text="View my academic projects" textSize="text-sm" target="_self" variant="blue-button-outline"/>
               </div>
             </div>
             {/* <MyButton variant="blue-hyperlink" text="View my academic projects" link="academics" target="_self" textSize="text-sm"/> */}
