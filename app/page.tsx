@@ -87,7 +87,7 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-y-35">
           <SlideUpScroll>
             {/* <ProjectThumbnail isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/> */}
-            <ProjectVideo isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" vidSrc="/Rule vid.mov" target="_self" className="w-full h-full object-cover"/>
+            <ProjectVideo isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" vidSrc="/Rule vid.mp4" target="_self" className="w-full h-full object-cover"/>
           </SlideUpScroll>
           <SlideUp>
             <ProjectThumbnail isLink="yes" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a device management feature that organizes devices into nested groups and enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>

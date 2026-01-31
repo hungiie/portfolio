@@ -24,7 +24,9 @@ export default function ProjectVideo(props: Props) {
                     {props.desc}
                 </p>
                 <div className="group w-full h-[380px] flex items-center justify-center">
-                    <video src={props.vidSrc} className={props.className} autoPlay muted loop />
+                    <video className={`w-full h-full object-cover ${props.className}`} autoPlay muted loop playsInline>
+                        <source src={props.vidSrc} type="video/mp4" />
+                    </video>
                 </div>
                 <div className="mb-9"></div>
                 <div className="w-full flex">
