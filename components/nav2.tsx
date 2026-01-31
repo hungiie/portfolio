@@ -1,7 +1,6 @@
 "use client"
 
 import MyButton from "@/components/my-button";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 interface Props {
@@ -24,10 +23,8 @@ export default function MyNav2(props: Props) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Common classes for nav
-  const baseNavClasses =
-    "w-full bg-[var(--background)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
-
+  // base classes for nav
+  const baseNavClasses ="w-full bg-[var(--background)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
   return (
     <nav
       className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}
@@ -52,7 +49,7 @@ export default function MyNav2(props: Props) {
       )}
 
       {props.variant === "Projects to home" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[75%] flex items-center justify-between">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[60%] flex items-center justify-between">
           <MyButton
             variant="blue-hyperlink"
             text="Return to home"
