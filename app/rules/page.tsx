@@ -170,7 +170,9 @@ export default function Rules() {
                     <ImageZoom>
                         <Image src="/rules-darkmode.png" width={2985} height={2236} className="w-full h-auto hidden dark:block" alt="Samsung Knox"/> 
                     </ImageZoom> */}
-                    <video src="/Rule vid.mp4" className="w-full" autoPlay muted loop />
+                    <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
+                        <source src="Rule vid.mp4"type="video/mp4" />
+                    </video>
                 </div>
 
                 <div className="w-full mt-20">
