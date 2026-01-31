@@ -38,7 +38,7 @@ export default function Home() {
               <div className="flex justify-end">
                 {/* <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/> */}
                 <div className="ml-4"></div>
-                <MyButton variant="blue-button-outline" text="More about me" link="about" target="_self" textSize="text-sm"/>
+                <MyButton variant="blue-button-outline" text="About me" link="about" target="_self" textSize="text-sm"/>
               </div>
             </SlideRightDelay>
           </div>
