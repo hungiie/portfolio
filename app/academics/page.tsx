@@ -85,6 +85,7 @@ import SlideUpNoThres from "@/components/slide-up-nothres";
 import ProjectVideo from "@/components/project-video";
 import MyNav from "@/components/nav";
 import MyNav2 from "@/components/nav2";
+import DotsMenu from "@/components/menu";
 
 export default function Academics() {
   const [animate, setAnimate] = useState(false);
@@ -102,7 +103,10 @@ export default function Academics() {
                 <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[60%] mt-20">
                     <div className="w-full flex justify-between items-center">
                         <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
-                        <div className="flex">
+                        <div className="block md:hidden">
+                            <DotsMenu/>
+                        </div>
+                        <div className="hidden md:flex">
                             <MyButton variant="blue-button-outline" text="About me" link="about" textSize="text-sm" target="_self"/>
                             <div className="ml-3"></div>
                             <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/>
