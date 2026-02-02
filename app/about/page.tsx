@@ -33,11 +33,15 @@ export default function About() {
                 <Heading text="Hi, my name is Hung."/>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
                 {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="SFU School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
-                <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
+                {/* <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I think a lot about my morning coffee. What began as an act of free will, slowly became a habit - something I do on autopilot everyday.</p>
                 <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">Habits often emerge as friction fades: a stop at the coffee shop on the way to work, a swipe that feels natural, a tap that requires no thought. Over time, these interactions stop being decisions, and start becoming part of the subconscious mind.</p>
                 <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">I design for that feeling - experiences so intuitive they fade into the background, allowing users to focus not on the interface, but on living.</p>
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Like noticing how good the coffee was.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Like noticing how good the coffee was.</p> */}
 
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">For me, designing an experience is like telling a story - with people, technology, and context as threads of different colours and textures.</p>
+                <div className="mb-6"></div>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I have been playing with those threads since childhood. From posting my self-important, fictional stories to Wattpad, to now designing actual experiences as a UX designer - where I connect users, technology, and context the way a story connects its characters and their journeys.</p>
+                {/* <p className="mb-2 text-sm text-[var(--colour-bodytext)] leading-loose">In my work, I connect users, technology, and context the way a story connects its characters and their journeys.</p> */}
                 <div className="mb-8"></div>
 
                 <div className="">
@@ -103,7 +107,7 @@ export default function About() {
                 </div>
 
                 <Heading text="My story"/>
-                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I was a curious kid, a mind full of bold ideas, trapped inside the body of a shy, reserved boy.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I spent my childhood full of curiosity and bold ideas, often quietly observing the world around me.</p>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="blue-hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
                 <div className="mb-15"></div>
