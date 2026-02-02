@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center">
       {/* <MyNav variant="To about"/> */}
-      <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-28">
+      <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-7/24 mt-28">
         <div
           className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
         </SlideUp>
 
-        <div className="-mb-10"></div>
+        {/* <div className="-mb-10"></div> */}
 
         {/* <div className="mb-40" id="testimonials"></div>
         <div className="grid grid-cols-1 gap-y-4">

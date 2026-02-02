@@ -29,7 +29,7 @@ export default function MyNav2(props: Props) {
   return (
     <nav className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}>
       {props.variant === "Abt to home" && (
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 flex items-center justify-between">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-7/24 flex items-center justify-between">
           <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
           <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/>
         </div>
