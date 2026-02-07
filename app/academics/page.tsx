@@ -6,7 +6,6 @@ import Heading from "@/components/heading";
 import ProjectThumbnail from "@/components/project-thumbnail";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import ProjectVideo from "@/components/project-video";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
 
