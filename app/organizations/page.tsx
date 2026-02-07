@@ -202,9 +202,9 @@ export default function Organizations() {
                             <ImageZoom>
                                 <Image src="/doc2.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom> */}
-                            <ProtectedPhoto src="/doc1.png" alt="organizations" password="peepolala"/>
-                            <div className="mb-4"></div>
-                            <ProtectedPhoto src="/doc2.png" alt="organizations" password="peepolala"/>
+                            <ProtectedPhoto src1="/doc1.png" src2="/doc2.png" alt="organizations" password="peepolala"/>
+                            {/* <div className="mb-4"></div> */}
+                            {/* <ProtectedPhoto src="/doc2.png" alt="organizations" password="peepolala"/> */}
                         </div>
                     </div>
 
