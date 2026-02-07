@@ -51,7 +51,7 @@ export default function ProtectedPhoto({ src, alt, password: correctPassword }: 
               type="submit"
               className="cursor-pointer inline-block w-[50%] text-center bg-transparent hover:bg-[var(--main-blue)] hover:text-white border-[var(--main-blue)] border-1 transition-colors rounded-full text-[var(--main-blue)] font-medium py-[10px] px-4"
             >
-                Unlock photo
+                View photo
             </button>
           </form>
         )}
