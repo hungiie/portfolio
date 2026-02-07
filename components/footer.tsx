@@ -17,7 +17,7 @@ export default function Footer() {
                 <div className="mb-1"></div>
                 <MyButton variant="blue-hyperlink" text="d.hungtran12@gmail.com" link="mailto:d.hungtran12@gmail.com" target="_blank" textSize="text-sm"></MyButton>
                 <div className="mb-1"></div>
-                <MyButton variant="blue-hyperlink" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" textSize="text-sm"></MyButton>
+                <MyButton variant="blue-hyperlink" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" textSize="text-sm"></MyButton>
             </div>
         </div>
     )

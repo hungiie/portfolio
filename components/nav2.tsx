@@ -31,7 +31,7 @@ export default function MyNav2(props: Props) {
       {props.variant === "Abt to home" && (
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[25%] flex items-center justify-between">
           <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
-          <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" textSize="text-sm" target="_blank"/>
+          <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
         </div>
       )}
 
@@ -58,7 +58,7 @@ export default function MyNav2(props: Props) {
             <MyButton
               variant="blue-button"
               text="Resume"
-              link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view"
+              link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing"
               textSize="text-sm"
               target="_blank"
             />
