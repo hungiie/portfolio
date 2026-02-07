@@ -9,7 +9,7 @@ interface Props {
   password: string;
 }
 
-export default function ProtectedPhoto({ src1, src2, alt, password: correctPassword }: Props) {
+export default function ProtectedPhoto2({ src1, src2, alt, password: correctPassword }: Props) {
   const [password, setPassword] = useState("");
   const [isUnlocked, setIsUnlocked] = useState(false);
 
@@ -40,11 +40,11 @@ export default function ProtectedPhoto({ src1, src2, alt, password: correctPassw
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Enter password to view this photo"
-                    className="px-4 py-3 text-[var(--colour-bodytext-1)] text-sm border w-[50%] rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="px-4 py-3 text-[var(--colour-bodytext-1)] text-sm border w-[80%] md:w-[50%] rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
                 <button
                     type="submit"
-                    className="text-sm cursor-pointer inline-block w-[50%] text-center bg-transparent hover:bg-[var(--main-blue)] hover:text-white border-[var(--main-blue)] border-1 transition-colors rounded-full text-[var(--main-blue)] font-medium py-[10px] px-4"
+                    className="text-sm cursor-pointer inline-block w-[80%] md:w-[50%] text-center bg-transparent hover:bg-[var(--main-blue)] hover:text-white border-[var(--main-blue)] border-1 transition-colors rounded-full text-[var(--main-blue)] font-medium py-[10px] px-4"
                 >
                 View photo
                 </button>
@@ -69,11 +69,11 @@ export default function ProtectedPhoto({ src1, src2, alt, password: correctPassw
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Enter password to view this photo"
-                    className="px-4 py-3 text-[var(--colour-bodytext-1)] text-sm border w-[50%] rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="px-4 py-3 text-[var(--colour-bodytext-1)] text-sm border  w-[80%] md:w-[50%] rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
                 <button
                     type="submit"
-                    className="text-sm cursor-pointer inline-block w-[50%] text-center bg-transparent hover:bg-[var(--main-blue)] hover:text-white border-[var(--main-blue)] border-1 transition-colors rounded-full text-[var(--main-blue)] font-medium py-[10px] px-4"
+                    className="text-sm cursor-pointer inline-block  w-[80%] md:w-[50%] text-center bg-transparent hover:bg-[var(--main-blue)] hover:text-white border-[var(--main-blue)] border-1 transition-colors rounded-full text-[var(--main-blue)] font-medium py-[10px] px-4"
                 >
                 View photo
                 </button>
