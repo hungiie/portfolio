@@ -36,7 +36,7 @@ export default function ProtectedPhoto2({ src1, src2, alt, password: correctPass
             <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-2 top-1/2 mr-2 -translate-y-1/2 text-sm text-[var(--main-blue)] hover:underline cursor-pointer"
+                className="absolute right-2 top-1/2 mr-2 -translate-y-1/2 text-sm text-[var(--main-blue)] hover:underline cursor-pointer hidden lg:inline"
             >
             {showPassword ? "Hide" : "Show"}
             </button>
