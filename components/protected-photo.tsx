@@ -27,7 +27,7 @@ export default function ProtectedPhoto2({ src1, src2, alt, password: correctPass
     <form onSubmit={handleSubmit} className="absolute inset-0 flex flex-col items-center justify-center gap-2 p-4">
         <div className="relative w-[80%] md:w-[50%]">
             <input
-            type={showPassword ? "text" : "password"} // <-- toggle type
+            type={showPassword ? "text" : "password"}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter password to view this photo"
@@ -36,7 +36,7 @@ export default function ProtectedPhoto2({ src1, src2, alt, password: correctPass
             <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-2 top-1/2 mr-2 -translate-y-1/2 text-sm text-[var(--main-blue)] hover:text-blue-600 cursor-pointer"
+                className="absolute right-2 top-1/2 mr-2 -translate-y-1/2 text-sm text-[var(--main-blue)] hover:underline cursor-pointer"
             >
             {showPassword ? "Hide" : "Show"}
             </button>
