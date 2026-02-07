@@ -12,7 +12,6 @@ import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import SlideUpScroll from "@/components/slide-up-scroll";
-import MyNav from "@/components/nav";
 import ProjectVideo from "@/components/project-video";
 // import Testimonial from "@/components/testimonial";
 
@@ -92,9 +91,9 @@ export default function Home() {
           <SlideUp>
             <ProjectThumbnail isLink="yes" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a device management feature that organizes devices into nested groups and enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
           </SlideUp>
-          {/* <SlideUp> */}
-            {/* <ProjectThumbnail isLink="yes" link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/> */}
-          {/* </SlideUp> */}
+          {/* <SlideUp>
+            <ProjectThumbnail isLink="yes" link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/>
+          </SlideUp> */}
         </div>
 
         <div className="mb-30"></div>

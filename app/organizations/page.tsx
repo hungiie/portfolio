@@ -117,6 +117,7 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
+import ProtectedPhoto from "@/components/protected-photo";
 
 export default function Organizations() {
   return (
@@ -191,31 +192,26 @@ export default function Organizations() {
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">
-                            <Heading text="UX documentation for Organization Table component"/>
+                            <Heading text="Design system documentation for Organization Table component"/>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Detailing specs, variants, interaction guidelines, and edge-case behaviours.</p>
                         </div>
                         <div>
-                            <ImageZoom>
-                                <Image src="/doc1-blur.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                            {/* <ImageZoom>
+                                <Image src="/doc1.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/doc1-darkmode.png" width={3099} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <ImageZoom>
-                                <Image src="/doc2-blur.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <ImageZoom>
-                                <Image src="/doc2-darkmode.png" width={3099} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
-                            </ImageZoom>
+                                <Image src="/doc2.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                            </ImageZoom> */}
+                            <ProtectedPhoto src="/doc1.png" alt="organizations" password="peepolala"/>
+                            <div className="mb-4"></div>
+                            <ProtectedPhoto src="/doc2.png" alt="organizations" password="peepolala"/>
                         </div>
                     </div>
 
                     <div className="mb-30"></div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
+                    {/* <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">
-                            {/* <Heading text="View assigned & inherited profiles"/> */}
-                            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-4">Communicate the concept of profile inheritance among hierarchical entities.</p> */}
                             <Heading text="Individual cell component"/>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">A core components in Organization table, enables smoother collaboration for Knox Manage UX team.</p>
                         </div>
@@ -227,7 +223,7 @@ export default function Organizations() {
                                 <Image src="/org-2-darkmode.png" width={3099} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                             </ImageZoom>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="mb-30"></div>

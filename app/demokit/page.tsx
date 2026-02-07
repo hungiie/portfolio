@@ -6,12 +6,10 @@ import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import SlideUpNoThres from "@/components/slide-up-nothres";
-import MyNav from "@/components/nav";
 
 export default function Demo() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <MyNav variant="To home"/>
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-1/4 mt-20">
             <SlideUpNoThres>
             <div>

@@ -6,7 +6,6 @@ import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import PhotoTag from "@/components/photo-tag";
 import SlideUpNoThres from "@/components/slide-up-nothres";
-import MyNav from "@/components/nav";
 import MyNav2 from "@/components/nav2";
 
 export default function About() {
