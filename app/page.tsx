@@ -50,7 +50,7 @@ export default function Home() {
           <div className="w-full">
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I see design as a system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn complex problems into solutions that feel human.</p>
-            <Heading text="I&rsquo;m currently available for Summer 2026 UX designer internship roles." />
+            <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." />
           </div>
 
           <div className="mb-9">
