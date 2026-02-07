@@ -44,7 +44,7 @@ export default function ProtectedPhoto({ src, alt, password: correctPassword }: 
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Enter password to view this photo"
-              className="p-4 border w-[50%] rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="px-4 py-3 text-[var(--colour-bodytext-3)] border w-[50%] rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <div className="mb-1"></div>
             <button
