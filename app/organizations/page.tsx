@@ -87,13 +87,13 @@ export default function Organizations() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Detailing specs, variants, interaction guidelines, and edge-case behaviours.</p>
                         </div>
                         <div>
-                            {/* <ImageZoom>
+                            <ImageZoom>
                                 <Image src="/doc1.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
                                 <Image src="/doc2.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom> */}
-                            <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/>
+                            </ImageZoom>
+                            {/* <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/> */}
                             {/* <div className="mb-4"></div> */}
                             {/* <ProtectedPhoto src="/doc2.png" alt="organizations" password="2002"/> */}
                         </div>
