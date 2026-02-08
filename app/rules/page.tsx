@@ -94,13 +94,10 @@ export default function Rules() {
                                 <Image src="/rules-0.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-0-darkmode.png" width={3099} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <ImageZoom>
                                 <Image src="/rules-1.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-1-darkmode.png" width={3099} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
+                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                         </div>
                     </div>
@@ -117,19 +114,10 @@ export default function Rules() {
                                 <Image src="/rules-2.png" width={3099} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-2-darkmode.png" width={3099} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <ImageZoom>
                                 <Image src="/rules-3.png" width={3099} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-3-darkmode.png" width={3099} height={3363} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <ImageZoom>
                                 <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <ImageZoom>
-                                <Image src="/rules-4-darkmode.png" width={2622} height={2622} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
                             </ImageZoom>
                         </div>
                     </div>
