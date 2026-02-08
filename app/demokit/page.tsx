@@ -17,7 +17,7 @@ export default function Demo() {
             </div>
             <div className="mb-10"></div>
 
-            <Heading text="Samsung Knox: Demo Kit"/>
+            <Heading text="Samsung Knox: Demo Kit" variant="black"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients.</p>
             <div className="mb-7"></div>
             <ImageZoom>
@@ -44,7 +44,7 @@ export default function Demo() {
             
             <div className="mb-14"></div>
 
-            <Heading text="About the work"/>
+            <Heading text="About the work" variant="black"/>
             <div>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
                 <div className="mb-6"></div>
