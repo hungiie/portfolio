@@ -9,6 +9,7 @@ import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
 import ProtectedPhoto2 from "@/components/protected-photo";
+import Head from "next/head";
 
 export default function Organizations() {
   return (
@@ -30,9 +31,9 @@ export default function Organizations() {
                     </div>
                     <div className="mb-20"></div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                         <div className="">
-                            <Heading text="Samsung Knox Manage: Organizations"/>
+                            <Heading text="Samsung Knox Manage: Organizations" variant="black"/>
                         </div>
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that organizes devices into nested groups and enables hierarchical device management.</p>
@@ -49,15 +50,12 @@ export default function Organizations() {
                     <ImageZoom>
                         <Image src="/org-00.png" width={2985} height={2236} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                     </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/rules-darkmode.png" width={2985} height={2236} className="w-full h-auto hidden dark:block" alt="Samsung Knox"/> 
-                    </ImageZoom>
                 </div>
 
                 <div className="w-full mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                         <div className="">
-                            <Heading text="About the work"/>
+                            <Heading text="About the work" variant="black"/>
                         </div>
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
@@ -67,7 +65,6 @@ export default function Organizations() {
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Andrea Lin (Senior UX Designer) and Hyejeong Kim (Product Manager)</p>
                             <div className="mb-8"></div>
-
                             <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                                 <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
@@ -75,23 +72,52 @@ export default function Organizations() {
                         </div>
                     </div>
                 </div>
+
+                {/* <div className="w-full mt-20">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+                        <div className="">
+                            <Heading text="What I did" variant="black"/>
+                        </div>
+                        <div>
+                            <div className="flex flex-col justify-center bg-[var(--main-darkerblue)] px-7 py-7 rounded-2xl">
+                                <Heading text="Project generalized due to NDA." variant="white"/>
+                                <div className="-mb-2"></div>
+                                <p className="text-sm text-white leading-loose">Due to NDA restrictions,I’m unable to share project details publicly, but I’d be happy to elaborate on my experience and design contributions during an interview.</p>
+\                            </div>
+                            <div className="mb-4"></div>
+                            <div className="w-full flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl ">
+                                <Heading text="How might me..." variant="black"/>
+                                <div className="-mb-2"></div>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">... effectively communicate the concept of inherited and assigned profiles to IT admins, using existing components and not reliant on texts?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
                 
-                <div className="mb-20"></div>
 
                 <div className="mb-30"></div>
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">
-                            <Heading text="Design system documentation for Organization Table component"/>
+                            <Heading text="Design system documentation for Organization Table component" variant="black"/>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Detailing specs, variants, interaction guidelines, and edge-case behaviours.</p>
                         </div>
                         <div>
                             <ImageZoom>
-                                <Image src="/doc1.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/doc1.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            <div className="mb-2"></div>
                             <ImageZoom>
-                                <Image src="/doc2.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/doc3.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                            </ImageZoom>
+                            <div className="mb-2"></div>
+                            <ImageZoom>
+                                <Image src="/doc2.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                            </ImageZoom>
+                            <div className="mb-2"></div>
+                            <ImageZoom>
+                                <Image src="/doc4.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             {/* <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/> */}
                             {/* <div className="mb-4"></div> */}

@@ -32,7 +32,7 @@ export default function Rules() {
 
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="">
-                            <Heading text="Samsung Knox Manage: Rules"/>
+                            <Heading text="Samsung Knox Manage: Rules" variant="black"/>
                         </div>
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
@@ -60,7 +60,7 @@ export default function Rules() {
                 <div className="w-full mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                         <div className="">
-                            <Heading text="About the work"/>
+                            <Heading text="About the work" variant="black"/>
                         </div>
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
@@ -86,7 +86,7 @@ export default function Rules() {
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">
-                            <Heading text="Viewing a rule&rsquo;s details"/>
+                            <Heading text="Viewing a rule&rsquo;s details" variant="black"/>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Simplifies rule reviewing with an at-a-glance table and a sliding panel for detailed views.</p>
                         </div>
                         <div>
@@ -109,7 +109,7 @@ export default function Rules() {
 
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">
-                            <Heading text="Create a new rule"/>
+                            <Heading text="Create a new rule" variant="black"/>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Streamlines the configuration process for time & location conditions.</p>
                         </div>
                         <div>
