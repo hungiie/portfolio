@@ -12,7 +12,7 @@ import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import SlideUpScroll from "@/components/slide-up-scroll";
-import ProjectVideo from "@/components/project-video";
+import SlideRight from "@/components/slide-right";
 // import Testimonial from "@/components/testimonial";
 
 export default function Home() {
@@ -27,10 +27,14 @@ export default function Home() {
     <div className="flex items-center justify-center">
       {/* <MyNav variant="To about"/> */}
       <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[25%] mt-28">
+      {/* <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[65%] 2xl:w-[25%] mt-28"> */}
         <div
           className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative
           ${animate ? "justify-start" : "justify-center"}`}
         >
+        {/* <div
+          className={`w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative`}
+        > */}
           <Me />
           <div className="absolute right-0">
             <SlideRightDelay>
@@ -74,23 +78,22 @@ export default function Home() {
 
           <div className="mb-9"></div>
           <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
-          {/* <p className="text-lg text-[var(--colour-bodytext-4)]">	&darr;</p> */}
           <div className="mb-9"></div>
 
         </SlideUpDelay>
 
         <div className="mb-30 md:mb-50 lg:mb-30"></div>
 
-        <div className="grid grid-cols-1 gap-y-35">
-          <SlideUpScroll>
-            {/* <ProjectThumbnail isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/rules.png" imageSrcDark="/rules-darkmode.png" target="_self"/> */}
-            <ProjectVideo isLink="yes" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" vidSrc="/Rule vid.mp4" target="_self" className="w-full h-full object-cover"/>
-          </SlideUpScroll>
+        {/* <div className="grid grid-cols-1 gap-y-35"> */}
+        <div className="grid grid-cols-1 gap-x-5 gap-y-25">
           <SlideUp>
-            <ProjectThumbnail isLink="yes" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a device management feature that organizes devices into nested groups and enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
+            <ProjectThumbnail isLink="video-link-button" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule vid home.mp4" imageSrcDark="" target="_self"/>
+          </SlideUp>
+          <SlideUp>
+            <ProjectThumbnail isLink="image-link-button" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a device management feature that organizes devices into nested groups and enables hierarchical device management." imageSrc="/organizations.png" imageSrcDark="/org-darkmode.png" target="_self"/>
           </SlideUp>
           {/* <SlideUp>
-            <ProjectThumbnail isLink="yes" link="demokit" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/demo-darkmode.png" target="_self"/>
+            <ProjectThumbnail isLink="image-link-button" link="organizations" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardiohi.png" imageSrcDark="/org-darkmode.png" target="_self"/>
           </SlideUp> */}
         </div>
 
