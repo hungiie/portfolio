@@ -11,6 +11,7 @@ import SlideUpScroll from "@/components/slide-up-scroll";
 import SlideRightDelay from "@/components/slide-right-delay";
 import SlideUpDelay from "@/components/slide-up-delay";
 import SlideRight from "@/components/slide-right";
+import SlideUpNoThres from "@/components/slide-up-nothres";
 
 export default function Home2() {
   const [animate, setAnimate] = useState(false);
@@ -22,52 +23,36 @@ export default function Home2() {
   return (
     <div className="flex items-center justify-center">
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[60%] mt-28">
-            {/* <div className="w-full mb-7 flex transition-all duration-700 ease-in-out items-center relative">
+            <SlideUpNoThres>
+              <div className={`w-full mb-7 flex items-center relative`}>
                 <Me />
                 <div className="absolute right-0">
-                <SlideUp>
-                    <div className="flex justify-end">
-                    <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
-                    <div className="ml-4"></div>
-                    <MyButton variant="blue-button-outline" text="About me" link="about" target="_self" textSize="text-sm"/>
-                    </div>
-                </SlideUp>
-                </div>
-            </div> */}
-            <div
-              className={`w-full mb-7 flex transition-all duration-6000 ease-in-out items-center relative`}
-            >
-              <Me />
-              <div className="absolute right-0">
-                <SlideUp>
                   <div className="flex justify-end">
                     <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
                     <div className="ml-4"></div>
                     <MyButton variant="blue-button-outline" text="About me" link="about" target="_self" textSize="text-sm"/>
                   </div>
-                </SlideUp>
+                </div>
               </div>
-            </div>
 
-            <SlideUp>
-                <div className="flex justify-between">
-                <Heading text="Hi, my name is Hung." variant="black"/>
-                </div>
-                <div className="w-2/3">
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I see design as a system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn complex problems into solutions that feel human.</p>
-                    <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." variant="black" />
-                </div>
-                <div className="mb-9">
-                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
-                    {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
-                </div>
-                <div className="mb-9"></div>
-                <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
-                <div className="mb-9"></div>
-            </SlideUp>
+              <div className="flex justify-between">
+              <Heading text="Hi, my name is Hung." variant="black"/>
+              </div>
+              <div className="w-full md:w-2/3">
+                  <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+                  <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I see design as a system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn complex problems into solutions that feel human.</p>
+                  <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." variant="black" />
+              </div>
+              <div className="mb-9">
+                  <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+                  <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                  <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+                  {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
+              </div>
+              <div className="mb-9"></div>
+              <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
+              <div className="mb-9"></div>
+            </SlideUpNoThres>
 
             <div className="mb-30 md:mb-50"></div>
 
