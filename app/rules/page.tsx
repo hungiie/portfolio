@@ -35,7 +35,7 @@ export default function Rules() {
                             <Heading text="Samsung Knox Manage: Rules" variant="black"/>
                         </div>
                         <div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
                             <div className="mb-5"></div>
                             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
@@ -53,7 +53,7 @@ export default function Rules() {
                         <Image src="/rules-darkmode.png" width={2985} height={2236} className="w-full h-auto hidden dark:block" alt="Samsung Knox"/> 
                     </ImageZoom> */}
                     <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
-                        <source src="Rule vid.mp4"type="video/mp4" />
+                        <source src="Rule video wide.mov"type="video/mp4" />
                     </video>
                 </div>
 
@@ -138,7 +138,7 @@ export default function Rules() {
                             <div className="ml-1"></div>
                             <MyButton variant="blue-hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
                         </div> */}
-                        <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
+                        {/* <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/> */}
                         <div className="mb-3"></div>
                         <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                     </div>

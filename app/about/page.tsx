@@ -73,7 +73,7 @@ export default function About() {
                 </div>
                 <div className="mb-25"></div> */}
 
-                <Heading text="It&rsquo;s all about the work life balance" variant="black"/>
+                {/* <Heading text="It&rsquo;s all about the work life balance" variant="black"/>
                 <div className="grid grid-cols-1 gap-2">
                     <PhotoTag
                         photoSrc="/work2.png"
@@ -95,7 +95,7 @@ export default function About() {
                         tagHeight={240}
                         tagPosition={{ x: 1090, y: 380 }}
                     />
-                </div>
+                </div> */}
 
                 <div className="mb-25"></div>
 

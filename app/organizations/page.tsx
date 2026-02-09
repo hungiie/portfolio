@@ -36,7 +36,7 @@ export default function Organizations() {
                             <Heading text="Samsung Knox Manage: Organizations" variant="black"/>
                         </div>
                         <div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that organizes devices into nested groups and enables hierarchical device management.</p>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that organizes devices into nested groups and enables hierarchical device management.</p>
                             <div className="mb-5"></div>
                             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
@@ -158,7 +158,7 @@ export default function Organizations() {
                             <div className="ml-1"></div>
                             <MyButton variant="blue-hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
                         </div> */}
-                        <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Rules" link="rules" textSize="text-sm" target="_self"/>
+                        {/* <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Rules" link="rules" textSize="text-sm" target="_self"/> */}
                         <div className="mb-3"></div>
                         <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                     </div>
