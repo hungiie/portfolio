@@ -11,7 +11,7 @@ import MyNav2 from "@/components/nav2";
 export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
-        <MyNav2 variant="Abt to home"/>
+        <MyNav2 variant="About to home"/>
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[25%] mt-24">
             <SlideUpNoThres>
                 <div className="mb-9 flex justify-between items-center">
