@@ -105,19 +105,22 @@ export default function Organizations() {
                         </div>
                         <div>
                             <ImageZoom>
-                                <Image src="/doc1.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/ds1.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <ImageZoom>
-                                <Image src="/doc3.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/ds2.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <ImageZoom>
-                                <Image src="/doc2.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/ds3.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <ImageZoom>
-                                <Image src="/doc4.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/ds4.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                            </ImageZoom>
+                            <ImageZoom>
+                                <Image src="/ds5.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             {/* <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/> */}
                             {/* <div className="mb-4"></div> */}
