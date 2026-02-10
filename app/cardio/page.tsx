@@ -76,7 +76,7 @@ export default function Cardio() {
                         <div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">The faster the song, the faster the treadmill.</p>
                             <div className="mb-6"></div>
-                            <div className="grid grid-cols-[2fr_1.5fr] gap-x-3 items-center justify-between">
+                            <div className="grid grid-cols-1 md:grid-cols-[2fr_1.5fr] gap-x-3 items-center justify-between">
                                 <div className="w-full grid grid-cols-3 gap-x-3">
                                     <video className={`w-full h-full object-cover rounded-xl`} autoPlay muted loop playsInline>
                                         <source src="/context-vid-1.mp4" type="video/mp4" />
@@ -88,7 +88,7 @@ export default function Cardio() {
                                         <source src="/context-vid-3.mp4" type="video/mp4" />
                                     </video>
                                 </div>
-                                <div className="w-full">
+                                <div className="w-full hidden md:block">
                                     <Image src="/context.png" width={3099} height={3363} className="w-[85%]" alt="Samsung Knox"/> 
                                 </div>
                                 {/* <MyButton text="Learn more about the effects music has on running" link="" target="_blank" variant="blue-hyperlink" textSize="text-sm"/> */}
@@ -143,8 +143,8 @@ export default function Cardio() {
 
                 <div className="w-[100%] bg-[#fbfbfb] flex flex-col justify-center items-center p-10 rounded-xl">
                     <p className="text-sm text-[var(--main-blue)] leading-loose">Reoccurring themes</p>
-                    <div className="mb-10"></div>
-                    <div className="w-[65%] grid grid-cols-3 -gap-x-10">
+                    <div className="mb-5 md:mb-10"></div>
+                    <div className="w-full md:w-[65%] grid grid-cols-3 -gap-x-10">
                         <ImageZoom>
                             <Image src="/stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-6 shadow-lg" alt="Samsung Knox"/> 
                         </ImageZoom>
@@ -155,11 +155,11 @@ export default function Cardio() {
                             <Image src="/stickie-3.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-5 shadow-lg" alt="Samsung Knox"/> 
                         </ImageZoom>
                     </div>
-                    <div className="w-[50%]">
+                    <div className="w-full md:w-[50%]">
                         <Image src="/arrows2.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                     </div>
-                    <div className="-mb-3"></div>
-                    <div className="w-[50%] flex flex-col justify-center items-center">
+                    <div className="-mb-1 md:-mb-3"></div>
+                    <div className="w-full md:w-[50%] flex flex-col justify-center items-center">
                         <p className="text-sm text-[var(--main-blue)] leading-loose">Driving insight</p>
                         <div className="mb-2"></div>
                         <p className="text-sm text-[var(--colour-bodytext)] leading-loose text-center">Influencer-made playlist is considered a good starting point, but personal customization is what makes a “good” cardio playlist.</p>
@@ -176,7 +176,7 @@ export default function Cardio() {
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Now that I have a deeper understanding of my user, it's time to translate those data into a persona.</p>
                             <div className="mb-6"></div>
-                            <div className="w-full grid grid-cols-2 gap-3">
+                            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
                                     <p className="text-sm text-[var(--main-blue)] leading-loose">Who she is</p>
                                     <div className="mb-2"></div>
@@ -223,10 +223,10 @@ export default function Cardio() {
                             <Heading text="Brainstorming my solutions" variant="black"/>
                         </div>
                         <div>
-                            <div className="w-[100%] bg-[#fbfbfb] flex flex-col px-10 py-6 rounded-xl">
+                            <div className="w-full bg-[#fbfbfb] flex flex-col px-10 py-6 rounded-xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Solution must solve 2 main goals</p>
                                 <div className="mb-5"></div>
-                                <div className="w-full grid grid-cols-4 gap-x-3">
+                                <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-x-3">
                                     <ImageZoom>
                                         <Image src="/stickie-g-1.png" width={3099} height={3363} className="w-full h-auto mb-2 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
@@ -239,7 +239,7 @@ export default function Cardio() {
                                 <div className="mb-10"></div>
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Possible solutions include</p>
                                 <div className="mb-5"></div>
-                                <div className="w-full grid grid-cols-4 gap-x-3">
+                                <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-3">
                                     <ImageZoom>
                                         <Image src="/stickie-sol-1.png" width={3099} height={3363} className="w-full h-auto shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
@@ -263,10 +263,11 @@ export default function Cardio() {
                         <div className="md:sticky md:top-22 md:self-start">
                             <Heading text="What card.io does" variant="black"/>
                             <MyButton variant="blue-hyperlink" text="View prototype on Figma" link="" textSize="text-sm" target="blank"/>
+                            <div className="mb-9"></div>
                         </div>
                         <div>
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
-                                <div className="w-[45%] grid grid-cols-2 gap-x-4">
+                                <div className="w-full md:w-[45%] grid grid-cols-2 gap-x-4">
                                     <video className={`w-full object-cover rounded-xl`} autoPlay muted loop playsInline>
                                         <source src="/sol-1.mov" type="video/mp4" />
                                     </video>
@@ -282,7 +283,7 @@ export default function Cardio() {
                             <div className="mb-20"></div>
 
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
-                                <div className="w-[65%] grid grid-cols-3 gap-x-4">
+                                <div className="w-full md:w-[65%] grid grid-cols-3 gap-x-4">
                                     <ImageZoom>
                                         <Image src="/sol-21.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
                                     </ImageZoom>
@@ -300,7 +301,7 @@ export default function Cardio() {
                             <div className="mb-20"></div>
 
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
-                                <div className="w-[45%] grid grid-cols-2 gap-x-4">
+                                <div className="w-full md:w-[45%] grid grid-cols-2 gap-x-4">
                                     <video className={`w-full object-cover rounded-xl`} autoPlay muted loop playsInline>
                                         <source src="/sol-3.mov" type="video/mp4" />
                                     </video>
@@ -316,7 +317,7 @@ export default function Cardio() {
                             <div className="mb-20"></div>
 
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
-                                <div className="w-[20%]">
+                                <div className="w-[50%] md:w-[20%]">
                                     <video className={`w-full object-cover rounded-xl`} autoPlay muted loop playsInline>
                                         <source src="/sol-4.mov" type="video/mp4" />
                                     </video>
@@ -340,7 +341,7 @@ export default function Cardio() {
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">This is the first iteration of card.io. I conducted a Heuristic evaluation session with another UX designer, along with 2 in-person user testing sessions to discover issues with this interface.</p>
                             <div className="mb-5"></div>
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
-                                <div className="w-[20%]">
+                                <div className="w-[50%] md:w-[20%]">
                                     <video className={`w-full object-cover rounded-xl`} autoPlay muted loop playsInline>
                                         <source src="/draft.mp4" type="video/mp4" />
                                     </video>
@@ -348,7 +349,7 @@ export default function Cardio() {
                             </div>
                             <div className="mb-4"></div>
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col rounded-xl">
-                                <div className="w-full grid grid-cols-2 gap-x-3">
+                                <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3">
                                     <ImageZoom>
                                         <Image src="/slidebar.png" width={1104} height={2312} className="w-full rounded-xl" alt="Samsung Knox"/> 
                                     </ImageZoom>
@@ -356,7 +357,7 @@ export default function Cardio() {
                                         <Image src="/youtube.png" width={1104} height={2312} className="w-full rounded-xl" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                 </div>
-                                <div className="w-full flex justify-center items-center z-2">
+                                <div className="w-full justify-center items-center z-2 hidden md:flex">
                                     <Image src="/comparison.png" width={1104} height={2312} className="w-[40%]" alt="Samsung Knox"/> 
                                 </div>
                                 <div className="mb-4"></div>
@@ -371,7 +372,7 @@ export default function Cardio() {
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">2 reoccurring themes from UT</p>
                                 <div className="mb-10"></div>
                                 <div className="w-full flex items-center justify-center">
-                                    <div className="w-[65%] grid grid-cols-2 -gap-x-9">
+                                    <div className="w-full md:w-[65%] grid grid-cols-2 -gap-x-9">
                                         <ImageZoom>
                                             <Image src="/ut-1.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 shadow-lg" alt="Samsung Knox"/> 
                                         </ImageZoom>
@@ -396,7 +397,7 @@ export default function Cardio() {
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">1) From scrubber to a circular design.</p>
                             <div className="mb-6"></div>
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
-                                <div className="w-[75%] grid grid-cols-[1fr_2fr_2fr_1fr] gap-x-4">
+                                <div className="w-full md:w-[75%] grid grid-cols-[1fr_2fr_2fr_1fr] gap-x-2 md:gap-x-4">
                                     <Image src="/before1.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
                                     <ImageZoom>
                                         <Image src="/draft.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
@@ -408,7 +409,7 @@ export default function Cardio() {
                                 </div>
                             </div>
                             <div className="mb-3"></div>
-                            <div className="w-full grid grid-cols-3 gap-3">
+                            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-3">
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">More conventional non interactive progress indicator.</p>
                                 </div>
@@ -426,7 +427,7 @@ export default function Cardio() {
                             <div className="mb-6"></div>
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
                                 <div className="w-full flex justify-center">
-                                    <div className="w-[25%]">
+                                    <div className="w-[50%] md:w-[25%]">
                                         <video className={`w-full object-cover rounded-xl`} autoPlay muted loop playsInline>
                                             <source src="/swiping.mov" type="video/mp4" />
                                         </video>
@@ -434,7 +435,7 @@ export default function Cardio() {
                                 </div>
                             </div>
                             <div className="mb-3"></div>
-                            <div className="w-full grid grid-cols-3 gap-3">
+                            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-3">
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Large interaction area, hard to miss.</p>
                                 </div>
@@ -450,7 +451,7 @@ export default function Cardio() {
                         <div className="mt-30">
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">3) Chunking information.</p>
                             <div className="mb-6"></div>
-                            <div className="w-full grid grid-cols-3 gap-3">
+                            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-3">
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Instead of showing all information at once, sort them into 3 groups separated by a swipe.</p>
                                 </div>
