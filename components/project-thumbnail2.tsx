@@ -63,7 +63,7 @@ export default function ProjectThumbnail2(props: Props) {
                         text={`Explore ${props.name}`}
                         textSize="text-sm"
                         target={props.target}
-                        variant="thumbnail-button"
+                        variant="blue-button"
                         />
                     </div>
                 </a>
