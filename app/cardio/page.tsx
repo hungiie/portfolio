@@ -89,7 +89,7 @@ export default function Cardio() {
                                     </video>
                                 </div>
                                 <div className="w-full hidden md:block">
-                                    <Image src="/context.png" width={3099} height={3363} className="w-[85%]" alt="Samsung Knox"/> 
+                                    <Image src="/context.png" width={3099} height={3363} className="w-[85%] 2xl:w-[65%]" alt="Samsung Knox"/> 
                                 </div>
                                 {/* <MyButton text="Learn more about the effects music has on running" link="" target="_blank" variant="blue-hyperlink" textSize="text-sm"/> */}
                             </div>
@@ -144,7 +144,7 @@ export default function Cardio() {
                 <div className="w-[100%] bg-[#fbfbfb] flex flex-col justify-center items-center p-10 rounded-xl">
                     <p className="text-sm text-[var(--main-blue)] leading-loose">Reoccurring themes</p>
                     <div className="mb-5 md:mb-10"></div>
-                    <div className="w-full md:w-[65%] grid grid-cols-3 -gap-x-10">
+                    <div className="w-full md:w-[65%] 2xl:w-[50%] grid grid-cols-3 -gap-x-10">
                         <ImageZoom>
                             <Image src="/stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-6 shadow-lg" alt="Samsung Knox"/> 
                         </ImageZoom>
@@ -226,7 +226,7 @@ export default function Cardio() {
                             <div className="w-full bg-[#fbfbfb] flex flex-col px-10 py-6 rounded-xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Solution must solve 2 main goals</p>
                                 <div className="mb-5"></div>
-                                <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-x-3">
+                                <div className="w-full 2xl:w-[75%] grid grid-cols-2 md:grid-cols-4 gap-x-3">
                                     <ImageZoom>
                                         <Image src="/stickie-g-1.png" width={3099} height={3363} className="w-full h-auto mb-2 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
@@ -239,17 +239,17 @@ export default function Cardio() {
                                 <div className="mb-10"></div>
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Possible solutions include</p>
                                 <div className="mb-5"></div>
-                                <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-3">
+                                <div className="w-full 2xl:w-[75%] grid grid-cols-2 md:grid-cols-4 gap-3">
                                     <ImageZoom>
-                                        <Image src="/stickie-sol-1.png" width={3099} height={3363} className="w-full h-auto shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-sol-1.png" width={3099} height={3363} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/stickie-sol-2.png" width={3099} height={3363} className="w-full h-auto shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-sol-2.png" width={3099} height={3363} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/stickie-sol-3.png" width={3099} height={3363} className="w-full h-auto shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-sol-3.png" width={3099} height={3363} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
-                                    <Image src="/stickie-sol-note.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                    <Image src="/stickie-sol-note.png" width={3099} height={3363} className="w-full mb-2" alt="Samsung Knox"/> 
                                 </div>
                             </div>
                         </div>
@@ -358,7 +358,7 @@ export default function Cardio() {
                                     </ImageZoom>
                                 </div>
                                 <div className="w-full justify-center items-center z-2 hidden md:flex">
-                                    <Image src="/comparison.png" width={1104} height={2312} className="w-[40%]" alt="Samsung Knox"/> 
+                                    <Image src="/comparison.png" width={1104} height={2312} className="w-[40%] 2xl:w-[30%]" alt="Samsung Knox"/> 
                                 </div>
                                 <div className="mb-4"></div>
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Heuristic issue</p>
@@ -372,7 +372,7 @@ export default function Cardio() {
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">2 reoccurring themes from UT</p>
                                 <div className="mb-10"></div>
                                 <div className="w-full flex items-center justify-center">
-                                    <div className="w-full md:w-[65%] grid grid-cols-2 -gap-x-9">
+                                    <div className="w-full md:w-[65%] 2xl:w-[45%] grid grid-cols-2 -gap-x-9">
                                         <ImageZoom>
                                             <Image src="/ut-1.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 shadow-lg" alt="Samsung Knox"/> 
                                         </ImageZoom>
