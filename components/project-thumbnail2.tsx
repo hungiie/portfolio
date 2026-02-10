@@ -63,7 +63,7 @@ export default function ProjectThumbnail2(props: Props) {
                         text={`Explore ${props.name}`}
                         textSize="text-sm"
                         target={props.target}
-                        variant="blue-button"
+                        variant="thumbnail-button"
                         />
                     </div>
                 </a>
@@ -113,11 +113,11 @@ export default function ProjectThumbnail2(props: Props) {
                                     transition-all duration-300 ease-out
                                     group-hover:translate-y-0 group-hover:opacity-100">
                         <MyButton
-                        link={props.link}
-                        text={`Explore ${props.name}`}
-                        textSize="text-sm"
-                        target={props.target}
-                        variant="blue-button"
+                            link={props.link}
+                            text={`Explore ${props.name}`}
+                            textSize="text-sm"
+                            target={props.target}
+                            variant="blue-button"
                         />
                     </div>
                 </a>
