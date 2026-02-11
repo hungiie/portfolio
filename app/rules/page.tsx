@@ -57,7 +57,9 @@ export default function Rules() {
                     </video>
                 </div>
 
-                <div className="w-full mt-20">
+                <div className="mb-20"></div>
+
+                <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                         <div className="">
                             <Heading text="About the work" variant="black"/>
@@ -69,9 +71,27 @@ export default function Rules() {
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
-                            <div className="mb-8"></div>
+                        </div>
+                    </div>
+                </div>
 
-                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl">
+                <div className="mb-20"></div>
+
+                <div className="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+                        <div className="">
+                            <Heading text="Overview" variant="black"/>
+                        </div>
+                        <div>
+                            <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
+                                <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
+                                <div className="mb-6"></div>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">IT admins need a way to automate repetitive tasks so they don’t have to manually perform them each time they’re required.</p>
+                                <div className="mb-6"></div>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Some tasks are time-sensitive, requiring IT admins to stay alert 24/7 without break.</p>
+                            </div>
+                            <div className="mb-4"></div>
+                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                                 <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
@@ -79,8 +99,6 @@ export default function Rules() {
                     </div>
                 </div>
                 
-                <div className="mb-20"></div>
-
                 <div className="mb-30"></div>
 
                 <div className="w-full">
@@ -119,6 +137,25 @@ export default function Rules() {
                             <ImageZoom>
                                 <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mb-35"></div>
+
+                <div className="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+                        <div className="">
+                            <Heading text="Learnings" variant="black"/>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designing isnt just designing. It's also about writing.</p>
+                            <div className="mb-4"></div>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I learned that a clear and concise note section can save a tremendous amount of time communicating back and forth with developers to specify the unclear interactions. Preparing documentation is a process that shouldn’t be treated lightly, or wait until last minute.</p>
+                            <div className="mb-15"></div>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">The first design is almost never the best one.</p>
+                            <div className="mb-4"></div>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">If there is 1 thing I have grown to not scared of anymore, is to scrap ideas and start from scratch. I've always known designing is an iterative process, but to actually understand why it is needed and how to do it correctly, is what working with Product Manages had taught me.</p>
                         </div>
                     </div>
                 </div>

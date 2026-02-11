@@ -65,7 +65,7 @@ export default function Organizations() {
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Andrea Lin (Senior UX Designer) and Hyejeong Kim (Product Manager)</p>
                             <div className="mb-8"></div>
-                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] px-7 py-7 rounded-2xl">
+                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                                 <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
@@ -144,6 +144,25 @@ export default function Organizations() {
                             </ImageZoom>
                         </div>
                     </div> */}
+                </div>
+
+                <div className="mb-35"></div>
+                
+                <div className="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+                        <div className="">
+                            <Heading text="Learnings" variant="black"/>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">What "think in system" actually means.</p>
+                            <div className="mb-4"></div>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I have heard the phrase "think in system" countless time. But working in this project truly put it into perspectives for me. 1 small change in a single flow could create a ripple effect across multiple flows and features. Knowing the product inside and out and anticipating the impact of every decision is just 1 of the skills I have developed through this process.</p>
+                            <div className="mb-15"></div>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Break down complex concept into simple words.</p>
+                            <div className="mb-4"></div>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to the project's complex interactions, it is not uncommon that I had to consult multiple people to confirm its backend logic. I also frequently relay these findings back to my team for feedbacks and suggestions. This has taught me how to adapt my language and simplify technical concepts without losing meaning.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="mb-30"></div>
