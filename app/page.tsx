@@ -41,7 +41,7 @@ export default function Home2() {
               <div className="w-full md:w-2/3">
                   <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
                   <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I see design as a system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn complex problems into solutions that feel human.</p>
-                  <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." variant="black" />
+                  {/* <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." variant="black" /> */}
               </div>
               <div className="mb-9">
                   <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
