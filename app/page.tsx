@@ -24,7 +24,7 @@ export default function Home2() {
     <div className="flex items-center justify-center">
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[60%] mt-28">
             <SlideUpNoThres>
-              <div className={`w-full mb-7 flex items-center relative`}>
+              <div className={`w-full flex items-center relative`}>
                 <Me />
                 <div className="absolute right-0">
                   <div className="flex justify-end">
@@ -35,10 +35,13 @@ export default function Home2() {
                 </div>
               </div>
 
+              <div className="mb-7"></div>
+
               <div className="flex justify-between">
               <Heading text="Hi, my name is Hung." variant="black"/>
+              {/* <p className="text-lg font-semibold text-[var(--colour-pure)] leading-loose mb-6">Hi, my name is Hung.</p> */}
               </div>
-              <div className="w-full md:w-2/3">
+              <div className="w-full md:w-[75%]">
                   <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
                   <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I see design as a complex system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn modern problems into solutions that feel human.</p>
                   {/* <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." variant="black" /> */}
