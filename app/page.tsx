@@ -58,10 +58,10 @@ export default function Home2() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
               <SlideUp>
-                <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mov" imageSrcDark="" target="_self"/>
+                <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="" target="_self"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mov" imageSrcDark="/org-darkmode.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/org-darkmode.png" target="_self"/>
               </SlideUp>
               <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a device management feature that organizes devices into nested groups and enables hierarchical device management." imageSrc="/org.png" imageSrcDark="/org-darkmode.png" target="_self"/>
