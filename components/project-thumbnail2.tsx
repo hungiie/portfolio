@@ -104,7 +104,7 @@ export default function ProjectThumbnail2(props: Props) {
                 </p>
                 <div className="mb-7"></div>
                 <a className="relative block overflow-hidden group mt-auto" href={props.link} target={props.target}>
-                    <video className={`w-full h-full object-cover`} autoPlay muted loop playsInline>
+                    <video className={`w-full h-full object-cover translate-z-0`} autoPlay muted loop playsInline>
                         <source src={props.imageSrc} type="video/mp4" />
                     </video>
 
