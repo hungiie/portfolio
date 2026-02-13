@@ -14,31 +14,7 @@ interface Props {
 }
 
 export default function ProjectThumbnail2(props: Props) {
-    if (props.isLink == "image-link-button") {
-        return (
-            <div className="overflow-hidden bg-[var(--background)] h-full flex flex-col">
-                <div>
-                    <p className="text-sm text-[var(--colour-bodytext-4)] mb-4 leading-loose">
-                        {props.name}
-                    </p>
-                </div>
-                <div className="mt-auto">
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose">
-                        {props.desc}
-                    </p>
-                </div>
-                <div className="mb-7"></div>
-                <a className="group overflow-hidden block mt-auto" href={props.link} target={props.target}>
-                    <Image src={props.imageSrc} alt={props.name} width={1920} height={1080} className="object-cover" />
-                </a>
-                <div className="mb-9"></div>
-                <div className="w-full flex">
-                    <MyButton link={props.link} text={`View ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button-outline-full-width"/>
-                </div>
-            </div>
-        );
-    }
-    else if (props.isLink == "image-link") {
+    if (props.isLink == "image-link") {
         return (
             <div className="overflow-hidden bg-[var(--background)] h-full flex flex-col group">
                 <div>
@@ -68,28 +44,6 @@ export default function ProjectThumbnail2(props: Props) {
                     </div>
                 </a>
 
-            </div>
-        );
-    }
-    else if (props.isLink == "video-link-button") {
-        return (
-            <div className="relative h-auto bg-[var(--background)]">
-                <p className="text-sm text-[var(--colour-bodytext-4)] mb-4 leading-loose">
-                    {props.name}
-                </p>
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">
-                    {props.desc}
-                </p>
-                <div className="mb-7"></div>
-                <a className="group w-full flex items-center justify-center" href={props.link} target={props.target}>
-                    <video className={`w-full h-full object-cover`} autoPlay muted loop playsInline>
-                        <source src={props.imageSrc} type="video/mp4" />
-                    </video>
-                </a>
-                <div className="mb-9"></div>
-                <div className="w-full flex">
-                    <MyButton link={props.link} text={`View ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button-outline-full-width"/>
-                </div>
             </div>
         );
     }
