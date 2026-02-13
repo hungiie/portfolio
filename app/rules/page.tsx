@@ -71,6 +71,11 @@ export default function Rules() {
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
+                            {/* <div className="mb-8"></div>
+                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
+                            </div> */}
                         </div>
                     </div>
                 </div>
