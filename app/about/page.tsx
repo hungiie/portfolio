@@ -44,6 +44,30 @@ export default function About() {
                 <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
 
+            {/* <div className="mb-25"></div>
+
+            <Heading text="My attempts to romanticize life" variant="black"/>
+            <div className="grid grid-cols-2 gap-2">
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+                <div className="relative aspect-square overflow-hidden">
+                    <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                </div>
+            </div> */}
+
             <div className="" id="story"></div>
             <div className="mb-25"></div>
 

@@ -161,6 +161,12 @@ export default function Rules() {
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">What "think in system" actually means.</p>
                             <div className="mb-4"></div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I have heard the phrase "think in system" countless time. But working in this project truly put it into perspectives for me. 1 small change in a single flow could create a ripple effect across multiple flows and features. Knowing the product inside and out and anticipating the impact of every decision is just 1 of the skills I have developed through this process.</p>
+                            {/* <div className="mb-25"></div>
+                            <div className="w-full flex justify-center items-center">
+                                <Image src="/work1.png" width={3099} height={3363} className="w-1/2" alt="Samsung Knox" style={{ filter: 'contrast(80%)' }}/> 
+                                <div className="ml-3"></div>
+                                <Image src="/work2.png" width={3099} height={3363} className="w-1/2" alt="Samsung Knox" style={{ filter: 'contrast(80%)' }}/> 
+                            </div> */}
                         </div>
                     </div>
                 </div>
