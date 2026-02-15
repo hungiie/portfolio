@@ -49,11 +49,13 @@ export default function AboutHero() {
                     opacity: 0,
                     filter: "blur(20px)",
                     y: 40,
+                    // scale: 0.8,
                     }}
                     animate={{
                     opacity: 1,
                     filter: "blur(0px)",
                     y: 0,
+                    // scale: 1,
                     }}
                     transition={{
                     duration: 0.8,
@@ -63,11 +65,11 @@ export default function AboutHero() {
                 >
                     <div className="w-full rounded-full overflow-hidden group-hover:scale-95 transition-all duration-300">
                     <Image
-                        src="/alright.jpeg"
+                        src="/gag.jpg"
                         width={716}
                         height={716}
                         alt="hung tran"
-                        className="object-cover block"
+                        className="object-cover block scale-110 origin-top"
                         style={{
                         filter:
                             "contrast(87%) brightness(95%) saturate(115%)",
