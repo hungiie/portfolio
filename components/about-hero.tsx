@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import SlideUpNoThres from "./slide-up-nothres";
 
 export default function AboutHero() {
   return (
@@ -43,7 +44,8 @@ export default function AboutHero() {
             <div className="group relative flex flex-col items-center">
                 <p className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose opacity-0 translate-y-3
         transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
-        group-hover:opacity-100 group-hover:translate-y-0">Click to view my "story"</p>
+        group-hover:opacity-100 group-hover:translate-y-0">View Hung's story</p>
+                {/* <p className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose">Hung's story</p> */}
                 <motion.div
                     initial={{
                     opacity: 0,
