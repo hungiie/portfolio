@@ -65,7 +65,7 @@ export default function AboutHero() {
                     }}
                     className="w-[70%] aspect-square rounded-full overflow-hidden border-4 border-[var(--main-blue)] p-1"
                 >
-                    <div className="w-full rounded-full overflow-hidden group-hover:scale-95 transition-all duration-300">
+                    <div className="w-full rounded-full overflow-hidden group-hover:scale-97 transition-all duration-300">
                     <Image
                         src="/alright.jpeg"
                         width={716}
