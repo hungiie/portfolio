@@ -18,7 +18,7 @@ export default function DotsMenu() {
             {openMenu && (
                 <div className="absolute right-0 mt-0 bg-[var(--background)] border border-[var(--nav-border)] rounded-xl overflow-hidden">
                     <a href="/about" className="block w-50 px-4 py-4 text-sm text-[var(--colour-bodytext)] hover:bg-[var(--nav-border)]">
-                        About me
+                        My story
                     </a>
                     <a href="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" className="w-full block px-4 py-4 text-sm text-[var(--colour-bodytext)] hover:bg-[var(--nav-border)]">
                         Resume

@@ -33,7 +33,7 @@ export default function Home2() {
                 <div className="absolute right-0">
                   {/* <SlideRightDelay> */}
                     <div className="flex justify-end">
-                      <MyButton variant="blue-button-outline" text="About me" link="about" target="_self" textSize="text-sm"/>
+                      <MyButton variant="blue-button-outline" text="My story" link="about" target="_self" textSize="text-sm"/>
                       <div className="ml-4"></div>
                       <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
                     </div>
