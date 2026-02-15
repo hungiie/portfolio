@@ -41,6 +41,8 @@ export default function About() {
                 <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
                 <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
+
+            <div className="" id="story"></div>
             <div className="mb-25"></div>
 
             <div className="w-full flex items-center justify-center">

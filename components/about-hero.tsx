@@ -39,52 +39,44 @@ export default function AboutHero() {
         </div>
 
         {/* CENTER CIRCLE (APPEARS FIRST) */}
-        <div className="w-full flex justify-center items-center">
-          <motion.div
-            initial={{
-              opacity: 0,
-            //   scale: 0.6,
-              filter: "blur(20px)",
-              y: 40,
-            }}
-            animate={{
-              opacity: 1,
-            //   scale: 1,
-              filter: "blur(0px)",
-              y: 0,
-            }}
-            transition={{
-              duration: 0.8,
-              ease: [0.22, 1, 0.36, 1],
-            }}
-            className="w-[70%] aspect-square rounded-full overflow-hidden border-4 border-[var(--main-blue)] p-1"
-          >
-            <div className="w-full rounded-full overflow-hidden group">
-              {/* <Image
-                src="/lulu.jpg"
-                width={716}
-                height={716}
-                alt="hung tran"
-                className="object-cover block"
-                style={{
-                  filter:
-                    "contrast(87%) brightness(95%) saturate(115%)",
-                }}
-              /> */}
-              <Image
-                src="/alright.jpeg"
-                width={716}
-                height={716}
-                alt="hung tran"
-                className="object-cover block"
-                style={{
-                  filter:
-                    "contrast(87%) brightness(95%) saturate(115%)",
-                }}
-              />
+        <a className="w-full flex justify-center items-center" href="#story">
+            <div className="group relative flex flex-col items-center">
+                <p className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose opacity-0 translate-y-3
+        transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+        group-hover:opacity-100 group-hover:translate-y-0">Click to view my "story"</p>
+                <motion.div
+                    initial={{
+                    opacity: 0,
+                    filter: "blur(20px)",
+                    y: 40,
+                    }}
+                    animate={{
+                    opacity: 1,
+                    filter: "blur(0px)",
+                    y: 0,
+                    }}
+                    transition={{
+                    duration: 0.8,
+                    ease: [0.22, 1, 0.36, 1],
+                    }}
+                    className="w-[70%] aspect-square rounded-full overflow-hidden border-4 border-[var(--main-blue)] p-1 group-hover:border-dashed transition-colors duration-300"
+                >
+                    <div className="w-full rounded-full overflow-hidden group">
+                    <Image
+                        src="/alright.jpeg"
+                        width={716}
+                        height={716}
+                        alt="hung tran"
+                        className="object-cover block"
+                        style={{
+                        filter:
+                            "contrast(87%) brightness(95%) saturate(115%)",
+                        }}
+                    />
+                    </div>
+                </motion.div>
             </div>
-          </motion.div>
-        </div>
+        </a>
 
         {/* RIGHT COLUMN */}
         <div className="w-full flex-col justify-center items-center hidden md:flex">
