@@ -59,9 +59,9 @@ export default function AboutHero() {
                     duration: 0.8,
                     ease: [0.22, 1, 0.36, 1],
                     }}
-                    className="w-[70%] aspect-square rounded-full overflow-hidden border-4 border-[var(--main-blue)] p-1 group-hover:border-dashed transition-colors duration-300"
+                    className="w-[70%] aspect-square rounded-full overflow-hidden border-4 border-[var(--main-blue)] p-1"
                 >
-                    <div className="w-full rounded-full overflow-hidden group">
+                    <div className="w-full rounded-full overflow-hidden group-hover:scale-95 transition-all duration-300">
                     <Image
                         src="/alright.jpeg"
                         width={716}
