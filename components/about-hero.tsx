@@ -72,7 +72,7 @@ export default function AboutHero() {
                 }}
               /> */}
               <Image
-                src="/hihi.jpg"
+                src="/alright.jpeg"
                 width={716}
                 height={716}
                 alt="hung tran"
