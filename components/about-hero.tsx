@@ -50,7 +50,7 @@ export default function AboutHero() {
                     initial={{
                     opacity: 0,
                     filter: "blur(20px)",
-                    y: 40,
+                    y: 20,
                     // scale: 0.8,
                     }}
                     animate={{
