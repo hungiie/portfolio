@@ -69,7 +69,7 @@ export default function AboutHero() {
                         width={716}
                         height={716}
                         alt="hung tran"
-                        className="object-cover block scale-110 origin-top"
+                        className="object-cover block scale-105 origin-top"
                         style={{
                         filter:
                             "contrast(87%) brightness(95%) saturate(115%)",
