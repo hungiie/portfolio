@@ -65,7 +65,7 @@ export default function AboutHero() {
                 >
                     <div className="w-full rounded-full overflow-hidden group-hover:scale-95 transition-all duration-300">
                     <Image
-                        src="/gag.jpg"
+                        src="/alright.jpeg"
                         width={716}
                         height={716}
                         alt="hung tran"

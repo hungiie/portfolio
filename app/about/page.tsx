@@ -11,6 +11,7 @@ import MyNav2 from "@/components/nav2";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import AboutHero from "@/components/about-hero";
+import SlideUpScroll from "@/components/slide-up-scroll";
 
 export default function About() {
   return (
@@ -27,6 +28,7 @@ export default function About() {
             <AboutHero/>
         </div>
 
+        {/* <SlideUpScroll> */}
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[25%] mt-10">
             <Heading text="Hi, my name is Hung." variant="black"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
@@ -76,6 +78,7 @@ export default function About() {
             </div>
             <Footer/>
         </div>
+        {/* </SlideUpScroll> */}
     </div>
   );
 }
