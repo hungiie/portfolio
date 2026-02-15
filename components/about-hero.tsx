@@ -14,12 +14,12 @@ export default function AboutHero() {
             initial={{
               opacity: 0,
               filter: "blur(12px)",
-              y: 40,
+              x: -40,
             }}
             animate={{
               opacity: 1,
               filter: "blur(0px)",
-              y: 0,
+              x: 0,
             }}
             transition={{
               delay: 0.8,
@@ -43,13 +43,15 @@ export default function AboutHero() {
           <motion.div
             initial={{
               opacity: 0,
-              scale: 0.6,
+            //   scale: 0.6,
               filter: "blur(20px)",
+              y: 40,
             }}
             animate={{
               opacity: 1,
-              scale: 1,
+            //   scale: 1,
               filter: "blur(0px)",
+              y: 0,
             }}
             transition={{
               duration: 0.8,
@@ -57,7 +59,18 @@ export default function AboutHero() {
             }}
             className="w-[70%] aspect-square rounded-full overflow-hidden border-4 border-[var(--main-blue)] p-1"
           >
-            <div className="w-full rounded-full overflow-hidden">
+            <div className="w-full rounded-full overflow-hidden group">
+              {/* <Image
+                src="/lulu.jpg"
+                width={716}
+                height={716}
+                alt="hung tran"
+                className="object-cover block"
+                style={{
+                  filter:
+                    "contrast(87%) brightness(95%) saturate(115%)",
+                }}
+              /> */}
               <Image
                 src="/hihi.jpg"
                 width={716}
@@ -81,12 +94,12 @@ export default function AboutHero() {
             initial={{
               opacity: 0,
               filter: "blur(12px)",
-              y: 40,
+              x: 40,
             }}
             animate={{
               opacity: 1,
               filter: "blur(0px)",
-              y: 0,
+              x: 0,
             }}
             transition={{
               delay: 0.5,
@@ -113,12 +126,12 @@ export default function AboutHero() {
             initial={{
               opacity: 0,
               filter: "blur(12px)",
-              y: 40,
+              x: 40,
             }}
             animate={{
               opacity: 1,
               filter: "blur(0px)",
-              y: 0,
+              x: 0,
             }}
             transition={{
               delay: 1.1,
