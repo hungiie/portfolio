@@ -64,11 +64,11 @@ export default function AboutHero() {
                 <div className="w-[70%] aspect-square rounded-full overflow-hidden border-4 group-hover:border-[var(--main-blue)] border-stone-300 p-1 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]">
                   <div className="w-full rounded-full overflow-hidden group-hover:scale-97 transition-all duration-300">
                     <Image 
-                      src="/bleh.jpeg"
+                      src="/er.png"
                       width={716}
                       height={716}
                       alt="hung tran"
-                      className="object-cover block scale-130 origin-center"
+                      className="object-cover block origin-center"
                       style={{
                       filter:"contrast(87%) brightness(95%) saturate(115%)",}}
                     />
