@@ -18,7 +18,7 @@ export default function About() {
     <div className="flex items-center justify-center flex-col">
         <MyNav2 variant="About to home" />
 
-        <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[60%] flex flex-col justify-center items-center">
+        <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[70%] flex flex-col justify-center items-center">
             <div className="w-full mt-6 mb-9 flex justify-between items-center">
                 <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                 <div className="flex">
@@ -26,10 +26,11 @@ export default function About() {
                 </div>
             </div>
             <AboutHero/>
+            <div className="mb-0 2xl:mb-15"></div>
         </div>
 
         {/* <SlideUpScroll> */}
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[25%] mt-10">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[30%] mt-10">
             <Heading text="Hi, my name is Hung." variant="black"/>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
 
