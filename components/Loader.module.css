@@ -1,0 +1,23 @@
+.story {
+  /* width: 100px;
+  height: 100px; */
+  overflow: hidden;
+}
+
+.circle {
+  fill: none;
+  stroke: #0B8EFF;
+  stroke-width: 1.5px;
+  stroke-dasharray: 1;
+  stroke-linecap: round;
+  animation: loading 4s ease-out alternate;
+  transform-origin: 50% 50%;
+}
+
+@keyframes loading {
+  100% {
+    stroke: #0B8EFF;
+    stroke-dasharray: 20;
+    transform: rotate(200deg);
+  }
+}
