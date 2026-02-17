@@ -16,6 +16,7 @@ import SlideUpScroll from "@/components/slide-up-scroll";
 export default function About() {
   return (
     <div className="flex items-center justify-center flex-col">
+        {/* i see you stalker >:) */}
         <MyNav2 variant="About to home" />
 
         <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[70%] flex flex-col justify-center items-center">
