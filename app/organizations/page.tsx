@@ -120,7 +120,7 @@ export default function Organizations() {
                             </div>
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project's process publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                                 <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
                         </div>
@@ -148,10 +148,10 @@ export default function Organizations() {
                                 <Image src="/ds3.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            <ImageZoom>
+                            {/* <ImageZoom>
                                 <Image src="/ds4.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <div className="mb-2"></div>
+                            <div className="mb-2"></div> */}
                             <ImageZoom>
                                 <Image src="/ds5.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
