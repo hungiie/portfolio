@@ -211,7 +211,7 @@ export default function Story() {
           {/* Circle + Border */}
           <div
             className={`
-              w-[65%] 2xl:w-[65%] aspect-square rounded-full overflow-hidden 
+              w-[65%] 2xl:w-[50%] aspect-square rounded-full overflow-hidden 
               md:border-4 p-1 transition-all duration-0 ease-[cubic-bezier(0.22,1,0.36,1)]
               ${hover ? "border-transparent" : "border-stone-300"}
             `}

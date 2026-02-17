@@ -6,8 +6,8 @@ import Story from "./story";
 
 export default function AboutHero() {
   return (
-    <div className="w-[80%] 2xl:w-[80%] flex justify-center items-center">
-      <div className="w-full grid grid-cols-1 md:grid-cols-3">
+    <div className="w-[80%] 2xl:w-[70%] flex justify-center items-center">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 2xl:gap-x-[-100px]">
 
         {/* LEFT IMAGE */}
         <div className="w-full justify-center items-center hidden md:flex">
@@ -27,7 +27,7 @@ export default function AboutHero() {
               duration: 0.8,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="w-[60%] 2xl:w-[55%] mb-9"
+            className="w-[60%] 2xl:w-[50%] mb-9"
           >
             <Image
               src="/latte.png"
@@ -64,7 +64,7 @@ export default function AboutHero() {
             }}
             className="flex justify-center"
           >
-            <div className="w-[60%] 2xl:w-[55%]">
+            <div className="w-[60%] 2xl:w-[50%]">
               <Image
                 src="/tate.png"
                 width={837}
@@ -96,7 +96,7 @@ export default function AboutHero() {
             }}
             className="flex justify-start"
           >
-            <div className="w-[60%] 2xl:w-[55%]">
+            <div className="w-[60%] 2xl:w-[50%]">
               <Image
                 src="/oops.png"
                 width={837}
