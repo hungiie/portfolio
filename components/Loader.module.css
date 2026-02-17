@@ -5,10 +5,10 @@
 .circle {
   fill: none;
   stroke: #0B8EFF;
-  stroke-width: 1.5px;
+  stroke-width: 1.6px;
   stroke-dasharray: 1;
   stroke-linecap: round;
-  animation: loading 1.9s cubic-bezier(0.4, 0, 1, 1) forwards;
+  animation: loading 1s cubic-bezier(0.4, 0, 1, 1) forwards;
   transform-origin: 50% 50%;
 }
 
