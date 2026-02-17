@@ -67,7 +67,7 @@ export default function Rules() {
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
                             <div className="mb-6"></div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">My work primarily involves designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - one of Samsung&rsquo;s B2B SaaS solutions, designed to help companies deploy, secure, and manage their mobile devices remotely.</p>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">My work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - Samsung&rsquo;s B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
@@ -84,17 +84,37 @@ export default function Rules() {
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                        <div className="">
+                        <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Overview" variant="black"/>
                         </div>
                         <div>
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
-                                <div className="mb-6"></div>
-                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">IT admins need a way to automate repetitive tasks so they don’t have to manually perform them each time they’re required.</p>
-                                <div className="mb-6"></div>
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Some tasks are time-sensitive, requiring IT admins to stay alert 24/7 without break.</p>
-                            </div>
+                                <div className="mb-9"></div>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Current device management settings are often static and uniformly applied across large device fleets, limiting flexibility and preventing <span className="font-semibold font-[var(--colour-pure)] underline">context-aware adjustments</span> based on time, location, or usage conditions.</p>
+                                <div className="mb-9"></div>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When an IT admin applies a setting to a group of devices, it remains continuously active. This forces administrators to manually adjust configurations when circumstances change, increasing operational workload.</p>
+                            </div> 
+                            <div className="mb-4"></div>
+                            <div className="flex flex-col justify-center items-center bg-[#fbfbfb] p-10 rounded-2xl">
+                                <div className="w-full flex justify-between">
+                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start">Notes from PM team</p>
+                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start"><span className="text-[var(--colour-bodytext-4)]">(generalized to avoid NDA)</span></p>
+                                </div>
+                                <div className="mb-12"></div>
+                                <div className="w-full 2xl:w-[70%] grid grid-cols-3 -gap-x-3">
+                                    <ImageZoom>
+                                        <Image src="/rule-stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-3 hover:rotate-1 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                    </ImageZoom>
+                                    <ImageZoom>
+                                        <Image src="/rule-stickie-2.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 hover:-rotate-3 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                    </ImageZoom>
+                                    <ImageZoom>
+                                        <Image src="/rule-stickie-3.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-2 hover:rotate-0 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                    </ImageZoom>
+                                </div>
+                                <div className="mb-5"></div>
+                            </div> 
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>

@@ -6,7 +6,7 @@ import SlideUpNoThres from "./slide-up-nothres";
 
 export default function AboutHero() {
   return (
-    <div className="w-[90%] 2xl:w-[80%] flex justify-center items-center">
+    <div className="w-[80%] 2xl:w-[80%] flex justify-center items-center">
       <div className="w-full grid grid-cols-1 md:grid-cols-3">
 
         {/* LEFT IMAGE */}
@@ -61,7 +61,7 @@ export default function AboutHero() {
               >
                 {/* <p className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose">Hung's story</p> */}
                 <p className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose opacity-0 translate-y-3 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:opacity-100 group-hover:translate-y-0">View Hung's story :)</p>
-                <div className="w-[70%] 2xl:w-[65%] aspect-square rounded-full overflow-hidden border-4 group-hover:border-[var(--main-blue)] border-stone-300 p-1 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]">
+                <div className="w-[65%] 2xl:w-[65%] aspect-square rounded-full overflow-hidden border-4 group-hover:border-[var(--main-blue)] border-stone-300 p-1 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]">
                   <div className="w-full rounded-full overflow-hidden group-hover:scale-97 transition-all duration-300">
                     <Image 
                       src="/er.png"
