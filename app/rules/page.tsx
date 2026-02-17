@@ -116,10 +116,10 @@ export default function Rules() {
                                 <div className="mb-5"></div>
                             </div> 
                             <div className="mb-4"></div>
-                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                            {/* <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share my project's process & specific details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
                                 <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -134,6 +134,16 @@ export default function Rules() {
                 </div>
 
                 <div className="mb-40"></div>
+
+                <div className="w-full">
+                    <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
+                        <p className="text-md text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share my project's process & specific details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                        <div className="mb-9"></div>
+                        <p className="text-md text-[var(--colour-bodytext)] leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span>!</p>
+                    </div>
+                </div>
+
+                <div className="mb-50"></div>
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
