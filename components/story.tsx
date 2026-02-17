@@ -1,0 +1,75 @@
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
+
+export default function Story() {
+  const [demoHover, setDemoHover] = useState(false);
+  const [hover, setHover] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDemoHover(true);
+      const leaveTimer = setTimeout(() => setDemoHover(false), 800);
+      return () => clearTimeout(leaveTimer);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const isVisible = demoHover || hover; // text visible on demo hover OR real hover
+
+  return (
+    <a className="w-full flex justify-center items-center" href="#story">
+      <div
+        className="group relative flex flex-col items-center"
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+      >
+        <motion.div
+          initial={{ opacity: 0, filter: "blur(20px)", y: 20 }}
+          animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="w-full flex justify-center items-center"
+        >
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{
+              opacity: isVisible ? 1 : 0,
+              y: isVisible ? 0 : 12,
+            }}
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose origin-center"
+          >
+            View Hung's story :)
+          </motion.p>
+
+          <div
+            className={`
+              w-[65%] 2xl:w-[65%] aspect-square rounded-full overflow-hidden 
+              border-4 p-1 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+              ${isVisible ? "border-[var(--main-blue)]" : "border-stone-300"}
+            `}
+          >
+            <div
+              className={`
+                w-full rounded-full overflow-hidden transition-all duration-300
+                ${isVisible ? "scale-[0.97]" : ""}
+              `}
+            >
+              <Image
+                src="/er.png"
+                width={716}
+                height={716}
+                alt="hung tran"
+                className="object-cover block origin-center"
+                style={{
+                  filter: "contrast(87%) brightness(95%) saturate(115%)",
+                }}
+              />
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </a>
+  );
+}
