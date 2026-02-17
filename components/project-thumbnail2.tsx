@@ -58,7 +58,7 @@ export default function ProjectThumbnail2(props: Props) {
                 </p>
                 <div className="mb-7"></div>
                 <a className="relative block overflow-hidden group mt-auto" href={props.link} target={props.target}>
-                    <video className={`w-full h-full object-cover translate-z-0`} autoPlay muted loop playsInline>
+                    <video className={`w-full h-full object-cover !bg-transparent`} style={{ clipPath: "inset(1px 1px)" }} autoPlay muted loop playsInline>
                         <source src={props.imageSrc} type="video/mp4" />
                     </video>
 
@@ -66,13 +66,7 @@ export default function ProjectThumbnail2(props: Props) {
                                     translate-y-full opacity-0
                                     transition-all duration-300 ease-out
                                     group-hover:translate-y-0 group-hover:opacity-100">
-                        <MyButton
-                            link={props.link}
-                            text={`Explore ${props.name}`}
-                            textSize="text-sm"
-                            target={props.target}
-                            variant="blue-button"
-                        />
+                        <MyButton link={props.link} text={`Explore ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button"/>
                     </div>
                 </a>
             </div>
