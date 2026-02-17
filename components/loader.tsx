@@ -20,6 +20,7 @@ export default function Loader() {
           cx="50"
           cy="50"
           r="40"
+          pathLength={100}
           className={styles.circle}
         />
       </svg>

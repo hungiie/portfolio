@@ -89,7 +89,7 @@ export default function Story() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setDemoHover(true);
-      const leaveTimer = setTimeout(() => setDemoHover(false), 2000);
+      const leaveTimer = setTimeout(() => setDemoHover(false), 1900);
       return () => clearTimeout(leaveTimer);
     }, 1500);
 
