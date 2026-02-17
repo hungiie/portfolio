@@ -22,7 +22,6 @@ export default function Home2() {
 
   return (
     <div className="flex items-center justify-center">
-        {/* i see you stalker >:) */}
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[70%] mt-28">
             <SlideUpNoThres>
               <div className={`w-full flex items-center relative`}>

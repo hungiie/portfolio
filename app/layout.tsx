@@ -43,6 +43,11 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
         >
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<!-- i see u stalker -->`,
+            }}
+          />
           <Analytics />
           {children}
         </body>
