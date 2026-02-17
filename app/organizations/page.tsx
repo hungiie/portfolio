@@ -97,6 +97,50 @@ export default function Organizations() {
 
                 <div className="mb-30"></div>
 
+                {/* <div className="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+                        <div className="md:sticky md:top-25 md:self-start">
+                            <Heading text="Overview" variant="black"/>
+                        </div>
+                        <div>
+                            <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
+                                <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
+                                <div className="mb-9"></div>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Current device management settings are often static and uniformly applied across large device fleets, limiting flexibility and preventing <span className="font-semibold font-[var(--colour-pure)] underline">context-aware adjustments</span> based on time, location, or usage conditions.</p>
+                                <div className="mb-9"></div>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When an IT admin applies a setting to a group of devices, it remains continuously active. This forces administrators to manually adjust configurations when circumstances change, increasing operational workload.</p>
+                            </div> 
+                            <div className="mb-4"></div>
+                            <div className="flex flex-col justify-center items-center bg-[#fbfbfb] p-10 rounded-2xl">
+                                <div className="w-full flex justify-between">
+                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start">Notes from PM team</p>
+                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start"><span className="text-[var(--colour-bodytext-4)]">(generalized to avoid NDA)</span></p>
+                                </div>
+                                <div className="mb-12"></div>
+                                <div className="w-full 2xl:w-[70%] grid grid-cols-3 -gap-x-3">
+                                    <ImageZoom>
+                                        <Image src="/rule-stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-3 hover:rotate-1 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                    </ImageZoom>
+                                    <ImageZoom>
+                                        <Image src="/rule-stickie-2.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 hover:-rotate-3 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                    </ImageZoom>
+                                    <ImageZoom>
+                                        <Image src="/rule-stickie-3.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-2 hover:rotate-0 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                    </ImageZoom>
+                                </div>
+                                <div className="mb-5"></div>
+                            </div> 
+                            <div className="mb-4"></div>
+                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mb-30"></div> */}
+
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">

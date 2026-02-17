@@ -124,7 +124,16 @@ export default function Rules() {
                     </div>
                 </div>
                 
-                <div className="mb-30"></div>
+                <div className="mb-40"></div>
+
+                <div className="w-full">
+                    <Heading text="What I did" variant="black"/>
+                    <ImageZoom>
+                        <Image src="/rules-map.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
+                    </ImageZoom>
+                </div>
+
+                <div className="mb-40"></div>
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
