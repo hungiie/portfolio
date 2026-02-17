@@ -7,7 +7,7 @@ import Story from "./story";
 export default function AboutHero() {
   return (
     <div className="w-[80%] 2xl:w-[70%] flex justify-center items-center">
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 2xl:gap-x-[-100px]">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3">
 
         {/* LEFT IMAGE */}
         <div className="w-full justify-center items-center hidden md:flex">
