@@ -189,7 +189,7 @@ export default function Story() {
           {/* Loader appears only on real hover */}
           {hover && (
             <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
-              <div className="w-[120%] h-[120%]">
+              <div className="w-[122%] h-[122%]">
                 <Loader />
               </div>
             </div>
