@@ -104,13 +104,13 @@ export default function Rules() {
                                 <div className="mb-12"></div>
                                 <div className="w-full 2xl:w-[70%] grid grid-cols-3 -gap-x-3">
                                     <ImageZoom>
-                                        <Image src="/rule-stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-3 hover:rotate-1 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                        <Image src="/rule-stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-3 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/rule-stickie-2.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 hover:-rotate-3 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                        <Image src="/rule-stickie-2.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/rule-stickie-3.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-2 hover:rotate-0 shadow-lg transition-all duration-300" alt="Samsung Knox"/> 
+                                        <Image src="/rule-stickie-3.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-2 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                 </div>
                                 <div className="mb-5"></div>
@@ -153,13 +153,13 @@ export default function Rules() {
                         </div>
                         <div>
                             <ImageZoom>
-                                <Image src="/rules-0.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/rules-0.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-1.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/rules-1.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                         </div>
                     </div>
@@ -173,13 +173,13 @@ export default function Rules() {
                         </div>
                         <div>
                             <ImageZoom>
-                                <Image src="/rules-2.png" width={3099} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/rules-2.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-3.png" width={3099} height={3363} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/rules-3.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2 block dark:hidden" alt="Samsung Knox"/> 
+                                <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                         </div>
                     </div>
