@@ -205,7 +205,7 @@ export default function Story() {
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose origin-center z-10 hidden md:block"
           >
-            View Hung's story :)
+            View Hung's story :&#41;
           </motion.p>
 
           {/* Circle + Border */}

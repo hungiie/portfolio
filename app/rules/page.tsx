@@ -66,9 +66,9 @@ export default function Rules() {
                         </div>
                         <div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
-                            <div className="mb-6"></div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">My work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - Samsung&rsquo;s B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
-                            <div className="mb-6"></div>
+                            <div className="mb-10"></div>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">My work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-lg"/></span> - Samsung&rsquo;s B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
+                            <div className="mb-10"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
                             {/* <div className="mb-8"></div>
