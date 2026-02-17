@@ -126,7 +126,7 @@ export default function Story() {
               y: isVisible ? 0 : 12,
             }}
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-            className="group absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose origin-center z-10"
+            className="group absolute -top-10 text-sm text-[var(--colour-bodytext)] leading-loose origin-center z-10 hidden md:block"
           >
             View Hung's story :)
           </motion.p>
@@ -134,14 +134,14 @@ export default function Story() {
           <div
             className={`
               w-[65%] 2xl:w-[65%] aspect-square rounded-full overflow-hidden 
-              border-4 p-1 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:border-[var(--main-blue)]
+              border-0 md:border-4 p-1 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:border-[var(--main-blue)]
               ${isVisible ? "border-transparent" : "border-stone-300"}
             `}
           >
             <div
               className={`
                 w-full rounded-full overflow-hidden transition-all duration-300
-                ${isVisible ? "scale-[0.97]" : ""}
+                ${isVisible ? "md:scale-[0.97]" : ""}
               `}
             >
               <Image

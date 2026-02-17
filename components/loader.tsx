@@ -5,7 +5,7 @@ import styles from "./Loader.module.css";
 
 export default function Loader() {
   return (
-    <div className={`${styles.story} w-full h-full relative`}>
+    <div className={`${styles.story} w-full h-full relative hidden md:block`}>
       <div className="absolute inset-0 rounded-full overflow-hidden">
         <Image
           src="/er.png"
