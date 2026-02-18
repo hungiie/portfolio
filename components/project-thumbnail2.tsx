@@ -63,7 +63,7 @@ export default function ProjectThumbnail2(props: Props) {
                 <div className="mb-7"></div>
                 <a className="relative block overflow-hidden group mt-auto" href={props.link} target={props.target}>
                     <Image src={props.imageSrc} alt={props.name} width={1920} height={1080} className="object-cover"/>
-                    <Image src={props.imageSrcDark} alt={props.name} width={1920} height={1080} className="object-cover inset-0 absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out"/>
+                    <Image src={props.imageSrcDark} alt={props.name} width={1920} height={1080} className="object-cover inset-0 absolute opacity-0 scale-120 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-in-out"/>
                     <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
                                     translate-y-full opacity-0
                                     transition-all duration-300 ease-out
