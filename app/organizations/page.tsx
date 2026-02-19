@@ -149,13 +149,13 @@ export default function Organizations() {
                                 <Image src="/ds3.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            {/* <ImageZoom>
+                            <ImageZoom>
                                 <Image src="/ds4.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <div className="mb-2"></div> */}
-                            <ImageZoom>
+                            {/* <div className="mb-2"></div> */}
+                            {/* <ImageZoom>
                                 <Image src="/ds5.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom>
+                            </ImageZoom> */}
                             {/* <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/> */}
                             {/* <div className="mb-4"></div> */}
                             {/* <ProtectedPhoto src="/doc2.png" alt="organizations" password="2002"/> */}
