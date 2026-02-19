@@ -23,7 +23,7 @@ export default function Cardio() {
                             <DotsMenu/>
                         </div>
                         <div className="hidden md:flex">
-                            <MyButton variant="blue-button-outline" text="My story" link="about" textSize="text-sm" target="_self"/>
+                            <MyButton variant="blue-button-outline" text="About me" link="about" textSize="text-sm" target="_self"/>
                             <div className="ml-3"></div>
                             <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
                         </div>
