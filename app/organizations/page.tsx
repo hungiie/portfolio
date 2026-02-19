@@ -206,7 +206,7 @@ export default function Organizations() {
                                     </div>
                                     <div className="flex flex-col justify-start">
                                         <Image src="/grouse.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(95%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Team meeting @ Grouse ⛰️</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Product Design team meeting @ Grouse ⛰️</p>
                                     </div>
                                 </div>
                             </div>
