@@ -76,7 +76,7 @@ export default function About() {
             <div className="w-full flex items-center justify-center">
                 <div className="w-full h-auto relative mb-12">
                     <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover rounded-lg shadow-md mb-3" style={{ filter: 'contrast(80%)' }}/>
-                    <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Me but #2008</p>
+                    <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Me but #2008 ✨</p>
                     {/* <Polaroid imageSrc="/small.jpg" alt="hung tran" desc="Summer 2008 🐦" angle={-4} textSize="text-xl"/> */}
                 </div>
             </div>
