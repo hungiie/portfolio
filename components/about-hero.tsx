@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Story from "./story";
+import Polaroid from "./polaroid";
 
 export default function AboutHero() {
   return (
@@ -40,7 +41,19 @@ export default function AboutHero() {
         </div>
 
         {/* CENTER CIRCLE (APPEARS FIRST) */}
-        <Story/>
+        {/* <Story/> */}
+        <motion.div
+          initial={{ opacity: 0, filter: "blur(20px)", y: 20 }}
+          animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="w-full flex justify-center items-center relative"
+        >
+          <div className="w-full flex items-center justify-center">
+            <div className="w-[65%]">
+              <Polaroid imageSrc="/yuh.jpg" desc="Summer 2025 📸" angle={3} alt="Hung Tran" textSize="text-xl"/>
+            </div>
+          </div>
+        </motion.div>
 
         {/* RIGHT COLUMN */}
         <div className="w-full flex-col justify-center items-center hidden md:flex">

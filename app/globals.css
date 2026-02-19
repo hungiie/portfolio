@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @custom-variant dark (&:where(.dark, .dark *));
-
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); */
 
 :root {
   --main-blue: #0B8EFF;
@@ -181,4 +181,3 @@ html {
   opacity: 0;
   animation: move-down 350ms ease;
 }
-

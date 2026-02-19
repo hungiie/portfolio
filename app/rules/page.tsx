@@ -8,6 +8,7 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
+import Polaroid from "@/components/polaroid";
 
 export default function Rules() {
   return (
@@ -206,6 +207,13 @@ export default function Rules() {
                                 <div className="ml-3"></div>
                                 <Image src="/work2.png" width={3099} height={3363} className="w-1/2" alt="Samsung Knox" style={{ filter: 'contrast(80%)' }}/> 
                             </div> */}
+                            <div className="mb-15"></div>
+                            <div>
+                                <div className="w-full md:w-[70%] grid grid-cols-2 gap-2 md:gap-4">
+                                    <Polaroid imageSrc="/uxmas.jpg" desc="Samsung XMas party 🎄" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/>
+                                    <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
