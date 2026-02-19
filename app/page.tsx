@@ -75,7 +75,7 @@ export default function Home2() {
                   <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/org-darkmode.png" target="_self"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a design-system–ready component that communicates the parent–child relationships among entities and their inheritance logic." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
               </SlideUp>
               <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Memory Mate" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>

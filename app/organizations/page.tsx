@@ -37,7 +37,7 @@ export default function Organizations() {
                             <Heading text="Samsung Knox Manage: Organizations" variant="black"/>
                         </div>
                         <div>
-                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a design-system–ready component that communicates the parent–child relationships among entities and their inheritance logic.</p>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities.</p>
                             <div className="mb-5"></div>
                             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
@@ -107,7 +107,7 @@ export default function Organizations() {
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
-                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Due to time and development constraints, the concept of <span className="font-semibold font-[var(--colour-pure)] underline">inheritance & parent-to-child settings</span><span className="text-[var(--main-blue)]">(*)</span> needs to be communicated with minimal dev effort.</p>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Due to limited development bandwidth, the <span className="font-semibold font-[var(--colour-pure)] underline">inheritance logic among parent-to-child entities</span><span className="text-[var(--main-blue)]">(*)</span> needs to be visualized with minimal dev effort - without adding new patterns, animations, or complex interactions.</p>
                                 <div className="mb-9"></div>
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose"><span className="text-[var(--main-blue)]">(*) </span>When a setting is assigned to a parent organization, it is inherited by all of its child organizations. This setting is not editable in the child organization, and can only be overriden by assigning a new setting to the child organization.</p>
                             </div> 

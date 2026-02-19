@@ -85,7 +85,7 @@ export default function Home() {
             <ProjectThumbnail isLink="video-link-button" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule vid home.mp4" imageSrcDark="" target="_self"/>
           </SlideUp>
           <SlideUp>
-            <ProjectThumbnail isLink="image-link-button" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a design-system–ready component that communicates the parent–child relationships among entities and their inheritance logic." imageSrc="/organizations.png" imageSrcDark="/org-darkmode.png" target="_self"/>
+            <ProjectThumbnail isLink="image-link-button" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organizations.png" imageSrcDark="/org-darkmode.png" target="_self"/>
           </SlideUp>
           {/* <SlideUp>
             <ProjectThumbnail isLink="image-link-button" link="organizations" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardiohi.png" imageSrcDark="/org-darkmode.png" target="_self"/>
