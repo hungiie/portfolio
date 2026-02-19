@@ -51,7 +51,7 @@ export default function AboutHero() {
           <div className="w-full flex items-center justify-center">
             <div className="w-[55%]">
               {/* <Polaroid imageSrc="/yuh.jpg" desc="Summer 2025 📸" angle={3} alt="Hung Tran" textSize="text-xl"/> */}
-              <Image src="/yuh.jpg" width={3099} height={3363} className="w-full mb-2 rounded-full shadow-xl" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+              <Image src="/yuh.jpg" width={3099} height={3363} className="w-full mb-2 rounded-full shadow-xl" alt="Hung Tran" style={{ filter: 'contrast(90%)' }}/> 
               {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Summer 2025 📸</p> */}
             </div>
           </div>
