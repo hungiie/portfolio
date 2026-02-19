@@ -138,6 +138,14 @@ export default function Organizations() {
                         </div>
                         <div>
                             <ImageZoom>
+                                <Image src="/ds.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                            </ImageZoom>
+                            <div className="mb-2"></div>
+                            <ImageZoom>
+                                <Image src="/ds0.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                            </ImageZoom>
+                            <div className="mb-2"></div>
+                            <ImageZoom>
                                 <Image src="/ds1.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
