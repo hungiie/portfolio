@@ -216,11 +216,11 @@ export default function Rules() {
                                     {/* <Polaroid imageSrc="/uxmas.jpg" desc="Samsung XMas party 🎄" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     {/* <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">
-                                        <Image src="/uxmas.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+                                        <Image src="/uxmas.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
                                         <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">@ Samsung 2025 XMas party 🎄</p>
                                     </div>
                                     <div className="flex flex-col justify-start">
-                                        <Image src="/yehe.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+                                        <Image src="/yehe.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
                                         <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Samsung 2025's #interns ✨</p>
                                     </div>
                                 </div>
