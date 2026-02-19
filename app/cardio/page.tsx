@@ -493,9 +493,9 @@ export default function Cardio() {
 
                 <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
                     <div></div>
-                    <div className="w-full flex flex-col md:flex-row justify-between">
-                        {/* <MyButton variant="blue-button-outline" text="View next project: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/> */}
-                        <div className="mb-3"></div>
+                    <div className="w-full flex flex-col md:flex-row justify-between gap-3">
+                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Rules" link="rules" textSize="text-sm" target="_self"/>
+                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
                         <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                     </div>
                 </div>
