@@ -137,14 +137,6 @@ export default function Organizations() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Detailing specs, variants, interaction guidelines, and edge-case behaviours.</p>
                         </div>
                         <div>
-                            {/* <ImageZoom>
-                                <Image src="/ds.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <div className="mb-2"></div>
-                            <ImageZoom>
-                                <Image src="/ds0.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom>
-                            <div className="mb-2"></div> */}
                             <ImageZoom>
                                 <Image src="/ds1.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
@@ -165,9 +157,11 @@ export default function Organizations() {
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Specifying the interactions for multiple variants.</p>
-                            {/* <ImageZoom>
-                                <Image src="/ds5.png" width={3099} height={1823} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
-                            </ImageZoom> */}
+                            <ImageZoom>
+                                <Image src="/ds5.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
+                            </ImageZoom>
+                            <div className="mb-2"></div>
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Final deliverables.</p>
                             {/* <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/> */}
                             {/* <div className="mb-4"></div> */}
                             {/* <ProtectedPhoto src="/doc2.png" alt="organizations" password="2002"/> */}
