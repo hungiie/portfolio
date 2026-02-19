@@ -179,12 +179,15 @@ export default function Rules() {
                             <ImageZoom>
                                 <Image src="/rules-2.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Configuring time-based conditions.</p>
                             <ImageZoom>
                                 <Image src="/rules-3.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Configuring location-based conditions.</p>
                             <ImageZoom>
                                 <Image src="/rules-4.png" width={2622} height={2622} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Segment of the location-based conditions configuration flow.</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +224,7 @@ export default function Rules() {
                                     </div>
                                     <div className="flex flex-col justify-start">
                                         <Image src="/yehe.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Samsung 2025's #interns ✨</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Samsung 2025's #interns</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,7 +247,7 @@ export default function Rules() {
                             <div className="ml-1"></div>
                             <MyButton variant="blue-hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
                         </div> */}
-                        <MyButton variant="blue-button-outline" text="View Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
+                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
                         <MyButton variant="blue-button-outline" text="View: card.io" link="cardio" textSize="text-sm" target="_self"/>
                         <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                     </div>
