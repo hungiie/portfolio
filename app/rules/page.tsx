@@ -154,17 +154,17 @@ export default function Rules() {
                         </div>
                         <div>
                             <ImageZoom>
-                                <Image src="/rules-0.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                <Image src="/rules-0.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-7">Overview table.</p> */}
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Overview table.</p>
                             <ImageZoom>
-                                <Image src="/rules-1.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                <Image src="/rules-1.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-7">Select a rule to view details through a sliding panel.</p> */}
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">View details through a sliding panel.</p>
                             <ImageZoom>
-                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-7">Detailed sliding panel.</p> */}
+                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Detailed sliding panel.</p>
                         </div>
                     </div>
 
@@ -177,13 +177,13 @@ export default function Rules() {
                         </div>
                         <div>
                             <ImageZoom>
-                                <Image src="/rules-2.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                <Image src="/rules-2.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-3.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                <Image src="/rules-3.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <ImageZoom>
-                                <Image src="/rules-4.png" width={2622} height={2622} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                                <Image src="/rules-4.png" width={2622} height={2622} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                         </div>
                     </div>
