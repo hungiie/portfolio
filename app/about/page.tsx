@@ -26,8 +26,9 @@ export default function About() {
                     <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
                 </div>
             </div>
+            <div className="mb-10"></div>
             <AboutHero/>
-            <div className="mb-0 2xl:mb-15"></div>
+            <div className="mb-10 2xl:mb-25"></div>
         </div>
 
         {/* <SlideUpScroll> */}

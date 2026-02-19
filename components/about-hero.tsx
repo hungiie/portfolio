@@ -28,15 +28,16 @@ export default function AboutHero() {
               duration: 0.8,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="w-[60%] 2xl:w-[50%] mb-9"
+            className="w-[35%] 2xl:w-[35%] mb-9"
           >
-            <Image
+            {/* <Image
               src="/latte.png"
               width={837}
               height={779}
               alt="hung tran"
               className="object-cover origin-center"
-            />
+            /> */}
+            <Image src="/mad.jpg" width={837} height={779} className="w-full rounded-lg shadow-md -rotate-6 translate-x-10" alt="hung tran dark mode"/>
           </motion.div>
         </div>
 
@@ -79,14 +80,15 @@ export default function AboutHero() {
             }}
             className="flex justify-center"
           >
-            <div className="w-[60%] 2xl:w-[50%]">
-              <Image
+            <div className="w-[35%] 2xl:w-[35%]">
+              {/* <Image
                 src="/tate.png"
                 width={837}
                 height={779}
                 alt="hung tran"
                 className="object-cover origin-center"
-              />
+              /> */}
+              <Image src="/vsaflag.jpeg" width={837} height={779} className="w-full rounded-lg shadow-md rotate-4 -translate-x-10" alt="hung tran dark mode"/>
             </div>
           </motion.div>
 
@@ -111,14 +113,15 @@ export default function AboutHero() {
             }}
             className="flex justify-start"
           >
-            <div className="w-[60%] 2xl:w-[50%]">
-              <Image
+            <div className="w-[35%] 2xl:w-[35%]">
+              {/* <Image
                 src="/oops.png"
                 width={837}
                 height={779}
                 alt="hung tran"
                 className="object-cover origin-center"
-              />
+              /> */}
+              <Image src="/matcha.jpeg" width={837} height={779} className="w-full rounded-lg shadow-md rotate-8" alt="hung tran dark mode"/>
             </div>
           </motion.div>
 
