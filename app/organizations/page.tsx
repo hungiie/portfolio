@@ -107,21 +107,21 @@ export default function Organizations() {
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
-                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Due to time and development constraints, the concept of multi-level inheritance and parent-to-child settings needs to be communicated with minimal dev effort.</p>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Due to time and development constraints, the concept of <span className="font-semibold font-[var(--colour-pure)] underline">inheritance & parent-to-child settings</span> needs to be communicated with minimal dev effort.</p>
                                 <div className="mb-9"></div>
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When a setting is assigned to a parent organization, it is inherited by all of its child organizations. This inheritance is not editable in the child organization settings UI, and can only be overriden by assigning a new setting to the child organization.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When a setting is assigned to a parent organization, it is inherited by all of its child organizations. This setting is not editable in the child organization, and can only be overriden by assigning a new setting to the child organization.</p>
                             </div> 
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">What I did</p>
                                 <div className="mb-4"></div>
-                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">I designed an Organization table component that displays the inheritance hierarchy and override status of settings, while reusing atom and molecule components from the design system.</p>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">I designed & wrote documentations for <span className="font-semibold font-[var(--colour-pure)] underline">a hierarchical table component</span> that displays the inheritance hierarchy and override status of settings, while reusing atom and molecule components from the design system.</p>
                                 {/* <div className="mb-9"></div>
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">The </p> */}
                             </div>
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project's process publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can only share the final deliverables publicly, but I&rsquo;d be happy to elaborate more on my experience and design process during an interview.</p>
                                 <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
                         </div>

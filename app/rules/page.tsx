@@ -138,7 +138,7 @@ export default function Rules() {
 
                 <div className="w-full">
                     <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
-                        <p className="text-md text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share my project's process & specific details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
+                        <p className="text-md text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can only share the final deliverables publicly, but I&rsquo;d be happy to elaborate more on my experience and design process during an interview.</p>
                         <div className="mb-9"></div>
                         <p className="text-md text-[var(--colour-bodytext)] leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span>!</p>
                     </div>
