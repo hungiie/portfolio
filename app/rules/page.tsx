@@ -92,9 +92,9 @@ export default function Rules() {
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
-                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Current device management settings are often static and uniformly applied across large device fleets, limiting flexibility and preventing <span className="font-semibold font-[var(--colour-pure)] underline">context-aware adjustments</span> based on time, location, or usage conditions.</p>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Current device management settings are often static<span className="text-[var(--main-blue)]">(*)</span> and uniformly applied across large device fleets, limiting flexibility and preventing <span className="font-semibold font-[var(--colour-pure)] underline">context-aware adjustments</span> based on time, location, or usage conditions.</p>
                                 <div className="mb-9"></div>
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When a setting is applied to a group of devices, it remains continuously active, forcing IT admins to manually adjust when circumstances change, increasing their workload.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose"><span className="text-[var(--main-blue)]">(*) </span>When a setting is applied to a group of devices, it remains continuously active, forcing IT admins to manually adjust when circumstances change, increasing their workload.</p>
                             </div> 
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center items-center bg-[#fbfbfb] p-10 rounded-2xl">
