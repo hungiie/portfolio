@@ -195,11 +195,19 @@ export default function Organizations() {
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Break down complex concept into simple words.</p>
                             <div className="mb-4"></div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to the project's complex interactions, it is not uncommon that I had to consult multiple people to confirm its backend logic. I also frequently relay these findings back to my team for feedbacks and suggestions. This has taught me how to adapt my language and simplify technical concepts without losing meaning.</p>
-                            <div className="mb-15"></div>
+                            <div className="mb-20"></div>
                             <div>
                                 <div className="w-full md:w-[80%] grid grid-cols-2 gap-4">
-                                    <Polaroid imageSrc="/KM.jpg" desc="Knox Manage team 💻" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/>
-                                    <Polaroid imageSrc="/coop xmas.jpg" desc="Samsung XMas party 🎁" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/>
+                                    {/* <Polaroid imageSrc="/KM.jpg" desc="Knox Manage team 💻" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
+                                    {/* <Polaroid imageSrc="/coop xmas.jpg" desc="Samsung XMas party 🎁" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
+                                    <div className="flex flex-col justify-start">
+                                        <Image src="/KM.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Knox Manage team 💻</p>
+                                    </div>
+                                    <div className="flex flex-col justify-start">
+                                        <Image src="/coop xmas.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">@ Samsung 2025 XMas party 🎄</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

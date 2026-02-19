@@ -150,18 +150,21 @@ export default function Rules() {
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
                         <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Viewing a rule&rsquo;s details" variant="black"/>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Simplifies rule reviewing with an at-a-glance table and a sliding panel for detailed views.</p>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Simplifies rule reviewing with an overview table and a sliding panel for detailed views.</p>
                         </div>
                         <div>
                             <ImageZoom>
                                 <Image src="/rules-0.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-7">Overview table.</p> */}
                             <ImageZoom>
                                 <Image src="/rules-1.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-7">Select a rule to view details through a sliding panel.</p> */}
                             <ImageZoom>
                                 <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
+                            {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-7">Detailed sliding panel.</p> */}
                         </div>
                     </div>
 
@@ -207,11 +210,19 @@ export default function Rules() {
                                 <div className="ml-3"></div>
                                 <Image src="/work2.png" width={3099} height={3363} className="w-1/2" alt="Samsung Knox" style={{ filter: 'contrast(80%)' }}/> 
                             </div> */}
-                            <div className="mb-15"></div>
+                            <div className="mb-20"></div>
                             <div>
-                                <div className="w-full md:w-[70%] grid grid-cols-2 gap-2 md:gap-4">
-                                    <Polaroid imageSrc="/uxmas.jpg" desc="Samsung XMas party 🎄" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/>
-                                    <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/>
+                                <div className="w-full md:w-[80%] grid grid-cols-2 gap-2 md:gap-6">
+                                    {/* <Polaroid imageSrc="/uxmas.jpg" desc="Samsung XMas party 🎄" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
+                                    {/* <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
+                                    <div className="flex flex-col justify-start">
+                                        <Image src="/uxmas.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">@ Samsung 2025 XMas party 🎄</p>
+                                    </div>
+                                    <div className="flex flex-col justify-start">
+                                        <Image src="/yehe.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
+                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Samsung 2025's #interns ✨</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

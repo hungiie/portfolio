@@ -74,9 +74,9 @@ export default function About() {
             <div className="mb-25"></div>
 
             <div className="w-full flex items-center justify-center">
-                <div className="w-[75%] h-auto relative mb-18">
-                    {/* <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/> */}
-                    <Polaroid imageSrc="/small.jpg" alt="hung tran" desc="Summer 2008 🐦" angle={-4} textSize="text-xl"/>
+                <div className="w-full h-auto relative mb-18">
+                    <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover" style={{ filter: 'contrast(80%)' }}/>
+                    {/* <Polaroid imageSrc="/small.jpg" alt="hung tran" desc="Summer 2008 🐦" angle={-4} textSize="text-xl"/> */}
                 </div>
             </div>
 
