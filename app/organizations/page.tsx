@@ -203,7 +203,7 @@ export default function Organizations() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to the project's complex interactions, it is not uncommon that I had to consult multiple people to confirm its backend logic. I also frequently relay these findings back to my team for feedbacks and suggestions. This has taught me how to adapt my language and simplify technical concepts without losing meaning.</p>
                             <div className="mb-20"></div>
                             <div>
-                                <div className="w-full md:w-[80%] grid grid-cols-2 gap-4">
+                                <div className="w-full md:w-[80%] 2xl:w-[65%] grid grid-cols-2 gap-4">
                                     {/* <Polaroid imageSrc="/KM.jpg" desc="Knox Manage team 💻" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     {/* <Polaroid imageSrc="/coop xmas.jpg" desc="Samsung XMas party 🎁" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">

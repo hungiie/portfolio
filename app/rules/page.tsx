@@ -215,7 +215,7 @@ export default function Rules() {
                             </div> */}
                             <div className="mb-20"></div>
                             <div>
-                                <div className="w-full md:w-[80%] grid grid-cols-2 gap-2 md:gap-6">
+                                <div className="w-full md:w-[80%] 2xl:w-[65%] grid grid-cols-2 gap-2 md:gap-6">
                                     {/* <Polaroid imageSrc="/uxmas.jpg" desc="Samsung XMas party 🎄" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     {/* <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">

@@ -2,129 +2,337 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Story from "./story";
-import Polaroid from "./polaroid";
+import { useState } from "react";
 
 export default function AboutHero() {
-  return (
-    <div className="w-[80%] 2xl:w-[70%] flex justify-center items-center">
-      <div className="w-full grid grid-cols-1 md:grid-cols-3">
+  const [hovered, setHovered] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState(false);
 
-        {/* LEFT IMAGE */}
+  const getCenterText = () => {
+    if (!hovered) return "...";
+    return hovered;
+  };
+
+  return (
+    <div className="w-full flex justify-center items-center">
+      <div className="w-full 2xl:w-[90%] grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr_2fr_1fr_1fr_1fr]">
+        {/* column 1 */}
         <div className="w-full justify-center items-center hidden md:flex">
-          <motion.div
+          {/* <motion.div
+            onHoverStart={() => setHovered("Tim Drake #1 fan")}
+            onHoverEnd={() => setHovered(null)}
             initial={{
               opacity: 0,
               filter: "blur(12px)",
-              x: -40,
+               
             }}
             animate={{
               opacity: 1,
               filter: "blur(0px)",
-              x: 0,
+               
             }}
             transition={{
               delay: 0.8,
               duration: 0.8,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="w-[35%] 2xl:w-[35%] mb-9"
+            className=" w-[60%] mb-9"
           >
-            {/* <Image
-              src="/latte.png"
-              width={837}
-              height={779}
-              alt="hung tran"
-              className="object-cover origin-center"
-            /> */}
-            <Image src="/mad.jpg" width={837} height={779} className="w-full rounded-xl shadow-md -rotate-6 translate-x-10" alt="hung tran dark mode"/>
-          </motion.div>
+            <motion.div
+              animate={{ scale: hovered === "Tim Drake #1 fan" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/robin.jpg" width={837} height={779} className="w-full rounded-xl 2xl:rounded-2xl shadow-md -rotate-6" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div> */}
         </div>
 
-        {/* CENTER CIRCLE (APPEARS FIRST) */}
-        {/* <Story/> */}
-        <motion.div
-          initial={{ opacity: 0, filter: "blur(20px)", y: 20 }}
-          animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="w-full flex justify-center items-center relative"
-        >
-          <div className="w-full flex items-center justify-center">
-            <div className="w-[55%]">
-              {/* <Polaroid imageSrc="/yuh.jpg" desc="Summer 2025 📸" angle={3} alt="Hung Tran" textSize="text-xl"/> */}
-              <Image src="/yuh.jpg" width={3099} height={3363} className="w-full mb-2 rounded-3xl shadow-2xl" alt="Hung Tran" style={{ filter: 'contrast(95%)' }}/> 
-              {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Summer 2025 📸</p> */}
-            </div>
-          </div>
-        </motion.div>
 
-        {/* RIGHT COLUMN */}
-        <div className="w-full flex-col justify-center items-center hidden md:flex">
-
-          {/* TOP RIGHT */}
+        {/* column 2 */}
+        <div className="w-full justify-center items-center hidden md:flex">
           <motion.div
+            onHoverStart={() => setHovered("Madison Beer 2024 🎤")}
+            onHoverEnd={() => setHovered(null)}
             initial={{
               opacity: 0,
               filter: "blur(12px)",
-              x: 40,
+               
             }}
             animate={{
               opacity: 1,
               filter: "blur(0px)",
-              x: 0,
-            }}
-            transition={{
-              delay: 0.5,
-              duration: 0.8,
-              ease: [0.22, 1, 0.36, 1],
-            }}
-            className="flex justify-center"
-          >
-            <div className="w-[35%] 2xl:w-[35%]">
-              {/* <Image
-                src="/tate.png"
-                width={837}
-                height={779}
-                alt="hung tran"
-                className="object-cover origin-center"
-              /> */}
-              <Image src="/vsaflag.jpeg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-4 -translate-x-10" alt="hung tran dark mode"/>
-            </div>
-          </motion.div>
-
-          <div className="mb-25 2xl:mb-40"></div>
-
-          {/* BOTTOM RIGHT */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              filter: "blur(12px)",
-              x: 40,
-            }}
-            animate={{
-              opacity: 1,
-              filter: "blur(0px)",
-              x: 0,
+               
             }}
             transition={{
               delay: 1.1,
               duration: 0.8,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="flex justify-start"
+            className=" w-[60%] mb-9"
           >
-            <div className="w-[35%] 2xl:w-[35%]">
-              {/* <Image
-                src="/oops.png"
-                width={837}
-                height={779}
-                alt="hung tran"
-                className="object-cover origin-center"
-              /> */}
-              <Image src="/matcha.jpeg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-8" alt="hung tran dark mode"/>
-            </div>
+            <motion.div
+              animate={{ scale: hovered === "Madison Beer 2024 🎤" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/mad.jpg" width={837} height={779} className="w-full rounded-xl 2xl:rounded-2xl shadow-md -rotate-6" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div>
+        </div>
+
+
+        {/* column 3 */}
+        <div className="w-full flex-col justify-center items-center hidden md:flex">
+
+          {/* top */}
+          <motion.div
+            onHoverStart={() => setHovered("Samsung 2025 interns 📚")}
+            onHoverEnd={() => setHovered(null)}
+            className="flex justify-center  w-[60%]"
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+               
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+               
+            }}
+            transition={{
+              delay: 0.8,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <motion.div
+              animate={{ scale: hovered === "Samsung 2025 interns 📚" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/work1.png" width={837} height={779} className="w-full rounded-xl shadow-md rotate-6" alt="hung tran dark mode"/>
+            </motion.div>
           </motion.div>
 
+          <div className="mb-25 2xl:mb-40"></div>
+
+          {/* bottom */}
+          <motion.div
+            onHoverStart={() => setHovered("Sunday coffee ☀️")}
+            onHoverEnd={() => setHovered(null)}
+            className="flex justify-start  w-[60%]"
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+               
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+               
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <motion.div
+              animate={{ scale: hovered === "Sunday coffee ☀️" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/coffee.JPG" width={837} height={779} className="w-full rounded-xl shadow-md -rotate-8" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div>
+
+        </div>
+
+        {/* column 4 (center) */}
+        <motion.div
+          initial={{ opacity: 0, filter: "blur(20px)"}}
+          animate={{ opacity: 1, filter: "blur(0px)"}}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="w-full flex flex-col justify-center items-center relative"
+        >
+
+          <div className="w-[65%]">
+            <motion.div
+              onHoverStart={() => setHovered("...")}
+              onHoverEnd={() => setHovered(null)}
+              animate={{ scale: hovered === "..." ? 1.02 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+            >
+              <Image src="/yuh.jpg" width={3099} height={3363} className="w-full mb-2 rounded-3xl shadow-2xl -rotate-2" alt="Hung Tran" style={{ filter: "contrast(100%)" }}/>
+            </motion.div>
+          </div>
+
+          <div className="mt-10 text-sm text-[var(--colour-bodytext-4)] z-10 pointer-events-none hidden md:block">
+            Hung's stories
+          </div>
+          <div className="mt-1 text-sm text-[var(--colour-bodytext-4)] z-10 pointer-events-none hidden md:block">
+            {getCenterText()}
+          </div>
+        </motion.div>
+
+        {/* column 5 */}
+        <div className="w-full flex-col justify-center items-center hidden md:flex">
+
+          {/* top */}
+          <motion.div
+            onHoverStart={() => setHovered("Matcha chronicles 🍵")}
+            onHoverEnd={() => setHovered(null)}
+            className="flex justify-start  w-[60%]"
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <motion.div
+              animate={{ scale: hovered === "Matcha chronicles 🍵" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/matcha.jpeg" width={837} height={779} className="w-full rounded-xl shadow-md -rotate-8" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div>
+
+          <div className="mb-25 2xl:mb-40"></div>
+
+          {/* bottom */}
+          <motion.div
+            onHoverStart={() => setHovered("Losing voice at concerts 🎤")}
+            onHoverEnd={() => setHovered(null)}
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+               
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+            }}
+            transition={{
+              delay: 0.8,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+            className=" w-[60%]"
+          >
+            <motion.div
+              animate={{ scale: hovered === "Losing voice at concerts 🎤" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/spinning.jpeg" width={837} height={779} className="w-full rounded-xl 2xl:rounded-2xl shadow-md rotate-6" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div>
+        </div>
+
+        {/* column 6 */}
+        <div className="w-full justify-center items-center hidden md:flex">
+          <motion.div
+            onHoverStart={() => setHovered("Bellini enthusiast 🍹")}
+            onHoverEnd={() => setHovered(null)}
+            className="flex justify-center  w-[60%]"
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+            }}
+            transition={{
+              delay: 1.1,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <motion.div
+              animate={{ scale: hovered === "Bellini enthusiast 🍹" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/belini.jpg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-6" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div>
+        </div>
+
+        {/* column 7 */}
+        <div className="w-full flex-col justify-center items-center hidden md:flex">
+
+          {/* top */}
+          {/* <motion.div
+            onHoverStart={() => setHovered("Night market finds 🍜")}
+            onHoverEnd={() => setHovered(null)}
+            className="flex justify-center  w-[60%]"
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+               
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+               
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <motion.div
+              animate={{ scale: hovered === "Night market finds 🍜" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/richmond.jpg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-6" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div>
+
+          <div className="mb-25 2xl:mb-40"></div> */}
+
+          {/* bottom */}
+          {/* <motion.div
+            onHoverStart={() => setHovered("Bellini enthusiast 🍹")}
+            onHoverEnd={() => setHovered(null)}
+            className="flex justify-start  w-[60%]"
+            initial={{
+              opacity: 0,
+              filter: "blur(12px)",
+               
+            }}
+            animate={{
+              opacity: 1,
+              filter: "blur(0px)",
+               
+            }}
+            transition={{
+              delay: 1.1,
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <motion.div
+              animate={{ scale: hovered === "Bellini enthusiast 🍹" ? 1.05 : 1 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className=" "
+            >
+              <Image src="/belini.jpg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-8" alt="hung tran dark mode"/>
+            </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </div>
