@@ -14,9 +14,12 @@ import SlideUpDelay from "@/components/slide-up-delay";
 import SlideRight from "@/components/slide-right";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import CopyEmailButton from "@/components/copyemail";
+import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
+import { useTheme } from "next-themes";
 
 export default function Home2() {
   const [animate, setAnimate] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     setTimeout(() => setAnimate(true), 900);
@@ -58,6 +61,17 @@ export default function Home2() {
                 {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
               <div className="mb-9"></div>
+              {/* <ThemeToggleButton
+                theme={theme === "light" ? "dark" : "light"}
+                onClick={() => {
+                  const next = theme === "dark" ? "light" : "dark";
+                  setTheme(next);
+                }}
+                variant="none"
+                start="center"
+                className="hover:cursor-pointer"
+                showLabel={false}
+              /> */}
               {/* <p className="text-md text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p> */}
             </SlideUpNoThres>
 

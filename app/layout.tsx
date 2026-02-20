@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { Caveat } from "next/font/google";
+import { ThemeProvider } from "@/components/themeprovider";
 
 const caveat = Caveat({
   subsets: ["latin"],
@@ -46,6 +47,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="light"
+        enableSystem={false}
+        disableTransitionOnChange
+      >
         <body
           className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
         >
@@ -57,6 +64,7 @@ export default function RootLayout({
           <Analytics />
           {children}
         </body>
+      </ThemeProvider>
     </html>
   );
 }
