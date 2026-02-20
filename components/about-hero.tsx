@@ -37,7 +37,7 @@ export default function AboutHero() {
               alt="hung tran"
               className="object-cover origin-center"
             /> */}
-            <Image src="/mad.jpg" width={837} height={779} className="w-full rounded-lg shadow-md -rotate-6 translate-x-10" alt="hung tran dark mode"/>
+            <Image src="/mad.jpg" width={837} height={779} className="w-full rounded-xl shadow-md -rotate-6 translate-x-10" alt="hung tran dark mode"/>
           </motion.div>
         </div>
 
@@ -52,7 +52,7 @@ export default function AboutHero() {
           <div className="w-full flex items-center justify-center">
             <div className="w-[55%]">
               {/* <Polaroid imageSrc="/yuh.jpg" desc="Summer 2025 📸" angle={3} alt="Hung Tran" textSize="text-xl"/> */}
-              <Image src="/yuh.jpg" width={3099} height={3363} className="w-full mb-2 rounded-full shadow-xl" alt="Hung Tran" style={{ filter: 'contrast(90%)' }}/> 
+              <Image src="/yuh.jpg" width={3099} height={3363} className="w-full mb-2 rounded-3xl shadow-2xl" alt="Hung Tran" style={{ filter: 'contrast(95%)' }}/> 
               {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Summer 2025 📸</p> */}
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function AboutHero() {
                 alt="hung tran"
                 className="object-cover origin-center"
               /> */}
-              <Image src="/vsaflag.jpeg" width={837} height={779} className="w-full rounded-lg shadow-md rotate-4 -translate-x-10" alt="hung tran dark mode"/>
+              <Image src="/vsaflag.jpeg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-4 -translate-x-10" alt="hung tran dark mode"/>
             </div>
           </motion.div>
 
@@ -121,7 +121,7 @@ export default function AboutHero() {
                 alt="hung tran"
                 className="object-cover origin-center"
               /> */}
-              <Image src="/matcha.jpeg" width={837} height={779} className="w-full rounded-lg shadow-md rotate-8" alt="hung tran dark mode"/>
+              <Image src="/matcha.jpeg" width={837} height={779} className="w-full rounded-xl shadow-md rotate-8" alt="hung tran dark mode"/>
             </div>
           </motion.div>
 
