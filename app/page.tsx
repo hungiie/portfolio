@@ -76,7 +76,7 @@ export default function Home2() {
             </SlideUpNoThres>
 
 
-            <div className="mb-30 md:mb-50"></div>
+            <div className="mb-30 md:mb-40"></div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
               <SlideUp>
