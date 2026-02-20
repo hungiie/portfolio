@@ -157,7 +157,7 @@ export default function AboutHero() {
           className="w-full flex flex-col justify-center items-center relative"
         >
 
-          <div className="w-[65%]">
+          <div className="w-[55%]">
             <motion.div
               onHoverStart={() => setHovered("...")}
               onHoverEnd={() => setHovered(null)}
