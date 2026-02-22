@@ -31,7 +31,11 @@ export default function Visuals() {
                     </div>
                 </div>
 
-                <div className="mb-30"></div>
+                <div className="mb-20"></div>
+
+                <p className="text-md text-[var(--colour-bodytext)]">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-4)]">Click to enlarge.</span></p>
+
+                <div className="mb-20"></div>
 
                 {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Throughout my design journey, I've also explored visual design and motions.</p>
                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Here's a collection of my work in that space.</p>
