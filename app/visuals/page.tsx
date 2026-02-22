@@ -122,7 +122,7 @@ export default function Visuals() {
                     </ImageZoom>
                 </div>
 
-                <div className="mb-30"></div>
+                {/* <div className="mb-30"></div>
 
                 <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Greenwich university's Cultural festival 🌎</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -137,7 +137,7 @@ export default function Visuals() {
                     <ImageZoom>
                         <Image src="/w-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
                     </ImageZoom>
-                </div>
+                </div> */}
 
                 
 
