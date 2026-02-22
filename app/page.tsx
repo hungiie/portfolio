@@ -122,7 +122,7 @@ export default function Home2() {
               </SlideUp>
             </div>
 
-            <div className="mb-50"></div>
+            <div className="mb-55"></div>
 
 
             {/* <div className="-mb-10"></div> */}
