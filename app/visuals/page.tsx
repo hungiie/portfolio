@@ -101,7 +101,7 @@ export default function Visuals() {
                     </ImageZoom>
                 </div>
 
-                <div className="mb-30"></div>
+                {/* <div className="mb-30"></div>
 
                 <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Greenwich university's Cultural festival 🌎</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -116,7 +116,7 @@ export default function Visuals() {
                     <ImageZoom>
                         <Image src="/w-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
                     </ImageZoom>
-                </div>
+                </div> */}
 
                 <div className="mb-30"></div>
 
@@ -136,15 +136,33 @@ export default function Visuals() {
 
                 <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Fraser Health's Planetary Health 🌱</p>
+                <div className="w-full flex justify-between">
+                    <p className="text-md text-[var(--colour-bodytext-4)]">Fraser Health's Planetary Health 🌱</p>
+                    <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
+                </div>
+                <div className="mb-9"></div>
                 <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg py-15 mb-2">
                     <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
-                        <video className="object-cover" autoPlay controls loop playsInline>
+                        <video className="object-cover" autoPlay controls muted loop playsInline>
                             <source src="videographics.mp4"type="video/mp4" />
                         </video>
                     </div>
                 </div>
 
+                <div className="mb-30"></div>
+
+                <div className="w-full flex justify-between">
+                    <p className="text-md text-[var(--colour-bodytext-4)]">Fraser Health's UPCC 🏥</p>
+                    <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
+                </div>
+                <div className="mb-9"></div>
+                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg py-15 mb-2">
+                    <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
+                        <video className="object-cover" autoPlay controls muted loop playsInline>
+                            <source src="upcc.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
 
                 <div className="mb-40"></div>
 
