@@ -22,7 +22,7 @@ export default function ProjectThumbnail2(props: Props) {
                         {props.name}
                     </p>
                 </div>
-                <div className="mt-auto">
+                <div className="">
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">
                         {props.desc}
                     </p>

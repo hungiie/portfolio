@@ -118,7 +118,7 @@ export default function Home2() {
                   <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc="I like to play around with visual design and motions. Here's the damage." imageSrc="/visuall.png" imageSrcDark="/memorymate-hover.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/visuall.png" imageSrcDark="/memorymate-hover.png" target="_self"/>
               </SlideUp>
             </div>
 
