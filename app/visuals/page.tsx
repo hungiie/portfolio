@@ -33,7 +33,7 @@ export default function Visuals() {
 
                 <div className="mb-20"></div>
 
-                <p className="text-md text-[var(--colour-bodytext)]">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-4)]">Click to enlarge.</span></p>
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-4)]">Click to enlarge.</span></p>
 
                 <div className="mb-20"></div>
 
@@ -96,7 +96,7 @@ export default function Visuals() {
                 <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Halloween costume contest promotions 🎃</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom>
-                        <Image src="/halloween-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                        <Image src="/halloween-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
                     {/* <ImageZoom>
                         <Image src="/halloween-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
