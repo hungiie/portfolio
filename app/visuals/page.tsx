@@ -37,27 +37,6 @@ export default function Visuals() {
 
                 <div className="mb-20"></div>
 
-                {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Throughout my design journey, I've also explored visual design and motions.</p>
-                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Here's a collection of my work in that space.</p>
-
-                <div className="mb-40"></div> */}
-
-                {/* <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Fraser Health's Corporate brochure</p>
-                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg py-15 mb-2">
-                    <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
-                        <video className="object-cover" autoPlay muted loop playsInline>
-                            <source src="videographics.mp4"type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg mb-2">
-                    <Image src="/f-1.png" width={1200} height={1200} className="w-[70%] object-cover rounded-lg  " alt="Visual design"/>
-                </div>
-                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
-                    <Image src="/f-2.png" width={1200} height={1200} className="w-[70%] object-cover rounded-lg  " alt="Visual design"/>
-                </div>
-
-                <div className="mb-10"></div> */}
                 <SlideUpNoThres>
                 <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Movie Night promotions 🎥</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -122,7 +101,7 @@ export default function Visuals() {
                     </ImageZoom>
                 </div>
 
-                {/* <div className="mb-30"></div>
+                <div className="mb-30"></div>
 
                 <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Greenwich university's Cultural festival 🌎</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -137,20 +116,41 @@ export default function Visuals() {
                     <ImageZoom>
                         <Image src="/w-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
                     </ImageZoom>
-                </div> */}
+                </div>
 
-                
+                <div className="mb-30"></div>
+
+                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Fraser Health's Official Corporate Brochure 🩺</p>
+                <div className="w-full grid grid-cols-2 md:grid-cols-2 gap-2">
+                    <div className=" bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
+                        <ImageZoom>
+                            <Image src="/fh-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg  " alt="Visual design"/>
+                        </ImageZoom>
+                    </div>
+                    <div className=" bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
+                        <ImageZoom>
+                            <Image src="/fh-2.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg  " alt="Visual design"/>
+                        </ImageZoom>
+                    </div>
+                </div>
+
+                <div className="mb-30"></div>
+
+                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Fraser Health's Planetary Health 🌱</p>
+                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg py-15 mb-2">
+                    <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
+                        <video className="object-cover" autoPlay controls loop playsInline>
+                            <source src="videographics.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+
 
                 <div className="mb-40"></div>
 
-                {/* <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                    <div></div>
-                    <div className="w-full flex flex-col md:flex-row justify-between gap-3">
-                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button-outline" text="View: card.io" link="cardio" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
-                    </div>
-                </div> */}
+                <div className="w-full flex justify-center items-center">
+                    <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                </div>
 
                 <div className="w-full">
                     <Footer/>
