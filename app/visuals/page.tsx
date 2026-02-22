@@ -59,7 +59,7 @@ export default function Visuals() {
 
                 <div className="mb-10"></div> */}
                 <SlideUpNoThres>
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Summer Movie Night promotions 🎥</p>
+                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Movie Night promotions 🎥</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom>
                         <Image src="/movie-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
