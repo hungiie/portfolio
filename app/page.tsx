@@ -88,14 +88,11 @@ export default function Home2() {
               <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
               </SlideUp>
-              <SlideUp>
+              {/* <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Memory Mate" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>
               </SlideUp>
               <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc="I like to play around with visual design and motions. Here's the damage." imageSrc="/visuall.png" imageSrcDark="/memorymate-hover.png" target="_self"/>
-              </SlideUp>
-              {/* <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Jackalope" desc="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." imageSrc="/jackalopenew.png" imageSrcDark="/memorymate.png" target="_blank"/>
               </SlideUp> */}
 
               {/* <SlideUp>
@@ -111,6 +108,18 @@ export default function Home2() {
                     </div>
                 </div>
               </SlideUp> */}
+            </div>
+
+            <div className="mb-30 md:mb-50"></div>
+
+            <p className="text-lg text-[var(--colour-bodytext-4)] leading-loose mb-12">Other visual designs & development projects</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
+              <SlideUp>
+                  <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>
+              </SlideUp>
+              <SlideUp>
+                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc="I like to play around with visual design and motions. Here's the damage." imageSrc="/visuall.png" imageSrcDark="/memorymate-hover.png" target="_self"/>
+              </SlideUp>
             </div>
 
             <div className="mb-50"></div>
