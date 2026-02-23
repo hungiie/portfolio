@@ -16,6 +16,7 @@ import SlideUpNoThres from "@/components/slide-up-nothres";
 import CopyEmailButton from "@/components/copyemail";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import { useTheme } from "next-themes";
+import MyNav2 from "@/components/nav2";
 
 export default function Home2() {
   const [animate, setAnimate] = useState(false);
@@ -27,6 +28,7 @@ export default function Home2() {
 
   return (
     <div className="flex items-center justify-center">
+        {/* <MyNav2 variant="Home"/> */}
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[70%] mt-28">
             <SlideUpNoThres>
               <div className={`w-full flex items-center justify-between relative`}>
@@ -112,7 +114,7 @@ export default function Home2() {
 
             <div className="mb-30 md:mb-50"></div>
 
-            <p className="text-lg text-[var(--colour-bodytext-4)] leading-loose mb-12">Other visual designs & development projects</p>
+            <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">Outside of UX, I also work across visual design and development.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
               <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>
