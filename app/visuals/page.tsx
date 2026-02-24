@@ -33,7 +33,7 @@ export default function Visuals() {
 
                 <div className="mb-20"></div>
 
-                <p className="text-md text-[var(--colour-bodytext)] leading-loose">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-4)]">Click to enlarge.</span></p>
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-4)]">Click image to enlarge.</span></p>
 
                 <div className="mb-20"></div>
 
