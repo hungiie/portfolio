@@ -53,7 +53,7 @@ export default function MyNav2(props: Props) {
       {props.variant === "Home" && (
         <div className="w-full px-10 md:px-0 md:w-2/3 lg:w-[85%] 2xl:w-[70%] flex items-center justify-between relative">
           {/* <Image src="/yuh.jpg" width={3099} height={3363} className="w-[36px] aspect-square rounded-sm origin-center" alt="Hung Tran"/>  */}
-          <div></div>
+          <MyButton variant="blue-hyperlink" text="Back to top" link="#top" textSize="text-sm" target="_self"/>
           {/* Desktop buttons */}
           <div className="hidden md:flex">
             <MyButton variant="blue-button-outline" text="About me" link="about" textSize="text-sm" target="_self"/>
