@@ -14,7 +14,7 @@ export default function Cardio() {
     <div>
         <MyNav2 variant="Projects to home"/>
         <div className="w-full flex flex-col items-center justify-center self-center bg-transparent">
-            <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[70%]">
+            <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[75%]">
 
                 <div className="w-full mt-20">
                     <div className="w-full flex justify-between items-center">

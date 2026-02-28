@@ -19,7 +19,7 @@ export default function About() {
     <div className="flex items-center justify-center flex-col">
         <MyNav2 variant="About to home" />
 
-        <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[70%] flex flex-col justify-center items-center">
+        <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[75%] flex flex-col justify-center items-center">
             <div className="w-full mt-6 mb-9 flex justify-between items-center">
                 <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                 <div className="flex">
