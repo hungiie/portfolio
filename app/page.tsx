@@ -52,7 +52,7 @@ export default function Home2() {
               </div>
               <div className="mb-9"></div>
               <div className="w-full md:w-[75%]">
-                <p className="text-md text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose mb-9">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span></p>
                 <p className="text-md text-[var(--colour-bodytext)] leading-loose">I see design as a complex system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn modern problems into solutions that feel human.</p>
               </div>
               <div className="mb-9"></div>
