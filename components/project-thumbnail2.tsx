@@ -18,12 +18,12 @@ export default function ProjectThumbnail2(props: Props) {
         return (
             <div className="overflow-hidden bg-[var(--background)] h-full flex flex-col group">
                 <div>
-                    <p className="text-sm text-[var(--colour-bodytext-4)] group-hover:text-[var(--main-blue)] mb-4 leading-loose">
+                    <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--main-blue)] mb-4 leading-loose">
                         {props.name}
                     </p>
                 </div>
                 <div className="">
-                    <p className="text-sm text-[var(--colour-bodytext-4)] group-hover:text-[var(--colour-bodytext)] leading-loose">
+                    <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--colour-bodytext)] leading-loose">
                         {props.desc}
                     </p>
                 </div>
@@ -50,10 +50,10 @@ export default function ProjectThumbnail2(props: Props) {
     else if (props.isLink == "video-link") {
         return (
             <div className="h-auto bg-[var(--background)] group">
-                <p className="text-sm text-[var(--colour-bodytext-4)] mb-4 leading-loose group-hover:text-[var(--main-blue)]">
+                <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] mb-4 leading-loose md:group-hover:text-[var(--main-blue)]">
                     {props.name}
                 </p>
-                <p className="text-sm text-[var(--colour-bodytext-4)] group-hover:text-[var(--colour-bodytext)] leading-loose">
+                <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--colour-bodytext)] leading-loose">
                     {props.desc}
                 </p>
                 <div className="mb-7"></div>
