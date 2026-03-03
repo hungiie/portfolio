@@ -23,7 +23,7 @@ export default function ProjectThumbnail2(props: Props) {
                     </p>
                 </div>
                 <div className="">
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose">
+                    <p className="text-sm text-[var(--colour-bodytext-4)] group-hover:text-[var(--colour-bodytext)] leading-loose">
                         {props.desc}
                     </p>
                 </div>
@@ -53,7 +53,7 @@ export default function ProjectThumbnail2(props: Props) {
                 <p className="text-sm text-[var(--colour-bodytext-4)] mb-4 leading-loose group-hover:text-[var(--main-blue)]">
                     {props.name}
                 </p>
-                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">
+                <p className="text-sm text-[var(--colour-bodytext-4)] group-hover:text-[var(--colour-bodytext)] leading-loose">
                     {props.desc}
                 </p>
                 <div className="mb-7"></div>
