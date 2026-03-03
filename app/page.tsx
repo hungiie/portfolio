@@ -85,10 +85,10 @@ export default function Home2() {
                 <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
               <SlideUpNoThres>
-                  <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio-poster.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
               </SlideUpNoThres>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio-poster.png" target="_self"/>
               </SlideUp>
               {/* <SlideUp>
                   <ProjectThumbnail2 isLink="image-link" link="/" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/org-hover.png" target="_self"/>
