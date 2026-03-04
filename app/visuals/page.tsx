@@ -33,12 +33,12 @@ export default function Visuals() {
 
                 <div className="mb-20"></div>
 
-                <p className="text-md text-[var(--colour-bodytext)] leading-loose">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-4)]">Click image to enlarge.</span></p>
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose">Made with Adobe Illustrator & Adobe After Effects. <span className="text-[var(--colour-bodytext-3)]">Click image to enlarge.</span></p>
 
                 <div className="mb-20"></div>
 
                 <SlideUpNoThres>
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Movie Night promotions 🎥</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Movie Night promotions 🎥</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom>
                         <Image src="/movie-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
@@ -60,7 +60,7 @@ export default function Visuals() {
 
                 {/* <div className="mb-10"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Douglas College Royals promotions 🏐</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">Douglas College Royals promotions 🏐</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-2 gap-2">
                     <ImageZoom>
                         <Image src="/d-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
@@ -72,7 +72,7 @@ export default function Visuals() {
 
                 <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Halloween costume contest promotions 🎃</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Halloween costume contest promotions 🎃</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom>
                         <Image src="/halloween-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
@@ -88,7 +88,7 @@ export default function Visuals() {
 
                 <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">VSA - Back to School promotions 🏫</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Back to School promotions 🏫</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom>
                         <Image src="/vsa-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
@@ -103,7 +103,7 @@ export default function Visuals() {
 
                 {/* <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Greenwich university's Cultural festival 🌎</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">Greenwich university's Cultural festival 🌎</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom>
                         <Image src="/w-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
@@ -120,7 +120,7 @@ export default function Visuals() {
 
                 <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-4)] mb-9">Fraser Health's Official Corporate Brochure 🩺</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">Fraser Health's Official Corporate Brochure 🩺</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-2 gap-2">
                     <div className=" bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
                         <ImageZoom>
@@ -137,7 +137,7 @@ export default function Visuals() {
                 <div className="mb-30"></div>
 
                 <div className="w-full flex justify-between">
-                    <p className="text-md text-[var(--colour-bodytext-4)]">Fraser Health's Planetary Health 🌱</p>
+                    <p className="text-md text-[var(--colour-bodytext-3)]">Fraser Health's Planetary Health 🌱</p>
                     <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
                 </div>
                 <div className="mb-9"></div>
@@ -152,7 +152,7 @@ export default function Visuals() {
                 <div className="mb-30"></div>
 
                 <div className="w-full flex justify-between">
-                    <p className="text-md text-[var(--colour-bodytext-4)]">Fraser Health's UPCC 🏥</p>
+                    <p className="text-md text-[var(--colour-bodytext-3)]">Fraser Health's UPCC 🏥</p>
                     <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
                 </div>
                 <div className="mb-9"></div>

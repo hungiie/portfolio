@@ -38,7 +38,7 @@ export default function Rules() {
                         <div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
                             <div className="mb-5"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ export default function Rules() {
                             <div className="flex flex-col justify-center items-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <div className="w-full flex justify-between">
                                     <p className="text-sm text-[var(--main-blue)] leading-loose self-start">Notes from PM team</p>
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start"><span className="text-[var(--colour-bodytext-4)]">(generalized to avoid NDA)</span></p>
+                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start"><span className="text-[var(--colour-bodytext-3)]">(generalized to avoid NDA)</span></p>
                                 </div>
                                 <div className="mb-12"></div>
                                 <div className="w-full 2xl:w-[70%] grid grid-cols-3 -gap-x-3">
@@ -156,15 +156,15 @@ export default function Rules() {
                             <ImageZoom>
                                 <Image src="/rules-0.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Overview table.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Overview table.</p>
                             <ImageZoom>
                                 <Image src="/rules-1.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">View details through a sliding panel.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">View details through a sliding panel.</p>
                             <ImageZoom>
                                 <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Detailed sliding panel.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Detailed sliding panel.</p>
                         </div>
                     </div>
 
@@ -179,15 +179,15 @@ export default function Rules() {
                             <ImageZoom>
                                 <Image src="/rules-2.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Configuring time-based conditions.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Configuring time-based conditions.</p>
                             <ImageZoom>
                                 <Image src="/rules-3.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Configuring location-based conditions.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Configuring location-based conditions.</p>
                             <ImageZoom>
                                 <Image src="/rules-4.png" width={2622} height={2622} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Segment of the location-based conditions configuration flow.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Segment of the location-based conditions configuration flow.</p>
                         </div>
                     </div>
                 </div>
@@ -220,11 +220,11 @@ export default function Rules() {
                                     {/* <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">
                                         <Image src="/uxmas.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">@ Samsung 2025 XMas party 🎄</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">@ Samsung 2025 XMas party 🎄</p>
                                     </div>
                                     <div className="flex flex-col justify-start">
                                         <Image src="/yehe.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Samsung 2025's #interns</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Samsung 2025's #interns</p>
                                     </div>
                                 </div>
                             </div>

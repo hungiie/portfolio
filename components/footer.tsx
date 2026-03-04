@@ -4,10 +4,10 @@ export default function Footer() {
     return (
         <div className="mt-40 pb-28 flex flex-col">
             <div className="w-full">
-                {/* <p className="mb-1 text-sm text-[var(--colour-bodytext-3)] leading-loose">This site was designed and <MyButton variant="blue-hyperlink" text="coded by me" link="https://github.com/hungiie" target="_blank" textSize="text-sm"></MyButton>. (Tailwind CSS + Next.js)</p> */}
-                {/* <p className="mb-1 text-sm text-[var(--colour-bodytext-3)] leading-loose">This site was designed and coded by me. (Tailwind CSS + Next.js)</p> */}
-                <p className="text-sm text-[var(--colour-bodytext-3)]">I&rsquo;d love to hear from you. Let&rsquo;s connect!</p>
-                {/* <p className="text-sm text-[var(--colour-bodytext-3)]">© 2025 Hung</p> */}
+                {/* <p className="mb-1 text-sm text-[var(--colour-bodytext-2)] leading-loose">This site was designed and <MyButton variant="blue-hyperlink" text="coded by me" link="https://github.com/hungiie" target="_blank" textSize="text-sm"></MyButton>. (Tailwind CSS + Next.js)</p> */}
+                {/* <p className="mb-1 text-sm text-[var(--colour-bodytext-2)] leading-loose">This site was designed and coded by me. (Tailwind CSS + Next.js)</p> */}
+                <p className="text-sm text-[var(--colour-bodytext-2)]">I&rsquo;d love to hear from you. Let&rsquo;s connect!</p>
+                {/* <p className="text-sm text-[var(--colour-bodytext-2)]">© 2025 Hung</p> */}
             </div>
             <div className="mb-7"></div>
             <div className="flex flex-col md:flex-row w-full justify-between">

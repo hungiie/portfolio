@@ -168,10 +168,10 @@ export default function AboutHero() {
             </motion.div>
           </div>
 
-          <div className="mt-10 text-sm text-[var(--colour-bodytext-4)] z-10 pointer-events-none hidden md:block">
+          <div className="mt-10 text-sm text-[var(--colour-bodytext-3)] z-10 pointer-events-none hidden md:block">
             Hung's stories
           </div>
-          <div className="mt-1 text-sm text-[var(--colour-bodytext-4)] z-10 pointer-events-none hidden md:block">
+          <div className="mt-1 text-sm text-[var(--colour-bodytext-3)] z-10 pointer-events-none hidden md:block">
             {getCenterText()}
           </div>
         </motion.div>

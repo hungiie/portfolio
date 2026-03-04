@@ -41,7 +41,7 @@ export default function MyButton(props: Props) {
     );
   } else if (props.variant == "grey-hyperlink") {
     return (
-      <a href={props.link} target={props.target} className={`bg-transparent rounded-full text-[var(--colour-bodytext-4)] hover:text-[var(--main-blue)] hover:underline font-medium flex items-center p-0 ${props.textSize ?? "text-sm"}`}>
+      <a href={props.link} target={props.target} className={`bg-transparent rounded-full text-[var(--colour-bodytext-3)] hover:text-[var(--main-blue)] hover:underline font-medium flex items-center p-0 ${props.textSize ?? "text-sm"}`}>
         {props.text}
       </a>
     );

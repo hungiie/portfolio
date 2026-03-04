@@ -18,7 +18,7 @@ export default function ProjectThumbnail2(props: Props) {
         return (
             <div className="overflow-hidden bg-[var(--background)] h-full flex flex-col group">
                 <div>
-                    <p className="text-sm text-[var(--colour-bodytext-4)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--main-blue)] mb-4 leading-loose">
+                    <p className="text-sm text-[var(--colour-bodytext-3)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--main-blue)] mb-4 leading-loose">
                         {props.name}
                     </p>
                 </div>
@@ -34,13 +34,7 @@ export default function ProjectThumbnail2(props: Props) {
                                     translate-y-full opacity-0
                                     transition-all duration-300 ease-out
                                     group-hover:translate-y-0 group-hover:opacity-100">
-                        <MyButton
-                        link={props.link}
-                        text={`Open ${props.name}`}
-                        textSize="text-sm"
-                        target={props.target}
-                        variant="blue-button"
-                        />
+                        <MyButton link={props.link} text={`Open ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button"/>
                     </div>
                 </a>
 
@@ -50,7 +44,7 @@ export default function ProjectThumbnail2(props: Props) {
     else if (props.isLink == "video-link") {
         return (
             <div className="h-auto bg-[var(--background)] group">
-                <p className="text-sm text-[var(--colour-bodytext-4)] md:text-[var(--colour-bodytext-4)] mb-4 leading-loose md:group-hover:text-[var(--main-blue)]">
+                <p className="text-sm text-[var(--colour-bodytext-3)] md:text-[var(--colour-bodytext-4)] mb-4 leading-loose md:group-hover:text-[var(--main-blue)]">
                     {props.name}
                 </p>
                 <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--colour-bodytext)] leading-loose">

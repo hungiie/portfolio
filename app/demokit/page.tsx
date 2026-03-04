@@ -39,8 +39,8 @@ export default function Demo() {
                 <Image src="/demo-2-darkmode.png" width={2622} height={1823} className="w-full h-auto mb-2 hidden dark:block" alt="Samsung Knox"/> 
             </ImageZoom>
             <div className="mb-4"></div>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Certain details redacted due to NDA.</p>
-            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Actual content may vary due to ongoing product updates.</p>
+            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Certain details redacted due to NDA.</p>
+            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Actual content may vary due to ongoing product updates.</p>
             
             <div className="mb-14"></div>
 

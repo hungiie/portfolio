@@ -44,7 +44,7 @@ export default function Academics() {
                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Would I do it again? <s>No</s> Depends.</p>
                     {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p> */}
                     <div className="mb-6"></div>
-                    <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">This page is still a work in progress 🚧.</p>
+                    <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">This page is still a work in progress 🚧.</p>
                 </div>
             </div>
 

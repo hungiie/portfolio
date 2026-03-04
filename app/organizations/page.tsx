@@ -39,7 +39,7 @@ export default function Organizations() {
                         <div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities.</p>
                             <div className="mb-5"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
                         </div>
                     </div>
@@ -141,27 +141,27 @@ export default function Organizations() {
                                 <Image src="/ds1.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Specifying spacing specs during default state.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Specifying spacing specs during default state.</p>
                             <ImageZoom>
                                 <Image src="/ds2.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Specifying specs during user interactions.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Specifying specs during user interactions.</p>
                             <ImageZoom>
                                 <Image src="/ds3.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Writing guidelines for multiple ways user can interact with the component.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Writing guidelines for multiple ways user can interact with the component.</p>
                             <ImageZoom>
                                 <Image src="/ds4.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Specifying the interactions for multiple variants.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Specifying the interactions for multiple variants.</p>
                             <ImageZoom>
                                 <Image src="/ds5.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose mb-6">Final deliverables.</p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Final deliverables.</p>
                             {/* <ProtectedPhoto2 src1="/doc1.png" src2="/doc2.png" alt="organizations" password="2002"/> */}
                             {/* <div className="mb-4"></div> */}
                             {/* <ProtectedPhoto src="/doc2.png" alt="organizations" password="2002"/> */}
@@ -208,11 +208,11 @@ export default function Organizations() {
                                     {/* <Polaroid imageSrc="/coop xmas.jpg" desc="Samsung XMas party 🎁" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">
                                         <Image src="/KM.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Samsung Knox Manage team 🚀</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Samsung Knox Manage team 🚀</p>
                                     </div>
                                     <div className="flex flex-col justify-start">
                                         <Image src="/grouse.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(95%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">Product Design meeting @ Grouse ⛰️</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Product Design meeting @ Grouse ⛰️</p>
                                     </div>
                                 </div>
                             </div>

@@ -72,7 +72,7 @@ export default function Home() {
           /> */}
 
           <div className="mb-9"></div>
-          <p className="text-sm text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p>
+          <p className="text-sm text-[var(--colour-bodytext-3)]">Scroll down to see my works.</p>
           <div className="mb-9"></div>
 
         </SlideUpDelay>

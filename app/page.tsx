@@ -74,7 +74,7 @@ export default function Home2() {
                 className="hover:cursor-pointer"
                 showLabel={false}
               /> */}
-              {/* <p className="text-md text-[var(--colour-bodytext-4)]">Scroll down to see my works.</p> */}
+              {/* <p className="text-md text-[var(--colour-bodytext-3)]">Scroll down to see my works.</p> */}
             </SlideUpNoThres>
 
 
