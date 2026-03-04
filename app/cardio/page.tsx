@@ -46,7 +46,7 @@ export default function Cardio() {
                 <div className="mb-10"></div>
 
                 <div>
-                    <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
+                    <video className="w-full h-full object-cover" autoPlay muted loop playsInline poster="/cardio-wide-poster.png">
                         <source src="cardio video wide.mp4"type="video/mp4" />
                     </video>
                 </div>
