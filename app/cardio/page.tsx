@@ -146,13 +146,13 @@ export default function Cardio() {
                     <div className="mb-5 md:mb-10"></div>
                     <div className="w-full md:w-[65%] 2xl:w-[50%] grid grid-cols-3 -gap-x-10">
                         <ImageZoom>
-                            <Image src="/stickie-1.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-6 shadow-lg" alt="Samsung Knox"/> 
+                            <Image src="/stickie-1.png" width={1469} height={1469} className="w-full h-auto mb-2 rotate-6 shadow-lg" alt="Samsung Knox"/> 
                         </ImageZoom>
                         <ImageZoom>
-                            <Image src="/stickie-2.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-10 shadow-lg" alt="Samsung Knox"/> 
+                            <Image src="/stickie-2.png" width={1469} height={1779} className="w-full h-auto mb-2 -rotate-10 shadow-lg" alt="Samsung Knox"/> 
                         </ImageZoom>
                         <ImageZoom>
-                            <Image src="/stickie-3.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-5 shadow-lg" alt="Samsung Knox"/> 
+                            <Image src="/stickie-3.png" width={1469} height={1511} className="w-full h-auto mb-2 rotate-5 shadow-lg" alt="Samsung Knox"/> 
                         </ImageZoom>
                     </div>
                     <div className="w-full md:w-[50%]">
@@ -228,10 +228,10 @@ export default function Cardio() {
                                 <div className="mb-5"></div>
                                 <div className="w-full 2xl:w-[75%] grid grid-cols-2 md:grid-cols-4 gap-x-3">
                                     <ImageZoom>
-                                        <Image src="/stickie-g-1.png" width={3099} height={3363} className="w-full h-auto mb-2 shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-g-1.png" width={1469} height={1469} className="w-full h-auto mb-2 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/stickie-g-2.png" width={3099} height={3363} className="w-full h-auto mb-2 shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-g-2.png" width={1469} height={1469} className="w-full h-auto mb-2 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                    <div></div>
                                    <div></div>
@@ -241,13 +241,13 @@ export default function Cardio() {
                                 <div className="mb-5"></div>
                                 <div className="w-full 2xl:w-[75%] grid grid-cols-2 md:grid-cols-4 gap-3">
                                     <ImageZoom>
-                                        <Image src="/stickie-sol-1.png" width={3099} height={3363} className="w-full shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-sol-1.png" width={1469} height={1469} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/stickie-sol-2.png" width={3099} height={3363} className="w-full shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-sol-2.png" width={1469} height={1469} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/stickie-sol-3.png" width={3099} height={3363} className="w-full shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/stickie-sol-3.png" width={1469} height={1469} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <Image src="/stickie-sol-note.png" width={3099} height={3363} className="w-full mb-2" alt="Samsung Knox"/> 
                                 </div>
@@ -374,10 +374,10 @@ export default function Cardio() {
                                 <div className="w-full flex items-center justify-center">
                                     <div className="w-full md:w-[65%] 2xl:w-[45%] grid grid-cols-2 -gap-x-9">
                                         <ImageZoom>
-                                            <Image src="/ut-1.png" width={3099} height={3363} className="w-full h-auto mb-2 -rotate-6 shadow-lg" alt="Samsung Knox"/> 
+                                            <Image src="/ut-1.png" width={1469} height={1996} className="w-full h-auto mb-2 -rotate-6 shadow-lg" alt="Samsung Knox"/> 
                                         </ImageZoom>
                                         <ImageZoom>
-                                            <Image src="/ut-2.png" width={3099} height={3363} className="w-full h-auto mb-2 rotate-10 shadow-lg" alt="Samsung Knox"/> 
+                                            <Image src="/ut-2.png" width={1469} height={1964} className="w-full h-auto mb-2 rotate-10 shadow-lg" alt="Samsung Knox"/> 
                                         </ImageZoom>
                                     </div>
                                 </div>
