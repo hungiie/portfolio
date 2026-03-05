@@ -31,20 +31,20 @@ export default function Rules() {
                     </div>
                     <div className="mb-20"></div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-6">
+                    <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                         <div className="">
-                            <Heading text="Samsung Knox Manage: Rules" variant="black"/>
+                            <Heading text="About the work" variant="black"/>
                         </div>
-                        <div>
-                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
-                            <div className="mb-5"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
-                            <div className="mb-7"></div>
+                         <div>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">During my time at Samsung, my work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - a B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
+                            <div className="mb-6"></div>
+                            <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="mb-10"></div>
+                <div className="mb-15"></div>
 
                 <div>
                     {/* <ImageZoom>
@@ -63,20 +63,13 @@ export default function Rules() {
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
                         <div className="">
-                            <Heading text="About the work" variant="black"/>
+                            <Heading text="Samsung Knox Manage: Rules" variant="black"/>
                         </div>
-                        <div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">As 2025 ends, I wrap up my internship at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span> as a UX designer.</p>
-                            <div className="mb-10"></div>
-                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">My work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-lg"/></span> - Samsung&rsquo;s B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
-                            <div className="mb-10"></div>
-                            <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
-                            {/* <div className="mb-8"></div>
-                            <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share project details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
-                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
-                            </div> */}
+                       <div>
+                            <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
+                            <div className="mb-5"></div>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
+                            <div className="mb-7"></div>
                         </div>
                     </div>
                 </div>

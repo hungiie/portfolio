@@ -17,6 +17,7 @@ import CopyEmailButton from "@/components/copyemail";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import { useTheme } from "next-themes";
 import MyNav2 from "@/components/nav2";
+import ProjectThumbnail from "@/components/project-thumbnail";
 
 export default function Home2() {
   const [animate, setAnimate] = useState(false);
@@ -81,6 +82,16 @@ export default function Home2() {
             <div className="mb-30 md:mb-40"></div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
+            {/* <div className="w-full grid grid-cols-1 gap-6"> */}
+              {/* <SlideUpNoThres>
+                <ProjectThumbnail isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="rule-poster.png" target="_self"/>
+              </SlideUpNoThres>
+              <SlideUp>
+                  <ProjectThumbnail isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
+              </SlideUp>
+              <SlideUp>
+                  <ProjectThumbnail isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio-poster.png" target="_self"/>
+              </SlideUp> */}
               <SlideUpNoThres>
                 <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
