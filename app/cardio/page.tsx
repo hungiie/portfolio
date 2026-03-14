@@ -37,7 +37,7 @@ export default function Cardio() {
                         <div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">card.io is catered towards the fitness community and aims to improve the cardio running experience with personalized music selection and playlists.</p>
                             <div className="mb-12"></div>
-                            <MyButton variant="blue-button-outline" text="View prototype on Figma" link="" textSize="text-sm" target="blank"/>
+                            <MyButton variant="blue-button-outline" text="View prototype on Figma" link="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-151&viewport=779%2C110%2C0.2&t=Yy6S9WYqbPXyKWdL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=24%3A151" textSize="text-sm" target="blank"/>
                             <div className="mb-7"></div>
                         </div>
                     </div>
@@ -262,7 +262,7 @@ export default function Cardio() {
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
                         <div className="md:sticky md:top-22 md:self-start">
                             <Heading text="What card.io does" variant="black"/>
-                            <MyButton variant="blue-hyperlink" text="View prototype on Figma" link="" textSize="text-sm" target="blank"/>
+                            <MyButton variant="blue-hyperlink" text="View prototype on Figma" link="https://www.figma.com/proto/5SjXuZ0MgUNMOFRmh3qOOY/card.io?page-id=0%3A1&node-id=24-151&viewport=779%2C110%2C0.2&t=Yy6S9WYqbPXyKWdL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=24%3A151" textSize="text-sm" target="blank"/>
                             <div className="mb-9"></div>
                         </div>
                         <div>
