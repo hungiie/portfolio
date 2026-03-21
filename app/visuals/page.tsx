@@ -40,49 +40,31 @@ export default function Visuals() {
                 <SlideUpNoThres>
                 <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Movie Night promotions 🎥</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
-                    <ImageZoom>
-                        <Image src="/movie-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
+                        <Image src="/movie-2.png" width={1200} height={1200} className="w-full h-full object-cover" alt="Visual design"/>
                     </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/movie-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
+                        <Image src="/movie-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/movie-5.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
+                        <Image src="/movie-5.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
                     <div className="col-span-2 bg-[var(--container-bg)] w-full flex justify-center items-center rounded-lg">
                         <ImageZoom>
-                            <Image src="/movie-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg  " alt="Visual design"/>
+                            <Image src="/movie-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg" alt="Visual design"/>
                         </ImageZoom>
                     </div>
                     <div></div>
                 </div>
                 </SlideUpNoThres>
 
-                {/* <div className="mb-10"></div>
-
-                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">Douglas College Royals promotions 🏐</p>
-                <div className="w-full grid grid-cols-2 md:grid-cols-2 gap-2">
-                    <ImageZoom>
-                        <Image src="/d-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
-                    </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/d-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
-                    </ImageZoom>
-                </div> */}
-
                 <div className="mb-30"></div>
 
                 <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Halloween costume contest promotions 🎃</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
-                    <ImageZoom>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
                         <Image src="/halloween-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
-                    {/* <ImageZoom>
-                        <Image src="/halloween-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
-                    </ImageZoom> */}
-                    {/* <ImageZoom>
-                        <Image src="/halloween-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
-                    </ImageZoom> */}
                     <div></div>
                 </div>
 
@@ -90,14 +72,14 @@ export default function Visuals() {
 
                 <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Back to School promotions 🏫</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
-                    <ImageZoom>
-                        <Image src="/vsa-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
+                        <Image src="/vsa-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/vsa-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
+                        <Image src="/vsa-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/vsa-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-lg">
+                        <Image src="/vsa-3.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg" alt="Visual design"/>
                     </ImageZoom>
                 </div>
 

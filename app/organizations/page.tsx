@@ -48,7 +48,7 @@ export default function Organizations() {
                 <div className="mb-15"></div>
 
                 <div>
-                    <ImageZoom>
+                    <ImageZoom className="bg-[var(--container-bg)]">
                         <Image src="/org-00.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
                     </ImageZoom>
                 </div>
@@ -130,27 +130,27 @@ export default function Organizations() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Detailing specs, variants, interaction guidelines, and edge-case behaviours.</p>
                         </div>
                         <div>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/ds1.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Specifying spacing specs during default state.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/ds2.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Specifying specs during user interactions.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/ds3.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Writing guidelines for multiple ways user can interact with the component.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/ds4.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Specifying the interactions for multiple variants.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/ds5.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <div className="mb-2"></div>
@@ -197,8 +197,6 @@ export default function Organizations() {
                             <div className="mb-20"></div>
                             <div>
                                 <div className="w-full md:w-[80%] 2xl:w-[65%] grid grid-cols-2 gap-4">
-                                    {/* <Polaroid imageSrc="/KM.jpg" desc="Knox Manage team 💻" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
-                                    {/* <Polaroid imageSrc="/coop xmas.jpg" desc="Samsung XMas party 🎁" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">
                                         <Image src="/KM.png" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(80%)' }}/> 
                                         <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Samsung Knox Manage team 🚀</p>

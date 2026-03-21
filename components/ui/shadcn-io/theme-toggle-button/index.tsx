@@ -223,7 +223,6 @@ export const ThemeToggleButton = ({
           alignItems: 'center',
           justifyContent: 'center',
           zIndex: 10,
-          fontSize: 18,
           cursor: 'pointer',
         }}
       onClick={handleClick}

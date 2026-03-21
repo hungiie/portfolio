@@ -16,7 +16,7 @@ interface Props {
 export default function ProjectThumbnail2(props: Props) {
     if (props.isLink == "image-link") {
         return (
-            <div className="overflow-hidden bg-[var(--background)] h-full flex flex-col group">
+            <div className="overflow-hidden h-full flex flex-col group">
                 <div>
                     <p className="text-sm text-[var(--colour-bodytext-3)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--main-colour)] mb-4 leading-loose">
                         {props.name}
@@ -28,7 +28,7 @@ export default function ProjectThumbnail2(props: Props) {
                     </p>
                 </div>
                 <div className="mb-7"></div>
-                <a className="relative block overflow-hidden group mt-auto" href={props.link} target={props.target}>
+                <a className="relative block overflow-hidden group mt-auto bg-[var(--container-bg)]" href={props.link} target={props.target}>
                     <Image src={props.imageSrc} alt={props.name} width={1640} height={1228} className="object-cover"/>
                     <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
                                     translate-y-full opacity-0
@@ -43,7 +43,7 @@ export default function ProjectThumbnail2(props: Props) {
     }
     else if (props.isLink == "video-link") {
         return (
-            <div className="h-auto bg-[var(--background)] group">
+            <div className="h-auto group">
                 <p className="text-sm text-[var(--colour-bodytext-3)] md:text-[var(--colour-bodytext-4)] mb-4 leading-loose md:group-hover:text-[var(--main-colour)]">
                     {props.name}
                 </p>
@@ -51,7 +51,7 @@ export default function ProjectThumbnail2(props: Props) {
                     {props.desc}
                 </p>
                 <div className="mb-7"></div>
-                <a className="relative block overflow-hidden group mt-auto" href={props.link} target={props.target}>
+                <a className="relative block overflow-hidden group mt-auto bg-[var(--container-bg)]" href={props.link} target={props.target}>
                     <video className={`w-full h-full object-cover !bg-transparent`} style={{ clipPath: "inset(1px 1px)" }} autoPlay muted loop playsInline poster={props.imageSrcDark}>
                         <source src={props.imageSrc} type="video/mp4" />
                     </video>

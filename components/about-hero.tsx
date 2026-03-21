@@ -69,7 +69,7 @@ export default function AboutHero() {
               duration: 0.8,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className=" w-[60%] mb-9"
+            className="w-[60%] mr-2 mb-9"
           >
             <motion.div
               animate={{ scale: hovered === "Madison Beer 2024 🎤" ? 1.05 : 1 }}
@@ -244,7 +244,7 @@ export default function AboutHero() {
           <motion.div
             onHoverStart={() => setHovered("Bellini enthusiast 🍹")}
             onHoverEnd={() => setHovered(null)}
-            className="flex justify-center  w-[60%]"
+            className="mb-9 ml-2 w-[60%]"
             initial={{
               opacity: 0,
               filter: "blur(12px)",

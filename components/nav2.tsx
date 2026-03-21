@@ -26,7 +26,7 @@ export default function MyNav2(props: Props) {
   }, []);
 
   // base classes for nav
-  const baseNavClasses ="w-full bg-[var(--background)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
+  const baseNavClasses ="w-full bg-[var(--nav-bg)] backdrop-blur-lg border-b-1 border-[var(--nav-border)] fixed z-20 h-14 flex justify-center top-0 transition-all duration-400";
   return (
     <nav className={`${baseNavClasses} ${showNav ? "translate-y-0" : "-translate-y-full"}`}>
       {props.variant === "About to home" && (

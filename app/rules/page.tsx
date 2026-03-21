@@ -47,12 +47,6 @@ export default function Rules() {
                 <div className="mb-15"></div>
 
                 <div>
-                    {/* <ImageZoom>
-                        <Image src="/rules-00.png" width={2985} height={2236} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
-                    </ImageZoom>
-                    <ImageZoom>
-                        <Image src="/rules-darkmode.png" width={2985} height={2236} className="w-full h-auto hidden dark:block" alt="Samsung Knox"/> 
-                    </ImageZoom> */}
                     <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
                         <source src="Rule video wide.mp4"type="video/mp4" />
                     </video>
@@ -158,15 +152,15 @@ export default function Rules() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Simplifies rule reviewing with an overview table and a sliding panel for detailed views.</p>
                         </div>
                         <div>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/rules-0.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Overview table.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/rules-1.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">View details through a sliding panel.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Detailed sliding panel.</p>
@@ -181,15 +175,15 @@ export default function Rules() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Streamlines the configuration process for time & location conditions.</p>
                         </div>
                         <div>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/rules-2.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Configuring time-based conditions.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/rules-3.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Configuring location-based conditions.</p>
-                            <ImageZoom>
+                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
                                 <Image src="/rules-4.png" width={2622} height={2622} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Segment of the location-based conditions configuration flow.</p>
@@ -212,17 +206,9 @@ export default function Rules() {
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">What "think in system" actually means.</p>
                             <div className="mb-4"></div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I have heard the phrase "think in system" countless time. But working in this project truly put it into perspectives for me. 1 small change in a single flow could create a ripple effect across multiple flows and features. Knowing the product inside and out and anticipating the impact of every decision is just 1 of the skills I have developed through this process.</p>
-                            {/* <div className="mb-25"></div>
-                            <div className="w-full flex justify-center items-center">
-                                <Image src="/work1.png" width={3099} height={3363} className="w-1/2" alt="Samsung Knox" style={{ filter: 'contrast(80%)' }}/> 
-                                <div className="ml-3"></div>
-                                <Image src="/work2.png" width={3099} height={3363} className="w-1/2" alt="Samsung Knox" style={{ filter: 'contrast(80%)' }}/> 
-                            </div> */}
                             <div className="mb-20"></div>
                             <div>
                                 <div className="w-full md:w-[80%] 2xl:w-[65%] grid grid-cols-2 gap-2 md:gap-6">
-                                    {/* <Polaroid imageSrc="/uxmas.jpg" desc="Samsung XMas party 🎄" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
-                                    {/* <Polaroid imageSrc="/yehe.png" desc="Samsung 2025 interns ✨" angle={0} alt="Hung Tran" textSize="text-sm md:text-xl"/> */}
                                     <div className="flex flex-col justify-start">
                                         <Image src="/uxmas.jpg" width={3099} height={3363} className="w-full mb-2 rounded-md shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
                                         <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">@ Samsung 2025 XMas party 🎄</p>
