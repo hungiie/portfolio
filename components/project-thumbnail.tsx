@@ -16,7 +16,7 @@ interface Props {
 export default function ProjectThumbnail(props: Props) {
     if (props.isLink == "image-link") {
         return (
-            <div className="overflow-hidden bg-[#fbfbfb] w-full grid grid-cols-2 rounded-xl p-10">
+            <div className="overflow-hidden bg-[var(--container-bg)] w-full grid grid-cols-2 rounded-xl p-10">
                 <div className="w-full flex flex-col items-center justify-center px-10">
                     <div>
                         <p className="text-sm text-[var(--colour-bodytext-3)] mb-4 leading-loose">
@@ -37,7 +37,7 @@ export default function ProjectThumbnail(props: Props) {
     }
     else if (props.isLink == "video-link") {
         return (
-            <div className="overflow-hidden bg-[#fbfbfb] w-full grid grid-cols-2 rounded-xl p-10">
+            <div className="overflow-hidden bg-[var(--container-bg)] w-full grid grid-cols-2 rounded-xl p-10">
                 <div className="w-full flex flex-col items-center justify-center px-10">
                     <div>
                         <p className="text-sm text-[var(--colour-bodytext-3)] mb-4 leading-loose">

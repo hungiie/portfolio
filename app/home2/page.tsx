@@ -46,16 +46,16 @@ export default function Home() {
             <Heading text="Hi, my name is Hung." variant="black"/>
           </div>
           <div className="w-full">
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-sm"/></span></p>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I see design as a system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn complex problems into solutions that feel human.</p>
             <Heading text="I&rsquo;m currently seeking Summer 2026 UX designer internship roles." variant="black" />
           </div>
 
           <div className="mb-9">
-            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
-            {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
+            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
+            {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
           </div>
 
           {/* <ThemeToggleButton
@@ -97,7 +97,7 @@ export default function Home() {
           <div className="w-full">
             <p className="text-sm font-semibold text-[var(--colour-bodytext)]">My undergrad design & dev journey</p>
             <div className="mb-6"></div>
-            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at SFU&rsquo;s <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="blue-hyperlink" text="School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
+            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m on my way to complete my Bachelor&rsquo;s in Design & Development for Web & Mobile at SFU&rsquo;s <span className=""><MyButton link="https://www.sfu.ca/siat.html" target="_blank" variant="hyperlink" text="School of Interactive Arts & Technology" textSize="text-sm"/></span></p> */}
             {/* <div className="mb-2"></div> */}
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p>
             <div className="mb-9"></div>
@@ -106,7 +106,7 @@ export default function Home() {
                   <MyButton link="academics" text="View my academic projects" textSize="text-sm" target="_self" variant="blue-button-outline"/>
               </div>
             </div>
-            {/* <MyButton variant="blue-hyperlink" text="View my academic projects" link="academics" target="_self" textSize="text-sm"/> */}
+            {/* <MyButton variant="hyperlink" text="View my academic projects" link="academics" target="_self" textSize="text-sm"/> */}
           </div>
         </SlideUp>
 

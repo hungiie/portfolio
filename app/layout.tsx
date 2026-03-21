@@ -6,7 +6,6 @@ import { Analytics } from "@vercel/analytics/next";
 import { ThemeProvider } from "@/components/themeprovider";
 import ThemeApplier from "@/components/theme-applier";
 
-
 const interSans = Inter({
   subsets: ["latin"],
   variable: "--font-inter-sans",
@@ -49,7 +48,7 @@ export default function RootLayout({
         >
           <ThemeProvider
             attribute="class"
-            defaultTheme="blue"
+            defaultTheme="light"
             enableSystem={false}
             disableTransitionOnChange
           >
@@ -60,6 +59,21 @@ export default function RootLayout({
             />
             <ThemeApplier />
             <Analytics />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  (function() {
+                    try {
+                      const theme = localStorage.getItem('theme-class');
+                      if (theme) {
+                        document.documentElement.className = theme;
+                      }
+                    } catch(e) {}
+                  })();
+                `,
+              }}
+            />
+
             {children}
           </ThemeProvider>
 

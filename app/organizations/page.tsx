@@ -20,7 +20,7 @@ export default function Organizations() {
             <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[75%]">
                 <div className="w-full mt-20">
                     <div className="w-full flex justify-between items-center">
-                        <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                        <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                         <div className="block md:hidden">
                             <DotsMenu/>
                         </div>
@@ -37,7 +37,7 @@ export default function Organizations() {
                             <Heading text="About the work" variant="black"/>
                         </div>
                         <div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">During my time at Samsung, my work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - a B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">During my time at Samsung, my work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="hyperlink" text="Knox Manage" textSize="text-sm"/></span> - a B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Andrea Lin (Senior UX Designer) and Hyejeong Kim (Product Manager)</p>
@@ -49,7 +49,7 @@ export default function Organizations() {
 
                 <div>
                     <ImageZoom>
-                        <Image src="/org-00.png" width={2985} height={2236} className="w-full h-auto block dark:hidden" alt="Samsung Knox"/> 
+                        <Image src="/org-00.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
                     </ImageZoom>
                 </div>
 
@@ -61,7 +61,7 @@ export default function Organizations() {
                         <div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities.</p>
                             <div className="mb-5"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export default function Organizations() {
                             <Heading text="Overview" variant="black"/>
                         </div>
                         <div>
-                            <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
+                            <div className="flex flex-col justify-center bg-[var(--container-bg)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-colour)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Due to limited development bandwidth, the <span className="font-semibold font-[var(--colour-pure)] underline">inheritance logic among parent-to-child entities</span> needs to be visualized with minimal dev effort - without adding new patterns, animations, or complex interactions.</p>
@@ -105,7 +105,7 @@ export default function Organizations() {
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When a setting is assigned to a parent organization, it is inherited by all of its child organizations. This setting is not editable in the child organization, and can only be overriden by assigning a new setting to the child organization.</p>
                             </div> 
                             <div className="mb-4"></div>
-                            <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
+                            <div className="flex flex-col justify-center bg-[var(--container-bg)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-colour)] leading-loose">What I did</p>
                                 <div className="mb-4"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">I designed & wrote documentations for <span className="font-semibold font-[var(--colour-pure)] underline">a hierarchical table component</span> that displays the inheritance hierarchy and override status of settings, while reusing atom and molecule components from the design system.</p>
@@ -115,7 +115,7 @@ export default function Organizations() {
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can only share the final deliverables publicly, but I&rsquo;d be happy to elaborate more on my experience and design process during an interview.</p>
-                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
                         </div>
                     </div>

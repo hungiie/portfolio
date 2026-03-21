@@ -19,7 +19,7 @@ export default function Visuals() {
 
                 <div className="w-full mt-20">
                     <div className="w-full flex justify-between items-center">
-                        <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                        <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                         <div className="block md:hidden">
                             <DotsMenu/>
                         </div>
@@ -49,7 +49,7 @@ export default function Visuals() {
                     <ImageZoom>
                         <Image src="/movie-5.png" width={1200} height={1200} className="w-full h-full object-cover rounded-lg  " alt="Visual design"/>
                     </ImageZoom>
-                    <div className="col-span-2 bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
+                    <div className="col-span-2 bg-[var(--container-bg)] w-full flex justify-center items-center rounded-lg">
                         <ImageZoom>
                             <Image src="/movie-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg  " alt="Visual design"/>
                         </ImageZoom>
@@ -122,12 +122,12 @@ export default function Visuals() {
 
                 <p className="text-md text-[var(--colour-bodytext-3)] mb-9">Fraser Health's Official Corporate Brochure 🩺</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-2 gap-2">
-                    <div className=" bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
+                    <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-lg">
                         <ImageZoom>
                             <Image src="/fh-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg  " alt="Visual design"/>
                         </ImageZoom>
                     </div>
-                    <div className=" bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg">
+                    <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-lg">
                         <ImageZoom>
                             <Image src="/fh-2.png" width={1200} height={1200} className="w-[100%] object-cover rounded-lg  " alt="Visual design"/>
                         </ImageZoom>
@@ -141,7 +141,7 @@ export default function Visuals() {
                     <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
                 </div>
                 <div className="mb-9"></div>
-                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg py-15 mb-2">
+                <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-lg py-15 mb-2">
                     <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
                         <video className="object-cover" autoPlay controls muted loop playsInline>
                             <source src="videographics.mp4"type="video/mp4" />
@@ -156,7 +156,7 @@ export default function Visuals() {
                     <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
                 </div>
                 <div className="mb-9"></div>
-                <div className="bg-[#fbfbfb] w-full flex justify-center items-center rounded-lg py-15 mb-2">
+                <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-lg py-15 mb-2">
                     <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
                         <video className="object-cover" autoPlay controls muted loop playsInline>
                             <source src="upcc.mp4"type="video/mp4" />

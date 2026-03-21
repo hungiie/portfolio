@@ -13,7 +13,7 @@ import { useRef } from "react";
 import AboutHero from "@/components/about-hero";
 import SlideUpScroll from "@/components/slide-up-scroll";
 import Polaroid from "@/components/polaroid";
-import { ThemeSelector } from "@/components/ui/shadcn-io/theme-toggle-button";
+import { ThemeSelector } from "@/components/ui/shadcn-io/colour-toggle-button";
 
 export default function About() {
   return (
@@ -22,7 +22,7 @@ export default function About() {
 
         <div className="px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[75%] flex flex-col justify-center items-center">
             <div className="w-full mt-6 mb-9 flex justify-between items-center">
-                <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                 <div className="flex">
                     <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
                 </div>
@@ -35,7 +35,7 @@ export default function About() {
         {/* <SlideUpScroll> */}
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[30%] mt-10">
             <Heading text="Hi, my name is Hung." variant="black"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-sm"/></span></p>
 
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">For me, designing an experience is like telling a story - with people, technology, and context as threads of different colours and textures.</p>
             <div className="mb-6"></div>
@@ -43,9 +43,9 @@ export default function About() {
             <div className="mb-8"></div>
 
             <div className="">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
             </div>
 
             {/* <div className="mb-25"></div>
@@ -86,7 +86,7 @@ export default function About() {
             <Heading text="My story" variant="black"/>
             <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I spent my childhood full of curiosity and bold ideas, often quietly observing the world around me.</p>
             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="blue-hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
+            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
             <div className="mb-15"></div>
             
             <Heading text="Read rooms rather than dominate them" variant="black"/>
@@ -99,7 +99,7 @@ export default function About() {
 
             <Heading text="Everything happens for a reason" variant="black"/>
             <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
+            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
             
             <div className="mb-35"></div>
 

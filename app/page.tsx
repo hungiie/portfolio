@@ -17,7 +17,8 @@ import CopyEmailButton from "@/components/copyemail";
 import { useTheme } from "next-themes";
 import MyNav2 from "@/components/nav2";
 import ProjectThumbnail from "@/components/project-thumbnail";
-import { ThemeSelector } from "@/components/ui/shadcn-io/theme-toggle-button";
+import { ThemeSelector } from "@/components/ui/shadcn-io/colour-toggle-button";
+import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 
 
 export default function Home2() {
@@ -51,17 +52,30 @@ export default function Home2() {
               </div>
               <div className="mb-9"></div>
               <div className="w-full md:w-[75%]">
-                <p className="text-md text-[var(--colour-bodytext)] leading-loose mb-5">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose mb-5">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-md"/></span></p>
                 <p className="text-md text-[var(--colour-bodytext)] leading-loose">I see design as a complex system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn modern problems into solutions that feel human.</p>
               </div>
               <div className="mb-9"></div>
               <div>
-                <p className="text-md text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span></p>
-                <p className="text-md text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-md"/></span></p>
-                <p className="text-md text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-md"/></span></p>
-                {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
+                <p className="text-md text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span></p>
+                {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
-              <ThemeSelector className="mt-12"/>
+              <div className="flex mt-12 gap-6">
+                {/* <ThemeToggleButton
+                  theme={theme === "light" ? "dark" : "light"}
+                  onClick={() => {
+                    const next = theme === "dark" ? "light" : "dark";
+                    setTheme(next);
+                  }}
+                  variant="none"
+                  start="center"
+                  className="hover:cursor-pointer"
+                  showLabel={false}
+                />
+                <ThemeSelector/> */}
+              </div>
             </SlideUpNoThres>
 
             <div className="mb-30 md:mb-40"></div>

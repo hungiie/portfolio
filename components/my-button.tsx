@@ -33,7 +33,7 @@ export default function MyButton(props: Props) {
         {props.text}
       </a>
     );
-  } else if (props.variant == "blue-hyperlink") {
+  } else if (props.variant == "hyperlink") {
     return (
       <a href={props.link} target={props.target} className={`bg-transparent rounded-full text-[var(--main-colour)] hover:underline font-medium p-0 ${props.textSize ?? "text-sm"}`}>
         {props.text}

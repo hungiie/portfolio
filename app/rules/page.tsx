@@ -19,7 +19,7 @@ export default function Rules() {
 
                 <div className="w-full mt-20">
                     <div className="w-full flex justify-between items-center">
-                        <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                        <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                         <div className="block md:hidden">
                             <DotsMenu/>
                         </div>
@@ -36,7 +36,7 @@ export default function Rules() {
                             <Heading text="About the work" variant="black"/>
                         </div>
                          <div>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">During my time at Samsung, my work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="blue-hyperlink" text="Knox Manage" textSize="text-sm"/></span> - a B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">During my time at Samsung, my work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="hyperlink" text="Knox Manage" textSize="text-sm"/></span> - a B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Tian Jia (Senior UX Designer & UX Lead) and Hosoo Lee (Product Manager)</p>
@@ -68,7 +68,7 @@ export default function Rules() {
                        <div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)</p>
                             <div className="mb-5"></div>
-                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="blue-hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
+                            <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">What is Samsung Knox Manage? <MyButton variant="hyperlink" text="Learn more" link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" textSize="text-sm" target="blank"/></p>
                             <div className="mb-7"></div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ export default function Rules() {
                             <Heading text="Overview" variant="black"/>
                         </div>
                         <div>
-                            <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
+                            <div className="flex flex-col justify-center bg-[var(--container-bg)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--main-colour)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Current device management settings are often static and uniformly applied across large device fleets, limiting flexibility and preventing <span className="font-semibold font-[var(--colour-pure)] underline">context-aware adjustments</span> based on time, location, or usage conditions.</p>
@@ -90,7 +90,7 @@ export default function Rules() {
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">When a setting is applied to a group of devices, it remains continuously active, forcing IT admins to manually adjust when circumstances change, increasing their workload.</p>
                             </div> 
                             <div className="mb-4"></div>
-                            <div className="flex flex-col justify-center items-center bg-[#fbfbfb] p-10 rounded-2xl">
+                            <div className="flex flex-col justify-center items-center bg-[var(--container-bg)] p-10 rounded-2xl">
                                 <div className="w-full flex justify-between">
                                     <p className="text-sm text-[var(--main-colour)] leading-loose self-start">Notes from PM team</p>
                                     <p className="text-sm text-[var(--main-colour)] leading-loose self-start"><span className="text-[var(--colour-bodytext-3)]">(generalized to avoid NDA)</span></p>
@@ -112,7 +112,7 @@ export default function Rules() {
                             <div className="mb-4"></div>
                             {/* <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I&rsquo;m unable to share my project's process & specific details publicly, but I&rsquo;d be happy to elaborate on my experience and design contributions during an interview.</p>
-                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span>!</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] mt-5 leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div> */}
                         </div>
                     </div>
@@ -145,7 +145,7 @@ export default function Rules() {
                     <div className="flex flex-col justify-center bg-[var(--colour-grey)] p-10 rounded-2xl">
                         <p className="text-md text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can only share the final deliverables publicly, but I&rsquo;d be happy to elaborate more on my experience and design process during an interview.</p>
                         <div className="mb-9"></div>
-                        <p className="text-md text-[var(--colour-bodytext)] leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="blue-hyperlink" text="email" textSize="text-md"/></span>!</p>
+                        <p className="text-md text-[var(--colour-bodytext)] leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>!</p>
                     </div>
                 </div>
 
@@ -245,12 +245,12 @@ export default function Rules() {
                         {/* <div className="flex flex-col md:flex-row">
                             <p className="text-sm text-[var(--colour-bodytext)]">View next project: </p>
                             <div className="ml-2 mb-2"></div>
-                            <MyButton variant="blue-hyperlink" text="Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
+                            <MyButton variant="hyperlink" text="Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
                         </div>
                         <div className="hidden md:flex">
                             <p className="text-sm text-[var(--colour-bodytext)] hidden md:block">Or </p>
                             <div className="ml-1"></div>
-                            <MyButton variant="blue-hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
+                            <MyButton variant="hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
                         </div> */}
                         <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
                         <MyButton variant="blue-button-outline" text="View: card.io" link="cardio" textSize="text-sm" target="_self"/>

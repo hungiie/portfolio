@@ -24,7 +24,7 @@ export default function Academics() {
             <div className="flex items-center justify-center">
                 <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[75%] 2xl:w-[60%] mt-20">
                     <div className="w-full flex justify-between items-center">
-                        <MyButton variant="blue-hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                        <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
                         <div className="block md:hidden">
                             <DotsMenu/>
                         </div>
