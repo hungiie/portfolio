@@ -63,7 +63,7 @@ export default function Home2() {
                 {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
               <div className="hidden md:flex mt-14 gap-4">
-                <ThemeToggleButton
+                {/* <ThemeToggleButton
                   theme={theme === "light" ? "dark" : "light"}
                   onClick={() => {
                     const next = theme === "dark" ? "light" : "dark";
@@ -74,7 +74,7 @@ export default function Home2() {
                   className="hover:cursor-pointer"
                   showLabel={false}
                 />
-                <ThemeSelector/>
+                <ThemeSelector/> */}
               </div>
             </SlideUpNoThres>
 
