@@ -10,7 +10,6 @@ import SlideUpDelay from "@/components/slide-up-delay";
 import { useEffect, useState } from "react";
 import SlideRightDelay from "@/components/slide-right-delay";
 import { useTheme } from "next-themes";
-import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import SlideUpScroll from "@/components/slide-up-scroll";
 import SlideRight from "@/components/slide-right";
 // import Testimonial from "@/components/testimonial";
