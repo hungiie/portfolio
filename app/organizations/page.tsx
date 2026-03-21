@@ -73,7 +73,7 @@ export default function Organizations() {
                             <Heading text="What I did" variant="black"/>
                         </div>
                         <div>
-                            <div className="flex flex-col justify-center bg-[var(--main-darkerblue)] px-7 py-7 rounded-2xl">
+                            <div className="flex flex-col justify-center bg-[var(--main-darkercolour)] px-7 py-7 rounded-2xl">
                                 <Heading text="Project generalized due to NDA." variant="white"/>
                                 <div className="-mb-2"></div>
                                 <p className="text-sm text-white leading-loose">Due to NDA restrictions,I’m unable to share project details publicly, but I’d be happy to elaborate on my experience and design contributions during an interview.</p>
@@ -98,7 +98,7 @@ export default function Organizations() {
                         </div>
                         <div>
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Due to limited development bandwidth, the <span className="font-semibold font-[var(--colour-pure)] underline">inheritance logic among parent-to-child entities</span> needs to be visualized with minimal dev effort - without adding new patterns, animations, or complex interactions.</p>
                                 <div className="mb-9"></div>
@@ -106,7 +106,7 @@ export default function Organizations() {
                             </div> 
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">What I did</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">What I did</p>
                                 <div className="mb-4"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">I designed & wrote documentations for <span className="font-semibold font-[var(--colour-pure)] underline">a hierarchical table component</span> that displays the inheritance hierarchy and override status of settings, while reusing atom and molecule components from the design system.</p>
                                 {/* <div className="mb-9"></div>

@@ -13,6 +13,7 @@ import { useRef } from "react";
 import AboutHero from "@/components/about-hero";
 import SlideUpScroll from "@/components/slide-up-scroll";
 import Polaroid from "@/components/polaroid";
+import { ThemeSelector } from "@/components/ui/shadcn-io/theme-toggle-button";
 
 export default function About() {
   return (

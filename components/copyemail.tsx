@@ -39,7 +39,7 @@ export default function CopyEmailButton({ link, text, textSize }: Props) {
   return (
     <a
       href={link}
-      className={`bg-transparent h-9 rounded-full text-[var(--main-blue)] flex items-center font-medium px-0 ${
+      className={`bg-transparent h-9 rounded-full text-[var(--main-colour)] flex items-center font-medium px-0 ${
         !copied ? "hover:underline" : ""
       } ${textSize ?? "text-sm"}`}
       onMouseEnter={() => setIsHovered(true)}
@@ -48,7 +48,7 @@ export default function CopyEmailButton({ link, text, textSize }: Props) {
     >
       {displayText}
       {!copied && isHovered && (
-        <FaRegCopy className="ml-2 text-[var(--main-blue)]" />
+        <FaRegCopy className="ml-2 text-[var(--main-colour)]" />
       )}
     </a>
   );

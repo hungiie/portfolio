@@ -3,13 +3,9 @@ import { Inter } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
-import { Caveat } from "next/font/google";
 import { ThemeProvider } from "@/components/themeprovider";
+import ThemeApplier from "@/components/theme-applier";
 
-const caveat = Caveat({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
 
 const interSans = Inter({
   subsets: ["latin"],
@@ -45,26 +41,29 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  
   return (
     <html lang="en" suppressHydrationWarning>
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="light"
-        enableSystem={false}
-        disableTransitionOnChange
-      >
         <body
           className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable} antialiased`}
         >
-          <div className="i see you stalker"
-            dangerouslySetInnerHTML={{
-              __html: `<!-- hi -->`,
-            }}
-          />
-          <Analytics />
-          {children}
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="blue"
+            enableSystem={false}
+            disableTransitionOnChange
+          >
+            <div className="i see you stalker"
+              dangerouslySetInnerHTML={{
+                __html: `<!-- hi -->`,
+              }}
+            />
+            <ThemeApplier />
+            <Analytics />
+            {children}
+          </ThemeProvider>
+
         </body>
-      </ThemeProvider>
     </html>
   );
 }

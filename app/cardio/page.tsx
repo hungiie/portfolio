@@ -89,7 +89,19 @@ export default function Cardio() {
                                     </video>
                                 </div>
                                 <div className="w-full hidden md:block">
-                                    <Image src="/context.png" width={3099} height={3363} className="w-[85%] 2xl:w-[65%]" alt="Samsung Knox"/> 
+                                    {(() => {
+                                    const theme = localStorage.getItem("theme-class") || "";
+                                    switch (theme) {
+                                        case "pink":
+                                        return <Image src="/context-pink.png" width={2985} height={2236} className="w-[85%] 2xl:w-[65%]" alt="Samsung Knox" />;
+                                        case "green":
+                                        return <Image src="/context-green.png" width={2985} height={2236} className="w-[85%] 2xl:w-[65%]" alt="Samsung Knox" />;
+                                        case "orange":
+                                        return <Image src="/context-orange.png" width={2985} height={2236} className="w-[85%] 2xl:w-[65%]" alt="Samsung Knox" />;
+                                        default:
+                                        return <Image src="/context.png" width={2985} height={2236} className="w-[85%] 2xl:w-[65%]" alt="Samsung Knox" />;
+                                    }
+                                    })()}
                                 </div>
                                 {/* <MyButton text="Learn more about the effects music has on running" link="" target="_blank" variant="blue-hyperlink" textSize="text-sm"/> */}
                             </div>
@@ -142,7 +154,7 @@ export default function Cardio() {
                 <div className="mb-10"></div>
 
                 <div className="w-[100%] bg-[#fbfbfb] flex flex-col justify-center items-center p-10 rounded-xl">
-                    <p className="text-sm text-[var(--main-blue)] leading-loose">Reoccurring themes</p>
+                    <p className="text-sm text-[var(--main-colour)] leading-loose">Reoccurring themes</p>
                     <div className="mb-5 md:mb-10"></div>
                     <div className="w-full md:w-[65%] 2xl:w-[50%] grid grid-cols-3 -gap-x-10">
                         <ImageZoom>
@@ -156,11 +168,23 @@ export default function Cardio() {
                         </ImageZoom>
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <Image src="/arrows2.png" width={3099} height={3363} className="w-full h-auto mb-2" alt="Samsung Knox"/> 
+                        {(() => {
+                            const theme = localStorage.getItem("theme-class") || "";
+                            switch (theme) {
+                                case "pink":
+                                return <Image src="/arrows2-pink.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                                case "green":
+                                return <Image src="/arrows2-green.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                                case "orange":
+                                return <Image src="/arrows2-orange.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                                default:
+                                return <Image src="/arrows2.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                            }
+                        })()}
                     </div>
                     <div className="-mb-1 md:-mb-3"></div>
                     <div className="w-full md:w-[50%] flex flex-col justify-center items-center">
-                        <p className="text-sm text-[var(--main-blue)] leading-loose">Driving insight</p>
+                        <p className="text-sm text-[var(--main-colour)] leading-loose">Driving insight</p>
                         <div className="mb-2"></div>
                         <p className="text-sm text-[var(--colour-bodytext)] leading-loose text-center">Influencer-made playlist is considered a good starting point, but personal customization is what makes a “good” cardio playlist.</p>
                     </div>
@@ -178,34 +202,34 @@ export default function Cardio() {
                             <div className="mb-6"></div>
                             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3">
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose">Who she is</p>
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose">Who she is</p>
                                     <div className="mb-2"></div>
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Michelle is a Sabrina Carpenter fan who loves doing cardio.</p>
                                 </div>
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose">Her goal</p>
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose">Her goal</p>
                                     <div className="mb-2"></div>
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">She wants to make a playlist to vibe to during her 45-minute cardio session.</p>
                                 </div>
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose">Pain point</p>
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose">Pain point</p>
                                     <div className="mb-2"></div>
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">She’s 5'3" and runs at a slower pace than most fitness influencers, so she needs to customize her playlist to account for her height.</p>
                                 </div>
                                 <div className="bg-[#fbfbfb] flex flex-col h-full p-7 rounded-xl">
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose">Another pain point</p>
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose">Another pain point</p>
                                     <div className="mb-2"></div>
                                     <p className="text-sm text-[var(--colour-bodytext)] leading-loose">She doesn’t like some of Sabrina’s songs and wants to remove them, also add more songs from different artists.</p>
                                 </div>
                             </div>
                             <div className="mb-3"></div>
                             <div className="bg-[#fbfbfb] flex flex-col p-7 rounded-xl">
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-2"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Michelle feels frustrated because she doesn‘t have confidence in customizing & testing the playlist‘s effectiveness on her own.</p>
                             </div>
                             <div className="mb-3"></div>
-                            <div className="bg-[var(--main-darkerblue)] flex flex-col p-7 rounded-xl">
+                            <div className="bg-[var(--main-darkercolour)] flex flex-col p-7 rounded-xl">
                                 <p className="text-sm text-white leading-loose">How might we...</p>
                                 <div className="mb-2"></div>
                                 <p className="text-lg text-white leading-loose">... make sure Michelle feels informed and confident in customizing & testing her own cardio playlists?</p>
@@ -224,7 +248,7 @@ export default function Cardio() {
                         </div>
                         <div>
                             <div className="w-full bg-[#fbfbfb] flex flex-col px-10 py-6 rounded-xl">
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">Solution must solve 2 main goals</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Solution must solve 2 main goals</p>
                                 <div className="mb-5"></div>
                                 <div className="w-full 2xl:w-[75%] grid grid-cols-2 md:grid-cols-4 gap-x-3">
                                     <ImageZoom>
@@ -237,7 +261,7 @@ export default function Cardio() {
                                    <div></div>
                                 </div>
                                 <div className="mb-10"></div>
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">Possible solutions include</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Possible solutions include</p>
                                 <div className="mb-5"></div>
                                 <div className="w-full 2xl:w-[75%] grid grid-cols-2 md:grid-cols-4 gap-3">
                                     <ImageZoom>
@@ -249,7 +273,19 @@ export default function Cardio() {
                                     <ImageZoom>
                                         <Image src="/stickie-sol-3.png" width={1469} height={1469} className="w-full shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
-                                    <Image src="/stickie-sol-note.png" width={3099} height={3363} className="w-full mb-2" alt="Samsung Knox"/> 
+                                    {(() => {
+                                        const theme = localStorage.getItem("theme-class") || "";
+                                        switch (theme) {
+                                            case "pink":
+                                            return <Image src="/stickie-sol-note-pink.png" width={2985} height={2236} className="w-full mb-2" alt="Samsung Knox" />;
+                                            case "green":
+                                            return <Image src="/stickie-sol-note-green.png" width={2985} height={2236} className="w-full mb-2" alt="Samsung Knox" />;
+                                            case "orange":
+                                            return <Image src="/stickie-sol-note-orange.png" width={2985} height={2236} className="w-full mb-2" alt="Samsung Knox" />;
+                                            default:
+                                            return <Image src="/stickie-sol-note.png" width={2985} height={2236} className="w-full mb-2" alt="Samsung Knox" />;
+                                        }
+                                    })()}
                                 </div>
                             </div>
                         </div>
@@ -358,10 +394,22 @@ export default function Cardio() {
                                     </ImageZoom>
                                 </div>
                                 <div className="w-full justify-center items-center z-2 hidden md:flex">
-                                    <Image src="/comparison.png" width={1104} height={2312} className="w-[40%] 2xl:w-[30%]" alt="Samsung Knox"/> 
+                                    {(() => {
+                                        const theme = localStorage.getItem("theme-class") || "";
+                                        switch (theme) {
+                                            case "pink":
+                                            return <Image src="/comparison-pink.png" width={2985} height={2236} className="w-[40%] 2xl:w-[30%]" alt="Samsung Knox" />;
+                                            case "green":
+                                            return <Image src="/comparison-green.png" width={2985} height={2236} className="w-[40%] 2xl:w-[30%]" alt="Samsung Knox" />;
+                                            case "orange":
+                                            return <Image src="/comparison-orange.png" width={2985} height={2236} className="w-[40%] 2xl:w-[30%]" alt="Samsung Knox" />;
+                                            default:
+                                            return <Image src="/comparison.png" width={2985} height={2236} className="w-[40%] 2xl:w-[30%]" alt="Samsung Knox" />;
+                                        }
+                                    })()}
                                 </div>
                                 <div className="mb-4"></div>
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">Heuristic issue</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Heuristic issue</p>
                                 <div className="mb-2"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Using slide bar as progress indicator gives a false impression.</p>
                                 <div className="mb-2"></div>
@@ -369,7 +417,7 @@ export default function Cardio() {
                             </div>
                             <div className="mb-4"></div>
                             <div className="w-[100%] bg-[#fbfbfb] flex flex-col justify-center p-10 pb-15 rounded-xl">
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">2 reoccurring themes from UT</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">2 reoccurring themes from UT</p>
                                 <div className="mb-10"></div>
                                 <div className="w-full flex items-center justify-center">
                                     <div className="w-full md:w-[65%] 2xl:w-[45%] grid grid-cols-2 -gap-x-9">
@@ -398,14 +446,38 @@ export default function Cardio() {
                             <div className="mb-6"></div>
                             <div className="w-full bg-[#fbfbfb] p-10 flex flex-col justify-center items-center rounded-xl">
                                 <div className="w-full md:w-[75%] grid grid-cols-[1fr_2fr_2fr_1fr] gap-x-2 md:gap-x-4">
-                                    <Image src="/before1.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
+                                    {(() => {
+                                        const theme = localStorage.getItem("theme-class") || "";
+                                        switch (theme) {
+                                            case "pink":
+                                            return <Image src="/before1-pink.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                            case "green":
+                                            return <Image src="/before1-green.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                            case "orange":
+                                            return <Image src="/before1-orange.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                            default:
+                                            return <Image src="/before1.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                        }
+                                    })()}
                                     <ImageZoom>
                                         <Image src="/draft.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
                                         <Image src="/sol-3.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
                                     </ImageZoom>
-                                    <Image src="/after1.png" width={1104} height={2312} className="w-full h-auto mb-2 rounded-xl" alt="Samsung Knox"/> 
+                                    {(() => {
+                                        const theme = localStorage.getItem("theme-class") || "";
+                                        switch (theme) {
+                                            case "pink":
+                                            return <Image src="/after1-pink.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                            case "green":
+                                            return <Image src="/after1-green.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                            case "orange":
+                                            return <Image src="/after1-orange.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                            default:
+                                            return <Image src="/after1.png" width={2985} height={2236} className="w-full h-auto mb-2" alt="Samsung Knox" />;
+                                        }
+                                    })()}
                                 </div>
                             </div>
                             <div className="mb-3"></div>

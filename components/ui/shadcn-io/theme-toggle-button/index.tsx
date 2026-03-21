@@ -1,237 +1,139 @@
 'use client';
 
-import { Moon, Sun } from 'lucide-react';
-import { useCallback } from 'react';
-import { Button } from '@/components/ui/button';
+import { useState, useCallback, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { Button } from '../../button';
 
-type AnimationVariant =
-  | 'circle'
-  | 'circle-blur'
-  | 'gif'
-  | 'polygon'
-  | 'blur'
-  |  'none';
-
-type StartPosition =
-  | 'center'
-  | 'top-left'
-  | 'top-right'
-  | 'bottom-left'
-  | 'bottom-right';
-
-const today = new Date().toLocaleDateString("en-US", {
-  month: "short",
-  day: "numeric",
-  year: "numeric",
-});
-
-export interface ThemeToggleButtonProps {
-  theme?: 'light' | 'dark';
-  showLabel?: boolean;
-  variant?: AnimationVariant;
-  start?: StartPosition;
-  url?: string; // for gif
-  className?: string;
-  onClick?: () => void;
+interface ThemeOption {
+  name: string;
+  className: string;
 }
+
+const themes: ThemeOption[] = [
+  { name: 'Blue', className: '' },
+  { name: 'Pink', className: 'pink' },
+  { name: 'Green', className: 'green' },
+  { name: 'Orange', className: 'orange' },
+];
+
+type ThemeSelectorProps = {
+  className?: string;
+};
 
 type DocumentWithViewTransition = Document & {
   startViewTransition?: (callback: () => void) => void;
 };
 
-// --- Helper hook ---
 export const useThemeTransition = () => {
   const startTransition = useCallback((updateFn: () => void) => {
     const doc = document as DocumentWithViewTransition;
-
     if (doc.startViewTransition) {
       doc.startViewTransition(updateFn);
     } else {
       updateFn();
     }
   }, []);
-
   return { startTransition };
 };
 
-// --- MAIN COMPONENT ---
-export const ThemeToggleButton = ({
-  theme = 'light',
-  showLabel = false,
-  variant = 'circle',
-  start = 'center',
-  url,
-  className,
-  onClick,
-}: ThemeToggleButtonProps) => {
-  
+export const ThemeSelector = ({ className }: ThemeSelectorProps) => {
+  const [activeTheme, setActiveTheme] = useState<ThemeOption>(themes[0]);
+  const [collapsed, setCollapsed] = useState(true);
   const { startTransition } = useThemeTransition();
 
-  const handleClick = useCallback(() => {
-    const styleId = `theme-transition-${Date.now()}`;
-    const style = document.createElement('style');
-    style.id = styleId;
-
-    let css = '';
-
-    // start positions
-    const positions = {
-      center: 'center',
-      'top-left': 'top left',
-      'top-right': 'top right',
-      'bottom-left': 'bottom left',
-      'bottom-right': 'bottom right',
-    };
-
-    const cx = start === 'center' ? '50' : start.includes('left') ? '0' : '100';
-    const cy = start === 'center' ? '50' : start.includes('top') ? '0' : '100';
-
-    if (variant === 'blur') {
-      css = `
-        @supports (view-transition-name: root) {
-          ::view-transition-old(root) {
-            animation: none;
-          }
-          ::view-transition-new(root) {
-            opacity: 1;
-            animation: blur-fade-in 0.6s ease-out forwards;
-          }
-          @keyframes blur-fade-in {
-            from { opacity: 0.3; } 
-            to {opacity: 1; }
-          }
-        }
-      `;
+  useEffect(() => {
+    const saved = localStorage.getItem('theme-class');
+    if (saved) {
+      const theme = themes.find(t => t.className === saved);
+      if (theme) {
+        applyTheme(theme);
+      }
     }
+  }, []);
 
-    if (variant === 'none') {
-      // onClick?.();
-      // return;
-    }
+  const applyTheme = useCallback((theme: ThemeOption) => {
+    const root = document.documentElement;
 
-    if (variant === 'circle') {
-      css = `
-        @supports (view-transition-name: root) {
-          ::view-transition-old(root) { animation: none; }
-          ::view-transition-new(root) {
-            animation: circle-expand 0.4s ease-out;
-            transform-origin: ${positions[start]};
-          }
-          @keyframes circle-expand {
-            from { clip-path: circle(0% at ${cx}% ${cy}%); }
-            to { clip-path: circle(150% at ${cx}% ${cy}%); }
-          }
-        }
-      `;
-    }
-
-    if (variant === 'circle-blur') {
-      css = `
-        @supports (view-transition-name: root) {
-          ::view-transition-old(root) { animation: none; }
-          ::view-transition-new(root) {
-            animation: circle-blur-expand 0.5s ease-out;
-            transform-origin: ${positions[start]};
-            filter: blur(0);
-          }
-          @keyframes circle-blur-expand {
-            from {
-              clip-path: circle(0% at ${cx}% ${cy}%);
-              filter: blur(4px);
-            }
-            to {
-              clip-path: circle(150% at ${cx}% ${cy}%);
-              filter: blur(0);
-            }
-          }
-        }
-      `;
-    }
-
-    if (variant === 'gif' && url) {
-      css = `
-        @supports (view-transition-name: root) {
-          ::view-transition-old(root) {
-            animation: fade-out 0.4s ease-out;
-          }
-          ::view-transition-new(root) {
-            animation: gif-reveal 2.5s cubic-bezier(0.4, 0, 0.2, 1);
-            mask-image: url('${url}');
-            mask-size: 0%;
-            mask-repeat: no-repeat;
-            mask-position: center;
-          }
-          @keyframes fade-out {
-            to { opacity: 0; }
-          }
-          @keyframes gif-reveal {
-            0% { mask-size: 0%; }
-            20% { mask-size: 35%; }
-            60% { mask-size: 35%; }
-            100% { mask-size: 300%; }
-          }
-        }
-      `;
-    }
-
-    if (variant === 'polygon') {
-      css = `
-        @supports (view-transition-name: root) {
-          ::view-transition-old(root) { animation: none; }
-          ::view-transition-new(root) {
-            animation: ${theme === 'light' ? 'wipe-in-dark' : 'wipe-in-light'} 0.4s ease-out;
-          }
-          @keyframes wipe-in-dark {
-            from { clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); }
-            to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
-          }
-          @keyframes wipe-in-light {
-            from { clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
-            to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
-          }
-        }
-      `;
-    }
-
-    // inject CSS
-    if (css) {
-      style.textContent = css;
-      document.head.appendChild(style);
-
-      // auto cleanup
-      setTimeout(() => {
-        document.getElementById(styleId)?.remove();
-      }, 3000);
-    }
-
-    // IMPORTANT 🔥 — actually start the view transition
-    startTransition(() => {
-      onClick?.();
+    themes.forEach(t => {
+      if (t.className) root.classList.remove(t.className);
     });
-  }, [variant, start, url, theme, onClick, startTransition]);
+
+    if (theme.className) root.classList.add(theme.className);
+
+    localStorage.setItem('theme-class', theme.className);
+    setActiveTheme(theme);
+  }, []);
+
+  const handleThemeClick = (theme: ThemeOption) => {
+    startTransition(() => applyTheme(theme));
+  };
+
+  const colorMap: Record<string, string> = {
+    Blue: '#0B8EFF',
+    Pink: '#FF3AA0',
+    Green: '#38BD2E',
+    Orange: '#FF7A00',
+  };
 
   return (
-    <Button
-      variant="outline"
-      size={showLabel ? 'default' : 'icon'}
-      onClick={handleClick}
-      className={cn('relative overflow-hidden transition-all', showLabel && 'gap-2', className)}
-      aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
+    <div
+      className={cn('flex items-center px-1 py-1 rounded-full', className)}
+      style={{ gap: 6, position: 'relative' }}
     >
-      {theme === 'light' ? (
-        <Sun className="h-[1.2rem] w-[1.2rem]" />
-      ) : (
-        <Moon className="h-[1.2rem] w-[1.2rem]" />
-      )}
-      {showLabel && (
-        <span className="text-sm">
-          {theme === 'light'
-            ? `Daytime`
-            : `${today}'s night sky`}
-        </span>
-      )}
-    </Button>
-  );
+      <Button
+        size="icon"
+        variant="outline"
+        onClick={() => setCollapsed(!collapsed)}
+        style={{
+          width: 44,
+          height: 44,
+          borderRadius: '50%',
+          padding: 0,
+          minWidth: 0,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 10,
+          fontSize: 18,
+          cursor: 'pointer',
+          // borderWidth: 1.5,
+          // borderColor: colorMap[activeTheme.name],
+        }}
+        title="Select Theme"
+      >
+        🎨
+      </Button>
 
+      {!collapsed &&
+        themes.map((theme, index) => (
+          <Button
+            key={theme.name}
+            size="icon"
+            variant={activeTheme.name === theme.name ? 'secondary' : 'secondary'}
+            onClick={() => {
+              handleThemeClick(theme);
+              setCollapsed(true);
+            }}
+            style={{
+              position: 'absolute',
+              left: 60 + index * 36, // spacing from main button
+              transition: 'transform 0.3s ease, opacity 0.3s ease',
+              transform: `translateX(0)`,
+              cursor: 'pointer',
+            }}
+            title={theme.name}
+          >
+            <span
+              style={{
+                width: 18,
+                height: 18,
+                borderRadius: '50%',
+                backgroundColor: colorMap[theme.name],
+                display: 'block',
+              }}
+            />
+          </Button>
+        ))}
+    </div>
+  );
 };

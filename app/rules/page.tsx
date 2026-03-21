@@ -83,7 +83,7 @@ export default function Rules() {
                         </div>
                         <div>
                             <div className="flex flex-col justify-center bg-[#fbfbfb] p-10 rounded-2xl">
-                                <p className="text-sm text-[var(--main-blue)] leading-loose">Problem ⚠️</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Problem ⚠️</p>
                                 <div className="mb-9"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Current device management settings are often static and uniformly applied across large device fleets, limiting flexibility and preventing <span className="font-semibold font-[var(--colour-pure)] underline">context-aware adjustments</span> based on time, location, or usage conditions.</p>
                                 <div className="mb-9"></div>
@@ -92,8 +92,8 @@ export default function Rules() {
                             <div className="mb-4"></div>
                             <div className="flex flex-col justify-center items-center bg-[#fbfbfb] p-10 rounded-2xl">
                                 <div className="w-full flex justify-between">
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start">Notes from PM team</p>
-                                    <p className="text-sm text-[var(--main-blue)] leading-loose self-start"><span className="text-[var(--colour-bodytext-3)]">(generalized to avoid NDA)</span></p>
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose self-start">Notes from PM team</p>
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose self-start"><span className="text-[var(--colour-bodytext-3)]">(generalized to avoid NDA)</span></p>
                                 </div>
                                 <div className="mb-12"></div>
                                 <div className="w-full 2xl:w-[70%] grid grid-cols-3 -gap-x-3">
@@ -123,7 +123,19 @@ export default function Rules() {
                 <div className="w-full">
                     <Heading text="What I did" variant="black"/>
                     <ImageZoom>
-                        <Image src="/rules-map.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
+                        {(() => {
+                        const theme = localStorage.getItem("theme-class") || "";
+                        switch (theme) {
+                            case "pink":
+                            return <Image src="/rules-map-pink.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                            case "green":
+                            return <Image src="/rules-map-green.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                            case "orange":
+                            return <Image src="/rules-map-orange.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                            default:
+                            return <Image src="/rules-map.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox" />;
+                        }
+                        })()}
                     </ImageZoom>
                 </div>
 

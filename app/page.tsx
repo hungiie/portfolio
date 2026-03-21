@@ -14,10 +14,11 @@ import SlideUpDelay from "@/components/slide-up-delay";
 import SlideRight from "@/components/slide-right";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import CopyEmailButton from "@/components/copyemail";
-import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import { useTheme } from "next-themes";
 import MyNav2 from "@/components/nav2";
 import ProjectThumbnail from "@/components/project-thumbnail";
+import { ThemeSelector } from "@/components/ui/shadcn-io/theme-toggle-button";
+
 
 export default function Home2() {
   const [animate, setAnimate] = useState(false);
@@ -32,18 +33,15 @@ export default function Home2() {
         <MyNav2 variant="Home"/>
         <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[75%] mt-28">
             <SlideUpNoThres>
-              <div className={`w-full flex items-center justify-between relative`}>
-                {/* <Me /> */}
-                {/* <CopyEmailButton link="/" text="d.hungtran12@gmail.com" textSize="text-sm" /> */}
-                <Image src="/yuh.jpg" width={3099} height={3363} className="w-[64px] aspect-square mb-2 rounded-2xl shadow-xl" alt="Hung Tran"/> 
-                
-                {/* <div className="absolute right-0"> */}
-                  <div className="flex justify-end">
-                    <MyButton variant="blue-button-outline" text="About me" link="about" target="_self" textSize="text-sm"/>
-                    <div className="ml-4"></div>
-                    <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
-                  </div>
-                {/* </div> */}
+              <div className={`w-full flex items-center relative justify-between`}>
+                <div className="flex justify-start items-start" >
+                  <Image src="/yuh.jpg" width={3099} height={3363} className="w-[64px] aspect-square mb-2 rounded-2xl shadow-xl" alt="Hung Tran"/> 
+                </div>
+                <div className="flex justify-end">
+                  <MyButton variant="blue-button-outline" text="About me" link="about" target="_self" textSize="text-sm"/>
+                  <div className="ml-4"></div>
+                  <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
+                </div>
               </div>
 
               <div className="mb-12"></div>
@@ -63,35 +61,12 @@ export default function Home2() {
                 <p className="text-md text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="blue-hyperlink" text="resume" textSize="text-md"/></span></p>
                 {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="blue-hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
-              <div className="mb-9"></div>
-              {/* <ThemeToggleButton
-                theme={theme === "light" ? "dark" : "light"}
-                onClick={() => {
-                  const next = theme === "dark" ? "light" : "dark";
-                  setTheme(next);
-                }}
-                variant="none"
-                start="center"
-                className="hover:cursor-pointer"
-                showLabel={false}
-              /> */}
-              {/* <p className="text-md text-[var(--colour-bodytext-3)]">Scroll down to see my works.</p> */}
+              <ThemeSelector className="mt-12"/>
             </SlideUpNoThres>
-
 
             <div className="mb-30 md:mb-40"></div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
-            {/* <div className="w-full grid grid-cols-1 gap-6"> */}
-              {/* <SlideUpNoThres>
-                <ProjectThumbnail isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="rule-poster.png" target="_self"/>
-              </SlideUpNoThres>
-              <SlideUp>
-                  <ProjectThumbnail isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
-              </SlideUp>
-              <SlideUp>
-                  <ProjectThumbnail isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio-poster.png" target="_self"/>
-              </SlideUp> */}
               <SlideUpNoThres>
                 <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
@@ -101,29 +76,6 @@ export default function Home2() {
               <SlideUp>
                   <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio-poster.png" target="_self"/>
               </SlideUp>
-              {/* <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="/" name="Samsung Knox: Demo Kit" desc="Designed an interactive demo for Samsung Knox services, highlighted its key features and unique selling points for enterprise clients." imageSrc="/demo.png" imageSrcDark="/org-hover.png" target="_self"/>
-              </SlideUp> */}
-              {/* <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Memory Mate" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>
-              </SlideUp>
-              <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc="I like to play around with visual design and motions. Here's the damage." imageSrc="/visuall.png" imageSrcDark="/memorymate-hover.png" target="_self"/>
-              </SlideUp> */}
-
-              {/* <SlideUp>
-                <div className="w-full">
-                    <p className="text-sm font-semibold text-[var(--colour-bodytext)]">My undergrad design & dev journey</p>
-                    <div className="mb-6"></div>
-                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This portfolio includes both professional and academic work. While my professional work shows real impact, these academic projects show my way to think, explore, and experiment when given space.</p>
-                    <div className="mb-9"></div>
-                    <div className="w-full flex">
-                    <div className="w-full">
-                        <MyButton link="academics" text="View my academic projects" textSize="text-sm" target="_self" variant="blue-button-outline"/>
-                    </div>
-                    </div>
-                </div>
-              </SlideUp> */}
             </div>
 
             <div className="mb-30 md:mb-50"></div>

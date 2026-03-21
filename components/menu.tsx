@@ -9,7 +9,7 @@ export default function DotsMenu() {
         <div className="md:hidden relative">
             <button
                 onClick={() => setOpenMenu(!openMenu)}
-                className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[var(--nav-border)] transition text-[var(--main-blue)] text-2xl"
+                className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[var(--nav-border)] transition text-[var(--main-colour)] text-2xl"
                 aria-label="Open menu"
             >
                 &#8942;

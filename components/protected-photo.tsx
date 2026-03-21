@@ -36,14 +36,14 @@ export default function ProtectedPhoto2({ src1, src2, alt, password: correctPass
             <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-2 top-1/2 mr-2 -translate-y-1/2 text-sm text-[var(--main-blue)] hover:underline cursor-pointer hidden lg:inline"
+                className="absolute right-2 top-1/2 mr-2 -translate-y-1/2 text-sm text-[var(--main-colour)] hover:underline cursor-pointer hidden lg:inline"
             >
             {showPassword ? "Hide" : "Show"}
             </button>
         </div>
       <button
         type="submit"
-        className="text-sm cursor-pointer w-[80%] md:w-[50%] text-center bg-transparent hover:bg-[var(--main-blue)] hover:text-white border-[var(--main-blue)] border-1 transition-colors rounded-full text-[var(--main-blue)] font-medium py-[10px] px-4"
+        className="text-sm cursor-pointer w-[80%] md:w-[50%] text-center bg-transparent hover:bg-[var(--main-colour)] hover:text-white border-[var(--main-colour)] border-1 transition-colors rounded-full text-[var(--main-colour)] font-medium py-[10px] px-4"
       >
         View photo
       </button>
