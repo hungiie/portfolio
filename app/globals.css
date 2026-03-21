@@ -52,14 +52,14 @@
 .dark {
   --colour-bodytext: #ebebeb;
   --colour-bodytext-2: #e7e7e7;
-  --colour-bodytext-3: #d2d2d2;
+  --colour-bodytext-3: #9a9a9a;
   --colour-bodytext-4: #858585;
   --colour-grey: #000000;
   --colour-pure: #ffffff;
   --nav-bg:#202020;
   --nav-border: rgba(22, 22, 22, 0.4);
   --container-bg: #101010;
-  --container-bg-2: #101010;
+  --container-bg-2: #181818;
 
   --background: #202020;
   --foreground: oklch(0.985 0 0);

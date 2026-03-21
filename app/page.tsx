@@ -63,7 +63,7 @@ export default function Home2() {
                 {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
               <div className="hidden md:flex mt-14 gap-4">
-                {/* <ThemeToggleButton
+                <ThemeToggleButton
                   theme={theme === "light" ? "dark" : "light"}
                   onClick={() => {
                     const next = theme === "dark" ? "light" : "dark";
@@ -74,7 +74,7 @@ export default function Home2() {
                   className="hover:cursor-pointer"
                   showLabel={false}
                 />
-                <ThemeSelector/> */}
+                <ThemeSelector/>
               </div>
             </SlideUpNoThres>
 
@@ -82,13 +82,13 @@ export default function Home2() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
               <SlideUpNoThres>
-                <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="rule-poster.png" target="_self"/>
+                <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" imageSrcDark="/Rule video - d.mp4" imageSrcPosterDark="rule-poster - d.png" target="_self"/>
               </SlideUpNoThres>
               <SlideUpNoThres>
-                  <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/org-hover.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
               </SlideUpNoThres>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio-poster.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" imageSrcDark="/cardio video - d.mp4" imageSrcPosterDark="/cardio-poster - d.png" target="_self"/>
               </SlideUp>
             </div>
 
@@ -97,10 +97,10 @@ export default function Home2() {
             <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">Outside of UX, I also work across visual design and development.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate-hover.png" target="_blank"/>
+                  <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/visuall.png" imageSrcDark="/memorymate-hover.png" target="_self"/>
+                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/visuall.png" imageSrcDark="/visuall - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
               </SlideUp>
             </div>
 

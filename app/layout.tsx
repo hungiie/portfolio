@@ -59,20 +59,20 @@ export default function RootLayout({
             />
             <ThemeApplier />
             <Analytics />
-            <script
+            {/* <script
               dangerouslySetInnerHTML={{
                 __html: `
                   (function() {
                     try {
                       const theme = localStorage.getItem('theme-class');
                       if (theme) {
-                        document.documentElement.className = theme;
+                        document.documentElement.classList.add(theme);
                       }
                     } catch(e) {}
                   })();
                 `,
               }}
-            />
+            /> */}
 
             {children}
           </ThemeProvider>

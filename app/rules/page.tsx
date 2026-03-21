@@ -152,15 +152,15 @@ export default function Rules() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Simplifies rule reviewing with an overview table and a sliding panel for detailed views.</p>
                         </div>
                         <div>
-                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
+                            <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
                                 <Image src="/rules-0.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Overview table.</p>
-                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
+                            <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
                                 <Image src="/rules-1.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">View details through a sliding panel.</p>
-                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
+                            <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
                                 <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Detailed sliding panel.</p>
@@ -175,15 +175,15 @@ export default function Rules() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-8">Streamlines the configuration process for time & location conditions.</p>
                         </div>
                         <div>
-                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
+                            <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
                                 <Image src="/rules-2.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Configuring time-based conditions.</p>
-                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
+                            <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
                                 <Image src="/rules-3.png" width={3099} height={3363} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Configuring location-based conditions.</p>
-                            <ImageZoom className="bg-[var(--container-bg)] rounded-lg overflow-hidden">
+                            <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
                                 <Image src="/rules-4.png" width={2622} height={2622} className="w-full rounded-lg mb-2" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Segment of the location-based conditions configuration flow.</p>
