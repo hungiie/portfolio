@@ -211,20 +211,27 @@ export const ThemeToggleButton = ({
 
   return (
     <Button
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = 'var(--main-colour)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = 'transparent';
+      }}
       size="icon"
-        variant="outline"
-        style={{
-          width: 44,
-          height: 44,
-          borderRadius: '50%',
-          padding: 0,
-          minWidth: 0,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          zIndex: 10,
-          cursor: 'pointer',
-        }}
+      variant="outline"
+      style={{
+        width: 44,
+        height: 44,
+        borderRadius: '50%',
+        padding: 0,
+        minWidth: 0,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        zIndex: 10,
+        cursor: 'pointer',
+        // borderColor: 'var(--main-colour)',
+      }}
       onClick={handleClick}
       className={cn('relative overflow-hidden transition-all', showLabel && className)}
       aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
@@ -233,8 +240,8 @@ export const ThemeToggleButton = ({
       {showLabel && (
         <span className="text-sm">
           {theme === 'light'
-            ? `Daytime`
-            : `${today}'s night sky`}
+            ? `Light`
+            : `Dark`}
         </span>
       )}
     </Button>
