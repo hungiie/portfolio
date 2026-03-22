@@ -48,7 +48,7 @@ export default function Organizations() {
                 <div className="mb-15"></div>
 
                 <div>
-                    <ImageZoom className="bg-[var(--container-bg-2)]">
+                    <ImageZoom className="bg-[var(--container-bg-2)] rounded-xl">
                         <Image src="/org-00.png" width={2985} height={2236} className="w-full h-auto" alt="Samsung Knox"/> 
                     </ImageZoom>
                 </div>

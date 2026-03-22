@@ -46,7 +46,7 @@ export default function Rules() {
 
                 <div className="mb-15"></div>
 
-                <div>
+                <div className="rounded-xl overflow-hidden">
                     <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
                         <source src="Rule video wide.mp4"type="video/mp4" />
                     </video>

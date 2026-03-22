@@ -80,7 +80,7 @@ export default function Home2() {
 
             <div className="mb-30 md:mb-40"></div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-5">
               <SlideUpNoThres>
                 <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" imageSrcDark="/Rule video - d.mp4" imageSrcPosterDark="rule-poster - d.png" target="_self"/>
               </SlideUpNoThres>
