@@ -80,7 +80,7 @@ export default function Home2() {
 
             <div className="mb-30 md:mb-40"></div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-15">
               <SlideUpNoThres>
                 <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" imageSrcDark="/Rule video - d.mp4" imageSrcPosterDark="rule-poster - d.png" target="_self"/>
               </SlideUpNoThres>
@@ -94,13 +94,16 @@ export default function Home2() {
 
             <div className="mb-30 md:mb-50"></div>
 
-            <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">Outside of UX, I also work across visual design and development.</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-25">
+            <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">My other work spans development, visual design, and service design.</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-15">
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app for senior citizens, integrating Apple Maps API, Text-to-speech API, and Firebase for backend database and user authentication." imageSrc="/memorymate.png" imageSrcDark="/memorymate - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
+                  <ProjectThumbnail isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app, integrating Apple Maps API, Text-to-speech API, and Firebase." imageSrc="/memorymate.png" imageSrcDark="/memorymate - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnail2 isLink="image-link" link="visuals" name="Visual design" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/visuall.png" imageSrcDark="/visuall - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+                  <ProjectThumbnail isLink="image-link" link="visuals" name="Visual design" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/visuall.png" imageSrcDark="/visuall - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+              </SlideUp>
+              <SlideUp>
+                  <ProjectThumbnail isLink="image-link" link="https://www.figma.com/proto/SX9tVnnpV5uQFGtLVOUSlD/Service-Design--Cool-togethter?page-id=0%3A1&node-id=1-2&viewport=140%2C253%2C0.22&t=Hyf13N66BzHuwE0v-1&scaling=contain&content-scaling=fixed" name="Service design" desc="A cooling initiative helping neighbourhood houses protect vulnerable communities from extreme heat." imageSrc="/cool-tgt.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
               </SlideUp>
             </div>
 
