@@ -236,7 +236,7 @@ export const ThemeToggleButton = ({
       className={cn('relative overflow-hidden transition-all', showLabel && className)}
       aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
     >
-      {theme === 'light' ? "☀️" : "🌒"}
+      {theme === 'light' ? "☀️" : "🌙"}
       {showLabel && (
         <span className="text-sm">
           {theme === 'light'
