@@ -24,7 +24,7 @@ export default function ProjectThumbnail(props: Props) {
                         {props.name}
                     </p>
                 </div>
-                <a className="relative block overflow-hidden group mt-auto bg-[var(--container-bg)] rounded-lg" href={props.link} target={props.target}>
+                <a className="relative block overflow-hidden group mt-auto bg-[var(--container-bg)] rounded-lg shadow-[0px_0px_20px_rgba(0,0,0,0.02)]" href={props.link} target={props.target}>
                     <Image src={props.imageSrc} alt={props.name} width={1640} height={1228} className="object-cover"/>
                     <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
                                     translate-y-full opacity-0
