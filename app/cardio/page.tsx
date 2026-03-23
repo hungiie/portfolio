@@ -103,7 +103,6 @@ export default function Cardio() {
                                     }
                                     })()}
                                 </div>
-                                {/* <MyButton text="Learn more about the effects music has on running" link="" target="_blank" variant="hyperlink" textSize="text-sm"/> */}
                             </div>
                             <div className="mb-8"></div>
                             <p className="text-lg text-[var(--colour-bodytext)] leading-loose">The trend aims to create an engaging, fun running experience and motivate runners to finish their cardio session.</p>
@@ -112,6 +111,8 @@ export default function Cardio() {
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Many viewers struggle to stay motivated throughout their cardio sessions, and often cutting their workouts short. With the right music, runners can feel more energized and motivated - making it easier to push through.</p>
                             <div className="mb-6"></div>
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">This need had sparked the trend of cardio playlists.</p>
+                            <div className="mb-6"></div>
+                            {/* <MyButton text="Learn more about the effects music has on running" link="" target="_blank" variant="hyperlink" textSize="text-sm"/> */}
 
                             {/* <div className="mb-20"></div>
 

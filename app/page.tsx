@@ -32,7 +32,7 @@ export default function Home2() {
   return (
     <div className="flex items-center justify-center" id="top">
         <MyNav2 variant="Home"/>
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[75%] mt-28">
+        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[80%] mt-28">
             <SlideUpNoThres>
               <div className={`w-full flex items-center relative justify-between`}>
                 <div className="flex justify-start items-start" >
@@ -57,9 +57,9 @@ export default function Home2() {
               </div>
               <div className="mb-9"></div>
               <div>
-                <p className="text-md text-[var(--colour-bodytext)] mt-2">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span></p>
-                <p className="text-md text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span></p>
-                <p className="text-md text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)]">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span></p>
+                <p className="text-md text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span></p>
                 {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
               <div className="w-full hidden md:flex justify-start items-center mt-14 gap-4">
@@ -105,6 +105,9 @@ export default function Home2() {
               <SlideUp>
                   <ProjectThumbnail isLink="image-link" link="https://www.figma.com/proto/SX9tVnnpV5uQFGtLVOUSlD/Service-Design--Cool-togethter?page-id=0%3A1&node-id=1-2&viewport=140%2C253%2C0.22&t=Hyf13N66BzHuwE0v-1&scaling=contain&content-scaling=fixed" name="Service design" desc="A cooling initiative helping neighbourhood houses protect vulnerable communities from extreme heat." imageSrc="/cool-tgt.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
               </SlideUp>
+              {/* <SlideUp>
+                  <ProjectThumbnail isLink="image-link" link="servicedesign" name="Service design" desc="A cooling initiative helping neighbourhood houses protect vulnerable communities from extreme heat." imageSrc="/cool-tgt.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+              </SlideUp> */}
             </div>
 
             <div className="mb-55"></div>

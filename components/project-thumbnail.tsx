@@ -18,7 +18,7 @@ interface Props {
 export default function ProjectThumbnail(props: Props) {
     if (props.isLink == "image-link") {
         return (
-            <div className="overflow-hidden h-full flex flex-col group">
+            <div className="overflow-hidden flex flex-col group">
                 <div>
                     <p className="text-sm text-[var(--colour-bodytext-3)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--main-colour)] mb-4 leading-loose">
                         {props.name}
