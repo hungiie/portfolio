@@ -195,7 +195,7 @@ export default function Cardio() {
                                 <div className="w-full flex flex-col">
                                     <p className="text-sm text-[var(--main-colour)] leading-loose">Insight 1</p>
                                     <div className="mb-5"></div>
-                                    <p className="text-lg text-[var(--colour-bodytext)] leading-loose">People and communities are more resilient, knowledgeable, and collaborative in coping with extreme heat when they have trusted social networks that provide spaces for dialogues and <span className="font-semibold font-[var(--colour-pure)] underline">emotional support</span>.</p>
+                                    <p className="text-lg text-[var(--colour-bodytext)] leading-loose">People and communities are more resilient, knowledgeable, and collaborative in coping with extreme heat when they have trusted social networks that provide spaces for <span className="font-semibold font-[var(--colour-pure)] underline">dialogues and emotional support</span>.</p>
                                 </div>
                                 <div className="mb-15"></div>
                                 <div className="w-full md:w-[90%] 2xl:w-[70%] grid grid-cols-3 -gap-x-10">
@@ -223,25 +223,92 @@ export default function Cardio() {
                                 <div className="mb-15"></div>
                                 <div className="w-full md:w-[90%] 2xl:w-[70%] grid grid-cols-3 -gap-x-10">
                                     <ImageZoom>
-                                        <Image src="/is2 1.png" width={1469} height={1469} className="w-full h-auto mb-2 rotate-6 shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/is2 1.png" width={1469} height={1469} className="w-full h-auto mb-2 -rotate-6 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/is2 2.png" width={1469} height={1779} className="w-full h-auto mb-2 -rotate-10 shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/is2 2.png" width={1469} height={1779} className="w-full h-auto mb-2 rotate-8 shadow-lg -translate-x-2" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                     <ImageZoom>
-                                        <Image src="/is2 3.png" width={1469} height={1511} className="w-full h-auto mb-2 rotate-5 shadow-lg" alt="Samsung Knox"/> 
+                                        <Image src="/is2 3.png" width={1469} height={1511} className="w-full h-auto mb-2 -rotate-5 shadow-lg" alt="Samsung Knox"/> 
                                     </ImageZoom>
                                 </div>
                                 <div className="mb-8"></div>
                             </div>
                             
+                            {/* <div className="mb-5"></div>
+                            <div className="w-[100%] bg-[var(--container-bg)] flex flex-col justify-center items-center rounded-xl">
+                                <ImageZoom>
+                                    <Image src="/jamm.png" width={1469} height={1469} className="w-full" alt=""/> 
+                                </ImageZoom>
+                            </div> */}
                         </div>
                     </div>
                 </div>
 
                 <div className="mb-30"></div>
 
-                <div className="w-full mt-20">
+                <div className="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
+                        <div className="md:sticky md:top-25 md:self-start">
+                            <Heading text="Reframing our problem" variant="black"/>
+                        </div>
+                        <div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div className="bg-[var(--container-bg)] flex flex-col p-7 pb-9 rounded-xl">
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose">What we realized</p>
+                                    <div className="mb-4"></div>
+                                    <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Neighbourhood houses play an important role in supporting communities during extreme heat events, but their impact is influenced <span className="font-semibold font-[var(--colour-pure)] underline">less by regulatory barriers and more by funding constraints and their role as trusted social spaces</span>!</p>
+                                </div>
+                                <div className="bg-[var(--container-bg)] flex flex-col p-7 pb-9 rounded-xl">
+                                    <p className="text-sm text-[var(--main-colour)] leading-loose">-&gt;  Our decision</p>
+                                    <div className="mb-4"></div>
+                                    <p className="text-lg text-[var(--colour-bodytext)] leading-loose">Therefore, we decided to shift our focus away from the permitting process as a barrier to the House's impact, and toward what it offers most to its communities: communal support and human connection.</p>
+                                </div>
+
+                            </div>
+                            <div className="mb-5"></div>
+                            <div className="bg-[var(--container-bg)] flex flex-col p-7 rounded-xl">
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">How might we...</p>
+                                <div className="mb-4"></div>
+                                <p className="text-lg text-[var(--colour-bodytext-3)] leading-loose line-through">... help City of Vancouver present its permit system more accessibly, so neighbourhood houses and community organizations feel less overwhelmed when implementing passive cooling solutions?</p>
+                                <div className="mb-5"></div>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">... help the City of Vancouver encourage community resilience to extreme heat through low-cost passive cooling practices, while also strengthening social connections and emotional support within communities?</p>
+                                <div className="mb-8"></div>
+                                <div className="p-7 rounded-xl bg-[var(--background)]">
+                                    <p className="text-sm text-[var(--colour-bodytext)] leading-loose">“Community resilience is a measure of the [...] ability of a community to utilize available resources to respond to, withstand, and recover from adverse situations.”</p>
+                                    <div className="mb-4"></div>
+                                    <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">RAND, public policy research organization</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mb-30"></div>
+
+                <div className="w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
+                        <div className="md:sticky md:top-25 md:self-start">
+                            <Heading text="Our solution" variant="black"/>
+                        </div>
+                        <div>
+                            <div className="bg-[var(--container-bg)] flex flex-col p-7 pb-9 rounded-xl">
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">"Cool together" initiative</p>
+                                <div className="mb-4"></div>
+                                <p className="text-lg text-[var(--colour-bodytext)] leading-loose">“Cool Together” is a new cooling initiative from the City of Vancouver designed to support local organizations in helping its vulnerable communities cope with extreme heat.</p>
+                                <div className="mb-7"></div>
+                                    <div>
+                                        <MyButton variant="blue-button-outline" link="https://www.figma.com/proto/SX9tVnnpV5uQFGtLVOUSlD/Service-Design--Cool-togethter?page-id=0%3A1&node-id=1-2&viewport=140%2C253%2C0.22&t=Hyf13N66BzHuwE0v-1&scaling=contain&content-scaling=fixed" text="See our full solution" target="_blank" textSize="text-sm" />
+                                    </div>
+                                </div>
+                            <div className="mb-5"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mb-30"></div>
+
+                {/* <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
                         <div className="">
                             <Heading text="Reflections" variant="black"/>
@@ -262,7 +329,7 @@ export default function Cardio() {
                     </div>
                 </div>
 
-                <div className="mb-30"></div>
+                <div className="mb-30"></div> */}
 
                 <div className="w-full flex flex-col md:flex-row justify-center gap-3">
                     <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>

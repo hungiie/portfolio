@@ -92,7 +92,7 @@ export default function Home2() {
               </SlideUp>
             </div>
 
-            <div className="mb-30 md:mb-50"></div>
+            <div className="mb-30 md:mb-45"></div>
 
             <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">My other work spans development, visual design, and service design.</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-15">
@@ -103,11 +103,8 @@ export default function Home2() {
                   <ProjectThumbnail isLink="image-link" link="visuals" name="Visual design" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/visuall.png" imageSrcDark="/visuall - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnail isLink="image-link" link="https://www.figma.com/proto/SX9tVnnpV5uQFGtLVOUSlD/Service-Design--Cool-togethter?page-id=0%3A1&node-id=1-2&viewport=140%2C253%2C0.22&t=Hyf13N66BzHuwE0v-1&scaling=contain&content-scaling=fixed" name="Service design" desc="A cooling initiative helping neighbourhood houses protect vulnerable communities from extreme heat." imageSrc="/cool-tgt.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
-              </SlideUp>
-              {/* <SlideUp>
                   <ProjectThumbnail isLink="image-link" link="servicedesign" name="Service design" desc="A cooling initiative helping neighbourhood houses protect vulnerable communities from extreme heat." imageSrc="/cool-tgt.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
-              </SlideUp> */}
+              </SlideUp>
             </div>
 
             <div className="mb-55"></div>
