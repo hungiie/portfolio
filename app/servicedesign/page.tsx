@@ -293,7 +293,7 @@ export default function Cardio() {
                         </div>
                         <div>
                             <div className="bg-[var(--container-bg)] flex flex-col p-7 pb-9 rounded-xl">
-                                <p className="text-sm text-[var(--main-colour)] leading-loose">"Cool together" initiative</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">"Cool Together" initiative</p>
                                 <div className="mb-4"></div>
                                 <p className="text-lg text-[var(--colour-bodytext)] leading-loose">“Cool Together” is a new cooling initiative from the City of Vancouver designed to support local organizations in helping its vulnerable communities cope with extreme heat.</p>
                                 <div className="mb-7"></div>
