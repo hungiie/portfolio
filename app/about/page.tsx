@@ -70,8 +70,8 @@ export default function About() {
 
                 <div className="">
                     <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span></p>
-                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
+                    <p className="text-sm text-[var(--colour-bodytext)]">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                    <p className="text-sm text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
                 </div>
 
                 {/* <div className="mb-25"></div>
@@ -129,8 +129,8 @@ export default function About() {
                 
                 <div className="mb-35"></div>
 
-                <Heading text="On repeat" variant="black"/>
-                <div className="mb-12"></div>
+                <Heading text="Outside of UX, these are on repeat" variant="black"/>
+                <div className="mb-9"></div>
                 <div className="flex gap-6">
                     <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Albums</p>
                     <p className="mb-4 text-sm text-[var(--colour-bodytext)]">
@@ -157,7 +157,7 @@ export default function About() {
                     ))}
                 </div>
                 
-                <div className="mb-20"></div>
+                <div className="mb-15"></div>
 
                 <div className="flex gap-6">
                     <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Shows</p>
