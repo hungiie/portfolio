@@ -14,103 +14,196 @@ import AboutHero from "@/components/about-hero";
 import SlideUpScroll from "@/components/slide-up-scroll";
 import Polaroid from "@/components/polaroid";
 import { ThemeSelector } from "@/components/ui/shadcn-io/colour-toggle-button";
+import Albums from "@/components/albums";
+import { useState } from 'react';
 
 export default function About() {
-  return (
-    <div className="flex items-center justify-center flex-col">
-        <MyNav2 variant="About to home" />
+    const [hoveredAlbum, setHoveredAlbum] = useState<string | null>(null);
+    const [hoveredShow, setHoveredShow] = useState<string | null>(null);
+    const albums = [
+        { src: '/life support.webp', name: 'Life Support' },
+        { src: '/red.jpeg', name: "Red (Taylor's Version)" },
+        { src: '/dw.png', name: 'Dangerous Woman' },
+        { src: '/sbs.png', name: 'Silence Between Songs' },
+        { src: '/think later.jpeg', name: 'THINK LATER' },
+        { src: '/eics.png', name: 'emails i can’t send' },
+        { src: '/1989.jpeg', name: "1989 (Taylor's Version)" },
+        { src: '/sctw.png', name: 'So Close To What' },
+        { src: '/tsou.jpeg', name: 'The Secret Of Us' },
+    ];
 
-        <div className="px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[80%] flex flex-col justify-center items-center">
-            <div className="w-full mt-6 mb-9 flex justify-between items-center">
-                <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
-                <div className="flex">
-                    <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
+    const shows = [
+        { src: '/nhie.jpeg', name: 'Never Have I Ever' },
+        { src: '/dh.jpg', name: 'Desperate Housewives' },
+        { src: '/himym.png', name: 'How I Met Your Mother' },
+        { src: '/mf.jpg', name: 'Modern Family' },
+        { src: '/gg.jpeg', name: 'Ginny & Georgia' },
+    ];
+
+    return (
+        <div className="flex items-center justify-center flex-col">
+            <MyNav2 variant="About to home" />
+
+            <div className="px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[80%] flex flex-col justify-center items-center">
+                <div className="w-full mt-6 mb-9 flex justify-between items-center">
+                    <MyButton variant="hyperlink" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                    <div className="flex">
+                        <MyButton variant="blue-button" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" textSize="text-sm" target="_blank"/>
+                    </div>
                 </div>
+                <div className="mb-20"></div>
+                <div className="w-[89%] 2xl:w-[93%]">
+                    <AboutHero/>
+                </div>
+                <div className="mb-20 2xl:mb-25"></div>
             </div>
-            <div className="mb-20"></div>
-            <div className="w-[89%] 2xl:w-[93%]">
-                <AboutHero/>
+
+            {/* <SlideUpScroll> */}
+            <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[30%] mt-10">
+                <Heading text="Hi, my name is Hung." variant="black"/>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-sm"/></span></p>
+
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">For me, designing an experience is like telling a story - with people, technology, and context as threads of different colours and textures.</p>
+                <div className="mb-6"></div>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I have been playing with those threads since childhood. From posting my self-important, fictional stories to Wattpad, to now designing actual experiences as a UX designer - where I connect users, technology, and context the way a story connects its characters and their journeys.</p>
+                <div className="mb-8"></div>
+
+                <div className="">
+                    <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span></p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
+                </div>
+
+                {/* <div className="mb-25"></div>
+
+                <Heading text="My attempts to romanticize life" variant="black"/>
+                <div className="grid grid-cols-2 gap-2">
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden">
+                        <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                </div> */}
+
+                <div className="" id="story"></div>
+                <div className="mb-25"></div>
+
+                <div className="w-full flex items-center justify-center">
+                    <div className="w-full h-auto relative mb-12">
+                        <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover rounded-xl shadow-md mb-3" style={{ filter: 'contrast(80%)' }}/>
+                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Me but #2008 ✨</p>
+                        {/* <Polaroid imageSrc="/small.jpg" alt="hung tran" desc="Summer 2008 🐦" angle={-4} textSize="text-xl"/> */}
+                    </div>
+                </div>
+
+                <Heading text="My story" variant="black"/>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I spent my childhood full of curiosity and bold ideas, often quietly observing the world around me.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
+                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
+                <div className="mb-15"></div>
+                
+                <Heading text="Read rooms rather than dominate them" variant="black"/>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Growing up as one of those quiet kids meant learning to read rooms rather than dominate them.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">And I believe that way of seeing never really disappear!</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">In UX design, understanding users often goes beyond what is said out loud. Insight can be found in hesitation before a click, in abandoned flows, or in moments where something feels off but goes unspoken.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">For many quiet kids, listening closely, sitting with uncertainty, and noticing subtle signals become familiar habits over time. In UX, those habits naturally translate into a way of designing that prioritizes care, empathy, and intention.</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose"></p>
+                <div className="mb-15"></div>
+
+                <Heading text="Everything happens for a reason" variant="black"/>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
+                <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
+                
+                <div className="mb-35"></div>
+
+                <Heading text="On repeat" variant="black"/>
+                <div className="mb-12"></div>
+                <div className="flex gap-6">
+                    <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Albums</p>
+                    <p className="mb-4 text-sm text-[var(--colour-bodytext)]">
+                    {hoveredAlbum || '...'}
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    {albums.map((album, i) => (
+                    <div
+                        key={i}
+                        onMouseEnter={() => setHoveredAlbum(album.name)}
+                        onMouseLeave={() => setHoveredAlbum(null)}
+                        className=" rounded-lg"
+                    >
+                        <Image
+                        src={album.src}
+                        width={1179}
+                        height={1179}
+                        alt={album.name}
+                        className="object-cover rounded-lg transition-transform duration-300 hover:scale-103 shadow-[0px_0px_25px_rgba(0,0,0,0.1)]"
+                        />
+                    </div>
+                    ))}
+                </div>
+                
+                <div className="mb-20"></div>
+
+                <div className="flex gap-6">
+                    <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Shows</p>
+                    <p className="mb-4 text-sm text-[var(--colour-bodytext)]">
+                    {hoveredShow || '...'}
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    {shows.map((show, i) => (
+                    <div
+                        key={i}
+                        onMouseEnter={() => setHoveredShow(show.name)}
+                        onMouseLeave={() => setHoveredShow(null)}
+                        className="rounded-lg"
+                    >
+                        <Image
+                        src={show.src}
+                        width={1179}
+                        height={1179}
+                        alt={show.name}
+                        className="object-cover rounded-lg transition-transform duration-300 hover:scale-103 shadow-[0px_0px_25px_rgba(0,0,0,0.1)]"
+                        />
+                    </div>
+                    ))}
+                </div>
+
+                <div className="mb-35"></div>
+
+                <div className="w-full flex items-center justify-center">
+                    <MyButton variant="blue-button-outline" text="Return to home" link="/" target="_self" textSize="text-sm"/>
+                </div>
+                <Footer/>
             </div>
-            <div className="mb-20 2xl:mb-25"></div>
-        </div>
-
-        {/* <SlideUpScroll> */}
-        <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[30%] mt-10">
-            <Heading text="Hi, my name is Hung." variant="black"/>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Most recently, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-sm"/></span></p>
-
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">For me, designing an experience is like telling a story - with people, technology, and context as threads of different colours and textures.</p>
-            <div className="mb-6"></div>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">I have been playing with those threads since childhood. From posting my self-important, fictional stories to Wattpad, to now designing actual experiences as a UX designer - where I connect users, technology, and context the way a story connects its characters and their journeys.</p>
-            <div className="mb-8"></div>
-
-            <div className="">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] mt-2">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
-            </div>
-
-            {/* <div className="mb-25"></div>
-
-            <Heading text="My attempts to romanticize life" variant="black"/>
-            <div className="grid grid-cols-2 gap-2">
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+            {/* </SlideUpScroll> */}
+            
+            
+            
+            
+            
+            {/* <div className="px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[80%] flex flex-col justify-center items-center">
+                <div className="w-[89%] 2xl:w-[93%]">
+                    <AboutHero/>
                 </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
-                <div className="relative aspect-square overflow-hidden">
-                    <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                </div>
+                <div className="mb-20 2xl:mb-25"></div>
             </div> */}
-
-            <div className="" id="story"></div>
-            <div className="mb-25"></div>
-
-            <div className="w-full flex items-center justify-center">
-                <div className="w-full h-auto relative mb-12">
-                    <Image src="/small.jpg" width={2040} height={1179} alt="hung tran" className="object-cover rounded-xl shadow-md mb-3" style={{ filter: 'contrast(80%)' }}/>
-                    <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Me but #2008 ✨</p>
-                    {/* <Polaroid imageSrc="/small.jpg" alt="hung tran" desc="Summer 2008 🐦" angle={-4} textSize="text-xl"/> */}
-                </div>
-            </div>
-
-            <Heading text="My story" variant="black"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I spent my childhood full of curiosity and bold ideas, often quietly observing the world around me.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
-            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
-            <div className="mb-15"></div>
-            
-            <Heading text="Read rooms rather than dominate them" variant="black"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Growing up as one of those quiet kids meant learning to read rooms rather than dominate them.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">And I believe that way of seeing never really disappear!</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">In UX design, understanding users often goes beyond what is said out loud. Insight can be found in hesitation before a click, in abandoned flows, or in moments where something feels off but goes unspoken.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">For many quiet kids, listening closely, sitting with uncertainty, and noticing subtle signals become familiar habits over time. In UX, those habits naturally translate into a way of designing that prioritizes care, empathy, and intention.</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose"></p>
-            <div className="mb-15"></div>
-
-            <Heading text="Everything happens for a reason" variant="black"/>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
-            <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
-            
-            <div className="mb-35"></div>
-
-            <div className="w-full flex items-center justify-center">
-                <MyButton variant="blue-button-outline" text="Return to home" link="/" target="_self" textSize="text-sm"/>
-            </div>
-            <Footer/>
         </div>
-        {/* </SlideUpScroll> */}
-    </div>
-  );
+    );
 }
