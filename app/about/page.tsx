@@ -74,30 +74,6 @@ export default function About() {
                     <p className="text-sm text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span></p>
                 </div>
 
-                {/* <div className="mb-25"></div>
-
-                <Heading text="My attempts to romanticize life" variant="black"/>
-                <div className="grid grid-cols-2 gap-2">
-                    <div className="relative aspect-square overflow-hidden">
-                        <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                    </div>
-                    <div className="relative aspect-square overflow-hidden">
-                        <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                    </div>
-                    <div className="relative aspect-square overflow-hidden">
-                        <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                    </div>
-                    <div className="relative aspect-square overflow-hidden">
-                        <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                    </div>
-                    <div className="relative aspect-square overflow-hidden">
-                        <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                    </div>
-                    <div className="relative aspect-square overflow-hidden">
-                        <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
-                    </div>
-                </div> */}
-
                 <div className="" id="story"></div>
                 <div className="mb-25"></div>
 
@@ -127,9 +103,37 @@ export default function About() {
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
                 
-                <div className="mb-35"></div>
+                <div className="mb-40"></div>
 
-                <Heading text="Outside of UX, these are on repeat" variant="black"/>
+                <p className="mb-4 text-lg text-[var(--colour-bodytext-3)] leading-loose">Me outside of UX</p>
+
+                {/* <div className="mb-15"></div>
+
+                <Heading text="Me when I romanticize life" variant="black"/>
+                <div className="grid grid-cols-3 gap-3">
+                    <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image src="/idk.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image src="/matcha.jpeg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image src="/waterfront.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image src="/street.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image src="/coffee.JPG" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                    <div className="relative aspect-square overflow-hidden rounded-lg">
+                        <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
+                    </div>
+                </div> */}
+
+                <div className="mb-15"></div>
+
+                <Heading text="These are on repeat" variant="black"/>
                 <div className="mb-9"></div>
                 <div className="flex gap-6">
                     <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Albums</p>
