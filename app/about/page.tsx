@@ -103,10 +103,6 @@ export default function About() {
                 <Heading text="Everything happens for a reason" variant="black"/>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
-                
-                <div className="mb-40"></div>
-
-                <p className="text-lg text-[var(--colour-bodytext-3)] leading-loose">Outside of UX?</p>
 
                 {/* <div className="mb-15"></div>
 
@@ -131,6 +127,10 @@ export default function About() {
                         <Image src="/robin.jpg" className="object-cover" fill alt="hung tran" style={{ filter: 'contrast(90%)' }}/>
                     </div>
                 </div> */}
+
+                {/* <div className="mb-40"></div>
+
+                <p className="text-lg text-[var(--colour-bodytext-3)] leading-loose">Outside of UX?</p>
 
                 <div className="mb-10"></div>
 
@@ -188,27 +188,19 @@ export default function About() {
                         />
                     </div>
                     ))}
-                </div>
+                </div> */}
 
                 <div className="mb-35"></div>
 
                 <div className="w-full flex items-center justify-center">
                     <MyButton variant="blue-button-outline" text="Return to home" link="/" target="_self" textSize="text-sm"/>
                 </div>
+
+                <div className="-mb-5"></div>
+
                 <Footer/>
             </div>
             {/* </SlideUpScroll> */}
-            
-            
-            
-            
-            
-            {/* <div className="px-10 md:w-2/3 md:px-0 lg:w-[85%] 2xl:w-[80%] flex flex-col justify-center items-center">
-                <div className="w-[89%] 2xl:w-[93%]">
-                    <AboutHero/>
-                </div>
-                <div className="mb-20 2xl:mb-25"></div>
-            </div> */}
         </div>
     );
 }
