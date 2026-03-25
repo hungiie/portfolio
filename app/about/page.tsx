@@ -38,6 +38,7 @@ export default function About() {
         { src: '/himym.png', name: 'How I Met Your Mother' },
         { src: '/mf.jpg', name: 'Modern Family' },
         { src: '/gg.jpeg', name: 'Ginny & Georgia' },
+        { src: '/gfi.png', name: 'Go for it! Nakamura-kun!' },
     ];
 
     return (
@@ -105,7 +106,7 @@ export default function About() {
                 
                 <div className="mb-40"></div>
 
-                <p className="mb-4 text-lg text-[var(--colour-bodytext-3)] leading-loose">Me outside of UX</p>
+                <p className="text-lg text-[var(--colour-bodytext-3)] leading-loose">Outside of UX?</p>
 
                 {/* <div className="mb-15"></div>
 
@@ -131,7 +132,7 @@ export default function About() {
                     </div>
                 </div> */}
 
-                <div className="mb-15"></div>
+                <div className="mb-10"></div>
 
                 <Heading text="These are on repeat" variant="black"/>
                 <div className="mb-9"></div>
@@ -161,7 +162,7 @@ export default function About() {
                     ))}
                 </div>
                 
-                <div className="mb-15"></div>
+                <div className="mb-18"></div>
 
                 <div className="flex gap-6">
                     <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Shows</p>
