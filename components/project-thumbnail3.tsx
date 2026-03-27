@@ -15,7 +15,7 @@ interface Props {
     isLink: string;
 }
 
-export default function ProjectThumbnail(props: Props) {
+export default function ProjectThumbnail3(props: Props) {
     if (props.isLink == "image-link") {
         return (
             <div className="overflow-hidden flex flex-col group">
@@ -26,12 +26,12 @@ export default function ProjectThumbnail(props: Props) {
                 </div>
                 <a className="relative block overflow-hidden group mt-auto bg-[var(--container-bg)] rounded-lg shadow-[0px_0px_20px_rgba(0,0,0,0.02)]" href={props.link} target={props.target}>
                     <Image src={props.imageSrc} alt={props.name} width={1640} height={1228} className="object-cover"/>
-                    <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
+                    {/* <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
                                     translate-y-full opacity-0
                                     transition-all duration-300 ease-out
                                     group-hover:-translate-y-5 group-hover:opacity-100">
                         <MyButton link={props.link} text={`Open ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button"/>
-                    </div>
+                    </div> */}
                 </a>
                 <div className="mt-6">
                     <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--colour-bodytext)] leading-loose">
@@ -53,12 +53,12 @@ export default function ProjectThumbnail(props: Props) {
                         <source src={props.imageSrc} type="video/mp4" />
                     </video>
 
-                    <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
+                    {/* <div className="absolute inset-x-0 bottom-0 h-[30%] flex items-center justify-center
                                     translate-y-full opacity-0
                                     transition-all duration-300 ease-out
                                     group-hover:translate-y-0 group-hover:opacity-100">
                         <MyButton link={props.link} text={`Open ${props.name}`} textSize="text-sm" target={props.target} variant="blue-button"/>
-                    </div>
+                    </div> */}
                 </a>
                 <div className="mt-6">
                     <p className="text-sm text-[var(--colour-bodytext)] md:text-[var(--colour-bodytext-4)] md:group-hover:text-[var(--colour-bodytext)] leading-loose">

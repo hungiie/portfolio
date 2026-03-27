@@ -9,6 +9,9 @@ import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
 import Polaroid from "@/components/polaroid";
+import ProjectThumbnail from "@/components/project-thumbnail";
+import ProjectThumbnail2 from "@/components/project-thumbnail2";
+import ProjectThumbnail3 from "@/components/project-thumbnail3";
 
 export default function Rules() {
   return (
@@ -223,24 +226,16 @@ export default function Rules() {
                     </div>
                 </div>
 
-                <div className="mb-30"></div>
+                <div className="mb-40"></div>
 
                 <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                    <div></div>
-                    <div className="w-full flex flex-col md:flex-row justify-between gap-3">
-                        {/* <div className="flex flex-col md:flex-row">
-                            <p className="text-sm text-[var(--colour-bodytext)]">View next project: </p>
-                            <div className="ml-2 mb-2"></div>
-                            <MyButton variant="hyperlink" text="Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
-                        </div>
-                        <div className="hidden md:flex">
-                            <p className="text-sm text-[var(--colour-bodytext)] hidden md:block">Or </p>
-                            <div className="ml-1"></div>
-                            <MyButton variant="hyperlink" text="return to home" link="/" textSize="text-sm" target="_self"/>
-                        </div> */}
-                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button-outline" text="View: card.io" link="cardio" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                    <div className="md:sticky md:top-25 md:self-start">
+                        <Heading text="My other projects" variant="black"/>
+                    </div>
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-15">
+                        <ProjectThumbnail3 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+                        <ProjectThumbnail3 isLink="video-link" link="cardio" name="card.io" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" imageSrcDark="" imageSrcPosterDark="" target="_self"/>
+                        {/* <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/> */}
                     </div>
                 </div>
 

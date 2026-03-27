@@ -8,6 +8,8 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
+import ProjectThumbnail from "@/components/project-thumbnail";
+import ProjectThumbnail3 from "@/components/project-thumbnail3";
 
 export default function Cardio() {
   return (
@@ -562,14 +564,16 @@ export default function Cardio() {
                     </div>
                 </div>
 
-                <div className="mb-30"></div>
-
-                <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
-                    <div></div>
-                    <div className="w-full flex flex-col md:flex-row justify-between gap-3">
-                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Rules" link="rules" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button-outline" text="View: Samsung Knox Manage: Organizations" link="organizations" textSize="text-sm" target="_self"/>
-                        <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                <div className="mb-40"></div>
+                                
+                <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+                    <div className="md:sticky md:top-25 md:self-start">
+                        <Heading text="My other projects" variant="black"/>
+                    </div>
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-15">
+                        <ProjectThumbnail3 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" imageSrcDark="/Rule video - d.mp4" imageSrcPosterDark="rule-poster - d.png" target="_self"/>
+                        <ProjectThumbnail3 isLink="image-link" link="organizations" name="Samsung Knox Manage: Organizations" desc="Designed a scalable, design-system–ready component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcDark="/organize - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+                        {/* <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/> */}
                     </div>
                 </div>
 
