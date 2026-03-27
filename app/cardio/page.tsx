@@ -565,8 +565,8 @@ export default function Cardio() {
                 </div>
 
                 <div className="mb-40"></div>
-                                
-                <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
+
+                <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
                     <div className="md:sticky md:top-25 md:self-start">
                         <Heading text="My other projects" variant="black"/>
                     </div>
