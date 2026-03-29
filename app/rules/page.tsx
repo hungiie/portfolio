@@ -164,7 +164,7 @@ export default function Rules() {
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">View details through a sliding panel.</p>
                             <ImageZoom className="bg-[var(--container-bg-2)] rounded-lg overflow-hidden">
-                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full mb-2 rounded-lg" alt="Samsung Knox"/> 
+                                <Image src="/rules-1.5.png" width={3099} height={1823} className="w-full rounded-lg" alt="Samsung Knox"/> 
                             </ImageZoom>
                             <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose mb-6">Detailed sliding panel.</p>
                         </div>
