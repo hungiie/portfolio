@@ -198,7 +198,7 @@ export default function Rules() {
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                        <div className="">
+                        <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Learnings" variant="black"/>
                         </div>
                         <div className="flex flex-col">

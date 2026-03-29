@@ -72,7 +72,7 @@ export default function Cardio() {
 
                 <div className="w-full mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
-                        <div className="">
+                        <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Understanding the trend" variant="black"/>
                         </div>
                         <div>
@@ -197,7 +197,7 @@ export default function Cardio() {
 
                 <div className="w-full mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
-                        <div className="">
+                        <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Synthesizing my findings" variant="black"/>
                         </div>
                         <div>
@@ -246,7 +246,7 @@ export default function Cardio() {
 
                 <div className="w-full mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
-                        <div className="">
+                        <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Brainstorming my solutions" variant="black"/>
                         </div>
                         <div>
@@ -545,7 +545,7 @@ export default function Cardio() {
 
                 <div className="w-full mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-4">
-                        <div className="">
+                        <div className="md:sticky md:top-25 md:self-start">
                             <Heading text="Reflections" variant="black"/>
                         </div>
                         <div>
