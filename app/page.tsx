@@ -118,7 +118,7 @@ export default function Home2() {
               </div>
               <div className="col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-5">
                 {/* <div className="flex flex-col gap-5"> */}
-                  <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has excelled in his role as a UX design student, demonstrating a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/>
+                  <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has demonstrated a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/>
                   {/* <Testimonial name="Jessica Yuki Huang" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/jessica.jpeg"/> */}
                 {/* </div> */}
                 {/* <div className="flex flex-col gap-5"> */}
