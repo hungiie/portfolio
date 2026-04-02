@@ -108,7 +108,7 @@ export default function Home2() {
               </SlideUp>
             </div>
 
-            <div className="mb-40" id="testimonials"></div>
+            <div className="mb-50" id="testimonials"></div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
               {/* <div className="lg:sticky md:top-25 lg:self-start mb-6"> */}
@@ -118,12 +118,20 @@ export default function Home2() {
               </div>
               <div className="col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-5">
                 {/* <div className="flex flex-col gap-5"> */}
-                  <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has demonstrated a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/>
-                  {/* <Testimonial name="Jessica Yuki Huang" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/jessica.jpeg"/> */}
+                  <SlideUp>
+                    <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has demonstrated a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/>
+                  </SlideUp>
+                  {/* <SlideUp>
+                    <Testimonial name="Jessica Yuki Huang" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/jessica.jpeg"/>
+                  </SlideUp> */}
                 {/* </div> */}
                 {/* <div className="flex flex-col gap-5"> */}
-                  {/* <Testimonial name="Andrea Lin" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/andrea.jpeg"/> */}
-                  <Testimonial name="Thomas Nelles" job="Senior Communications Consultant" company="Fraser Health" text={<>From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. <br /> <div className="mt-5"></div> His calm demeanor and ability to clearly communicate his working progress are just some of his strengths.</>} imgSrc="/thomas.jpeg"/>
+                  {/* <SlideUp>
+                    <Testimonial name="Andrea Lin" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/andrea.jpeg"/>
+                  </SlideUp> */}
+                  <SlideUp>
+                    <Testimonial name="Thomas Nelles" job="Senior Communications Consultant" company="Fraser Health" text={<>From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. <br /> <div className="mt-5"></div> His calm demeanor and ability to clearly communicate his working progress are just some of his strengths.</>} imgSrc="/thomas.jpeg"/>
+                  </SlideUp>
                 {/* </div> */}
               </div>
             </div>
