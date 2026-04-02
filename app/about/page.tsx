@@ -82,7 +82,7 @@ export default function About() {
                     <Experience job="UX designer intern" company="Samsung" time="2025" companyLink="https://research.samsung.com/srca"/>
                     <Experience job="Visual designer intern" company="Fraser Health" time="2023-2024" companyLink="https://fraserhealth.ca/"/>
                     <Experience job="Visual designer" company="Douglas College, Athletics" time="2022-2023" companyLink="https://douglascollegeroyals.ca/landing/index"/>
-                    <Experience job="Visual designer" company="University of Greenwich" time="2020" companyLink="https://greenwich.edu.vn/en/about-greenwich-vietnam/"/>
+                    <Experience job="Visual designer" company="University of Greenwich" time="2020-2021" companyLink="https://greenwich.edu.vn/en/about-greenwich-vietnam/"/>
                 </div>
 
                 <div className="" id="story"></div>
