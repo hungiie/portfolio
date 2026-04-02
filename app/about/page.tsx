@@ -16,6 +16,7 @@ import Polaroid from "@/components/polaroid";
 import { ThemeSelector } from "@/components/ui/shadcn-io/colour-toggle-button";
 import Albums from "@/components/albums";
 import { useState } from 'react';
+import Experience from "@/components/experience";
 
 export default function About() {
     const [hoveredAlbum, setHoveredAlbum] = useState<string | null>(null);
@@ -75,8 +76,17 @@ export default function About() {
                     <p className="text-sm text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span>.</p>
                 </div>
 
-                <div className="" id="story"></div>
                 <div className="mb-25"></div>
+                <Heading text="Where I have been" variant="black"/>
+                <div className="flex flex-col gap-5 md:gap-1">
+                    <Experience job="UX designer intern" company="Samsung" time="2025" companyLink="https://research.samsung.com/srca"/>
+                    <Experience job="Visual designer intern" company="Fraser Health" time="2023-2024" companyLink="https://fraserhealth.ca/"/>
+                    <Experience job="Visual designer" company="Douglas College, Athletics" time="2022-2023" companyLink="https://douglascollegeroyals.ca/landing/index"/>
+                    <Experience job="Visual designer" company="University of Greenwich" time="2020" companyLink="https://greenwich.edu.vn/en/about-greenwich-vietnam/"/>
+                </div>
+
+                <div className="" id="story"></div>
+                <div className="mb-30"></div>
 
                 <div className="w-full flex items-center justify-center">
                     <div className="w-full h-auto relative mb-12">
