@@ -3,11 +3,9 @@ import MyButton from "@/components/my-button";
 export default function Footer() {
     return (
         <div className="mt-40 pb-28 flex flex-col">
-            <div className="w-full">
-                {/* <p className="mb-1 text-sm text-[var(--colour-bodytext-2)] leading-loose">This site was designed and <MyButton variant="hyperlink" text="coded by me" link="https://github.com/hungiie" target="_blank" textSize="text-sm"></MyButton>. (Tailwind CSS + Next.js)</p> */}
-                {/* <p className="mb-1 text-sm text-[var(--colour-bodytext-2)] leading-loose">This site was designed and coded by me. (Tailwind CSS + Next.js)</p> */}
+            <div className="w-full justify-between flex">
                 <p className="text-sm text-[var(--colour-bodytext-2)]">I&rsquo;d love to hear from you. Let&rsquo;s connect!</p>
-                {/* <p className="text-sm text-[var(--colour-bodytext-2)]">© 2025 Hung</p> */}
+                {/* <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">This site was designed and coded by me with Next.js</p> */}
             </div>
             <div className="mb-7"></div>
             <div className="flex flex-col md:flex-row w-full justify-between">
@@ -19,6 +17,11 @@ export default function Footer() {
                 <div className="mb-1"></div>
                 <MyButton variant="hyperlink" text="Resume" link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" textSize="text-sm"></MyButton>
             </div>
+            {/* <div className="mb-7"></div>
+            <div className="w-full justify-between flex">
+                <div></div>
+                <p className="text-sm text-[var(--colour-bodytext-4)] leading-loose">This site was designed and coded by me with Next.js</p>
+            </div> */}
         </div>
     )
 }
