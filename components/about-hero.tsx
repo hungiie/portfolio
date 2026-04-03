@@ -52,7 +52,7 @@ export default function AboutHero() {
         {/* column 2 */}
         <div className="w-full justify-center items-center hidden md:flex">
           <motion.div
-            onHoverStart={() => setHovered("Madison Beer 2024 🎤")}
+            onHoverStart={() => setHovered("Madison Beer Spinnin' tour 🎤")}
             onHoverEnd={() => setHovered(null)}
             initial={{
               opacity: 0,
@@ -72,7 +72,7 @@ export default function AboutHero() {
             className="w-[60%] mr-2 mb-9"
           >
             <motion.div
-              animate={{ scale: hovered === "Madison Beer 2024 🎤" ? 1.05 : 1 }}
+              animate={{ scale: hovered === "Madison Beer Spinnin' tour 🎤" ? 1.05 : 1 }}
               transition={{ type: "spring", stiffness: 200 }}
               className=" "
             >
@@ -211,7 +211,7 @@ export default function AboutHero() {
 
           {/* bottom */}
           <motion.div
-            onHoverStart={() => setHovered("Losing voice at concerts 🎤")}
+            onHoverStart={() => setHovered("Losing voice at concerts 🔇")}
             onHoverEnd={() => setHovered(null)}
             initial={{
               opacity: 0,
@@ -230,7 +230,7 @@ export default function AboutHero() {
             className=" w-[60%]"
           >
             <motion.div
-              animate={{ scale: hovered === "Losing voice at concerts 🎤" ? 1.05 : 1 }}
+              animate={{ scale: hovered === "Losing voice at concerts 🔇" ? 1.05 : 1 }}
               transition={{ type: "spring", stiffness: 200 }}
               className=" "
             >

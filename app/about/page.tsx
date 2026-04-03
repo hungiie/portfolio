@@ -138,20 +138,15 @@ export default function About() {
                     </div>
                 </div> */}
 
-                {/* <div className="mb-40"></div>
+                {/* <p className="text-lg text-[var(--colour-bodytext-3)] leading-loose mb-10">Outside of UX?</p> */}
 
-                <p className="text-lg text-[var(--colour-bodytext-3)] leading-loose">Outside of UX?</p>
-
-                <div className="mb-10"></div>
-
-                <Heading text="These are on repeat" variant="black"/>
+                {/* <Heading text="These are on repeat" variant="black"/>
                 <div className="mb-9"></div>
                 <div className="flex gap-6">
                     <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Albums</p>
-                    <p className="mb-4 text-sm text-[var(--colour-bodytext)]">
-                    {hoveredAlbum || '...'}
-                    </p>
+                    <p className="mb-4 text-sm text-[var(--colour-bodytext)]">{hoveredAlbum || '...'}</p>
                 </div>
+                <div className="mb-5"></div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {albums.map((album, i) => (
@@ -159,26 +154,18 @@ export default function About() {
                         key={i}
                         onMouseEnter={() => setHoveredAlbum(album.name)}
                         onMouseLeave={() => setHoveredAlbum(null)}
-                        className=" rounded-lg"
+                        className="rounded-lg"
                     >
-                        <Image
-                        src={album.src}
-                        width={1179}
-                        height={1179}
-                        alt={album.name}
-                        className="object-cover rounded-lg transition-transform duration-300 hover:scale-103 shadow-[0px_0px_25px_rgba(0,0,0,0.1)]"
-                        />
+                        <Image src={album.src} width={1179} height={1179} alt={album.name} className="object-cover rounded-lg transition-transform duration-300 shadow-[0px_0px_15px_rgba(0,0,0,0.01)]"/>
                     </div>
                     ))}
-                </div>
+                </div> */}
                 
-                <div className="mb-18"></div>
+                {/* <div className="mb-18"></div>
 
                 <div className="flex gap-6">
                     <p className="mb-4 text-sm text-[var(--colour-bodytext-3)]">Shows</p>
-                    <p className="mb-4 text-sm text-[var(--colour-bodytext)]">
-                    {hoveredShow || '...'}
-                    </p>
+                    <p className="mb-4 text-sm text-[var(--colour-bodytext)]">{hoveredShow || '...'}</p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -189,24 +176,18 @@ export default function About() {
                         onMouseLeave={() => setHoveredShow(null)}
                         className="rounded-lg"
                     >
-                        <Image
-                        src={show.src}
-                        width={1179}
-                        height={1179}
-                        alt={show.name}
-                        className="object-cover rounded-lg transition-transform duration-300 hover:scale-103 shadow-[0px_0px_25px_rgba(0,0,0,0.1)]"
-                        />
+                        <Image src={show.src} width={1179} height={1179} alt={show.name} className="object-cover rounded-lg transition-transform duration-300 hover:scale-103 shadow-[0px_0px_25px_rgba(0,0,0,0.1)]"/>
                     </div>
                     ))}
                 </div> */}
 
-                <div className="mb-35"></div>
+                <div className="mb-33"></div>
 
                 <div className="w-full flex items-center justify-center">
                     <MyButton variant="blue-button-outline" text="Return to home" link="/" target="_self" textSize="text-sm"/>
                 </div>
 
-                <div className="-mb-5"></div>
+                <div className="-mb-2"></div>
 
                 <Footer/>
             </div>
