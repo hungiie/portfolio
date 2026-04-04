@@ -21,7 +21,6 @@ import { ThemeSelector } from "@/components/ui/shadcn-io/colour-toggle-button";
 import { ThemeToggleButton } from "@/components/ui/shadcn-io/theme-toggle-button";
 import Testimonial from "@/components/testimonial";
 
-
 export default function Home2() {
   const [animate, setAnimate] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -61,7 +60,6 @@ export default function Home2() {
                 <p className="text-md text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>.</p>
                 <p className="text-md text-[var(--colour-bodytext)]">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p>
                 <p className="text-md text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span>.</p>
-                {/* <p className="text-sm text-[var(--colour-bodytext)] mt-6">Or read my colleagues&rsquo; and managers&rsquo; <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-sm"/></span></p> */}
               </div>
               <div className="w-full hidden md:flex justify-start items-center mt-14 gap-4">
                 <ThemeToggleButton
@@ -96,7 +94,7 @@ export default function Home2() {
             <div className="mb-50"></div>
 
             <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">My other work spans development, visual design, and service design.</p>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-15">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-15 mt-12">
               <SlideUp>
                   <ProjectThumbnail isLink="image-link" link="https://drive.google.com/file/d/1d0jGR0QJN3mzwX6o9n0C54g6aHej0I9l/view" name="Full stack" desc="React Native note-taking app, integrating Apple Maps API, Text-to-speech API, and Firebase." imageSrc="/memorymate.png" imageSrcDark="/memorymate - d.png" imageSrcPoster="" imageSrcPosterDark="" target="_blank"/>
               </SlideUp>
@@ -110,31 +108,36 @@ export default function Home2() {
 
             <div className="mb-50" id="testimonials"></div>
 
+            <div className="mb-12">
+              <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">In their words...</p>
+              <p className="text-md text-[var(--colour-bodytext-3)] leading-loose">Testimonials from those I reported to.</p>
+            </div>
+
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-              {/* <div className="lg:sticky md:top-25 lg:self-start mb-6"> */}
-              <div className="mb-6">
-                <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">In their words...</p>
-                <p className="text-md text-[var(--colour-bodytext-3)] leading-loose">Testimonials from those I reported to.</p>
-              </div>
-              <div className="col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-5">
                 <div className="flex flex-col gap-5">
                   <SlideUp>
                     <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has demonstrated a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/>
                   </SlideUp>
-                  {/* <SlideUp>
-                    <Testimonial name="Jessica Yuki Huang" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/jessica.jpeg"/>
-                  </SlideUp> */}
                 </div>
-                <div className="flex flex-col gap-5">
-                  {/* <SlideUp>
+                {/* <div className="flex flex-col gap-5">
+                  <SlideUp>
                     <Testimonial name="Andrea Lin" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/andrea.jpeg"/>
-                  </SlideUp> */}
+                  </SlideUp>
+                  <SlideUp>
+                    <Testimonial name="Jessica Yuki Huang" job="Senior UX Designer" company="Samsung" text="Hung is a dumb ho." imgSrc="/jessica.jpeg"/>
+                  </SlideUp>
+                </div> */}
+                <div className="flex flex-col gap-5">
                   <SlideUp>
                     <Testimonial name="Thomas Nelles" job="Senior Communications Consultant" company="Fraser Health" text={<>From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. <br /> <div className="mt-5"></div> His calm demeanor and ability to clearly communicate his working progress are just some of his strengths.</>} imgSrc="/thomas.jpeg"/>
                   </SlideUp>
                 </div>
+                <div className="h-fit bg-[var(--container-bg)] shadow-[0px_0px_15px_rgba(0,0,0,0.01)] px-7 py-7 rounded-lg">
+                  <p className="text-sm text-[var(--colour-bodytext-2)] leading-loose">Your testimonial goes here :&#41;</p> 
+                  <div className="mb-5"></div>
+                  <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Let's build something great together! I’d love to hear from you via my <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>, or <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p> 
+                </div>
               </div>
-            </div>
             <Footer/>
         </div>
     </div>
