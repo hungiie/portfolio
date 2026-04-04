@@ -109,7 +109,7 @@ export default function Home2() {
             <div className="mb-50" id="testimonials"></div>
 
             <div className="mb-12">
-              <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">In their words...</p>
+              <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">They said it, not me</p>
               <p className="text-md text-[var(--colour-bodytext-3)] leading-loose">Testimonials from those I reported to.</p>
             </div>
 
@@ -132,10 +132,14 @@ export default function Home2() {
                     <Testimonial name="Thomas Nelles" job="Senior Communications Consultant" company="Fraser Health" text={<>From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. <br /> <div className="mt-5"></div> His calm demeanor and ability to clearly communicate his working progress are just some of his strengths.</>} imgSrc="/thomas.jpeg"/>
                   </SlideUp>
                 </div>
-                <div className="h-fit bg-[var(--container-bg)] shadow-[0px_0px_15px_rgba(0,0,0,0.01)] px-7 py-7 rounded-lg">
-                  <p className="text-sm text-[var(--colour-bodytext-2)] leading-loose">Your testimonial goes here :&#41;</p> 
-                  <div className="mb-5"></div>
-                  <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Let's build something great together! I’d love to hear from you via my <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>, or <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p> 
+                <div className="flex flex-col gap-5">
+                  <SlideUp>
+                    <div className="h-fit bg-[var(--container-bg)] shadow-[0px_0px_15px_rgba(0,0,0,0.01)] px-7 py-7 rounded-lg">
+                      <p className="text-sm text-[var(--colour-bodytext-2)] leading-loose">Your testimonial goes here :&#41;</p> 
+                      <div className="mb-5"></div>
+                      <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Let's build something great together! I’d love to hear from you via my <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>, or <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p> 
+                    </div>
+                  </SlideUp>
                 </div>
               </div>
             <Footer/>
