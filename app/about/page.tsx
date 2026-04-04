@@ -63,6 +63,7 @@ export default function About() {
             {/* <SlideUpScroll> */}
             <div className="w-full px-10 md:w-2/3 md:px-0 lg:w-1/3 2xl:w-[30%] mt-10">
                 <Heading text="Hi, my name is Hung." variant="black"/>
+                {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-6">Hi, my name is Hung.</p> */}
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose mb-6">I&rsquo;m a UX designer. Previously, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-sm"/></span> and <span className="inline-block"><MyButton link="https://fraserhealth.ca/" target="_blank" variant="hyperlink" text="Fraser Health" textSize="text-md"/></span>.</p>
 
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">For me, designing an experience is like telling a story - with people, technology, and context as threads of different colours and textures.</p>
@@ -78,6 +79,7 @@ export default function About() {
 
                 <div className="mb-25"></div>
                 <Heading text="Where I have been" variant="black"/>
+                {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-6">Where I have been.</p> */}
                 <div className="flex flex-col gap-5 md:gap-1">
                     <Experience job="UX designer intern" company="Samsung" time="2025" companyLink="https://research.samsung.com/srca"/>
                     <Experience job="Visual designer intern" company="Fraser Health" time="2023-2024" companyLink="https://fraserhealth.ca/"/>
@@ -97,12 +99,14 @@ export default function About() {
                 </div>
 
                 <Heading text="My story" variant="black"/>
+                {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-6">My story.</p> */}
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Born and raised in Vietnam, I spent my childhood full of curiosity and bold ideas, often quietly observing the world around me.</p>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">In a world where quietness is considered absence, where presence is measured by volume, a quiet child needs to look out for themselves to avoid being left behind. They notice patterns, tone shifts, and emotions that pass too quickly for louder conversations to catch. Many of them learn empathy early - not because they are taught, but because they have to understand people without always being heard themselves.</p>
                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">(<MyButton variant="hyperlink" text="The Psychology of a Quiet Kid" textSize="font-sm" link="https://youtu.be/t4f2LLExHrY?si=BLNxWPEcgEFO1mQX" target="_blank" />, 2025)</p>
                 <div className="mb-15"></div>
                 
                 <Heading text="Read rooms rather than dominate them" variant="black"/>
+                {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-6">Read rooms rather than dominate them.</p> */}
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">Growing up as one of those quiet kids meant learning to read rooms rather than dominate them.</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">And I believe that way of seeing never really disappear!</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">In UX design, understanding users often goes beyond what is said out loud. Insight can be found in hesitation before a click, in abandoned flows, or in moments where something feels off but goes unspoken.</p>
@@ -111,6 +115,7 @@ export default function About() {
                 <div className="mb-15"></div>
 
                 <Heading text="Everything happens for a reason" variant="black"/>
+                {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-6">Everything happens for a reason.</p> */}
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">I&rsquo;m a firm believer of the saying: "Everything happens for a reason".</p>
                 <p className="mb-4 text-sm text-[var(--colour-bodytext)] leading-loose">If you&rsquo;re still here reading my yapping session, maybe that&rsquo;s one of them, so please don&rsquo;t hesitate to <MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="reach out" textSize="text-sm"/>. Let&rsquo;s chat :)</p>
 

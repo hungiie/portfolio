@@ -79,6 +79,9 @@ export default function Home2() {
 
             <div className="mb-30 md:mb-40"></div>
 
+            {/* <Heading text="These are what I have done." variant="black"/>
+            <div className="mb-12"></div> */}
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-15">
               <SlideUpNoThres>
                 <ProjectThumbnail2 isLink="video-link" link="rules" name="Samsung Knox Manage: Rules" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" imageSrcDark="/Rule video - d.mp4" imageSrcPosterDark="rule-poster - d.png" target="_self"/>
@@ -93,6 +96,8 @@ export default function Home2() {
 
             <div className="mb-50"></div>
 
+            {/* <Heading text="My other work spans development, visual design, and service design." variant="black"/>
+            <div className="mb-12"></div> */}
             <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-12">My other work spans development, visual design, and service design.</p>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-15 mt-12">
               <SlideUp>
@@ -110,6 +115,7 @@ export default function Home2() {
 
             <div className="mb-12">
               <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">They said it, not me.</p>
+              {/* <Heading text="They said it, not me." variant="black"/> */}
               <p className="text-md text-[var(--colour-bodytext-3)] leading-loose">Testimonials from those I reported to.</p>
             </div>
 
@@ -135,7 +141,7 @@ export default function Home2() {
                 <div className="flex flex-col gap-5">
                   <SlideUp>
                     <div className="h-fit bg-[var(--container-bg)] shadow-[0px_0px_15px_rgba(0,0,0,0.01)] px-7 py-7 rounded-lg">
-                      <p className="text-sm text-[var(--colour-bodytext-2)] leading-loose">Your testimonial goes here :&#41;</p> 
+                      <p className="text-sm text-[var(--colour-bodytext-2)] leading-loose">This could be you :&#41;</p> 
                       <div className="mb-5"></div>
                       <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Let's build something great together! I’d love to hear from you via my <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>, or <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p> 
                     </div>
