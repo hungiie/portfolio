@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import MyButton from "./my-button";
 
 interface Props {
     name: string;

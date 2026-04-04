@@ -5,13 +5,8 @@ import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
-import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
-import ProtectedPhoto2 from "@/components/protected-photo";
-import Head from "next/head";
-import Polaroid from "@/components/polaroid";
-import ProjectThumbnail from "@/components/project-thumbnail";
 import ProjectThumbnail3 from "@/components/project-thumbnail3";
 
 export default function Organizations() {

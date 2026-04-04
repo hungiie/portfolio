@@ -4,43 +4,33 @@ import Image from "next/image";
 import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
 import Heading from "@/components/heading";
-import PhotoTag from "@/components/photo-tag";
-import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
-
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
 import AboutHero from "@/components/about-hero";
-import SlideUpScroll from "@/components/slide-up-scroll";
-import Polaroid from "@/components/polaroid";
-import { ThemeSelector } from "@/components/ui/shadcn-io/colour-toggle-button";
-import Albums from "@/components/albums";
-import { useState } from 'react';
 import Experience from "@/components/experience";
 
 export default function About() {
-    const [hoveredAlbum, setHoveredAlbum] = useState<string | null>(null);
-    const [hoveredShow, setHoveredShow] = useState<string | null>(null);
-    const albums = [
-        { src: '/life support.webp', name: 'Life Support' },
-        { src: '/red.jpeg', name: "Red (Taylor's Version)" },
-        { src: '/dw.png', name: 'Dangerous Woman' },
-        { src: '/sbs.png', name: 'Silence Between Songs' },
-        { src: '/think later.jpeg', name: 'THINK LATER' },
-        { src: '/eics.png', name: 'emails i can’t send' },
-        { src: '/1989.jpeg', name: "1989 (Taylor's Version)" },
-        { src: '/sctw.png', name: 'So Close To What' },
-        { src: '/tsou.jpeg', name: 'The Secret Of Us' },
-    ];
+    // const [hoveredAlbum, setHoveredAlbum] = useState<string | null>(null);
+    // const [hoveredShow, setHoveredShow] = useState<string | null>(null);
+    // const albums = [
+    //     { src: '/life support.webp', name: 'Life Support' },
+    //     { src: '/red.jpeg', name: "Red (Taylor's Version)" },
+    //     { src: '/dw.png', name: 'Dangerous Woman' },
+    //     { src: '/sbs.png', name: 'Silence Between Songs' },
+    //     { src: '/think later.jpeg', name: 'THINK LATER' },
+    //     { src: '/eics.png', name: 'emails i can’t send' },
+    //     { src: '/1989.jpeg', name: "1989 (Taylor's Version)" },
+    //     { src: '/sctw.png', name: 'So Close To What' },
+    //     { src: '/tsou.jpeg', name: 'The Secret Of Us' },
+    // ];
 
-    const shows = [
-        { src: '/nhie.jpeg', name: 'Never Have I Ever' },
-        { src: '/dh.jpg', name: 'Desperate Housewives' },
-        { src: '/himym.png', name: 'How I Met Your Mother' },
-        { src: '/mf.jpg', name: 'Modern Family' },
-        { src: '/gg.jpeg', name: 'Ginny & Georgia' },
-        { src: '/gfi.png', name: 'Go for it! Nakamura-kun!' },
-    ];
+    // const shows = [
+    //     { src: '/nhie.jpeg', name: 'Never Have I Ever' },
+    //     { src: '/dh.jpg', name: 'Desperate Housewives' },
+    //     { src: '/himym.png', name: 'How I Met Your Mother' },
+    //     { src: '/mf.jpg', name: 'Modern Family' },
+    //     { src: '/gg.jpeg', name: 'Ginny & Georgia' },
+    //     { src: '/gfi.png', name: 'Go for it! Nakamura-kun!' },
+    // ];
 
     return (
         <div className="flex items-center justify-center flex-col">

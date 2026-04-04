@@ -3,12 +3,10 @@
 import Image from "next/image";
 import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
-import Heading from "@/components/heading";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import SlideUpNoThres from "@/components/slide-up-nothres";
 import MyNav2 from "@/components/nav2";
 import DotsMenu from "@/components/menu";
-import Polaroid from "@/components/polaroid";
 
 export default function Visuals() {
   return (

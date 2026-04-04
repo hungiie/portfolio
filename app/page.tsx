@@ -3,17 +3,10 @@
 import Image from "next/image";
 import MyButton from "@/components/my-button";
 import Footer from "@/components/footer";
-import Heading from "@/components/heading";
 import ProjectThumbnail2 from "@/components/project-thumbnail2";
 import SlideUp from "@/components/slide-up";
-import Me from "@/components/me";
 import { useEffect, useState } from "react";
-import SlideUpScroll from "@/components/slide-up-scroll";
-import SlideRightDelay from "@/components/slide-right-delay";
-import SlideUpDelay from "@/components/slide-up-delay";
-import SlideRight from "@/components/slide-right";
 import SlideUpNoThres from "@/components/slide-up-nothres";
-import CopyEmailButton from "@/components/copyemail";
 import { useTheme } from "next-themes";
 import MyNav2 from "@/components/nav2";
 import ProjectThumbnail from "@/components/project-thumbnail";
