@@ -141,7 +141,7 @@ export default function Home2() {
                 <div className="flex flex-col gap-5">
                   <SlideUp>
                     <div className="h-fit bg-[var(--container-bg)] shadow-[0px_0px_15px_rgba(0,0,0,0.01)] px-7 py-7 rounded-lg">
-                      <p className="text-sm text-[var(--colour-bodytext-2)] leading-loose">This spot is for you :"&#41;</p> 
+                      <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">This spot is for you :"&#41;</p> 
                       <div className="mb-5"></div>
                       <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Let's build something great together! I’d love to hear from you via my <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>, or <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p> 
                     </div>
