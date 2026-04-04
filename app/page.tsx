@@ -109,7 +109,7 @@ export default function Home2() {
             <div className="mb-50" id="testimonials"></div>
 
             <div className="mb-12">
-              <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">They said it, not me</p>
+              <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">They said it, not me.</p>
               <p className="text-md text-[var(--colour-bodytext-3)] leading-loose">Testimonials from those I reported to.</p>
             </div>
 
