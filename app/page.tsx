@@ -45,8 +45,10 @@ export default function Home2() {
               </div>
               <div className="mb-9"></div>
               <div className="w-full md:w-[75%]">
-                <p className="text-md text-[var(--colour-bodytext)] leading-loose mb-5">I&rsquo;m a UX designer. Previously, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-md"/></span> and <span className="inline-block"><MyButton link="https://fraserhealth.ca/" target="_blank" variant="hyperlink" text="Fraser Health" textSize="text-md"/></span>.</p>
-                <p className="text-md text-[var(--colour-bodytext)] leading-loose">I see design as a complex system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn modern problems into solutions that feel human.</p>
+                {/* <p className="text-md text-[var(--colour-bodytext)] leading-loose mb-5">I&rsquo;m a UX designer. Previously, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-md"/></span> and <span className="inline-block"><MyButton link="https://fraserhealth.ca/" target="_blank" variant="hyperlink" text="Fraser Health" textSize="text-md"/></span>.</p> */}
+                {/* <p className="text-md text-[var(--colour-bodytext)] leading-loose">I see design as a complex system of relationships, between people, technology, and context. By grounding my work in system thinking and human-computer interaction, I turn modern problems into solutions that feel human.</p> */}
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose">As an over-thinker, I think a lot about how things feel... probably more than I should.</p>
+                <p className="text-md text-[var(--colour-bodytext)] leading-loose">Luckily, that's also my job — a UX designer. Previously, I designed at <span className="inline-block"><MyButton link="https://research.samsung.com/srca" target="_blank" variant="hyperlink" text="Samsung" textSize="text-md"/></span> and <span className="inline-block"><MyButton link="https://fraserhealth.ca/" target="_blank" variant="hyperlink" text="Fraser Health" textSize="text-md"/></span>.</p>
               </div>
               <div className="mb-9"></div>
               <div>
