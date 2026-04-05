@@ -67,6 +67,9 @@ export default function About() {
                     <p className="text-sm text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span>.</p>
                 </div>
 
+                {/* <p className="text-sm text-[var(--colour-bodytext)]">Our first chapter has to start somewhere - maybe an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span>, a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-sm"/></span>, or my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-sm"/></span>?</p> */}
+                
+
                 <div className="mb-25"></div>
                 <Heading text="Where I have been" variant="black"/>
                 {/* <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-6">Where I have been.</p> */}

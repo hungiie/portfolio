@@ -50,9 +50,12 @@ export default function Home2() {
               </div>
               <div className="mb-9"></div>
               <div>
+                {/* <p className="text-md text-[var(--colour-bodytext)]">Good things start with a hello - whether through an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>, a <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span> message, or my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span>!</p> */}
+                {/* <p className="text-md text-[var(--colour-bodytext)]">See who's said hello before. View my <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-md"/></span>.</p> */}
                 <p className="text-md text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-md"/></span>.</p>
                 <p className="text-md text-[var(--colour-bodytext)]">Send me a message on <span className="inline-block"><MyButton link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="hyperlink" text="LinkedIn" textSize="text-md"/></span>.</p>
                 <p className="text-md text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span>.</p>
+                {/* <p className="text-md text-[var(--colour-bodytext)]">View my <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-md"/></span>.</p> */}
               </div>
               <div className="w-full hidden md:flex justify-start items-center mt-14 gap-4">
                 <ThemeToggleButton
@@ -70,7 +73,7 @@ export default function Home2() {
               </div>
             </SlideUpNoThres>
 
-            <div className="mb-30 md:mb-40"></div>
+            <div className="mb-45"></div>
 
             {/* <Heading text="These are what I have done." variant="black"/>
             <div className="mb-12"></div> */}
@@ -87,7 +90,7 @@ export default function Home2() {
               </SlideUp>
             </div>
 
-            <div className="mb-50"></div>
+            <div className="mb-45"></div>
 
             {/* <Heading text="My other work spans development, visual design, and service design." variant="black"/>
             <div className="mb-12"></div> */}
@@ -104,7 +107,7 @@ export default function Home2() {
               </SlideUp>
             </div>
 
-            <div className="mb-50" id="testimonials"></div>
+            <div className="mb-45" id="testimonials"></div>
 
             <div className="mb-12">
               <p className="text-lg text-[var(--colour-bodytext)] leading-loose mb-2">They said it, not me.</p>
