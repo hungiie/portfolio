@@ -120,6 +120,7 @@ export default function Home2() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                 <div className="flex flex-col gap-5">
                   <SlideUp>
+                    {/* <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has demonstrated <span className="underline decoration-[var(--main-colour)] underline-offset-4 font-semibold">a strong talent for both UX research and graphical UI tasks</span>. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/> */}
                     <Testimonial name="Tian Jia" job="Senior UX Designer, UX Lead" company="Samsung" text={<>Hung has demonstrated a strong talent for both UX research and graphical UI tasks. His ability to analyze user needs and translate them into intuitive, visually appealing designs has been impressive. <br /> <div className="mt-5"></div> Overall, his dedication and versatility make him a valuable asset to any design team.</>} imgSrc="/tian.jpeg"/>
                   </SlideUp>
                 </div>
@@ -133,6 +134,7 @@ export default function Home2() {
                 </div> */}
                 <div className="flex flex-col gap-5">
                   <SlideUp>
+                    {/* <Testimonial name="Thomas Nelles" job="Senior Communications Consultant" company="Fraser Health" text={<>From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. <span className="underline decoration-[var(--main-colour)] underline-offset-4 font-semibold">He adapts to changing timelines easily including timely requests and juggling multiple projects</span>. <br /> <div className="mt-5"></div> His calm demeanor and ability to clearly communicate his working progress are just some of his strengths.</>} imgSrc="/thomas.jpeg"/> */}
                     <Testimonial name="Thomas Nelles" job="Senior Communications Consultant" company="Fraser Health" text={<>From designing a multi-page document for our Indigenous Health team to crafting a Urgent Care video, his clients have been very impressed with his work to date. He adapts to changing timelines easily including timely requests and juggling multiple projects. <br /> <div className="mt-5"></div> His calm demeanor and ability to clearly communicate his working progress are just some of his strengths.</>} imgSrc="/thomas.jpeg"/>
                   </SlideUp>
                 </div>
