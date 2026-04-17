@@ -59,6 +59,8 @@ export default function Home2() {
                 <p className="text-md text-[var(--colour-bodytext)]">Check out my <span className="inline-block"><MyButton link="https://drive.google.com/file/d/1CrubhoYF0ok5oFfJT3Ffxlkr6Jp0p8Jk/view?usp=sharing" target="_blank" variant="hyperlink" text="resume" textSize="text-md"/></span>.</p>
                 {/* <p className="text-md text-[var(--colour-bodytext)]">View my <span className="inline-block"><MyButton link="#testimonials" target="_self" variant="hyperlink" text="testimonials" textSize="text-md"/></span>.</p> */}
               </div>
+              <div className="mb-9"></div>
+              <p className="text-md text-[var(--colour-bodytext-3)] leading-loose">Scroll down for works.</p>
               <div className="w-full hidden md:flex justify-start items-center mt-14 gap-4">
                 <ThemeToggleButton
                   theme={theme === "light" ? "dark" : "light"}

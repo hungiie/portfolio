@@ -10,7 +10,7 @@ export default function LenisScrollProvider({
   useEffect(() => {
     const lenis = new Lenis({
       lerp: 0.1,
-      duration: 1.5,
+      duration: 1.3,
       smoothWheel: true,
     });
 
